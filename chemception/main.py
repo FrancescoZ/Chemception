@@ -38,22 +38,25 @@ cross_val			= 5
 
 # The data, split between train and test sets:
 (X, Y) 	= input.LoadInput(extensionImg='png',size=inputSize)
-kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=seed)
+
 cvscores = []
-for i in 1:cross_val:
+for i in range(1,cross_val):
 
 	model_name 			= 'chemception_trained_cross_'+str(i)+'_model.h5'
-	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=seed)
+	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1*i, random_state=seed)
 	# create model	
 	cross_val = cross_val +1	
-	x_train = X[train]
-	y_train = Y[train]
+	x_train = X_train
+	y_train = Y_train
+	print('%i %i %s %s',len(X_test),len(Y_test),X_train[0],Y_train[0])
 	# Convert class vectors to binary class matrices.
 	y_train 			= keras.utils.to_categorical(y_train, num_classes)
+	Y_test 			= keras.utils.to_categorical(Y_test, num_classes)
 	model 				= network.Chemception(N,inputSize)
 	x_train 		= x_train.astype('float32')
+	X_test 		= X_test.astype('float32')
 	x_train 		/= 255
-
+	X_test 			/= 255
 	print('x_train shape:', x_train.shape)
 	print(x_train.shape[0], 'train samples')
 
@@ -71,7 +74,7 @@ for i in 1:cross_val:
 	optCallback = Optimizer.OptimizerTracker()
 	tensorBoard = keras.callbacks.TensorBoard(log_dir='./logs', 
 			histogram_freq=0, 
-			batch_size=32, 
+			batch_size=batch_size, 
 			write_graph=True, 
 			write_grads=False, 
 			write_images=False, 
@@ -146,9 +149,9 @@ for i in 1:cross_val:
 	print('Saved trained model at %s ' % model_path)
 
 	# Score trained model.
-	scores = model.evaluate(X_test, Y_test], verbose=1)
+	scores = model.evaluate(X_test, Y_test, verbose=1)
 	print('Test loss:', scores[0])
 	print('Test accuracy:', scores[1])
 	print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
 	cvscores.append(scores[1] * 100)
-print("%.2f%% (+/- %.2f%%)" % (numpy.mean(cvscores), numpy.std(cvscores)))
+print("%.2f%% (+/- %.2f%%)" % (nu.mean(cvscores), nu.std(cvscores)))
