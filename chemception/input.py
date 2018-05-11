@@ -9,7 +9,6 @@ from models import Compound
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem import Draw
-import cirpy
 
 import numpy as np
 
