@@ -69,12 +69,9 @@ def LoadInput(extensionImg='png',size=80):
 	#creating input
 	if data[0].fileExist(constant.IMAGES+"data/") != True:
 		Gen2DImage(data,constant.IMAGES+"data/",size)
-	trainData = data[:int(len(data)/2)]
 	
-	testData = data[int(len(data)/2):]
-	inputs = list(map(lambda x: x.input(constant.IMAGES+'data/'), trainData))
-	test = list(map(lambda x: x.input(constant.IMAGES+'data/'), testData))
-	return np.array(list(map(lambda x: x[0],inputs))), np.array(list(map(lambda x: x[1],inputs))), np.array(list(map(lambda x: x[0],test))),np.array(list(map(lambda x: x[1],test)))
+	inputs = list(map(lambda x: x.input(constant.IMAGES+'data/'), data))
+	return np.array(list(map(lambda x: x[0],inputs))), np.array(list(map(lambda x: x[1],inputs)))
 
 def LoadAMES():
 	compounds = []
