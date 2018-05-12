@@ -27,7 +27,7 @@ if len(sys.argv)>1 and sys.argv[1]!=None:
 
 batch_size 			= 32
 num_classes 		= 2
-epochs 				= 1
+epochs 				= 100
 data_augmentation 	= False
 num_predictions 	= 20
 save_dir 			= os.path.join(os.getcwd(), 'saved_models')
@@ -48,7 +48,7 @@ for i in range(1,cross_val):
 	cross_val = cross_val +1	
 	x_train = X_train
 	y_train = Y_train
-	print('%i %i %s %s',len(X_test),len(Y_test),X_train[0],Y_train[0])
+	
 	# Convert class vectors to binary class matrices.
 	y_train 			= keras.utils.to_categorical(y_train, num_classes)
 	Y_test 			= keras.utils.to_categorical(Y_test, num_classes)
