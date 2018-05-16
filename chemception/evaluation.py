@@ -14,11 +14,11 @@ class Metrics(Callback):
 			val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
 			val_targ = self.validation_data[1]
 
-			_val_f1 = f1_score(val_targ, val_predict)
+			_val_f1 = f1_score(val_targ, val_predict,average='micro')
 			print('f1')
-			_val_recall = recall_score(val_targ, val_predict)
+			_val_recall = recall_score(val_targ, val_predict,average='micro')
 			print('recall')
-			_val_precision = precision_score(val_targ, val_predict)
+			_val_precision = precision_score(val_targ, val_predict,average='micro')
 			print('prec')
 			#_val_mcc = matthews_corrcoef(val_targ, val_predict)
 
