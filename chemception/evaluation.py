@@ -14,7 +14,7 @@ class Metrics(Callback):
 		val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
 		val_targ = self.validation_data[1]
 
-		_val_precision,_val_recall, _val_f1,supp  = precision_recall_fscore_support(val_targ, val_predict,average='micro')
+		_val_precision,_val_recall, _val_f1,supp  = precision_recall_fscore_support(val_targ, val_predict,average='samples')
 		#_val_mcc = matthews_corrcoef(val_targ, val_predict)
 
 		self.val_f1s.append(_val_f1)
