@@ -16,6 +16,7 @@ import numpy as np
 import json
 import requests
 import time
+import random
 
 def LoadAMES():
 	compounds = []
@@ -102,3 +103,25 @@ def DownloadData():
 				except ValueError as er:
 					print(er)
 					continue
+
+def CheckData():
+	#Molecules array
+	compounds = []
+	smiles = {}
+	start_time = time.time()
+	print("Loading Started")
+	with open(constant.DATA + 'data' + '.csv', newline='') as datasetCsv:
+		moleculeReader = csv.reader(datasetCsv, delimiter=';', quotechar=';')
+		for i,compound in enumerate(moleculeReader):
+			smile = compound[1]
+			if smile in smiles:
+				continue
+			compounds.append(Compound(compound[0],smile,compound[2]=='1'))
+			smiles[smile] = 1
+	elapsed_time = time.time() - start_time
+	print('Load of '+ str(len(compounds))+' finished in '+str(elapsed_time)+'s')
+	for com in compounds:
+		if not com.fileExist(constant.IMAGES+"data/"):
+			print(com._SMILE)
+
+CheckData()

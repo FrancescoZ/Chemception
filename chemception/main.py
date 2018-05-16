@@ -8,6 +8,7 @@ import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import SGD
 from keras.callbacks import TensorBoard
+import keras.backend as K
 
 import os
 import sys
@@ -62,7 +63,7 @@ final_resume 		= main_execution_path + executionName + '_resume.txt'
 cvscores = []
 for i in range(1,cross_val+1):
 
-	
+	K.clear_session()
 	model_name 						 = 'chemception_trained_cross_'+str(i)
 	current_path 					 = './'+executionName+'/'+model_name
 	os.makedirs(current_path)
