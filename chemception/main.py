@@ -48,12 +48,12 @@ if len(sys.argv)>2 and sys.argv[2]!=None:
 #Setting of the network
 batch_size 			= 32
 num_classes 		= 2
-epochs 				= 2
+epochs 				= 100
 data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
 epsilon				= 1e-8
-cross_val			= 1
+cross_val			= 5
 main_execution_path = './'+executionName+'/'
 final_resume 		= main_execution_path + executionName + '_resume.txt'
 # The data, split between train and test sets:
