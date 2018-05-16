@@ -16,19 +16,26 @@ import json
 import requests
 import time
 
+import random 
+
 extension = 'png'
 
-def LoadData(fileName):
+def LoadData(fileName,duplicateProb):
 	#Molecules array
 	compounds = []
+	smiles = {}
 	start_time = time.time()
 	print("Loading Started")
 	with open(constant.DATA + fileName + '.csv', newline='') as datasetCsv:
 		moleculeReader = csv.reader(datasetCsv, delimiter=';', quotechar=';')
 		for i,compound in enumerate(moleculeReader):
-			compounds.append(Compound(compound[0],compound[1],compound[2]=='1'))
+			smile = compound[1]
+			if smile in smiles and random.random()>duplicateProb:
+				continue
+			compounds.append(Compound(compound[0],smile,compound[2]=='1'))
+			smiles[smile] = 1
 	elapsed_time = time.time() - start_time
-	print('Loading Finished in '+str(elapsed_time)+'s')
+	print('Load of '+ str(len(compounds))+' finished in '+str(elapsed_time)+'s')
 	return compounds
 
 def Gen2DImage(compounds,path,size):
@@ -61,10 +68,11 @@ def Gen2DImage(compounds,path,size):
 	# elapsed_time = time.time() - start_time
 	# print('Image generation finished in '+str(elapsed_time)+'s')
 
-def LoadInput(extensionImg='png',size=80):
+def LoadInput(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 	extension = extensionImg
 	Compound.extension = extensionImg
-	data = LoadData('data')
+	random.seed(seed)
+	data = LoadData('data',duplicateProb)
 	#creating input
 	if data[0].fileExist(constant.IMAGES+"data/") != True:
 		Gen2DImage(data,constant.IMAGES+"data/",size)

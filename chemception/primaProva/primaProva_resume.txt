@@ -1,0 +1,7 @@
+Name:primaProva
+
+Total loss: 0.19410606016559506 (+/- 0.0)
+Total accuracy: 0.7130470687844949 (+/- 0.0)
+Total precision: 0.7078288942695722 (+/- 0.0)
+Total sensitivity: 0.7241948802642444 (+/- 0.0)
+Total specificity: 0.7241948802642444 (+/- 0.0)

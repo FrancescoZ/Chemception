@@ -1,62 +1,92 @@
 import network
-import input
+import input as data
 import helpers
 import Optimizer
+from evaluation import Metrics
 
 import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import SGD
+from keras.callbacks import TensorBoard
+
 import os
 import sys
+import time
+import statistics
+import shutil
 
 import numpy as nu
 
 from sklearn.model_selection import train_test_split
 
+#Setting seed to re run the same simulation with the same result
 seed = 7
 nu.random.seed(seed)
 
+#Defining the size of the network, this can be passed as parameter
 N=16
 inputSize = 80
-
+#Execution name, if non will throw an error
 if len(sys.argv)>1 and sys.argv[1]!=None:
-	N=sys.argv[1]
-	if len(sys.argv)>2 and sys.argv[2]!=None:
-		inputSize=sys.argv[2]
+	if os.path.isdir(sys.argv[1]):
+		over = input('Execution folder already exist, to you want to overwrite it? [Y/N]')
+		if str(over) == 'Y' or str(over)=='y':
+			executionName = sys.argv[1]
+			shutil.rmtree('./'+executionName, ignore_errors=True)
+		else:
+			raise AttributeError("Execution folder already exists")
+	executionName = sys.argv[1]
+	os.makedirs('./'+executionName)
+else: 
+	raise AttributeError("Execution name is missing")
+#get the size of the simulation if given
+if len(sys.argv)>2 and sys.argv[2]!=None:
+	N=sys.argv[2]
+	if len(sys.argv)>3 and sys.argv[3]!=None:
+		inputSize=sys.argv[3]
 
-
+#Setting of the network
 batch_size 			= 32
 num_classes 		= 2
-epochs 				= 100
+epochs 				= 2
 data_augmentation 	= False
-num_predictions 	= 20
-save_dir 			= os.path.join(os.getcwd(), 'saved_models')
 learning_rate		= 1e-3
 rho					= 0.9
 epsilon				= 1e-8
-cross_val			= 5
-
+cross_val			= 1
+main_execution_path = './'+executionName+'/'
+final_resume 		= main_execution_path + executionName + '_resume.txt'
 # The data, split between train and test sets:
-(X, Y) 	= input.LoadInput(extensionImg='png',size=inputSize)
+(X, Y) 	= data.LoadInput(extensionImg='png',size=inputSize,duplicateProb=1.e-2,seed=seed)
 
 cvscores = []
-for i in range(1,cross_val):
+for i in range(1,cross_val+1):
 
-	model_name 			= 'chemception_trained_cross_'+str(i)+'_model.h5'
+	
+	model_name 						 = 'chemception_trained_cross_'+str(i)
+	current_path 					 = './'+executionName+'/'+model_name
+	os.makedirs(current_path)
+	model_name_file 				 = model_name + '_model.h5'
+	model_directory					 = current_path+'/model'
+	os.makedirs(model_directory)
+	model_path 						 = os.path.join(model_directory, model_name_file)
+	log_dir							 = current_path+'/logs'
+	resume_file						 = current_path + '/'+model_name+'_resume.txt'
+
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1*i, random_state=seed)
 	# create model	
-	cross_val = cross_val +1	
-	x_train = X_train
-	y_train = Y_train
+	cross_val 						 = cross_val +1	
+	x_train 						 = X_train
+	y_train 						 = Y_train
 	
 	# Convert class vectors to binary class matrices.
 	y_train 			= keras.utils.to_categorical(y_train, num_classes)
-	Y_test 			= keras.utils.to_categorical(Y_test, num_classes)
+	Y_test 				= keras.utils.to_categorical(Y_test, num_classes)
 	model 				= network.Chemception(N,inputSize)
-	x_train 		= x_train.astype('float32')
-	X_test 		= X_test.astype('float32')
-	x_train 		/= 255
-	X_test 			/= 255
+	x_train 			= x_train.astype('float32')
+	X_test 				= X_test.astype('float32')
+	x_train 			/= 255
+	X_test 				/= 255
 	print('x_train shape:', x_train.shape)
 	print(x_train.shape[0], 'train samples')
 
@@ -72,15 +102,16 @@ for i in range(1,cross_val):
 	gamma				= 0.92
 	sgd = SGD(lr=learning_rate_init, decay=0, momentum=momentum, nesterov=True)
 	optCallback = Optimizer.OptimizerTracker()
-	tensorBoard = keras.callbacks.TensorBoard(log_dir='./logs', 
-			histogram_freq=0, 
+	tensorBoard = TensorBoard(log_dir=log_dir, 
+			histogram_freq=1, 
 			batch_size=batch_size, 
-			write_graph=True, 
-			write_grads=False, 
-			write_images=False, 
+			write_graph=False, 
+			write_grads=True, 
+			write_images=True, 
 			embeddings_freq=0, 
 			embeddings_layer_names=None, 
 			embeddings_metadata=None)
+	metrics = Metrics()
 
 	if not data_augmentation:
 		print('Not using data augmentation.')
@@ -104,13 +135,13 @@ for i in range(1,cross_val):
 			epochs=epochs/2,
 			workers=4,
 			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard])
+			callbacks = [tensorBoard,metrics])
 		model.fit_generator(datagen.flow(x_train, y_train,
 			batch_size=batch_size),
 			epochs=epochs/2,
 			workers=4,
 			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard, optCallback])
+			callbacks = [tensorBoard, optCallback,metrics])
 	else:
 		print('Using real-time data augmentation.')
 		# This will do preprocessing and realtime data augmentation:
@@ -134,17 +165,14 @@ for i in range(1,cross_val):
 			epochs=epochs/2,
 			workers=4,
 			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard])
+			callbacks = [tensorBoard,metrics])
 		model.fit_generator(datagen.flow(x_train, y_train,
 			batch_size=batch_size),
 			epochs=epochs/2,
 			workers=4,
 			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard, optCallback])
-	# Save model and weights
-	if not os.path.isdir(save_dir):
-		os.makedirs(save_dir)
-	model_path = os.path.join(save_dir, model_name)
+			callbacks = [tensorBoard, optCallback,metrics])
+
 	model.save(model_path)
 	print('Saved trained model at %s ' % model_path)
 
@@ -152,6 +180,36 @@ for i in range(1,cross_val):
 	scores = model.evaluate(X_test, Y_test, verbose=1)
 	print('Test loss:', scores[0])
 	print('Test accuracy:', scores[1])
-	print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
-	cvscores.append(scores[1] * 100)
-print("%.2f%% (+/- %.2f%%)" % (nu.mean(cvscores), nu.std(cvscores)))
+	print('Test precision:', statistics.mean(metrics.val_precisions))
+	print('Test sensitivity:', statistics.mean(metrics.val_recalls))
+	print('Test specificity:', statistics.mean(metrics.val_recalls))
+	#print('Test mcc:', statistics.mean(metrics.val_mccs))
+
+	prec	= statistics.mean(metrics.val_precisions)
+	rec 	= statistics.mean(metrics.val_recalls)
+
+	f= open(resume_file,"w+")
+	f.write('Name:'+ model_name+'\n\n')
+	f.write('Test loss:'+ str(scores[0])+'\n')
+	f.write('Test accuracy:'+ str(scores[1])+'\n')
+	f.write('Test precision:'+ str(prec)+'\n')
+	f.write('Test sensitivity:'+ str(rec)+'\n')
+	f.write('Test specificity:'+ str(rec)+'\n')
+	#f.write('Test mcc:', statistics.mean(metrics.val_mccs))
+	f.close()
+
+	print('Saved trained resume')
+	cvscores.append([scores[0], scores[1], prec , rec, rec])
+
+cvscores = nu.array(cvscores)
+f= open(final_resume,"w+")
+f.write('Name:'+ executionName+'\n\n')
+f.write("Total loss: "+str(nu.mean(cvscores[0:len(cvscores),0]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),0]))+")\n")
+f.write("Total accuracy: "+str(nu.mean(cvscores[0:len(cvscores),1]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),1]))+")\n")
+f.write("Total precision: "+str(nu.mean(cvscores[0:len(cvscores),2]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),2]))+")\n")
+f.write("Total sensitivity: "+str(nu.mean(cvscores[0:len(cvscores),3]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),3]))+")\n")
+f.write("Total specificity: "+str(nu.mean(cvscores[0:len(cvscores),4]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),4]))+")\n")
+#f.write("Total mcc: %.2f%% (+/- %.2f%%)" % (nu.mean(cvscores[5]), nu.std(cvscores[5])))
+f.close()
+
+print('Program End')

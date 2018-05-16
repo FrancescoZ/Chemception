@@ -1,0 +1,7 @@
+Name:chemception_trained_cross_1
+
+Test loss:0.19410606016559506
+Test accuracy:0.7130470687844949
+Test precision:0.7078288942695722
+Test sensitivity:0.7241948802642444
+Test specificity:0.7241948802642444
