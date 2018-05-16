@@ -1,32 +1,57 @@
 import numpy as np
 from keras.callbacks import Callback
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
+import math
 
 class Metrics(Callback):
 	def on_train_begin(self, logs={}):
-		self.val_f1s = []
-		self.val_recalls = []
-		self.val_precisions = []
-		self.val_mccs = []
-	
+		self.accs = []
+		self.precisions = []
+		self.npvs = []
+		self.sensitivitys = []
+		self.specificitys = []
+		self.mccs = []
+		self.f1s= []
+
 	def on_epoch_end(self, epoch, logs={}):
 		try:
 			val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
 			val_targ = self.validation_data[1]
 
-			_val_f1 = f1_score(val_targ, val_predict,average='micro')
-			print('f1')
-			_val_recall = recall_score(val_targ, val_predict,average='micro')
-			print('recall')
-			_val_precision = precision_score(val_targ, val_predict,average='micro')
-			print('prec')
-			#_val_mcc = matthews_corrcoef(val_targ, val_predict)
+			tp =0
+			fp = 0
+			tn = 0
+			fn = 0
+			for index in range(len(val_predict)):
+				if val_targ[index] ==1:
+					if val_targ[index] == val_predict[index]:
+						tp = tp +1
+					else:
+						fn = fn + 1
+				else:
+					if val_targ[index] == val_predict[index]:
+						tn = tn +1
+					else:
+						fp = fp + 1    
 
-			self.val_f1s.append(_val_f1)
-			self.val_recalls.append(_val_recall)
-			self.val_precisions.append(_val_precision)
-			#self.val_mccs.append(_val_mcc)
-			print('- val_f1: %f - val_precision: %f - val_recall %f'%( _val_f1, _val_precision, _val_recall))
+			acc = float(tp + tn)/len(val_predict)
+			precision = float(tp)/(tp+ fp + 1e-06)
+			npv = float(tn)/(tn + fn + 1e-06)
+			sensitivity = float(tp)/ (tp + fn + 1e-06)
+			specificity = float(tn)/(tn + fp + 1e-06)
+			mcc = float(tp*tn-fp*fn)/(math.sqrt((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn)) + 1e-06)
+			f1=float(tp*2)/(tp*2+fp+fn+1e-06)
+
+			self.accs.append(acc)
+			self.precisions.append(precision)
+			self.npvs.append(npv)
+			self.sensitivitys.append(sensitivity)
+			self.specificitys.append(specificity)
+			self.mccs.append(mcc)
+			self.f1s.append(f1)
+
+
+			print('val_acc: %f - val_precision: %f - val_npv: %f - val_sensitivity: %f - val_specificitys: %f - val_mcc: %f - val_f1: %f'%( acc, precision, npv,sensitivity,specificity,mcc,f1))
 			return
 		except ValueError as e:
 			print((np.asarray(self.model.predict(self.validation_data[0]))).round())
