@@ -22,14 +22,15 @@ class Metrics(Callback):
 			fp = 0
 			tn = 0
 			fn = 0
+			
 			for index in range(len(val_predict)):
 				if val_targ[index][0] ==1:
-					if val_targ[index] == val_predict[index]:
+					if val_targ[index][0] == val_predict[index][0]:
 						tp = tp +1
 					else:
 						fn = fn + 1
 				else:
-					if val_targ[index] == val_predict[index]:
+					if val_targ[index][0] == val_predict[index][0]:
 						tn = tn +1
 					else:
 						fp = fp + 1    
