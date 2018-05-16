@@ -1,7 +1,6 @@
-import keras.backend as K
 import numpy as np
 from keras.callbacks import Callback
-from sklearn.metrics import confusion_matrix, precision_recall_fscore_support, matthews_corrcoef
+from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 
 class Metrics(Callback):
 	def on_train_begin(self, logs={}):
