@@ -54,5 +54,4 @@ class Metrics(Callback):
 			print('val_acc: %f - val_precision: %f - val_npv: %f - val_sensitivity: %f - val_specificitys: %f - val_mcc: %f - val_f1: %f'%( acc, precision, npv,sensitivity,specificity,mcc,f1))
 			return
 		except ValueError as e:
-			print((np.asarray(self.model.predict(self.validation_data[0]))).round())
-			print(self.validation_data[1])
+			print(e)
