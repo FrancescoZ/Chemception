@@ -24,5 +24,5 @@ class Metrics(Callback):
 			#self.val_mccs.append(_val_mcc)
 			print('- val_f1: %f - val_precision: %f - val_recall %f'%( _val_f1, _val_precision, _val_recall))
 			return
-		except ValueError as e
+		except ValueError as e:
 			print(e)
