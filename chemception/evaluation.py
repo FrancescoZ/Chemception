@@ -23,7 +23,7 @@ class Metrics(Callback):
 			tn = 0
 			fn = 0
 			for index in range(len(val_predict)):
-				if val_targ[index] ==1:
+				if val_targ[index][0] ==1:
 					if val_targ[index] == val_predict[index]:
 						tp = tp +1
 					else:
