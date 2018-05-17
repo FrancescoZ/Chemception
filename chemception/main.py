@@ -41,10 +41,21 @@ if len(sys.argv)>1 and sys.argv[1]!=None:
 else: 
 	raise AttributeError("Execution name is missing")
 #get the size of the simulation if given
+loss_function 	= "mean_squared_error"
 if len(sys.argv)>2 and sys.argv[2]!=None:
-	N=sys.argv[2]
-	if len(sys.argv)>3 and sys.argv[3]!=None:
-		inputSize=sys.argv[3]
+	if sys.argv[2] == 'mse':
+		loss_function 	= "mean_squared_error"
+	elif sys.argv[2] == 'msle':
+		loss_function 	= "mean_squared_logarithmic_error"
+	elif sys.argv[2] == 'lc':
+		loss_function 	= "mealogcoshn_squared_error"
+	elif sys.argv[2] == 'cc':
+		loss_function 	= "categorical_crossentropy"
+
+if len(sys.argv)>3 and sys.argv[3]!=None:
+	N=sys.argv[3]
+	if len(sys.argv)>4 and sys.argv[4]!=None:
+		inputSize=sys.argv[4]
 
 #Setting of the network
 batch_size 			= 32
@@ -54,14 +65,14 @@ data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
 epsilon				= 1e-8
-cross_val			= 5
+cross_val			= 3
 main_execution_path = './'+executionName+'/'
 final_resume 		= main_execution_path + executionName + '_resume.txt'
 # The data, split between train and test sets:
 (X, Y) 	= data.LoadInput(extensionImg='png',size=inputSize,duplicateProb=1.e-2,seed=seed)
 
 cvscores = []
-for i in range(1,cross_val+1):
+for i in range(2,cross_val+1):
 
 	K.clear_session()
 	model_name 						 = 'chemception_trained_cross_'+str(i)
@@ -95,7 +106,7 @@ for i in range(1,cross_val+1):
 	opt 				= keras.optimizers.RMSprop(lr=learning_rate, rho=rho, epsilon=epsilon, decay=0.0)
 
 	# Let's train the model using RMSprop
-	model.compile(loss='mean_squared_error',
+	model.compile(loss=loss_function,
 				optimizer=opt,
 				metrics=['accuracy'])
 	learning_rate_init	= 1e-3
@@ -213,7 +224,8 @@ for i in range(1,cross_val+1):
 
 cvscores = nu.array(cvscores)
 f= open(final_resume,"w+")
-f.write('Name:'+ executionName+'\n\n')
+f.write('Name:'+ executionName+'\n')
+f.write('Loss type:'+ loss_function+'\n\n')
 f.write("Total loss: "+str(nu.mean(cvscores[0:len(cvscores),0]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),0]))+")\n")
 f.write("Total accuracy: "+str(nu.mean(cvscores[0:len(cvscores),1]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),1]))+")\n")
 f.write("Total precision: "+str(nu.mean(cvscores[0:len(cvscores),2]))+" (+/- "+str(nu.std(cvscores[0:len(cvscores),2]))+")\n")
