@@ -48,7 +48,7 @@ if len(sys.argv)>2 and sys.argv[2]!=None:
 	elif sys.argv[2] == 'msle':
 		loss_function 	= "mean_squared_logarithmic_error"
 	elif sys.argv[2] == 'lc':
-		loss_function 	= "mealogcoshn_squared_error"
+		loss_function 	= "logcosh"
 	elif sys.argv[2] == 'cc':
 		loss_function 	= "categorical_crossentropy"
 
@@ -69,7 +69,7 @@ cross_val			= 3
 main_execution_path = './'+executionName+'/'
 final_resume 		= main_execution_path + executionName + '_resume.txt'
 # The data, split between train and test sets:
-(X, Y) 	= data.LoadInput(extensionImg='png',size=inputSize,duplicateProb=1.e-2,seed=seed)
+(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=1.e-2,seed=seed)
 
 cvscores = []
 for i in range(2,cross_val+1):

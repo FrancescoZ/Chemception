@@ -35,5 +35,8 @@ class Compound:
 		img = path+self.id+'.'+Compound.extension
 		return cv2.imread(str(img))
 
-	def input(self, path):
-		return self.image(path),1 if self.mutagen else 0
+	def input(self, path='',type='image'):
+		if type == 'image':
+			return self.image(path),1 if self.mutagen else 0
+		else:
+			return self._SMILE,1 if self.mutagen else 0

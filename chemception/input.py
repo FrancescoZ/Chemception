@@ -1,7 +1,7 @@
 import csv
 import time
 from time import sleep
-
+import collections
 import constant
 import helpers
 from models import Compound
@@ -68,7 +68,14 @@ def Gen2DImage(compounds,path,size):
 	# elapsed_time = time.time() - start_time
 	# print('Image generation finished in '+str(elapsed_time)+'s')
 
-def LoadInput(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
+def LoadSMILESData(duplicateProb = 0,seed=7):
+	data = LoadData('data',duplicateProb)
+	inputs = list(map(lambda x: x.input(type='SMILE'), data))
+	dic = buildVocabulary(list(map(lambda x: x._SMILE, data)))
+
+	return np.array(list(map(lambda x: SMILE2Int(x[0],dic),inputs))), np.array(list(map(lambda x: x[1],inputs)))
+
+def LoadImageData(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 	extension = extensionImg
 	Compound.extension = extensionImg
 	random.seed(seed)
@@ -79,3 +86,26 @@ def LoadInput(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 	
 	inputs = list(map(lambda x: x.input(constant.IMAGES+'data/'), data))
 	return np.array(list(map(lambda x: x[0],inputs))), np.array(list(map(lambda x: x[1],inputs)))
+
+def readChar(smile):
+	chars = []
+	for char in smile:
+		chars.append(char)
+	return chars
+
+def buildVocabulary(dataset):
+	words = []
+	for data in dataset:
+		words.extend(readChar(data))
+
+	counter = collections.Counter(words)
+	count_pairs = sorted(counter.items(), key=lambda x: (-x[1], x[0]))
+
+	words, _ = list(zip(*count_pairs))
+	word_to_id = dict(zip(words, range(len(words))))
+	
+	return word_to_id
+
+def SMILE2Int(smile, vocabularyID):
+    data = readChar(smile)
+    return [vocabularyID[word] for word in data if word in vocabularyID]
