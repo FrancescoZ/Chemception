@@ -13,7 +13,7 @@ class Metrics(Callback):
 		self.mccs = []
 		self.f1s= []
 
-	def on_epoch_end(self, epoch, logs={}):
+	def on_train_end(self, logs={}):
 		try:
 			val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
 			val_targ = self.validation_data[1]
