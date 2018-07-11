@@ -1,6 +1,7 @@
 from rdkit import Chem
 import cv2
 import os
+import numpy as np
 import os.path
 
 class Compound:
@@ -35,8 +36,8 @@ class Compound:
 		img = path+self.id+'.'+Compound.extension
 		return cv2.imread(str(img))
 
-	def input(self, path='',type='image'):
-		if type == 'image':
+	def input(self, path='',t='image'):
+		if t == 'image':
 			return self.image(path),1 if self.mutagen else 0
 		else:
 			return self._SMILE,1 if self.mutagen else 0

@@ -1,4 +1,5 @@
-import network
+from network import Chemception
+from network import SMILE2Vector 
 import input as data
 import helpers
 import Optimizer
@@ -27,35 +28,49 @@ nu.random.seed(seed)
 #Defining the size of the network, this can be passed as parameter
 N=16
 inputSize = 80
-#Execution name, if non will throw an error
+#This define which network we want to use:
+#	C- Chemception
+#	S- SMIELE to Vect
+type = 'C'
+#Type of network, if none throw error
 if len(sys.argv)>1 and sys.argv[1]!=None:
-	if os.path.isdir(sys.argv[1]):
+	if sys.argv[1]=='-c' or sys.argv[1] == '-C':
+		type='C'
+	elif sys.argv[1]=='-s' or sys.argv[1] == '-S':
+		type='S'
+	else:
+		raise AttributeError("Invalid Network Type")
+else:
+	raise AttributeError("Network Type missing")
+#Execution name, if non will throw an error
+if len(sys.argv)>2 and sys.argv[2]!=None:
+	if os.path.isdir(sys.argv[2]):
 		over = input('Execution folder already exist, to you want to overwrite it? [Y/N]')
 		if str(over) == 'Y' or str(over)=='y':
-			executionName = sys.argv[1]
+			executionName = sys.argv[2]
 			shutil.rmtree('./'+executionName, ignore_errors=True)
 		else:
 			raise AttributeError("Execution folder already exists")
-	executionName = sys.argv[1]
+	executionName = sys.argv[2]
 	os.makedirs('./'+executionName)
 else: 
 	raise AttributeError("Execution name is missing")
 #get the size of the simulation if given
 loss_function 	= "mean_squared_error"
-if len(sys.argv)>2 and sys.argv[2]!=None:
-	if sys.argv[2] == 'mse':
+if len(sys.argv)>3 and sys.argv[3]!=None:
+	if sys.argv[3] == 'mse':
 		loss_function 	= "mean_squared_error"
-	elif sys.argv[2] == 'msle':
+	elif sys.argv[3] == 'msle':
 		loss_function 	= "mean_squared_logarithmic_error"
-	elif sys.argv[2] == 'lc':
+	elif sys.argv[3] == 'lc':
 		loss_function 	= "logcosh"
-	elif sys.argv[2] == 'cc':
+	elif sys.argv[3] == 'cc':
 		loss_function 	= "categorical_crossentropy"
 
-if len(sys.argv)>3 and sys.argv[3]!=None:
-	N=sys.argv[3]
-	if len(sys.argv)>4 and sys.argv[4]!=None:
-		inputSize=sys.argv[4]
+if len(sys.argv)>4 and sys.argv[4]!=None:
+	N=sys.argv[4]
+	if len(sys.argv)>5 and sys.argv[5]!=None:
+		inputSize=sys.argv[5]
 
 #Setting of the network
 batch_size 			= 32
@@ -66,16 +81,19 @@ learning_rate		= 1e-3
 rho					= 0.9
 epsilon				= 1e-8
 cross_val			= 3
-main_execution_path = './'+executionName+'/'
+main_execution_path = './build/'+executionName+'/'
 final_resume 		= main_execution_path + executionName + '_resume.txt'
 # The data, split between train and test sets:
-(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=1.e-2,seed=seed)
+if type =='C':
+	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
+elif type == 'S':
+	(X, Y) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
 
 cvscores = []
 for i in range(2,cross_val+1):
 
 	K.clear_session()
-	model_name 						 = 'chemception_trained_cross_'+str(i)
+	model_name 						 = type+'_trained_cross_'+str(i)
 	current_path 					 = './'+executionName+'/'+model_name
 	os.makedirs(current_path)
 	model_name_file 				 = model_name + '_model.h5'
@@ -86,6 +104,7 @@ for i in range(2,cross_val+1):
 	resume_file						 = current_path + '/'+model_name+'_resume.txt'
 
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1*i, random_state=seed)
+	print(X.shape)
 	# create model	
 	cross_val 						 = cross_val +1	
 	x_train 						 = X_train
@@ -94,102 +113,54 @@ for i in range(2,cross_val+1):
 	# Convert class vectors to binary class matrices.
 	y_train 			= keras.utils.to_categorical(y_train, num_classes)
 	Y_test 				= keras.utils.to_categorical(Y_test, num_classes)
-	model 				= network.Chemception(N,inputSize)
-	x_train 			= x_train.astype('float32')
-	X_test 				= X_test.astype('float32')
-	x_train 			/= 255
-	X_test 				/= 255
-	print('x_train shape:', x_train.shape)
-	print(x_train.shape[0], 'train samples')
-
-	# initiate RMSprop optimizer
-	opt 				= keras.optimizers.RMSprop(lr=learning_rate, rho=rho, epsilon=epsilon, decay=0.0)
-
-	# Let's train the model using RMSprop
-	model.compile(loss=loss_function,
-				optimizer=opt,
-				metrics=['accuracy'])
-	learning_rate_init	= 1e-3
-	momentum			= 0.9
-	gamma				= 0.92
-	sgd = SGD(lr=learning_rate_init, decay=0, momentum=momentum, nesterov=True)
-	optCallback = Optimizer.OptimizerTracker()
 	tensorBoard = TensorBoard(log_dir=log_dir, 
-			histogram_freq=1, 
-			batch_size=batch_size, 
-			write_graph=False, 
-			write_grads=True, 
-			write_images=True, 
-			embeddings_freq=0, 
-			embeddings_layer_names=None, 
-			embeddings_metadata=None)
+				histogram_freq=1, 
+				batch_size=batch_size, 
+				write_graph=False, 
+				write_grads=True, 
+				write_images=True, 
+				embeddings_freq=0, 
+				embeddings_layer_names=None, 
+				embeddings_metadata=None)
 	metrics = Metrics()
-
-	if not data_augmentation:
-		print('Not using data augmentation.')
-		datagen = ImageDataGenerator(
-			featurewise_center=False,  # set input mean to 0 over the dataset
-			samplewise_center=False,  # set each sample mean to 0
-			featurewise_std_normalization=False,  # divide inputs by std of the dataset
-			samplewise_std_normalization=False,  # divide each input by its std
-			zca_whitening=False,  # apply ZCA whitening
-			rotation_range=0,  # randomly rotate images in the range (degrees, 0 to 180)
-			width_shift_range=0,  # randomly shift images horizontally (fraction of total width)
-			height_shift_range=0,  # randomly shift images vertically (fraction of total height)
-			horizontal_flip=False,  # randomly flip images
-			vertical_flip=False)  # randomly flip images
-
-		# Compute quantities required for feature-wise normalization
-		# (std, mean, and principal components if ZCA whitening is applied).
-		datagen.fit(x_train)
-		# Fit the model on the batches generated by datagen.flow().
-		model.fit_generator(datagen.flow(x_train, y_train,batch_size=batch_size),
-			epochs=epochs/2,
-			workers=4,
-			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard,metrics])
-		model.fit_generator(datagen.flow(x_train, y_train,
-			batch_size=batch_size),
-			epochs=epochs/2,
-			workers=4,
-			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard, optCallback,metrics])
-	else:
-		print('Using real-time data augmentation.')
-		# This will do preprocessing and realtime data augmentation:
-		datagen = ImageDataGenerator(
-			featurewise_center=False,  # set input mean to 0 over the dataset
-			samplewise_center=False,  # set each sample mean to 0
-			featurewise_std_normalization=False,  # divide inputs by std of the dataset
-			samplewise_std_normalization=False,  # divide each input by its std
-			zca_whitening=False,  # apply ZCA whitening
-			rotation_range=0,  # randomly rotate images in the range (degrees, 0 to 180)
-			width_shift_range=0,  # randomly shift images horizontally (fraction of total width)
-			height_shift_range=0,  # randomly shift images vertically (fraction of total height)
-			horizontal_flip=True,  # randomly flip images
-			vertical_flip=True)  # randomly flip images
-
-		# Compute quantities required for feature-wise normalization
-		# (std, mean, and principal components if ZCA whitening is applied).
-		datagen.fit(x_train)
-		# Fit the model on the batches generated by datagen.flow().
-		model.fit_generator(datagen.flow(x_train, y_train,batch_size=batch_size),
-			epochs=epochs/2,
-			workers=4,
-			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard,metrics])
-		model.fit_generator(datagen.flow(x_train, y_train,
-			batch_size=batch_size),
-			epochs=epochs/2,
-			workers=4,
-			validation_data=(X_test,Y_test),
-			callbacks = [tensorBoard, optCallback,metrics])
-
-	model.save(model_path)
+	if type =='C':
+		model 				= Chemception(N,
+									inputSize,
+									x_train,
+									y_train,
+									X_test,
+									Y_test,
+									learning_rate,
+									rho,
+									epsilon,
+									epochs,
+									loss_function,
+									log_dir,
+									batch_size,
+									data_augmentation,
+									metrics,
+									tensorBoard)
+	elif type =='S':
+		model 				= SMILE2Vector(N,
+									x_train,
+									y_train,
+									X_test,
+									Y_test,
+									learning_rate,
+									rho,
+									epsilon,
+									epochs,
+									loss_function,
+									log_dir,
+									batch_size,
+									metrics,
+									tensorBoard)
+	model.run()
+	model.model.save(model_path)
 	print('Saved trained model at %s ' % model_path)
 
 	# Score trained model.
-	scores = model.evaluate(X_test, Y_test, verbose=1)
+	scores = model.model.evaluate(X_test, Y_test, verbose=1)
 	print('Test loss:', scores[0])
 	print('Test accuracy:', scores[1])
 	print('Test precision:', statistics.mean(metrics.precisions))

@@ -68,13 +68,6 @@ def Gen2DImage(compounds,path,size):
 	# elapsed_time = time.time() - start_time
 	# print('Image generation finished in '+str(elapsed_time)+'s')
 
-def LoadSMILESData(duplicateProb = 0,seed=7):
-	data = LoadData('data',duplicateProb)
-	inputs = list(map(lambda x: x.input(type='SMILE'), data))
-	dic = buildVocabulary(list(map(lambda x: x._SMILE, data)))
-
-	return np.array(list(map(lambda x: SMILE2Int(x[0],dic),inputs))), np.array(list(map(lambda x: x[1],inputs)))
-
 def LoadImageData(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 	extension = extensionImg
 	Compound.extension = extensionImg
@@ -83,9 +76,18 @@ def LoadImageData(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 	#creating input
 	if data[0].fileExist(constant.IMAGES+"data/") != True:
 		Gen2DImage(data,constant.IMAGES+"data/",size)
-	
-	inputs = list(map(lambda x: x.input(constant.IMAGES+'data/'), data))
+	inputs = list(map(lambda x: x.input(constant.IMAGES+'data/',t='image'), data))
 	return np.array(list(map(lambda x: x[0],inputs))), np.array(list(map(lambda x: x[1],inputs)))
+
+
+def LoadSMILESData(duplicateProb = 0,seed=7):
+	data = LoadData('data',duplicateProb)
+	inputs = list(map(lambda x: x.input(t='SMILE'), data))
+	dic = buildVocabulary(list(map(lambda x: x._SMILE, data)))
+
+	return np.array(list(map(lambda x: SMILE2Int(x[0],dic),inputs))), np.array(list(map(lambda x: x[1],inputs)))
+
+
 
 def readChar(smile):
 	chars = []
