@@ -44,15 +44,15 @@ else:
 	raise AttributeError("Network Type missing")
 #Execution name, if non will throw an error
 if len(sys.argv)>2 and sys.argv[2]!=None:
-	if os.path.isdir(sys.argv[2]):
+	if os.path.isdir("./build/"+sys.argv[2]):
 		over = input('Execution folder already exist, to you want to overwrite it? [Y/N]')
 		if str(over) == 'Y' or str(over)=='y':
 			executionName = sys.argv[2]
-			shutil.rmtree('./'+executionName, ignore_errors=True)
+			shutil.rmtree('./build/'+executionName, ignore_errors=True)
 		else:
 			raise AttributeError("Execution folder already exists")
 	executionName = sys.argv[2]
-	os.makedirs('./'+executionName)
+	os.makedirs('./build/'+executionName)
 else: 
 	raise AttributeError("Execution name is missing")
 #get the size of the simulation if given
@@ -82,7 +82,7 @@ rho					= 0.9
 epsilon				= 1e-8
 cross_val			= 3
 main_execution_path = './build/'+executionName+'/'
-final_resume 		= main_execution_path + executionName + '_resume.txt'
+final_resume 		= main_execution_path + '_resume.txt'
 # The data, split between train and test sets:
 if type =='C':
 	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
@@ -94,7 +94,7 @@ for i in range(2,cross_val+1):
 
 	K.clear_session()
 	model_name 						 = type+'_trained_cross_'+str(i)
-	current_path 					 = './'+executionName+'/'+model_name
+	current_path 					 = main_execution_path+model_name
 	os.makedirs(current_path)
 	model_name_file 				 = model_name + '_model.h5'
 	model_directory					 = current_path+'/model'
@@ -155,6 +155,7 @@ for i in range(2,cross_val+1):
 									batch_size,
 									metrics,
 									tensorBoard)
+	model.print()
 	model.run()
 	model.model.save(model_path)
 	print('Saved trained model at %s ' % model_path)
