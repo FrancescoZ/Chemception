@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,62716,5,5,,103209807,13886,Inconclusive,,,,,Dopamine receptor activation in limbic system of reserpinized rat,Other,6796690,
-1,62721,5,5,,103209807,13886,Inconclusive,,,,,Dopamine receptor activation in striatum of reserpinized rat,Other,6796690,
-2,361930,9,5,,103209807,13886,Unspecified,123948.0,3620.0,161.0,IC50,"Inhibition of human recombinant indoleamine 2,3-dioxygenase in presence of L-tryptophan substrate",Confirmatory,18665584,

@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,180,1,1,,96945,28580,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Adenocarcinoma 755 (subcutaneous) in B6D2F1 (BDF1) mice,Other,,
-1,248,1,1,,96945,28580,Active,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-2,328,1,1,,96945,28580,Active,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-3,330,1,1,,96945,28580,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-4,342,1,1,,96945,28580,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Sarcoma 180 (subcutaneous) in Swiss mice,Other,,
-5,1259407,1,1,,363904823,28580,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,609549,3,2,,134440814,164611,Unspecified,,,73.3,IC50,Cytotoxicity against human HCT116 cells after 72 hrs by MTS assay,Confirmatory,21724394.0,
-1,609550,3,2,,134440814,164611,Unspecified,,,73.5,IC50,Cytotoxicity against human Caco2 cells after 72 hrs by MTS assay,Confirmatory,21724394.0,
-2,609551,3,3,,134440814,164611,Unspecified,,,133.5,IC50,Cytotoxicity against human CCD-18Co cells after 72 hrs by MTS assay,Confirmatory,21724394.0,
-3,609552,1,4,,134440814,164611,Unspecified,,,,,Ratio of etoposide IC50 to compound IC50 for human HCT116 cells,Other,21724394.0,
-4,609553,1,4,,134440814,164611,Unspecified,,,,,Ratio of etoposide IC50 to compound IC50 for human Caco2 cells,Other,21724394.0,
-5,1259407,1,1,,363901774,164611,Inactive,,,,,CCRIS mutagenicity studies,Other,,

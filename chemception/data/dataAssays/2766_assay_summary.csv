@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,35979,4,8,,103200603,134045,Unspecified,,,,,Alpha-1 adrenergic receptor blockade property was evaluated on vascular alpha-1 receptor,Other,6124636,
-1,40697,4,11,,103200603,134045,Unspecified,1703760.0,403910.0,,,Adrenoceptor blockade property was evaluated on vascular Beta-2 adrenergic receptor,Other,6124636,
-2,42022,4,8,,103200603,134045,Unspecified,,,,,Adrenoceptor blockade property was evaluated on cardiac Beta-1 adrenergic receptor,Other,6124636,
-3,42023,3,8,,103200603,134045,Unspecified,,,,,Beta-1 adrenergic receptor blockade property was evaluated,Other,6124636,
-4,781325,1,2,,103200603,134045,Unspecified,,,,,pKa (acid-base dissociation constant) as determined by Liao ref: J Chem Info Model 2009,Other,24249037,

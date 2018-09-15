@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,127221,3,3,,103194533,9176,Unspecified,,,,,Compound was tested at a dose of 400 nmol for the skin tumor initiating activity expressed as papillomas per mouse,Other,3385726.0,
-1,127222,3,3,,103194533,9176,Unspecified,,,,,Compound was tested at a dose of 400 nmol for the skin tumor initiating activity expressed as percent of mice with papillomas,Other,3385726.0,
-2,1259408,1,1,,363895530,9176,Active,,,,,GENE-TOX mutagenicity studies,Other,,
-3,1259411,1,1,,363899827,9176,Active,,,,,CCRIS carcinogenicity studies,Other,,

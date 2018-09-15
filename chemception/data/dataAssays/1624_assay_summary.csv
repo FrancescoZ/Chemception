@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,360149,11,2,,103762572,135309,Active,56404586.0,381203.0,6.60693,Ki,Inhibition of mouse Oat6-mediated [3H]ES uptake in Xenopus oocytes after 1 hr,Confirmatory,17553798,
-1,360150,11,2,,103762572,135309,Unspecified,81901833.0,18399.0,56.2341,Ki,Inhibition of mouse Oat1-mediated [3H]PAH uptake in Xenopus oocytes after 1 hr,Confirmatory,17553798,
-2,360151,3,4,,103762572,135309,Unspecified,,,,,Ratio of pKi for mouse Oat1 expressed in Xenopus oocytes to pKi for mouse Oat6 expressed in Xenopus oocytes,Other,17553798,

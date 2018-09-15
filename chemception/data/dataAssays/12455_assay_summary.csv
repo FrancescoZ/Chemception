@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,256,1,1,,74415,222529,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,492967,1,2,,92211391,222529,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
-2,1159550,3,1,,252401374,222529,Inactive,12653201.0,5226.0,,,Human Phosphogluconate dehydrogenase (6PGD) Inhibitor Screening,Screening,26479318.0,
-3,1224905,2,1,,92211391,222529,Inactive,120997.0,25643.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
-4,1224905,2,1,,92211391,222529,Inactive,74356043.0,55704.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
-5,1259310,1,1,,333264432,222529,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-6,1259310,1,1,,333264743,222529,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

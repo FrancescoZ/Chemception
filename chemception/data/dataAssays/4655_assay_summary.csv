@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,280501,10,1,,103509168,11049,Active,161789011.0,3276.0,1.4,IC50,Inhibition of human recombinant GST-PRMT1 expressed in BL21 cells,Confirmatory,17323938,
-1,280502,9,5,,103509168,11049,Active,74688267.0,,0.18,IC50,Inhibition of Aspergillus nidulans recombinant GST-RmtA expressed in BL21 cells,Confirmatory,17323938,
-2,360149,11,2,,103509168,11049,Active,56404586.0,381203.0,4.3651599999999995,Ki,Inhibition of mouse Oat6-mediated [3H]ES uptake in Xenopus oocytes after 1 hr,Confirmatory,17553798,
-3,360150,11,2,,103509168,11049,Active,81901833.0,18399.0,0.08913,Ki,Inhibition of mouse Oat1-mediated [3H]PAH uptake in Xenopus oocytes after 1 hr,Confirmatory,17553798,
-4,360151,3,4,,103509168,11049,Unspecified,,,,,Ratio of pKi for mouse Oat1 expressed in Xenopus oocytes to pKi for mouse Oat6 expressed in Xenopus oocytes,Other,17553798,
-5,515365,2,3,,103509168,11049,Active,,,0.406,IC50,Inhibition of VGLUT in rat synaptic vesicles assessed as [3H]glutamate uptake pretreated for 30 mins measured after 10 mins by scintillation spectrophotometer analysis,Confirmatory,20708942,

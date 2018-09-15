@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,256,1,1,,441548,19507,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,261193,6,2,,103480884,19507,Inactive,,,,GI50,Viability of H1299 (p53 null) cells at 4 mM by MTT assay,Confirmatory,16361100.0,

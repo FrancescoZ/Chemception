@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,485350,1,2,,92150703,720852,Inactive,126642418.0,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme BasE,Screening,,
-1,485395,1,2,,92150703,720852,Inactive,150392496.0,,,,A screen for compounds that inhibit the activity of Staphylococcus aureus DNA helicase,Other,,
-2,493033,1,2,,92150703,720852,Active,614089026.0,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme MbtI,Other,,
-3,504770,1,2,,92150703,720852,Inactive,9657380.0,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
-4,540299,1,2,,92150703,720852,Inactive,15607688.0,887529.0,,,A screen for compounds that inhibit the MenB enzyme of Mycobacterium tuberculosis,Other,20850304.0,
-5,588519,1,2,,92150703,720852,Active,52695378.0,,,,A screen for compounds that inhibit viral RNA polymerase binding and polymerization activities,Other,21722674.0,
-6,720641,1,2,,92150703,720852,Inactive,15923709.0,,,,A screen for compounds that inhibit the activity of LtaS in Staphylococcus aureus,Other,,
-7,1259423,1,2,,354974346,720852,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

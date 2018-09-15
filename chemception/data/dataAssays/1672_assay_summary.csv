@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,492967,1,2,,92219796,627554,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
-1,1224905,2,1,,92219796,627554,Inactive,120997.0,25643.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
-2,1224905,2,1,,92219796,627554,Inactive,74356043.0,55704.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
-3,1259310,1,1,,333387886,627554,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

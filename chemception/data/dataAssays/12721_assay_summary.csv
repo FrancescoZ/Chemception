@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1146180,3,2,,242549753,36976,Unspecified,81914759.0,100722663.0,,ED50,Agonist activity at beta-2 adrenergic receptor in guinea pig tracheal chain assessed as relaxation of spontaneously contracted tracheal smooth muscle,Confirmatory,20504,
-1,1146181,3,1,,242549753,36976,Unspecified,,,,,Agonist activity at beta-1 adrenergic receptor in guinea pig right atria assessed as increase in contraction rate of spontaneously beating right atria,Other,20504,
-2,1146183,1,1,,242549753,36976,Unspecified,,,,,Intrinsic activity at beta-1 adrenergic receptor in guinea pig right atria assessed as increase in contraction rate of spontaneously beating right atria relative to isoproterenol,Other,20504,
-3,1146184,1,1,,242549753,36976,Unspecified,,,,,Selectivity ratio of ED25 for beta-1 adrenergic receptor in guinea pig right atria to ED50 for beta-2 adrenergic receptor in guinea pig tracheal chain,Other,20504,
-4,1146185,1,3,,242549753,36976,Unspecified,81914759.0,100722663.0,,,Intrinsic activity at beta-2 adrenergic receptor in guinea pig tracheal chain assessed as relaxation of spontaneously contracted tracheal smooth muscle relative to papaverine,Other,20504,

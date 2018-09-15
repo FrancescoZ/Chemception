@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,39219,6,4,,103398666,637516,Unspecified,,,1730.0,Km,Apparent Michaelis constant (Km) against Arylsulfotransferase (AST IV),Confirmatory,12459019,
-1,39220,7,1,,103398666,637516,Unspecified,,,,,Maximal velocity (Vmax) against Arylsulfotransferase (AST IV),Other,12459019,
-2,229377,4,7,,103398666,637516,Unspecified,,,,,Ratio of kcat/Km determined for catalytic efficiency in sulfonation against AST IV,Other,12459019,
-3,1101944,1,1,,103398666,637516,Active,,,,,Inhibition of intact Triticum aestivum (wheat) seed germination assessed as appearance of sprouts at 500 ppm after 4 days relative to wheat grains RL4137 germination,Other,12381108,
-4,1101945,1,1,,103398666,637516,Active,,,,,Inhibition of intact Triticum aestivum (wheat) seed germination assessed as appearance of distinct rootlets at 500 ppm after 4 days relative to wheat grains RL4137 germination,Other,12381108,
-5,1101946,1,1,,103398666,637516,Active,,,,,Growth inhibition of intact Triticum aestivum (wheat) seed assessed as appearance of sprouts at 500 ppm after 4 days relative to wheat grains RL4137 germination,Other,12381108,
-6,1101947,1,1,,103398666,637516,Active,,,,,Growth inhibition of intact Triticum aestivum (wheat) seed assessed as appearance of distinct rootlets at 500 ppm after 4 days relative to wheat grains RL4137 germination,Other,12381108,

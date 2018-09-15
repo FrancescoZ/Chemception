@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,307625,3,4,,103555841,6922,Unspecified,,,,,"Partition coefficient, log P of the compound",Other,17482318.0,
-1,307626,8,1,,103555841,6922,Unspecified,,,,,Solubility in water,Other,17482318.0,
-2,1259407,1,1,,363900761,6922,Inactive,,,,,CCRIS mutagenicity studies,Other,,

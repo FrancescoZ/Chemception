@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,188645,4,10,,103364597,587821,Unspecified,,,,,Pyruvate dehydrogenase active/ Pyruvate dehydrogenase total was measured by sc administering the DCA in rat at a dose of 1.2 mmol/kg,Other,7265127,
-1,188648,4,9,,103364597,587821,Unspecified,,,,,Pyruvate dehydrogenase activity in vivo was measured following subcutaneous administration of 1.2 mmol/kg,Other,7265127,
-2,191928,3,9,,103364597,587821,Unspecified,,,,,"Tested for pyruvate oxidation in rat diaphragm, measured as % conversion of [14C]pyruvate to 14CO2 at 0.5 mM concentration of DCA (dichloroacetic acid)",Other,7265127,
-3,191929,3,9,,103364597,587821,Unspecified,,,,,"Tested for pyruvate oxidation in rat diaphragm, measured as % conversion of [14C]pyruvate to 14CO2 at 2 mM concentration",Other,7265127,
-4,191943,3,9,,103364597,587821,Unspecified,,,,,Percent Stimulation of pyruvate oxidation in rat diaphragm was measured at 2 mM concentration of DCA (dichloroacetic acid),Other,7265127,
-5,261154,12,1,,103364597,587821,Active,46576352.0,12293.0,20.0,Ki,Displacement of [3H]L-leucine from alpha-2delta containing calcium channel in murine brain,Confirmatory,16380257,

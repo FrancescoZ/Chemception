@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,86907,6,6,,103188288,153224,Active,399889.0,100730517.0,0.0066099999999999996,Kd,Histamine H1 receptor antagonistic activity in guinea pig ileum using fluorescence-labeled H1 as radioligand,Confirmatory,12657255.0,
-1,87365,3,8,,103188288,153224,Unspecified,,,,,Histamine H1 receptor antagonistic activity in U373MG human glioblastoma cells using fluorescence-labeled H1 as radioligand in Ca+2 assay,Other,12657255.0,
-2,1259407,1,1,,363900125,153224,Inactive,,,,,CCRIS mutagenicity studies,Other,,

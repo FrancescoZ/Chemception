@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,388272,9,2,,103645845,259611,Unspecified,113705,25508,,Km,Activity of rat recombinant peptidylglycine alpha-amidating monooxygenase assessed as stimulation of oxygen consumption,Confirmatory,18952446,
-1,388273,10,1,,103645845,259611,Unspecified,113705,25508,,,Ratio of Vm(app) to Km(app) for rat recombinant peptidylglycine alpha-amidating monooxygenase,Other,18952446,
-2,388274,3,9,,103645845,259611,Unspecified,113705,25508,,,Ratio of Vm(app) to Km(app) for rat recombinant peptidylglycine alpha-amidating monooxygenase relative to hippuric acid,Other,18952446,

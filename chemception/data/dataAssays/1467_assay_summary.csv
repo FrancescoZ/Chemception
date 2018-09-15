@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,273097,3,9,,103500569,68315,Unspecified,2501336.0,8639.0,,,Activity of human SSAO measured as hydrogen peroxide production at 1 mM relative to benzylamine oxidation,Other,17034126.0,
-1,273098,3,9,,103500569,68315,Unspecified,5902787.0,11754.0,,,Activity of mouse SSAO measured as hydrogen peroxide production at 100 uM relative to benzylamine oxidation,Other,17034126.0,
-2,303357,8,1,,103500569,68315,Unspecified,,,,EC50,Displacement of biotinylated TN14003 from CXCR4 in MDA-MB-231 cells,Confirmatory,17958344.0,
-3,445112,3,3,,103500569,68315,Unspecified,,,,,Antioxidant activity against linoleic acid assessed as inhibition of beta-carotene bleaching at 12 uM after 180 mins,Other,19822425.0,
-4,1259407,1,1,,363904120,68315,Active,,,,,CCRIS mutagenicity studies,Other,,

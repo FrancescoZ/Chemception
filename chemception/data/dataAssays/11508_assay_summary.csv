@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,126175,308507,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,1132581,1,2,,242630461,308507,Unspecified,,,,,"Hypocholesteremic activity in Sprague-Dawley rat assessed as serum cholesterol level at 10 mg/kg/day, po administered for 4 days measured 24 hrs after last dose by Liebermann-Burchard method (Rvb = 100 +/- 8%)",Other,650666.0,
-2,1132582,1,2,,242630461,308507,Unspecified,,,,,"Hypocholesteremic activity in Sprague-Dawley rat assessed as serum cholesterol level at 10 mg/kg/day, po administered for 10 days measured 24 hrs after last dose by Liebermann-Burchard method (Rvb = 100 +/- 10%)",Other,650666.0,
-3,1132583,1,2,,242630461,308507,Unspecified,,,,,"Hypocholesteremic activity in Sprague-Dawley rat assessed as serum cholesterol level at 10 mg/kg/day, po administered for 16 days measured 24 hrs after last dose by Liebermann-Burchard method (Rvb = 100 +/- 9%)",Other,650666.0,
-4,1132584,1,1,,242630461,308507,Unspecified,,,,,"Toxicity in Sprague-Dawley rat at 10 mg/kg/day, po",Other,650666.0,
-5,1132585,1,1,,242630461,308507,Unspecified,,,,,"Estrogenic activity in Sprague-Dawley rat at 10 mg/kg/day, po",Other,650666.0,

@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,330,1,1,,103555,72902,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,1159537,2,2,,252209213,72902,Inactive,,,,,qHTS screening for TAG (triacylglycerol) accumulators in algae,Screening,28652262.0,
-2,1259354,1,1,,348402034,72902,Active,534286618.0,,,,Small-molecule inhibitors of ST2 (IL1RL1),Screening,,
-3,1259407,1,1,,363904771,72902,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-4,1259416,1,2,,375183789,72902,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,

@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,26354,3,4,,103423425,154233,Unspecified,,,,,pKa value was determined,Other,2153829.0,
-1,55643,3,4,,103423425,154233,Unspecified,,,,,Binding constant to poly[d(AT)] by ethidium bromide displacement,Other,2153829.0,
-2,131482,3,5,,103423425,154233,Unspecified,,,,,In vivo increased lifespan in mice implanted intraperitoneally with wild type P388 murine leukemia cell line at the optimal dose of 100 mg/kg/day,Other,2153829.0,
-3,150522,6,2,,103423425,154233,Active,,,22.0,IC50,In vitro cell growth inhibitory activity against wild type P388 murine leukemia cell line (P388/W),Confirmatory,2153829.0,
-4,150523,6,2,,103423425,154233,Active,,,36.2,IC50,In vitro cell growth inhibitory activity against amsacrine-resistant P388 cell line (P388/A),Confirmatory,2153829.0,
-5,152987,3,5,,103423425,154233,Unspecified,,,,,Ratio of IC50 value of P388/A and P388/W cell lines,Other,2153829.0,
-6,1259407,1,1,,363902421,154233,Active,,,,,CCRIS mutagenicity studies,Other,,

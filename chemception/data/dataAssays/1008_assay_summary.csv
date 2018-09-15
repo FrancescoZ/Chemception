@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1159580,2,1,,268734758,2016,Inactive,,,,,"The chemical genetic matrix (CGM) dataset as reported in Wildenhain et al. (2015) Prediction of Synergism from Chemical-Genetic Interactions by Machine Learning. Cell Systems Volume 1, Issue 6, p383-395",Summary,,
-1,1224863,1,1,,316919587,2016,Active,90421313.0,1080.0,5.71,IC50,Phenotypic Assay to Identify Small Molecules that Upregulate Production of hCFTR in HeLa Cells,Confirmatory,,
-2,1259423,1,2,,354909891,2016,Active,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,
-3,1259423,1,2,,354927556,2016,Active,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,
-4,1259426,1,2,,354909891,2016,Active,550600288.0,5570400.0,0.039,EC50_MICROM,Counter Screen to Identify Specific Small molecule Agonists for Aedes aegypti NPYLR7 Receptor,Confirmatory,,
-5,1259427,1,2,,354909891,2016,Inactive,,,0.039,EC50_MICROM,Hit Validation Assay to Identify small molecule Aedes aegypti NPYLR7 Agonists [Small Molecule Inhibitors of Mosquito Biting Behavior],Confirmatory,,

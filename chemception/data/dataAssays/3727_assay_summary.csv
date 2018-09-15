@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,241172,6,7,,103463812,11327,Active,308153612.0,1548.0,8.3,IC50,Inhibitory concentration against human cytochrome P450 2A6,Confirmatory,15658857.0,
-1,241174,6,5,,103463812,11327,Active,117196.0,13087.0,9.9,IC50,Inhibitory concentration against mouse cytochrome P450 2A5,Confirmatory,15658857.0,
-2,241334,6,7,,103463812,11327,Active,117144.0,1544.0,7.9,IC50,Inhibitory concentration against recombinant human cytochrome P450 1A2,Confirmatory,15916432.0,
-3,242975,3,5,,103463812,11327,Unspecified,,,,,Ratio of IC50 for human CYP2A6 to that of mouse CYP2A5 was determined,Other,15658857.0,
-4,420670,5,7,,103463812,11327,Active,117196.0,13087.0,9.90832,IC50,Inhibition of mouse CYP2A5,Confirmatory,19110342.0,
-5,420671,5,7,,103463812,11327,Active,308153612.0,1548.0,8.29851,IC50,Inhibition of human CYP2A6,Confirmatory,19110342.0,
-6,603957,1,3,,103463812,11327,Unspecified,,,,,"Octanol-water partition coefficient, log P of the compound",Other,17629592.0,
-7,1259408,1,1,,363895762,11327,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,

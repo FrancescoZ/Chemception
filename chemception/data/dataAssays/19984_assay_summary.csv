@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,256,1,1,,131878,18514,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,1130592,1,1,,242629419,18514,Unspecified,,,,,"Antitumor activity against mouse P388 cells allografted in mouse assessed as increase of median life span at 100 mg/kg, ip on day 1, 5 and 9 measured up to 60 days relative to control",Other,490545.0,
-2,1130593,1,1,,242629419,18514,Inactive,,,,,"Antitumor activity against mouse P388 cells allografted in mouse assessed as disease cure at 100 mg/kg, ip on day 1, 5 and 9 measured up to 60 days",Other,490545.0,
-3,1259407,1,1,,363901685,18514,Active,,,,,CCRIS mutagenicity studies,Other,,

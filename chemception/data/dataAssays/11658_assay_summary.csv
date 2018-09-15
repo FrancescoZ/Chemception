@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1224903,1,1,,318179879,735573,Inactive,,,,,Identification of CBX7 inhibitors - Primary Alpha Screen,Screening,,
-1,1259310,1,1,,333335220,735573,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-2,1259370,2,2,,124663870,735573,Inactive,312803.0,1017.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-3,1259370,2,2,,124663870,735573,Inactive,510604.0,890.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-4,1259370,2,2,,124663870,735573,Inactive,14602917.0,994.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-5,1259389,1,1,,124663870,735573,Inactive,,,,,HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.,Screening,,

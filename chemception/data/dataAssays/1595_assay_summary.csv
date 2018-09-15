@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,261690,8,1,,103481435,8601,Unspecified,,,100.0,ED50,Antiproliferative activity against human fibroblast HFL1 cells,Confirmatory,16539380.0,
-1,261691,8,1,,103481435,8601,Unspecified,,,70.0,ED50,Antiproliferative activity against human bladder carcinoma T24 cells,Confirmatory,16539380.0,
-2,540067,7,5,,103481435,8601,Active,317373581.0,4835.0,3.3,IC50,Inhibition of human recombinant NQO2,Confirmatory,21074425.0,
-3,540069,3,8,,103481435,8601,Inactive,317373581.0,4835.0,,,Inhibition of human recombinant NQO2 at 100 uM,Other,21074425.0,
-4,1259407,1,1,,363905846,8601,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-5,1259408,1,1,,363895431,8601,Unspecified,,,,,GENE-TOX mutagenicity studies,Other,,

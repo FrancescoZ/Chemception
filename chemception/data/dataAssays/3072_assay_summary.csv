@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,116234,80170,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,256,1,1,,116234,80170,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-2,329100,3,10,,103563394,80170,Inactive,56749781.0,277328.0,,,Activation of mouse TRPA1 expressed in CHO cells at 100 uM by calcium imaging FLIPR assay,Other,17237762.0,
-3,1259407,1,1,,363900554,80170,Inactive,,,,,CCRIS mutagenicity studies,Other,,

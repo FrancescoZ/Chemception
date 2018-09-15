@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,228,1,1,,88236,69373,Inconclusive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Friend Virus Leukemia (Solid) (subcutaneous) in B6D2F1 (BDF1) mice,Other,,
-1,234,1,1,,88236,69373,Inactive,,,,,"NCI In Vivo Anticancer Drug Screen. Data for tumor model  Cystadenocarcinoma, Liver (No. 1) (Hamster) (subcutaneous) in C3AKF1 (CHKRF1) mice",Other,,
-2,248,1,1,,88236,69373,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-3,270,1,1,,88236,69373,Active,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Lewis Lung Carcinoma (subcutaneous) in B6D2F1 (BDF1) mice,Other,,
-4,310,1,1,,88236,69373,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Osteogenic Sarcoma HE 10734 (subcutaneous) in C3AKF1 (CHKRF1) mice,Other,,
-5,328,1,1,,88236,69373,Active,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-6,1259407,1,1,,363899727,69373,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,687184,1,2,,163323353,67516,Unspecified,,,,,"Dissociation constant, pKa of the compound at pH 2 to 3 by spectrophotometric analysis",Other,22616902,
-1,687185,1,2,,163323353,67516,Unspecified,,,,,"Dissociation constant, pKa of the compound at pH 11 to 12 by spectrophotometric analysis",Other,22616902,
-2,701844,1,2,,163323353,67516,Unspecified,,,,,"Dissociation constant, pKa of the compound",Other,22533875,

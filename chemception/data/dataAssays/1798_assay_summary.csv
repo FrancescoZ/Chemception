@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,457604,8,2,,103728957,108168,Unspecified,,,20.0,IC50,Inhibition of CDK2,Confirmatory,20097066.0,
-1,457612,3,7,,103728957,108168,Inactive,,,,,Inhibition of CDK2 at 50 uM,Other,20097066.0,
-2,1259407,1,1,,363904447,108168,Active,,,,,CCRIS mutagenicity studies,Other,,

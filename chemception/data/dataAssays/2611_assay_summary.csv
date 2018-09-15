@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,160321,3,3,,103418428,33743,Unspecified,,,,,Competition for [3H]benzo[a]pyrene-binding site of polycyclic aromatic hydrocarbon binding protein (PBP) from mouse liver,Other,2299644.0,
-1,1259408,1,1,,363897137,33743,Active,,,,,GENE-TOX mutagenicity studies,Other,,
-2,1259411,1,1,,363904880,33743,Active,,,,,CCRIS carcinogenicity studies,Other,,

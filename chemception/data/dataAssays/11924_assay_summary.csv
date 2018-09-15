@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,485395,1,2,,92250305,122205,Inactive,150392496,,,,A screen for compounds that inhibit the activity of Staphylococcus aureus DNA helicase,Other,,
-1,492967,1,2,,92250305,122205,Inactive,47566732,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
-2,493033,1,2,,92250305,122205,Inactive,614089026,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme MbtI,Other,,
-3,493162,1,2,,92250305,122205,Inactive,335756,,,,A screen for compounds that inhibit processive DNA synthesis of vaccinia virus,Other,,
-4,504770,1,2,,92250305,122205,Inactive,9657380,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
-5,588519,1,2,,92250305,122205,Inactive,52695378,,,,A screen for compounds that inhibit viral RNA polymerase binding and polymerization activities,Other,21722674.0,
-6,602314,1,2,,92250305,122205,Inactive,151220867,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
-7,720641,1,2,,92250305,122205,Inactive,15923709,,,,A screen for compounds that inhibit the activity of LtaS in Staphylococcus aureus,Other,,

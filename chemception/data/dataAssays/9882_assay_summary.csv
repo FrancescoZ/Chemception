@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,409527,9,5,,103588842,11031651,Active,126353,4048,0.035,IC50,Inhibition of epoxide hydrolase activity of human leukotriene A4 hydrolase assessed as LTB4 level by ELISA,Confirmatory,19090779,
-1,409528,9,5,,103588842,11031651,Active,126353,4048,0.228,IC50,Inhibition of aminopeptidase activity of human leukotriene A4 hydrolase assessed as para-nitroanilide release by spectrophotometry,Confirmatory,19090779,
-2,409529,9,5,,103588842,11031651,Active,129483,5320,7.3,IC50,Inhibition of human nonpancreatic secretory phospholipase A2,Confirmatory,19090779,
-3,410360,7,5,,103588842,11031651,Active,126353,4048,0.035,IC50,Inhibition of epoxide hydrolase activity of human recombinant leukotriene A4 hydrolase expressed in Escherichia coli assessed as LTB4 production by RP-HPLC,Confirmatory,18952425,
-4,410361,11,2,,103588842,11031651,Active,126353,4048,0.228,IC50,Inhibition of aminopeptidase activity of human recombinant leukotriene A4 hydrolase expressed in Escherichia coli assessed as p-nitroanilide release by spectrophotometry,Confirmatory,18952425,

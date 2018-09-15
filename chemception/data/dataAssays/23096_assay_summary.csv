@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1123553,1,1,,242619394,51320,Unspecified,,,,,Mutagenic activity in Salmonella typhimurium TA 100 at 5 to 100 ug by Ames test in presence of Fischer-344 rat liver S9 fraction,Other,392098.0,
-1,1123556,1,1,,242619394,51320,Unspecified,,,,,Mutagenic activity in Salmonella typhimurium TA 100 at 5 to 100 ug by Ames test in absence of Fischer-344 rat liver S9 fraction,Other,392098.0,
-2,1123557,1,1,,242619394,51320,Unspecified,,,,,Toxicity in Salmonella typhimurium TA 100 at 5 to 100 ug in presence of Fischer-344 rat liver S9 fraction,Other,392098.0,
-3,1259407,1,1,,363900080,51320,Active,,,,,CCRIS mutagenicity studies,Other,,

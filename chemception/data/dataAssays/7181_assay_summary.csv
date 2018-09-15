@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,422,1,5,,24320751,14593,Inactive,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
-1,23442,3,3,,103421169,14593,Unspecified,,,,,Partition coefficient (logP),Other,1995902.0,
-2,200690,3,4,,103421169,14593,Unspecified,,,,,Mutagenic activity in an Ames test on Salmonella Typhimurium TA98; Activity is log of revertants/nmol,Other,1995902.0,
-3,1259310,1,1,,333399700,14593,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-4,1259407,1,1,,363903095,14593,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,221770,8,1,,103387481,13130,Unspecified,,,707.0,EC50,Effective concentration to activate gammadelta T cells,Confirmatory,12383012.0,
-1,1120270,1,1,,103387481,13130,Unspecified,,,,,Conversion of compound to its pyrophosphate assessed as acid dissociation constant (first deprotonation),Other,,
-2,1120279,1,1,,103387481,13130,Unspecified,,,,,Conversion of compound to its pyrophosphate assessed as acid dissociation constant (second deprotonation),Other,,

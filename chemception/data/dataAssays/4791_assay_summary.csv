@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,624620,1,8,,136941607,921299,Unspecified,136727,7364,,,Specific activity of expressed human recombinant UGT2B7H,Other,10836148,
-1,624621,1,8,,136941607,921299,Unspecified,136727,7364,,,Specific activity of expressed human recombinant UGT2B7Y,Other,10836148,
-2,624637,3,7,,136941607,921299,Active,29839451,54600,12.0,Km,Drug glucuronidation reaction catalyzed by human recombinant UGT1A9,Confirmatory,15781124,
-3,624640,3,7,,136941607,921299,Unspecified,136727,7364,333.0,Km,Drug glucuronidation reaction catalyzed by human recombinant UGT2B7,Confirmatory,15781124,

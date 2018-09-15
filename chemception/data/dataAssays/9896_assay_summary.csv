@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,648727,3,3,,136937525,3018009,Unspecified,,,,,Antimalarial activity against chloroquine-sensitive Plasmodium falciparum 3D7,Other,22424611,
-1,661006,2,2,,136937525,3018009,Inactive,,,,IC50,Antitrypanosomal activity against Trypanosoma brucei brucei TC221 infected in mouse J774.1 cells after 72 hrs by alamar blue assay,Confirmatory,22376072,
-2,661007,2,2,,136937525,3018009,Inactive,,,,IC50,Antitrypanosomal activity against Trypanosoma brucei brucei TC221 infected in mouse J774.1 cells after 48 hrs by alamar blue assay,Confirmatory,22376072,

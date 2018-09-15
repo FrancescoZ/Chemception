@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,398944,3,3,,103618389,160246,Inactive,,,,,"Antifertility effect in CD1 mouse assessed as number of pregnant animals at 50 mg/kg, po administered postcoitally for 6 days",Other,6539809.0,
-1,578748,5,2,,103618389,160246,Unspecified,,,,,Antiinflammatory activity in human neutrophils assessed as inhibition of fMLP/CB-induced superoxide anion generation after 5 mins,Other,21353775.0,
-2,578749,5,2,,103618389,160246,Unspecified,,,,,Antiinflammatory activity in human neutrophils assessed as inhibition of fMLP/CB-induced elastase release after 5 mins,Other,21353775.0,
-3,1259407,1,1,,363900944,160246,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,130599,138203,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,615415,6,2,,134450036,138203,Active,,,11.88,IC50,Inhibition of aromatase using 7-methoxy-4-trifluoromethyl coumarin as substrate after 30 mins by fluorescence-based colorimetric analysis,Confirmatory,21703734.0,

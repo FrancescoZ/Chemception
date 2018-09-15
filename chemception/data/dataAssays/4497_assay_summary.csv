@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1259416,1,2,,340082211,3051965,Inactive,56786138,3458,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
-1,1259421,1,1,,340082211,3051965,Inactive,56786138,3458,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,

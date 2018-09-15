@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,330,1,1,,464990,10444,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,630741,4,6,,136925684,10444,Unspecified,51316800.0,206358.0,,Ki,Inhibition of human PAT1-mediated L-[3H]proline uptake in human Caco2 cells after 10 mins by liquid scintillation counting,Confirmatory,21955456.0,
-2,1259407,1,1,,363902225,10444,Active,,,,,CCRIS mutagenicity studies,Other,,
-3,1259411,1,1,,363902225,10444,Inactive,,,,,CCRIS carcinogenicity studies,Other,,

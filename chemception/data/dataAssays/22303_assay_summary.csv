@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,588478,1,2,,124800829,51371136,Inactive,4877999.0,51377.0,,,"A screen for small molecule inhibitors of the human deubiquitinating enzyme, UCH37",Other,,
-1,651828,1,2,,121361108,51371136,Inactive,127925.0,,,,A screen for compounds that inhibit nucleocapsid/RNA interactions in Rift Valley Fever Virus,Other,,
-2,1053175,2,1,,178127054,51371136,Inactive,,,,,A screen for compounds that inhibit growth of Escherichia coli,Other,,
-3,1159583,2,1,,178127054,51371136,Inactive,,,,,High throughput screen for small molecule inhibitors of a hypoxia-regulated fluorescent biosensor in Mycobacterium tuberculosis,Other,,
-4,1224905,2,1,,121361108,51371136,Inactive,120997.0,25643.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
-5,1224905,2,1,,121361108,51371136,Inactive,74356043.0,55704.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
-6,1259309,1,1,,178127054,51371136,Inactive,,,,,A screen for compounds that are lethal to S. aureus RN4220 with the processive glycosyltransferase UgtP deleted,Other,,
-7,1259311,1,1,,178127054,51371136,Inactive,,,,,A screen for compounds that are lethal to S. aureus RN4220,Other,,

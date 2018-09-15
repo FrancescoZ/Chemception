@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,328,1,1,,106475,13462,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,23442,3,3,,103420708,13462,Unspecified,,,,,Partition coefficient (logP),Other,1995902.0,
-2,200690,3,4,,103420708,13462,Unspecified,,,,,Mutagenic activity in an Ames test on Salmonella Typhimurium TA98; Activity is log of revertants/nmol,Other,1995902.0,
-3,1259407,1,1,,363900004,13462,Active,,,,,CCRIS mutagenicity studies,Other,,
-4,1259411,1,1,,363900004,13462,Active,,,,,CCRIS carcinogenicity studies,Other,,

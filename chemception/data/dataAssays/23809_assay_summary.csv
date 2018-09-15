@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,68502,21327,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,82297,11,1,,103207298,21327,Unspecified,,,11000.0,Ki,Compound was tested for the inhibition activity against HIV-1 protease,Confirmatory,,
-2,82299,3,8,,103207298,21327,Unspecified,,,,,Rate of irreversible inactivation of HIV 1 protease by the compound was determined,Other,,
-3,82909,3,8,,103207298,21327,Unspecified,,,,,Half maximal inactivation rate of compound on HIV protease,Other,,
-4,82910,3,8,,103207298,21327,Unspecified,,,,,Maximal inactivation rate of compound on HIV protease,Other,,
-5,82934,9,1,,103207298,21327,Unspecified,,,,,The compound was evaluated for irreversible inhibition of HIV-1 protease,Other,,
-6,589013,1,10,,103207298,21327,Unspecified,21264427.0,2952.0,,,Substrates for human cytosolic glutathione transferase GSTT1,Other,,
-7,1259407,1,1,,363904379,21327,Active,,,,,CCRIS mutagenicity studies,Other,,

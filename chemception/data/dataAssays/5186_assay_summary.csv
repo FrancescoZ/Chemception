@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,551122,6,7,,124967768,16717,Unspecified,113978.0,4128.0,68.6,IC50,Inhibition of human recombinant MAOA expressed in insect cells by fluorescence assay,Confirmatory,21134756.0,
-1,551126,3,8,,124967768,16717,Inactive,113980.0,4129.0,,,Inhibition of human recombinant MAOB expressed in insect cells at 100 uM by fluorescence assay,Other,21134756.0,
-2,1259407,1,1,,363900770,16717,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1259407,1,1,,363898785,37993,Active,,,,,CCRIS mutagenicity studies,Other,,
-1,1259408,1,1,,363897302,37993,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,
-2,1259411,1,1,,363898785,37993,Active,,,,,CCRIS carcinogenicity studies,Other,,

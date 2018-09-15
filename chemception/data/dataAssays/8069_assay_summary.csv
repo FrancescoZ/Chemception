@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,177424,6,2,,103183248,71755,Unspecified,,,,,Effective dose that inhibits formation of induced gastric lesions.,Other,1560433.0,
-1,178996,6,2,,103183248,71755,Unspecified,,,,,"Inhibitory activity against ethanol-induced lesions, which was administered after 1 hr of oral dosing in pylorus-ligated rat model.",Other,1560433.0,
-2,183900,3,3,,103183248,71755,Unspecified,,,,,Inhibitory activity In acidified aspirin model,Other,1560433.0,
-3,183905,3,3,,103183248,71755,Unspecified,,,,,Inhibitory activity In the indomethacin model.,Other,1560433.0,
-4,184301,3,3,,103183248,71755,Unspecified,,,,,"Evaluated for the duration of cytoprotective effect, in Ethanol-Necrosis model, that causes inhibition of ulceration. Absolute ethanol was administered at 4 hr after dosing",Other,1560433.0,
-5,184304,3,3,,103183248,71755,Unspecified,,,,,"Compound was evaluated for the duration of cytoprotective effect, in Ethanol-Necrosis model, that causes inhibition of ulceration. Absolute ethanol was administered at 6 hr after dosing",Other,1560433.0,
-6,184305,3,3,,103183248,71755,Unspecified,,,,,"Compound was evaluated for the duration of cytoprotective effect, in Ethanol-Necrosis model, that causes inhibition of ulceration. Absolute ethanol was administered at 8 hr after dosing",Other,1560433.0,
-7,1259407,1,1,,363899872,71755,Inactive,,,,,CCRIS mutagenicity studies,Other,,

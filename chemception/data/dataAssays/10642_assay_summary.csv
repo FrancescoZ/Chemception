@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,78657,67185,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,416125,9,5,,103631473,67185,Active,115449.0,759.0,37.5,Ki,Inhibition of human erythrocyte CA1 esterase activity using 4-nitrophenyl acetate substrate,Confirmatory,19231207.0,
-2,416126,9,5,,103631473,67185,Active,115456.0,760.0,0.29,Ki,Inhibition of human erythrocyte CA2 esterase activity using 4-nitrophenyl acetate substrate,Confirmatory,19231207.0,
-3,492967,1,2,,92254805,67185,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
-4,602314,1,2,,92254805,67185,Inactive,151220867.0,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
-5,1259409,1,1,,363903774,67185,Unspecified,,,,,CCRIS tumor inhibitor studies,Other,,
-6,1259416,1,2,,375166699,67185,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,

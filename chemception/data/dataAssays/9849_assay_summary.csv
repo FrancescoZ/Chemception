@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,2062,1,2,,85209929,122252,Active,,,,,Ligands of bioamine (Class A) GPCRs,Other,,
-1,145369,8,5,,103377956,122252,Active,128616.0,6530.0,0.02,Ki,Inhibition of [3H]nisoxetine binding to norepinephrine (NE) transporter,Confirmatory,14643350.0,
-2,204088,7,3,,103377956,122252,Active,,,0.0014,Ki,"Binding affinity to serotonin transporter, using [3H]citalopram as radioligand",Confirmatory,14643350.0,

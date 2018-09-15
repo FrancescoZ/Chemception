@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,23443,3,3,,103342112,6429,Unspecified,,,,,Partition coefficient (logP),Other,3882967.0,
-1,416913,3,3,,103342112,6429,Unspecified,,,,,Convulsant activity in Sprague-Dawley rat assessed as partial pressure in atmosphere at which convulsion takes place,Other,18603335.0,
-2,651828,1,2,,121362220,6429,Inactive,127925.0,,,,A screen for compounds that inhibit nucleocapsid/RNA interactions in Rift Valley Fever Virus,Other,,
-3,1224863,1,1,,316919590,6429,Inactive,90421313.0,1080.0,,IC50,Phenotypic Assay to Identify Small Molecules that Upregulate Production of hCFTR in HeLa Cells,Confirmatory,,
-4,1259407,1,1,,363906921,6429,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-5,1259423,1,2,,354948322,6429,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

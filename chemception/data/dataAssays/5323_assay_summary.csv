@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1142195,1,1,,242637487,1917817,Active,,,,,Anthelmintic activity against sexually mature Schistosoma mansoni PR-1 adult worm assessed as worm contractility and little movement at >60 uM incubated for overnight measured after 7 days drug wash-out period by stereomicroscopic analysis,Other,24775301,
-1,1142196,1,1,,242637487,1917817,Unspecified,,,78.1,EC50,Anthelmintic activity against sexually mature Schistosoma mansoni PR-1 adult worm assessed as parasite death incubated for overnight measured after 7 days drug wash-out period by stereomicroscopic analysis,Confirmatory,24775301,

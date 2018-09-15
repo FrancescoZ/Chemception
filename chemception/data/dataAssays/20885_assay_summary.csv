@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,552473,64957,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,328,1,1,,552473,64957,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-2,317434,6,2,,103575473,64957,Unspecified,,,81.0,IC50,Antimalarial activity against Plasmodium falciparum in LDH reporter assay,Confirmatory,18078758.0,
-3,317435,6,2,,103575473,64957,Active,,,49.0,IC50,Toxicity in CHO cells,Confirmatory,18078758.0,
-4,317436,4,4,,103575473,64957,Unspecified,,,,,Ratio of IC50 for CHO cells to IC50 for Plasmodium falciparum,Other,18078758.0,
-5,735073,1,2,,103575473,64957,Unspecified,,,2500.0,IC50,Displacement of SYBR green I from salmon testes DNA assessed as compound treated with DNA followed by SYBR green I added relative to control,Confirmatory,23375791.0,
-6,1259407,1,1,,363902178,64957,Inactive,,,,,CCRIS mutagenicity studies,Other,,

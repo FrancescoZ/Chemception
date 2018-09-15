@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,372,1,3,,8070726,2844776,Inactive,28949057.0,,,,HIV-1 RNase H Inhibition,Screening,,
-1,52780,9,2,,103230141,2844776,Active,,,15.0,IC50,Inhibitory activity against chymotrypsinogen,Confirmatory,11931626.0,
-2,218566,3,8,,103230141,2844776,Unspecified,,,,,"Preincubated with beta-lactamase, inhibitory activity expressed as fold decrease in IC50(ie. improved activity)",Other,11931626.0,
-3,218575,9,2,,103230141,2844776,Active,,,3.0,IC50,Inhibitory activity against beta-lactamase,Confirmatory,11931626.0,
-4,218689,3,8,,103230141,2844776,Unspecified,,,,,The effect of 10-fold increase in enzyme concentration on beta-lactamase inhibition.,Other,11931626.0,
-5,228517,7,1,,103230141,2844776,Active,,,,,Aggregates forming ability by dynamic light scattering(DLS).,Other,11931626.0,

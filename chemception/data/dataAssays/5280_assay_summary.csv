@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,422,1,5,,24326809,104949,Inactive,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
-1,1259310,1,1,,333265647,104949,Active,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-2,1259407,1,1,,363902915,104949,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-3,1259408,1,1,,363896300,104949,Active,,,,,GENE-TOX mutagenicity studies,Other,,

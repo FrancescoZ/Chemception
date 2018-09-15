@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,422,1,5,,24342967,154707,Inactive,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
-1,745,1,3,,24342967,154707,Inactive,,,,,Non-Nucleoside Inhibitor of Measles Virus RNA-Dependent RNA Polymerase Complex Activity HTS Single Point,Screening,,
-2,1224903,1,1,,318202959,154707,Inactive,,,,,Identification of CBX7 inhibitors - Primary Alpha Screen,Screening,,
-3,1259354,1,1,,348452731,154707,Inactive,534286618.0,,,,Small-molecule inhibitors of ST2 (IL1RL1),Screening,,
-4,1259370,2,2,,124625391,154707,Inactive,312803.0,1017.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-5,1259370,2,2,,124625391,154707,Inactive,510604.0,890.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-6,1259370,2,2,,124625391,154707,Inactive,14602917.0,994.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-7,1259407,1,1,,363904895,154707,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1159939,1,2,,312364022,11348,Unspecified,68068087.0,2859.0,,EC50,Agonist activity at GPR35 in human HT-29 cells assessed as induction of whole cell dynamic mass redistribution after 50 mins by resonant waveguide grating biosensor analysis,Confirmatory,,
-1,1159944,1,2,,312364022,11348,Active,68068087.0,2859.0,,,Agonist activity at GPR35 in human HT-29 cells assessed as induction of whole cell dynamic mass redistribution at 50 uM after 50 mins by resonant waveguide grating biosensor analysis in presence of GPR35 antagonist ML-145,Other,,
-2,1159950,1,2,,312364022,11348,Unspecified,68068087.0,2859.0,500.0,EC50,Agonist activity at GPR35 in human U2OS cells assessed as induction of beta-arrestin translocation after 5 hrs by beta-lactamase reporter gene assay,Confirmatory,,
-3,1159951,1,2,,312364022,11348,Unspecified,68068087.0,2859.0,,,Agonist activity at GPR35 in human HT-29 cells assessed as induction of whole cell dynamic mass redistribution after 50 mins by resonant waveguide grating biosensor analysis relative to control,Other,,
-4,1159952,1,2,,312364022,11348,Unspecified,68068087.0,2859.0,,,Agonist activity at GPR35 in human U2OS cells assessed as induction of beta-arrestin translocation after 5 hrs by beta-lactamase reporter gene assay relative to zaprinast,Other,,
-5,1259407,1,1,,363901055,11348,Inactive,,,,,CCRIS mutagenicity studies,Other,,

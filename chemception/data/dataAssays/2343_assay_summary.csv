@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,608,1,6,,11536352,558754,Inactive,17149836.0,2280.0,,,NMR Based Screening Assay for FKBP12,Other,,
-1,1033,2,2,,11536352,558754,Inactive,216546.0,,,,NMR Based Screening Assay for the substrate binding domain of the chaperone DnaK,Screening,,
-2,1549,1,2,,11536352,558754,Inactive,89033149.0,,,,NMR Based Screening Assay for Novel Chemotypes against influenza A virus,Other,,
-3,1552,1,3,,11536352,558754,Inactive,4507793.0,7334.0,,,NMR assay targeting the ubiquitin-proteasome system to modulate protein folding and degradation,Other,,
-4,1637,1,2,,11536352,558754,Inactive,,,,,NMR Based Screening Assay for Influenza A RNA Promoter,Other,,
-5,1648,1,2,,11536352,558754,Inactive,159164579.0,,,,NMR Based Screening Assay For Novel Chemical Probes Targeting The FRB Domain of mTOR,Other,,
-6,1259310,1,1,,332878814,558754,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

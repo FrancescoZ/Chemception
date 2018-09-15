@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,409953,3,9,,103590585,10461,Inactive,341940599.0,17161.0,,,Inhibition of mouse liver MAOA,Other,18834112.0,
-1,409954,4,9,,103590585,10461,Inactive,341940599.0,17161.0,,,Inhibition of mouse brain MAOA,Other,18834112.0,
-2,1259407,1,1,,363898520,10461,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-3,1259408,1,1,,363895662,10461,Active,,,,,GENE-TOX mutagenicity studies,Other,,
-4,1259411,1,1,,363898520,10461,Active,,,,,CCRIS carcinogenicity studies,Other,,

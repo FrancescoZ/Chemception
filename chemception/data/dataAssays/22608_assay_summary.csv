@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,940,1,2,,26634249,115249,Inactive,31881630.0,5732.0,,,Modulators of the EP2 prostaglandin E2 receptor - Primary Screening,Screening,,
-1,1422,1,1,,26634249,115249,Inactive,31881630.0,5732.0,,,Inhibitors of the EP2 Prostaglandin E2 Receptor - Primary Screen,Screening,,
-2,1259370,2,2,,124675453,115249,Inactive,312803.0,1017.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-3,1259370,2,2,,124675453,115249,Inactive,510604.0,890.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-4,1259370,2,2,,124675453,115249,Inactive,14602917.0,994.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-5,1259389,1,1,,124675453,115249,Inactive,,,,,HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.,Screening,,
-6,1259407,1,1,,363900097,115249,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-7,1259408,1,1,,363895958,115249,Unspecified,,,,,GENE-TOX mutagenicity studies,Other,,

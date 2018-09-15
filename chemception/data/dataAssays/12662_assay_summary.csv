@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,19825,3,3,,103408730,10485,Unspecified,,,,,Partition coefficient (logP),Other,7861411.0,
-1,37563,3,3,,103408730,10485,Unspecified,,,,,Aneuploidy activity was determined; - indicates negative induction of aneuploidy in Aspergillus nidulans,Other,7861411.0,
-2,1259407,1,1,,363898057,10485,Active,,,,,CCRIS mutagenicity studies,Other,,
-3,1259408,1,1,,363895666,10485,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,
-4,1259411,1,1,,363898057,10485,Active,,,,,CCRIS carcinogenicity studies,Other,,

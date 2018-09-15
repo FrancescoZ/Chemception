@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1159580,2,1,,268736641,76,Active,,,,,"The chemical genetic matrix (CGM) dataset as reported in Wildenhain et al. (2015) Prediction of Synergism from Chemical-Genetic Interactions by Machine Learning. Cell Systems Volume 1, Issue 6, p383-395",Summary,,
-1,1159607,2,1,,312995795,76,Inactive,,,,,Screen for inhibitors of RMI FANCM (MM2) intereaction,Other,26962873.0,
-2,1259389,1,1,,124636485,76,Inactive,,,,,HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.,Screening,,

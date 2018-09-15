@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,498535,5,1,,104236918,10637,Unspecified,,,1000.0,Ki,Inhibition of beta lactamase CTX-M assessed as hydrolysis of beta lactam by spectrometry analysis,Confirmatory,19305397,
-1,498536,4,2,,104236918,10637,Inconclusive,,,,Ki,Inhibition of beta lactamase AmpC assessed as hydrolysis of beta lactam by spectrometry analysis,Confirmatory,19305397,

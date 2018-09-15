@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,342464,3,3,,103762449,115243,Unspecified,,,,,"Dissociation constant, pKa of the compound",Other,18570365.0,
-1,1259407,1,1,,363900840,115243,Active,,,,,CCRIS mutagenicity studies,Other,,
-2,1259411,1,1,,363900840,115243,Active,,,,,CCRIS carcinogenicity studies,Other,,

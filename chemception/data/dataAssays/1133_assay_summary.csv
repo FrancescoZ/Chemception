@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,260310,5,1,,103479411,72917,Inactive,519668680.0,8843.0,,EC50,Agonistic activity at GPR109b by cAMP whole cell assay,Confirmatory,16480258.0,
-1,260311,3,7,,103479411,72917,Inactive,,,,,Activity against GPR109a upto 100 uM,Other,16480258.0,
-2,492967,1,2,,92254972,72917,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
-3,602314,1,2,,92254972,72917,Inactive,151220867.0,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
-4,667489,4,1,,103479411,72917,Unspecified,,,,IC50,Inhibition of recombinant type N-terminal His6-tagged 2 R67 DHFR expressed in Escherichia coli BL21 using DHF as substrate by spectrophotometry,Confirmatory,22424148.0,
-5,667493,1,8,,103479411,72917,Unspecified,118992.0,1719.0,,,Inhibition of human chromosomal DHFR expressed in Escherichia coli BL21 using DHF as substrate assessed as remaining activity at 30 mM by spectrophotometry relative to control,Other,22424148.0,
-6,667493,1,8,,103479411,72917,Unspecified,118992.0,573971.0,,,Inhibition of human chromosomal DHFR expressed in Escherichia coli BL21 using DHF as substrate assessed as remaining activity at 30 mM by spectrophotometry relative to control,Other,22424148.0,
-7,1259423,1,2,,354791891,72917,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,376568,6,2,,103579329,159650,Unspecified,,,,,Antibacterial activity against Mycobacterium smegmatis by microtiter plate assay,Other,10924184.0,
-1,376569,6,2,,103579329,159650,Unspecified,,,,,Antibacterial activity against Bacillus subtilis by microtiter plate assay,Other,10924184.0,
-2,376570,6,2,,103579329,159650,Unspecified,,,,,Antibacterial activity against Staphylococcus aureus by microtiter plate assay,Other,10924184.0,
-3,376571,6,2,,103579329,159650,Unspecified,,,,,Antibacterial activity against Candida albicans by microtiter plate assay,Other,10924184.0,
-4,1259407,1,1,,363901530,159650,Active,,,,,CCRIS mutagenicity studies,Other,,

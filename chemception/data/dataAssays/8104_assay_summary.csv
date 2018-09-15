@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,41271,8,1,,103334677,155425,Active,,,,,Minimum inhibitory concentration measured against Bacteroides fragilis strain,Other,3339605.0,
-1,51004,8,1,,103334677,155425,Unspecified,,,,,Minimum inhibitory concentration measured against Clostridium perfringens strain,Other,3339605.0,
-2,69326,8,1,,103334677,155425,Unspecified,,,,,Minimum inhibitory concentration measured against Escherichia coli AB1157 strain (Uvr+ Rec+),Other,3339605.0,
-3,69327,8,1,,103334677,155425,Unspecified,,,,,Minimum inhibitory concentration measured against Escherichia coli AB1885 strain (UvrB- Rec+),Other,3339605.0,
-4,69330,8,1,,103334677,155425,Unspecified,,,,,Minimum inhibitory concentration measured against Escherichia coli SR58 strain (RecA- UvrB-),Other,3339605.0,
-5,1259407,1,1,,363899432,155425,Active,,,,,CCRIS mutagenicity studies,Other,,

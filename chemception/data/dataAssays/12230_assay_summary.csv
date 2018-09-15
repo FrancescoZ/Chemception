@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,189501,7,1,,103429448,30544,Unspecified,,,,,Rate of hydroxylation by liver microsomes in rats induced with 3-MC; Rates are expressed as pmol of product per 30 min per mg of protein,Other,7401117.0,
-1,189503,7,1,,103429448,30544,Unspecified,,,,,Rate of hydroxylation by lung microsomes in rats induced with 3-MC; Rates are expressed as pmol of product per 30 min per mg of protein,Other,7401117.0,
-2,589064,1,10,,103429448,30544,Unspecified,1711591.0,6822.0,,,Major substrate of human cytosolic sulfotransferase SULT2A1,Other,,
-3,1259407,1,1,,363899029,30544,Active,,,,,CCRIS mutagenicity studies,Other,,
-4,1259408,1,1,,363897023,30544,Active,,,,,GENE-TOX mutagenicity studies,Other,,
-5,1259411,1,1,,363899029,30544,Active,,,,,CCRIS carcinogenicity studies,Other,,

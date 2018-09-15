@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,125776,3,7,,103230701,104975,Unspecified,,,,,"Percent Enantiomeric composition (R,R) of trans-Dihydrodiol formed by Microsomal Epoxide Hydrolase from rat liver at 50 mM Tris-HCl buffer, pH 8.4 at 37 degrees C",Other,,
-1,125777,3,7,,103230701,104975,Unspecified,,,,,"Percent Enantiomeric composition (S,S) of trans-Dihydrodiol formed by Microsomal Epoxide Hydrolase from rat liver at 50 mM Tris-HCl buffer, pH 8.4 at 37 degrees C",Other,,
-2,1259407,1,1,,363899936,104975,Active,,,,,CCRIS mutagenicity studies,Other,,
-3,1259408,1,1,,363895775,104975,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,

@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1117869,1,1,,242616695,13367,Active,,,,,Hemolytic activity in human RBC assessed as oxidation of hemoglobin to methemoglobin at 50 uM after 30 mins by UV-Vis spectrophotometric analysis,Other,,
-1,1117870,2,1,,242616695,13367,Unspecified,,,,,"Lipophilicity, log P of the compound at 1 mM by RP-HPLC analysis",Other,,
-2,1117871,1,1,,242616695,13367,Active,,,,,Hemolytic activity in human RBC assessed as phosphatidylserine exposure on outer leaflet of cell membrane at 50 uM after 20 mins by annexin V-FITC staining-based FACS analysis,Other,,

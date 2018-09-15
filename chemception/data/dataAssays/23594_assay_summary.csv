@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1028,1,2,,46493940,155627,Inactive,116076351.0,,,IC50,Screening for Inhibitors of the Mevalonate Pathway in Streptococcus Pneumoniae - DPM-DC - Secondary Assay,Confirmatory,,
-1,312488,3,9,,103556031,155627,Unspecified,136464.0,7276.0,,,Inhibition of human TTR amyloidogenesis assessed as fibril formation at 7.2 uM after 72 hrs by acid-mediated aggregation assay relative to control,Other,18095641.0,
-2,1259407,1,1,,363905830,155627,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,589059,1,11,,131281375,104977,Unspecified,678019022.0,6818.0,,,Major substrate of human cytosolic sulfotransferase SULT1A3,Other,,
-1,589062,1,10,,131281375,104977,Unspecified,92087007.0,27233.0,,,Major substrate of human cytosolic sulfotransferase SULT1C4,Other,,
-2,589064,1,10,,131281375,104977,Unspecified,1711591.0,6822.0,,,Major substrate of human cytosolic sulfotransferase SULT2A1,Other,,
-3,1259407,1,1,,363904460,104977,Active,,,,,CCRIS mutagenicity studies,Other,,
-4,1259411,1,1,,363904460,104977,Inactive,,,,,CCRIS carcinogenicity studies,Other,,

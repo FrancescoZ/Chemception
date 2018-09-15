@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,594382,1,11,,131275339,687126,Unspecified,74762622.0,338442.0,,,Displacement of [3H]nicotinic acid from human GPR109a receptor expressed in human HEK293T cells at 10 uM by liquid scintillation counting,Other,21167710.0,
-1,1091690,1,1,,131275339,687126,Unspecified,,,,,Herbicidal activity against Raphanus sativus var.Japanese White (radish) assessed as inhibition of seed germination at 200 ppm at 25 degC measured after 5 days,Other,19368353.0,
-2,1091691,1,1,,131275339,687126,Unspecified,,,,,Herbicidal activity against Raphanus sativus var.Japanese White (radish) assessed as inhibition of seed germination at 100 ppm at 25 degC measured after 5 days,Other,19368353.0,
-3,1091692,1,1,,131275339,687126,Unspecified,,,,,Herbicidal activity against Raphanus sativus var.Japanese White (radish) assessed as inhibition of seed germination at 50 ppm at 25 degC measured after 5 days,Other,19368353.0,
-4,1259407,1,1,,363899617,687126,Active,,,,,CCRIS mutagenicity studies,Other,,

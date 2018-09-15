@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1257714,1,1,,312467571,68107,Unspecified,308153612.0,1548.0,400.0,IC50,"BindingDB_Patents: Inhibition Assay. The inhibition of human CYP2A6-mediated 7-hydroxy coumarin formation was evaluated in the presence of 95 selected test compounds in a standard assay (Greenlee et al., J Pharmacol Exp Ther, 1978). Our first studies were with highly purified human CYP2A6 that provided a convenient and relatively high-throughput measure of CYP2A6 inhibition.",Confirmatory,,
-1,1259407,1,1,,363905577,68107,Inactive,,,,,CCRIS mutagenicity studies,Other,,

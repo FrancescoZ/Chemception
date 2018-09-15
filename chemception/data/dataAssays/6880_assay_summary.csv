@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,422,1,5,,24360189,77267,Active,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
-1,1259310,1,1,,333263602,77267,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-2,1259370,2,2,,124659364,77267,Inactive,312803.0,1017.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-3,1259370,2,2,,124659364,77267,Inactive,510604.0,890.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-4,1259370,2,2,,124659364,77267,Inactive,14602917.0,994.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
-5,1259389,1,1,,124659364,77267,Inactive,,,,,HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.,Screening,,
-6,1259408,1,1,,363896327,77267,Active,,,,,GENE-TOX mutagenicity studies,Other,,

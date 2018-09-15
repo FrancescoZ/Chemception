@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,78868,95489,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,422,1,5,,24378712,95489,Inactive,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
-2,37380,8,3,,103172875,95489,Inconclusive,,,,,In vitro binding affinity towards cortical membranes of male Sprague-Dawley rats alpha-2 adrenergic receptor by replacing [3H]clonidine; Not determined,Other,10354406.0,
-3,40666,11,1,,103172875,95489,Unspecified,,,100.0,Ki,In vitro inhibition of [3H]diazepam binding to benzodiazepine receptor in rat cerebral cortical membrane,Confirmatory,6127411.0,
-4,155141,9,2,,103172875,95489,Unspecified,,,2000.0,Ki,In vitro inhibitory activity against bovine adrenal phenylethanolamine N-methyl transferase,Confirmatory,10354406.0,
-5,155167,9,2,,103172875,95489,Unspecified,,,2000.0,Ki,In vitro inhibitory activity measured against bovine adrenal phenylethanolamine N-methyltransferase(PNMT),Confirmatory,3351861.0,
-6,1159607,2,1,,312558613,95489,Inactive,,,,,Screen for inhibitors of RMI FANCM (MM2) intereaction,Other,26962873.0,
-7,1259310,1,1,,333320723,95489,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

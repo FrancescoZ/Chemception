@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,21961,5,2,,103347185,3025803,Unspecified,,,,,Solubility was measured by shaking with water and 1 equiv of NaOH,Other,7830278.0,
-1,91173,6,2,,103347185,3025803,Active,,,0.07,IC50,In vitro inhibitory activity against superoxide production from human neutrophils stimulated with f-MLP,Confirmatory,7830278.0,
-2,1159620,1,1,,103347185,3025803,Active,,,,,Summary of drug indications.,Other,,

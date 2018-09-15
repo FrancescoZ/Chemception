@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,23231,3,3,,103165354,160332,Unspecified,,,,,Calculated partition coefficient (clogP),Other,8478900.0,
-1,70453,3,3,,103165354,160332,Unspecified,,,,,"Genotoxicity (SOSIP) on Escherichia coli PQ37 (SOS induction potential data, as a measure of genotoxicity)",Other,8478900.0,
-2,1259407,1,1,,363900148,160332,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,762059,1,1,,174487151,160814,Active,,,,,Induction of apoptosis in human HL60 cells assessed as DNA fragmentation at 10 uM after 6 hrs by electrophoretic analysis,Other,23816373.0,
-1,762060,1,1,,174487151,160814,Active,,,,,Induction of apoptosis in human HL60 cells assessed as caspase-3 activation at 10 uM after 4 hrs by FACS flow cytometric analysis,Other,23816373.0,
-2,762061,1,1,,174487151,160814,Active,,,3.41,LC50,Cytotoxicity against human HL60 cells after 24 hrs by WST-1 assay,Confirmatory,23816373.0,
-3,762062,1,1,,174487151,160814,Active,,,0.86,LC50,Cytotoxicity against human HCT116 cells after 24 hrs by MTT assay,Confirmatory,23816373.0,
-4,1259407,1,1,,363900158,160814,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,741324,1,6,,160703482,16779,Inactive,92058705.0,8321.0,,,Induction of internalization of Frizzled1-GFP (unknown origin) expressed in human U2OS cells at 12.5 uM after 6 hrs by confocal microscopy,Other,23453073.0,
-1,1259407,1,1,,363903694,16779,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-2,1259408,1,1,,363896163,16779,Unspecified,,,,,GENE-TOX mutagenicity studies,Other,,
-3,1259416,1,2,,340081079,16779,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
-4,1259421,1,1,,340081079,16779,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,

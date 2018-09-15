@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,25321,3,4,,103343714,147833,Unspecified,,,,,Acid ionization constant is determined,Other,7932579.0,
-1,48928,8,1,,103343714,147833,Unspecified,,,,,Tested for antimicrobial activity against Candida albicans (clinical isolate) at concentration of 0.01-5 uM/mL,Other,7932579.0,
-2,54999,6,1,,103343714,147833,Unspecified,,,,,Increase of calf thymus DNA denaturation temperature (delta Tm),Other,7932579.0,
-3,96015,8,1,,103343714,147833,Unspecified,,,,,Cytotoxicity in vitro against KB cell line,Other,7932579.0,
-4,123071,8,1,,103343714,147833,Unspecified,,,,,Tested for antimicrobial activity against Micrococcus luteus PCM 525 at concentration of 0.01-5 uM/mL,Other,7932579.0,
-5,206160,8,1,,103343714,147833,Unspecified,,,,,Tested for antimicrobial activity against Staphylococcus aureus PCM 458 at concentration of 0.01-5 uM/mL,Other,7932579.0,
-6,214283,8,1,,103343714,147833,Unspecified,,,,,Tested for antimicrobial activity against Trichophyton mentagrophytes (clinical isolate) at concentration of 0.01-5 uM/mL,Other,7932579.0,
-7,1259407,1,1,,363905255,147833,Active,,,,,CCRIS mutagenicity studies,Other,,

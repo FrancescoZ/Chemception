@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,41895,3,7,,103401031,71955,Unspecified,,,,,Beta-blocking activity was measured by applying the stepwise linear discriminate analysis; Active,Other,,
-1,211857,6,3,,103401031,71955,Unspecified,,,,,Compound was tested for its toxicity after intravenous administration to mice in experiment 1,Other,,
-2,211859,6,3,,103401031,71955,Unspecified,,,,,Compound was tested for its toxicity after intravenous administration to mice in experiment 2,Other,,
-3,211864,5,3,,103401031,71955,Inconclusive,,,,,Compound was tested for its toxicity after oral administration to mice in experiment 1; No data,Other,,
-4,211866,5,3,,103401031,71955,Inconclusive,,,,,Compound was tested for its toxicity after oral administration to mice in experiment 2; No data,Other,,

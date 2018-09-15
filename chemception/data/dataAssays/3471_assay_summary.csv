@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1151042,1,1,,242644210,91456,Active,,,,,"Antinociceptive activity in male white mouse at 100 mg/kg, sc by hot plate test",Other,966252,
-1,1151045,1,1,,242644210,91456,Active,,,,,"Antinociceptive activity in male white mouse at 100 mg/kg, sc by Nilsen test",Other,966252,
-2,1151047,1,1,,242644210,91456,Unspecified,,,,,Toxicity in sc dosed male white mouse,Other,966252,
-3,1151050,1,1,,242644210,91456,Unspecified,,,,,"Toxicity in male white mouse assessed as induction of convulsions at 100 mg/kg, sc",Other,966252,

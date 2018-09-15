@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,67634,8,1,,103188271,87014,Unspecified,,,348.0,ED50,Compound is measured for surviving fractions of EMT6 tumor cells treated in culture with (0.50 uM) concentration for 1 hr under aerobic condition.,Confirmatory,7452674.0,
-1,67635,8,1,,103188271,87014,Active,,,2.5,ED50,Compound is measured for surviving fractions of EMT6 tumor cells treated in culture with (0.50 uM) concentration for 1 hr under hypoxic condition.,Confirmatory,7452674.0,
-2,231332,3,4,,103188271,87014,Unspecified,,,,,Ratio of toxicity in areobic conditions to hypoxic condition of EMT6 cells,Other,7452674.0,
-3,1259407,1,1,,363901472,87014,Inactive,,,,,CCRIS mutagenicity studies,Other,,

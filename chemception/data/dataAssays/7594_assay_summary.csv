@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,25611,3,3,,103329983,6954,Unspecified,,,,,Dissociation constant (pKa),Other,6802973.0,
-1,26261,4,3,,103329983,6954,Unspecified,,,,,Partition coefficient (logD7.2),Other,6802973.0,
-2,26793,3,3,,103329983,6954,Unspecified,,,,,Partition coefficient (logP),Other,6802973.0,
-3,40623,7,2,,103329983,6954,Unspecified,,,8030.0,IC50,Inhibitory activity on germination of Bacillus subtilis PCI219 spores was determined.,Confirmatory,6802973.0,
-4,40936,7,1,,103329983,6954,Unspecified,,,,,"Inhibition of Bacillus subtilis PCI219 spore germination, expressed as log 1/I50",Other,6802973.0,
-5,1259407,1,1,,363901056,6954,Active,,,,,CCRIS mutagenicity studies,Other,,
-6,1259408,1,1,,363895118,6954,Unspecified,,,,,GENE-TOX mutagenicity studies,Other,,

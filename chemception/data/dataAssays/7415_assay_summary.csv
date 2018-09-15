@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,19630,3,3,,103354738,3080591,Unspecified,,,,,Partition coefficient (logP),Other,9371243.0,
-1,85482,6,2,,103354738,3080591,Active,,,2.6,IC50,Antiproliferative (inhibition of cell growth) activity against HaCaT cells (human keratinocyte line),Confirmatory,9371243.0,
-2,85486,4,1,,103354738,3080591,Unspecified,,,,,Cytotoxic activity (2 uM) was measured by the amount of LDH (mU) release in HaCaT cells.,Other,9371243.0,
-3,160507,6,7,,103354738,3080591,Active,75066909.0,,18.0,IC50,5-LO inhibitory activity was determined by inhibition of LTB4 biosynthesis in bovine polymorphonuclear leukocytes (PMNL),Confirmatory,9371243.0,
-4,231071,3,4,,103354738,3080591,Unspecified,,,,,Peroxidant property was expressed as ratio of uMol of malondialdehyde and mMol of deoxyribose released by 75 uM test compound,Other,9371243.0,
-5,233178,5,1,,103354738,3080591,Unspecified,,,,,"Antioxidant potential was assessed from reducing activity against 2,2,di-phenyl-1-picrylhydrazyl.",Other,9371243.0,
-6,1148347,1,1,,103354738,3080591,Unspecified,,,,,Tumor promoting activity in ICR/Ha Swiss mouse at 15 ug administered three times a week measured for 370 days,Other,619147.0,
-7,1259407,1,1,,363899989,3080591,Inactive,,,,,CCRIS mutagenicity studies,Other,,

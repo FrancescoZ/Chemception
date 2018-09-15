@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,247905,6,2,,103447324,15731,Unspecified,,,200.0,IC50,Cytotoxicity of compound against human liver tumor cell line (Hep-G2) was determined,Confirmatory,15582432.0,
-1,1059430,1,4,,103447324,15731,Unspecified,123948.0,3620.0,,,Inhibition of recombinant human IDO1 expressed in Escherichia coli EC538 using L-tryptophan as substrate at 1 mM after 1 hr relative to control,Other,24262887.0,
-2,1259407,1,1,,363900930,15731,Inactive,,,,,CCRIS mutagenicity studies,Other,,

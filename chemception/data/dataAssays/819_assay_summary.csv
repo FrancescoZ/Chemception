@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,477864,5,3,,103750643,64685,Unspecified,,,237.0,EC50,Allosteric modulation at GABA A receptor alpha-1-beta-2-gamma-2S expressed in Xenopus oocytes assessed as enhancement of GABA-induced chloride current,Confirmatory,20210326.0,
-1,624606,1,9,,103750643,64685,Unspecified,136729.0,54658.0,,,Specific activity of expressed human recombinant UGT1A1,Other,10836148.0,
-2,624608,3,2,,103750643,64685,Unspecified,136731.0,54657.0,,,Specific activity of expressed human recombinant UGT1A4,Other,10836148.0,
-3,1090507,1,1,,103750643,64685,Unspecified,,,,,Antifungal activity against Colletotrichum gloeosporioides assessed as growth inhibition at 4 uL in 2 mM acetone by direct bioautography,Other,16939314.0,
-4,1090508,1,1,,103750643,64685,Unspecified,,,,,Antifungal activity against Colletotrichum fragariae assessed as growth inhibition at 4 uL in 2 mM acetone by direct bioautography,Other,16939314.0,
-5,1090509,1,1,,103750643,64685,Unspecified,,,,,Antifungal activity against Colletotrichum acutatum assessed as growth inhibition at 4 uL in 2 mM acetone by direct bioautography,Other,16939314.0,
-6,1159580,2,1,,268736322,64685,Inactive,,,,,"The chemical genetic matrix (CGM) dataset as reported in Wildenhain et al. (2015) Prediction of Synergism from Chemical-Genetic Interactions by Machine Learning. Cell Systems Volume 1, Issue 6, p383-395",Summary,,
-7,1259310,1,1,,321949462,64685,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

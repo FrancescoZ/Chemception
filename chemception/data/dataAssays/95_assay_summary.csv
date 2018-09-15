@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,495064,3,4,,104239164,30185,Unspecified,,,,,Inhibition of JAK-mediated GM-CSF-induced Stat5 phosphorylation in human U937 cells by Phospho-Flow cytometry at 20 uM,Other,18157122.0,
-1,495065,3,4,,104239164,30185,Unspecified,,,,,Inhibition of JAK-mediated interferon-gamma-induced Stat1 phosphorylation in human U937 cells by Phospho-Flow cytometry at 20 uM,Other,18157122.0,
-2,495066,3,5,,104239164,30185,Unspecified,2499600.0,1432.0,,,Inhibition of anisomycin-induced p38 phosphorylation in human U937 cells by Phospho-Flow cytometry at 20 uM,Other,18157122.0,
-3,495066,3,5,,104239164,30185,Unspecified,2851522.0,6300.0,,,Inhibition of anisomycin-induced p38 phosphorylation in human U937 cells by Phospho-Flow cytometry at 20 uM,Other,18157122.0,
-4,495066,3,5,,104239164,30185,Unspecified,6685642.0,5603.0,,,Inhibition of anisomycin-induced p38 phosphorylation in human U937 cells by Phospho-Flow cytometry at 20 uM,Other,18157122.0,
-5,495066,3,5,,104239164,30185,Unspecified,134047835.0,5600.0,,,Inhibition of anisomycin-induced p38 phosphorylation in human U937 cells by Phospho-Flow cytometry at 20 uM,Other,18157122.0,
-6,1259389,1,1,,175607983,30185,Inactive,,,,,HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.,Screening,,

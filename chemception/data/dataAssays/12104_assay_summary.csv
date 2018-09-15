@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,492060,3,10,,103768231,5844100,Unspecified,117293.0,1588.0,,,Inhibition of human aromatase at 20 ug/ml preincubated with NADP+ for 10 mins before substrate addition measured after 30 mins,Other,20558073.0,
-1,492061,5,7,,103768231,5844100,Active,117293.0,1588.0,7.83,Km,Inhibition of human aromatase at IC50 concentration preincubated with NADP+ for 10 mins before substrate addition measured after 30 mins,Confirmatory,20558073.0,
-2,492062,8,5,,103768231,5844100,Active,117293.0,1588.0,7.47,IC50,Inhibition of human aromatase preincubated with NADP+ for 10 mins before substrate addition measured after 30 mins,Confirmatory,20558073.0,
-3,492064,3,10,,103768231,5844100,Unspecified,117293.0,1588.0,,,Inhibition of human aromatase assessed per mg of protein at IC50 concentration preincubated with NADP+ for 10 mins before substrate addition measured after 30 mins,Other,20558073.0,
-4,1259407,1,1,,363904736,5844100,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,15823,3,4,,103163908,146896,Unspecified,,,,,"Formation of metabolite by rabbit liver microsomal preparation in absence of NADPH, at 2 hours",Other,3874963.0,
-1,15824,3,4,,103163908,146896,Unspecified,,,,,"Formation of metabolite by rabbit liver microsomal preparation in presence of Co-O2 (90:10),at 2 hour",Other,3874963.0,
-2,15825,3,4,,103163908,146896,Unspecified,,,,,"Formation of metabolite by rabbit liver microsomal preparation in presence of N2,at 2 hour",Other,3874963.0,
-3,15826,3,4,,103163908,146896,Unspecified,,,,,"Formation of metabolite by rabbit liver microsomal preparation in presence of NADPH, at 2 hours",Other,3874963.0,
-4,15827,3,4,,103163908,146896,Unspecified,,,,,"Formation of metabolite by rabbit liver microsomal preparation in presence of SKF525A,at 2 hour",Other,3874963.0,
-5,1259407,1,1,,363900138,146896,Inactive,,,,,CCRIS mutagenicity studies,Other,,

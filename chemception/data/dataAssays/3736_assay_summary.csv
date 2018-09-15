@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,24235,3,3,,103427628,2112217,Unspecified,,,,,Partition coefficient (logP),Other,7120277,
-1,38394,5,7,,103427628,2112217,Active,117206.0,24300.0,15.1356,IC50,Inhibitory potency to aminopyrine N-demethylase activity (P450) in hepatic microsomes from phenobarbitone-induced rats.,Confirmatory,7120277,

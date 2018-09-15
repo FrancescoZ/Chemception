@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,155316,3,9,,103174371,66015,Unspecified,130374.0,281413.0,,,Molar pI50 value for phenylethanolamine N-methyl-transferase (PNMT) inhibition,Other,3339613,
-1,155317,3,9,,103174371,66015,Unspecified,130374.0,281413.0,,,Acid dissociation constant of phenylethanolamine N-methyl-transferase (PNMT) inhibition,Other,3339613,
-2,225081,6,1,,103174371,66015,Unspecified,,,,,Inhibition of phenylethanolamine N-methyltransferase(PNMT)activity,Other,6876077,

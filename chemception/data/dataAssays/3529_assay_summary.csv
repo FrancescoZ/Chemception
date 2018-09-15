@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1811,3,2,,46391399,64955,Active,157829696.0,,,,Experimentally measured binding affinity data derived from PDB,Other,9560188,
-1,31891,6,2,,103387445,64955,Unspecified,,,350.0,IC50,Inhibitory activity against ASV (avian sarcoma virus) integrase; Range 40-350 uM,Confirmatory,11063607,
-2,91417,9,5,,103387445,64955,Active,82312013.0,,0.47,IC50,Inhibitory concentration to inhibit HIV-1 integrase by 3' -processing method,Confirmatory,9083480,
-3,91574,6,4,,103387445,64955,Active,,,15.0,Kd,Kd value against HIV-1 integrase; Range 4-15 uM,Confirmatory,11063607,
-4,93683,6,4,,103387445,64955,Active,,,17.0,IC50,Inhibitory activity against HIV-1 integrase; Range 2 and 17 uM,Confirmatory,11063607,
-5,93685,9,5,,103387445,64955,Active,82312013.0,,0.29,IC50,Inhibitory concentration against HIV-1 integrase by strand transfer method,Confirmatory,9083480,
-6,977608,3,1,,46391399,64955,Active,157829696.0,,800.0,IC50,Experimentally measured binding affinity data (IC50) for protein-ligand complexes derived from PDB,Other,9560188,

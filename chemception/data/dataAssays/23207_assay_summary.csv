@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,2808,1,2,,57287901,1102210,Inactive,83699673.0,27035.0,17.0,IC50,Late-stage luminescence-based cell-based dose response assay to identify inhibitors of NADPH oxidase 1 (NOX1): Purchased analogs,Confirmatory,,
-1,588678,1,1,,104233711,1102210,Inactive,23505220.0,813594.0,,Average IC50,QFRET-based biochemical high throughput dose response assay for inhibitors of the Plasmodium falciparum M18 Aspartyl Aminopeptidase (PFM18AAP),Confirmatory,,
-2,588679,1,1,,104233711,1102210,Inactive,23497510.0,812021.0,,Average M17 IC50,Counterscreen for inhibitors of PFM18AAP: QFRET-based biochemical high throughput dose response assay for inhibitors of the Plasmodium falciparum M17 Leucine Aminopeptidase (PFM17LAP),Confirmatory,,
-3,588680,1,1,,104233711,1102210,Inactive,23615263.0,813945.0,,Average PFM1AAP IC50,Counterscreen for inhibitors of PFM18AAP: QFRET-based biochemical high throughput dose response assay for inhibitors of the Plasmodium falciparum M1AAP (PFM1AAP),Confirmatory,,
-4,588696,1,1,,104233711,1102210,Inactive,291191219.0,,,Average hM18AAP IC50,Counterscreen for inhibitors of PFM18AAP: QFRET-based biochemical high throughput dose response assay for inhibitors of the human M18 Aspartyl Aminopeptidase (hM18AAP),Confirmatory,,
-5,588714,1,1,,104233711,1102210,Active,,,50.0,Average CC50,Vero Cytoxicity Assay: A Cell Based Secondary Assay To Explore Cytotoxicity of Compounds that Inhibit Plasmodium falciparum M18 Aspartyl Aminopeptidase (PFM18AAP),Confirmatory,,
-6,1259407,1,1,,363906619,1102210,Active,,,,,CCRIS mutagenicity studies,Other,,

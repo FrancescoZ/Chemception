@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,52141,6,3,,103229468,14146249,Active,,,2.0,IC50,Evaluated in vitro for its ability to inhibit prostaglandin E2 production in cultured chondrocyte cells at 25 mg/kg dose,Confirmatory,2970548.0,
-1,183690,3,3,,103229468,14146249,Unspecified,,,,,Evaluated for the inhibition of adjuvant-induced hind paw edema in rats at 25 mg/kg dose,Other,2970548.0,
-2,1259407,1,1,,363903355,14146249,Inactive,,,,,CCRIS mutagenicity studies,Other,,

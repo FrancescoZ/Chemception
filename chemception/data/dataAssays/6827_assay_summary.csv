@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,320370,7,5,,103578427,77281,Inactive,116242604.0,3832.0,,Ki,Inhibition of human Eg5 basal ATPase activity,Confirmatory,18266314,
-1,320371,6,2,,103578427,77281,Inconclusive,,,,EC50,Induction of mitotic arrest in human HeLa cells assessed as monoastral spindle formation after 24 hrs,Confirmatory,18266314,

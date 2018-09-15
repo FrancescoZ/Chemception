@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1811,3,2,,46392273,161970,Active,2194057.0,,,,Experimentally measured binding affinity data derived from PDB,Other,8946852.0,
-1,977611,3,1,,46392273,161970,Active,2194057.0,,0.13,Kd,Experimentally measured binding affinity data (Kd) for protein-ligand complexes derived from PDB,Other,8946852.0,
-2,1259407,1,1,,363900544,161970,Inactive,,,,,CCRIS mutagenicity studies,Other,,

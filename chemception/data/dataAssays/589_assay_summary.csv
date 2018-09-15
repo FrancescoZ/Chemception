@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,248,1,1,,425137,12436,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,1201,1,2,,48414855,12436,Active,,,,,DSSTox (DBPCAN) EPA Water Disinfection By-Products with Carcinogenicity Estimates,Other,,
-2,1259407,1,1,,363905421,12436,Active,,,,,CCRIS mutagenicity studies,Other,,

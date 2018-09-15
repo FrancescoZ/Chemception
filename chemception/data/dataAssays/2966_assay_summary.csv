@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,67525,6,2,,103240340,405383,Unspecified,,,200.0,IC50,In vitro growth inhibition against Entamoeba histolytica,Confirmatory,14695831,
-1,72651,9,2,,103240340,405383,Unspecified,,,100.0,IC50,Inhibitory activity against Leishmania major Farnesyl diphosphate synthase,Confirmatory,14695831,
-2,96034,8,1,,103240340,405383,Unspecified,,,964.0,LD50,Toxicity evaluated against human nasopharyngeal carcinoma KB cell line,Confirmatory,14695831,
-3,158550,6,2,,103240340,405383,Active,,,18.4,IC50,In vitro growth inhibition against Plasmodium falciparum,Confirmatory,14695831,
-4,235248,3,4,,103240340,405383,Unspecified,,,,,Therapeutic index was expressed as ratio of LD50 for KB cell line to IC50 against Plasmodium falciparum,Other,14695831,
-5,496819,4,2,,103240340,405383,Active,,,18.0,IC50,Antimicrobial activity against Plasmodium falciparum,Confirmatory,20185316,
-6,496826,4,2,,103240340,405383,Unspecified,,,200.0,IC50,Antimicrobial activity against Entamoeba histolytica,Confirmatory,20185316,

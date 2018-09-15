@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,478861,4,6,,103752947,6436048,Active,6165987.0,29716.0,0.037000000000000005,IC50,Antagonist activity at rat Cav1.3 expressed in HEK293 cells assessed as inhibition of voltage pulse-induced calcium current by FLIPR calcium 4 assay,Confirmatory,20382537.0,
-1,478862,4,6,,103752947,6436048,Active,116411.0,100144322.0,0.037000000000000005,IC50,Antagonist activity at rabbit Cav1.2 expressed in HEK293 cells assessed as inhibition of voltage pulse-induced calcium current by FLIPR calcium 4 assay,Confirmatory,20382537.0,
-2,478863,3,3,,103752947,6436048,Unspecified,,,,,Selectivity ratio of IC50 for rabbit Cav1.2 to IC50 for rat Cav1.3,Other,20382537.0,
-3,589039,1,10,,103752947,6436048,Unspecified,116241312.0,1576.0,,,"Clinically relevant substrates of human liver microsomal P450 enzymes, isoform CYP3A4",Other,,
-4,1259407,1,1,,363904616,6436048,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-5,1259416,1,2,,340084708,6436048,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
-6,1259421,1,1,,340084708,6436048,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,

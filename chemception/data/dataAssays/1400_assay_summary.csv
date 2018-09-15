@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,192,1,1,,136481,317024,Inconclusive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  B16 Melanoma (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-1,248,1,1,,136481,317024,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-2,270,1,1,,136481,317024,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Lewis Lung Carcinoma (subcutaneous) in B6D2F1 (BDF1) mice,Other,,
-3,328,1,1,,136481,317024,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
-4,330,1,1,,136481,317024,Inconclusive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,

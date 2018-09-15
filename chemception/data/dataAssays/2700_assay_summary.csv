@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,23442,3,3,,103421342,44379045,Unspecified,,,,,Partition coefficient (logP),Other,1995902,
-1,200691,3,4,,103421342,44379045,Inactive,,,,,Mutagenic activity in Salmonella Typhimurium TA98 using Ames test; Activity is log of revertants / nmol; a= inactive,Other,1995902,

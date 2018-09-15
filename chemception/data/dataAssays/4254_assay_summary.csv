@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,39948,8,2,,103202965,2725073,Active,,,0.12589,Kd,In vitro ability to block beta-1 adrenergic receptor in guinea pig right atria.,Confirmatory,6130153,
-1,40876,8,5,,103202965,2725073,Active,81914759.0,100722663.0,1.2589299999999999,Kd,In vitro ability to block beta-2 adrenergic receptor in guinea pig trachea.,Confirmatory,6130153,
-2,228304,3,3,,103202965,2725073,Unspecified,,,,,Cardioselectivity expressed as antilog of pA2 (atria)-pA2 (trachea).,Other,6130153,

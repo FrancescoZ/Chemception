@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,422,1,5,,24360194,223462,Inactive,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
-1,504180,5,2,,104245331,223462,Unspecified,,,,IC50,Antitubercular activity against Mycobacterium tuberculosis H37Rv after 7 days,Confirmatory,20727773.0,
-2,1259310,1,1,,333263162,223462,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

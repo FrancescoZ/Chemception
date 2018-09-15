@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1102812,1,1,,194142957,18554,Unspecified,,,,,Antimicrobial activity against Escherichia coli O157:H7 ATCC 43894 assessed as growth inhibition rate at 3.64 mg/l after 72 hr by spectrophotometry,Other,14969531.0,
-1,1102843,1,1,,194142957,18554,Unspecified,,,,,Antimicrobial activity against Staphylococcus aureus ATCC 25923 assessed as growth inhibition rate at 3.64 mg/l after 72 hr by spectrophotometry,Other,14969531.0,
-2,1102874,1,1,,194142957,18554,Unspecified,,,,,Antimicrobial activity against Listeria monocytogenes ATCC 19111 assessed as growth inhibition rate at 3.64 mg/l after 72 hr by spectrophotometry,Other,14969531.0,
-3,1102905,1,1,,194142957,18554,Unspecified,,,,,Antimicrobial activity against Vibrio parahaemolyticus ATCC 33844 assessed as growth inhibition rate at 3.64 mg/l after 72 hr by spectrophotometry,Other,14969531.0,
-4,1102936,1,1,,194142957,18554,Unspecified,,,,,Antimicrobial activity against Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028 assessed as growth inhibition rate at 3.64 mg/l after 72 hr by spectrophotometry,Other,14969531.0,
-5,1102967,1,1,,194142957,18554,Unspecified,,,,,Antimicrobial activity against Bacillus cereus ATCC 11778 assessed as growth inhibition rate at 3.64 mg/l after 72 hr by spectrophotometry,Other,14969531.0,
-6,1259407,1,1,,363902337,18554,Inactive,,,,,CCRIS mutagenicity studies,Other,,

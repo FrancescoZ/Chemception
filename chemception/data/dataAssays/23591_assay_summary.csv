@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1133642,1,1,,160687345,91667,Unspecified,,,,,Antiinflammatory activity in rat assessed as inhibition of cotton pellet-induced granuloma weight administered topically measured per pellet,Other,836493.0,
-1,1133643,1,1,,160687345,91667,Unspecified,,,,,Thymolytic activity in rat assessed as inhibition of thymus weight administered topically measured per pellet,Other,836493.0,
-2,1133644,1,1,,160687345,91667,Inactive,,,,,Antiinflammatory activity in po dosed rat assessed as inhibition of cotton pellet-induced granuloma weight administered bid for 7 days,Other,836493.0,
-3,1133645,1,1,,160687345,91667,Unspecified,,,,,Thymolytic activity in po dosed rat assessed as inhibition of thymus weight administered bid for 7 days,Other,836493.0,
-4,1133646,1,1,,160687345,91667,Unspecified,,,,,"Mineralocorticoid activity in rat assessed as sodium retention up to 1 mg/kg, sc",Other,836493.0,
-5,1259407,1,1,,363900635,91667,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,332370,3,4,,103617946,124219,Unspecified,,,,,Inhibition of thrombin-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before thrombin challenge by turbidimetric method,Other,8176404.0,
-1,332371,3,4,,103617946,124219,Unspecified,,,,,Inhibition of arachidonic acid-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before arachidonic acid challenge by turbidimetric method,Other,8176404.0,
-2,332372,3,4,,103617946,124219,Unspecified,,,,,Inhibition of collagen-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before collagen challenge by turbidimetric method,Other,8176404.0,
-3,332373,3,4,,103617946,124219,Unspecified,,,,,Inhibition of platelet activating factor-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before platelet activating factor challenge by turbidimetric method,Other,8176404.0,
-4,332378,3,4,,103617946,124219,Unspecified,,,,,Antiplatelet activity against rabbit platelet assessed as inhibition of arachidonic acid-induced platelet aggregation treated 3 mins before arachidonic acid challenge by turbidimetric method,Other,8176404.0,
-5,354698,6,2,,103617946,124219,Unspecified,,,,,Antiviral activity against Hepatitis B virus infected in human Hep3B cells assessed as suppression of viral surface antigen secretion after 48 hrs by enzyme immunoassay,Other,8882438.0,
-6,354701,3,4,,103617946,124219,Inactive,,,,,Cytotoxicity against human Hep3B cells at >20 mg/mL by MTT assay,Other,8882438.0,
-7,1259407,1,1,,363904382,124219,Active,,,,,CCRIS mutagenicity studies,Other,,

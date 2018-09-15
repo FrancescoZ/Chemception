@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,242065,9,5,,103456255,5355577,Active,74765145.0,,17.0,IC50,Inhibition of Plasmodium falciparum cyclin-dependent kinase,Confirmatory,15481979.0,
-1,416351,9,5,,103456255,5355577,Active,74765145.0,,17.0,IC50,Inhibition of His6x-tagged Plasmodium falciparum Pfmrk expressed in Escherichia coli by microtiter plate scintillation counting,Confirmatory,19250824.0,
-2,416352,6,2,,103456255,5355577,Unspecified,,,302.0,IC50,Inhibition of His6x-tagged Plasmodium falciparum PfPK5 expressed in Escherichia coli by microtiter plate scintillation counting,Confirmatory,19250824.0,
-3,416353,6,2,,103456255,5355577,Active,,,10.9,IC50,Antimalarial activity after 24 hrs against chloroquine-sensitive Plasmodium falciparum D6 by [3H]hypoxanthine uptake,Confirmatory,19250824.0,
-4,416354,6,2,,103456255,5355577,Active,,,9.9,IC50,Antimalarial activity after 24 hrs against chloroquine-resistant Plasmodium falciparum W2 by [3H]hypoxanthine uptake,Confirmatory,19250824.0,
-5,1259407,1,1,,363900166,5355577,Inactive,,,,,CCRIS mutagenicity studies,Other,,

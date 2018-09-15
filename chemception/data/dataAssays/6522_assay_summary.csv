@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,516575,3,3,,123085215,11815329,Inactive,,,,,Inhibition of Escherichia coli MurA,Other,20729083,
-1,516576,4,2,,123085215,11815329,Inconclusive,,,,IC50,Inhibition of Escherichia coli MurA at 25 uM,Confirmatory,20729083,
-2,516577,3,4,,123085215,11815329,Inactive,,,,,Inhibition of Escherichia coli MurA C115D mutant at 25 uM,Other,20729083,
-3,516578,3,4,,123085215,11815329,Inactive,,,,,Antimicrobial activity against Escherichia coli BL21 assessed as growth inhibition at 200 uM after 24 hrs,Other,20729083,
-4,516581,1,3,,123085215,11815329,Unspecified,,,,,"Electrophilicity, glutathione reactivity of the compound assessed as half life",Other,20729083,
-5,516842,3,4,,123085215,11815329,Inactive,,,,,Antimicrobial activity against Escherichia coli BL21 assessed as growth inhibition at 200 uM in presence of minimum medium,Other,20729083,

@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,167927,3,3,,103287215,74691,Unspecified,,,,,Carcinogenic activity on all sites after oral administration,Other,7265110.0,
-1,167939,3,3,,103287215,74691,Unspecified,,,,,Carcinogenic activity on breast after oral administration of the compound,Other,7265110.0,
-2,167951,3,3,,103287215,74691,Unspecified,,,,,Carcinogenic activity on ear duct after oral administration of the compound; - denotes non carcinogenic activity.,Other,7265110.0,
-3,168085,3,3,,103287215,74691,Unspecified,,,,,Carcinogenic activity on liver after oral administration of the compound,Other,7265110.0,
-4,168112,3,3,,103287215,74691,Unspecified,,,,,Carcinogenic activity after oral administration,Other,7265110.0,
-5,1259407,1,1,,363904954,74691,Active,,,,,CCRIS mutagenicity studies,Other,,

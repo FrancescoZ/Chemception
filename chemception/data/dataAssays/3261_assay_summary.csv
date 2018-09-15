@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,502206,7,2,,104245340,80409,Active,,,3.2,IC50,"Inhibition of indoleamine-2,3-dioxygenase",Confirmatory,20688518,
-1,502207,7,5,,104245340,80409,Active,123948.0,3620.0,1.1,IC50,"Inhibition of indoleamine-2,3-dioxygenase in human A431 cells assessed as inhibition of IFN-gamma-stimulated kynurenine production",Confirmatory,20688518,

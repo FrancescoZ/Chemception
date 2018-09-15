@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,311524,4,3,,103558561,3044368,Unspecified,,,,,Oral bioavailability in human,Other,17870541.0,
-1,1189129,1,1,,103558561,3044368,Active,,,17.85,IC50,"DNDI: Chagas in Vitro, 96 hour",Confirmatory,,
-2,1189130,1,1,,103558561,3044368,Active,,,43.18,IC50,"DNDI: Cytotoxicity in Vitro, 72 hour, in rat skeletal myoblast cells",Confirmatory,,
-3,1189131,1,1,,103558561,3044368,Unspecified,,,38.56,IC50,"DNDI: Cytotoxicity in Vitro, 96 hour, in mouse macrophages (infected-amastigotes)",Confirmatory,,
-4,1189132,1,1,,103558561,3044368,Active,,,39.72,IC50,"DNDI: Cytotoxicity in Vitro, 96 hour, in primary peritoneal mouse macrophages",Confirmatory,,
-5,1189133,1,1,,103558561,3044368,Active,,,4.78,IC50,"DNDI: HAT in Vitro, 72 hour",Confirmatory,,
-6,1189134,1,1,,103558561,3044368,Active,,,48.58,IC50,"DNDI: Leish (axenic) in Vitro, 72 hour",Confirmatory,,
-7,1189135,1,1,,103558561,3044368,Active,,,28.19,IC50,"DNDI: Leish (macro) in Vitro, 96 hour",Confirmatory,,

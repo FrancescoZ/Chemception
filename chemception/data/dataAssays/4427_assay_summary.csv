@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,372,1,3,,8048693,154871,Inactive,28949057.0,,,,HIV-1 RNase H Inhibition,Screening,,
-1,1259407,1,1,,363901410,154871,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-2,1259416,1,2,,375188504,154871,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,

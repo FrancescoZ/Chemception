@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,330,1,1,,459257,73934,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,343683,3,3,,103603816,73934,Unspecified,,,,,"Octanol-water partition coefficient, log P of the compound",Other,18558667.0,
-2,343684,3,3,,103603816,73934,Unspecified,,,,,"Alkane-water partition coefficient, log P of the compound",Other,18558667.0,
-3,1259407,1,1,,363899670,73934,Inactive,,,,,CCRIS mutagenicity studies,Other,,

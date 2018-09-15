@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,6882,9,2,,103366786,53271,Active,,,33.0,IC50,Inhibitory activity against 5-lipoxygenase (inhibition of 5-HETE and LTB4 biosynthesis) in bovine polymorphonuclear leukocytes (PMNL).,Confirmatory,8258834.0,
-1,25770,5,1,,103366786,53271,Unspecified,,,,,"Reducing activity against 2,2-diphenyl-1-picrylhydrazyl",Other,8258834.0,
-2,54297,6,3,,103366786,53271,Active,,,4.0,IC50,Tested for the inhibition of lipid peroxidation in bovine brain phospholipid liposomes,Confirmatory,8258834.0,
-3,228687,3,3,,103366786,53271,Unspecified,,,,,Deoxyribose-damaging property as a measure of hydroxyl-radical formation (uM test compound),Other,8258834.0,
-4,1259407,1,1,,363899991,53271,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-5,1259408,1,1,,363897857,53271,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,

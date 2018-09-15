@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,330,1,1,,460170,65689,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
-1,423379,6,2,,103687766,65689,Unspecified,,,10.0,IC50,Cytotoxicity against human A549 cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
-2,423380,6,2,,103687766,65689,Active,,,6.6,IC50,Cytotoxicity against human HCT8 cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
-3,423381,6,3,,103687766,65689,Active,,,7.5,IC50,Cytotoxicity against human Bel7402 cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
-4,423382,6,3,,103687766,65689,Active,,,3.8,IC50,Cytotoxicity against human PC3M cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
-5,1259407,1,1,,363900612,65689,Active,,,,,CCRIS mutagenicity studies,Other,,

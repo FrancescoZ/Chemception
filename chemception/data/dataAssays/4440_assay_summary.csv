@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,371504,6,2,,103590752,5355204,Active,,,1.39,IC50,Antiamnesic activity against Entamoeba histolytica HMI:IMSS after 72 hrs by microdilution method,Confirmatory,18068273.0,
-1,661075,1,3,,103590752,5355204,Unspecified,,,,,Antidiabetic activity in mouse 3T3L1 cells assessed as decrease in glucose consumption from cell culture medium using 450 mg/dL D-glucose at 30 ug/mL after 24 hrs (Rvb = 310 +/- 4 mg/dl),Other,22608392.0,
-2,670950,1,2,,103590752,5355204,Inactive,,,,,Antibacterial activity against methicillin-sensitive Staphylococcus aureus ATCC 25923 at 256 ug/ml after 24 hrs by disc diffusion method,Other,22727643.0,
-3,670957,1,2,,103590752,5355204,Inactive,,,,,Antibacterial activity against methicillin-resistant Staphylococcus aureus ATCC 43300 at 256 ug/ml after 24 hrs by disc diffusion method,Other,22727643.0,
-4,1259407,1,1,,363900170,5355204,Inactive,,,,,CCRIS mutagenicity studies,Other,,

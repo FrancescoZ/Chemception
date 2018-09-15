@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,404439,13,2,,103641766,7871,Unspecified,14916950.0,540446.0,,IC50,Inhibition of bovine AChE,Confirmatory,18479118.0,
-1,407780,14,1,,103641766,7871,Unspecified,113037.0,43.0,,IC50,Inhibition of human AChE,Confirmatory,18479118.0,
-2,1259407,1,1,,363901366,7871,Inactive,,,,,CCRIS mutagenicity studies,Other,,

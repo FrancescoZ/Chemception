@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,307154,6,1,,103549851,8899,Unspecified,,,,,Solubility in chloroform,Other,17382542.0,
-1,307155,6,1,,103549851,8899,Unspecified,,,,,Solubility in ethyl acetate solution,Other,17382542.0,
-2,307156,6,1,,103549851,8899,Unspecified,,,,,Solubility in ethanol,Other,17382542.0,
-3,1259407,1,1,,363902784,8899,Inactive,,,,,CCRIS mutagenicity studies,Other,,

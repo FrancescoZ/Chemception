@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1166445,1,1,,312360726,114895,Unspecified,,,,,Antiviral activity against HIV1 infected in human A3.01 cells assessed as inhibition of viral replication at 1.5 ug/ml,Other,25260957.0,
-1,1166447,1,1,,312360726,114895,Active,,,0.29,IC50,Antiviral activity against HIV1 infected in human A3.01 cells assessed as inhibition of viral replication,Confirmatory,25260957.0,
-2,1166451,1,1,,312360726,114895,Active,,,,,Antiviral activity against HIV1 infected in human A3.01 cells assessed as complete inhibition of viral replication at 1.50 uM,Other,25260957.0,
-3,1166452,1,1,,312360726,114895,Unspecified,,,,,"Therapeutic index, ratio of CC50 for human A3.01 cells to IC50 for HIV1 infected in human A3.01 cells",Other,25260957.0,
-4,1259407,1,1,,363900142,114895,Active,,,,,CCRIS mutagenicity studies,Other,,

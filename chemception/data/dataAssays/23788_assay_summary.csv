@@ -1,8 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,2062,1,2,,85220233,72006,Active,,,,,Ligands of bioamine (Class A) GPCRs,Other,,
-1,41895,3,7,,103401176,72006,Unspecified,,,,,Beta-blocking activity was measured by applying the stepwise linear discriminate analysis; Active,Other,,
-2,211857,6,3,,103401176,72006,Unspecified,,,,,Compound was tested for its toxicity after intravenous administration to mice in experiment 1,Other,,
-3,211859,6,3,,103401176,72006,Unspecified,,,,,Compound was tested for its toxicity after intravenous administration to mice in experiment 2,Other,,
-4,211863,6,3,,103401176,72006,Unspecified,,,,,Compound was tested for its toxicity after oral administration to mice in experiment 1,Other,,
-5,211865,6,3,,103401176,72006,Unspecified,,,,,Compound was tested for its toxicity after oral administration to mice in experiment 2,Other,,
-6,1259407,1,1,,363900465,72006,Inactive,,,,,CCRIS mutagenicity studies,Other,,

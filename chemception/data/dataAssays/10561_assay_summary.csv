@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,977610,3,1,,170481148,3050,Active,56965893.0,,250.0,Ki,Experimentally measured binding affinity data (Ki) for protein-ligand complexes derived from PDB,Other,16188223.0,
-1,1259310,1,1,,333473331,3050,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

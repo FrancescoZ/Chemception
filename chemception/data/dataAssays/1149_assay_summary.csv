@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,449703,5,2,,103713521,45489039,Active,,,0.0982,EC50,NOVARTIS: Inhibition of Plasmodium falciparum 3D7 (drug-susceptible) proliferation in erythrocyte-based infection assay,Confirmatory,18579783,
-1,449704,5,2,,103713521,45489039,Active,,,0.0386,EC50,NOVARTIS: Inhibition of Plasmodium falciparum W2 (drug-resistant) proliferation in erythrocyte-based infection assay,Confirmatory,18579783,
-2,449705,5,2,,103713521,45489039,Active,,,1.2109999999999999,CC50,NOVARTIS: Cytotoxicity against human hepatocellular carcinoma cell line (Huh7),Confirmatory,18579783,
-3,449706,5,2,,103713521,45489039,Unspecified,,,,,"NOVARTIS: Inhibition Frequency Index (IFI) - the number of HTS assays where a compound showed > 50% inhibition/induction, expressed as a percentage of the number of assays in which the compound was tested.",Other,18579783,
-4,602156,1,1,,131334778,45489039,Inactive,,,,IC50,Novartis GNF Liver Stage Dataset: Malariabox Annotation,Other,22096101,

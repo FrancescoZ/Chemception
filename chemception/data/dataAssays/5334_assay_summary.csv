@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,27535,4,3,,103430021,96081,Inconclusive,,,,,Lethal dose is determined in mice (iv); ND denotes no data,Other,,
-1,187922,4,3,,103430021,96081,Inconclusive,,,,,Antiinflammatory activity using carrageenan-induced paw edema method in rat at a dose 5 mg/kg ip after 1 hr; No data,Other,,
-2,187924,4,3,,103430021,96081,Inconclusive,,,,,Antiinflammatory activity using carrageenan-induced paw edema method in rat at a dose 5 mg/kg ip after 2 hr; No data,Other,,
-3,188048,4,3,,103430021,96081,Inconclusive,,,,,Antiinflammatory activity using carrageenan-induced paw edema method in rat at a dose 5 mg/kg ip after 3 hr; No data,Other,,
-4,1259407,1,1,,363901843,96081,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1192875,1,1,,312383472,94523,Unspecified,,,,,Induction of ABCA1 mRNA expression in human HepG2 cells at 5 uM relative to control,Other,25677664.0,
-1,1192876,1,1,,312383472,94523,Unspecified,,,,,Induction of SREBP-1c mRNA expression in human HepG2 cells at 5 uM relative to control,Other,25677664.0,
-2,1192877,1,1,,312383472,94523,Unspecified,,,,,Ratio of induction of ABCA1 mRNA expression to SREBP-1c mRNA expression in human HepG2 cells at 5 uM,Other,25677664.0,
-3,1259310,1,1,,333078558,94523,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-4,1259407,1,1,,363902912,94523,Inactive,,,,,CCRIS mutagenicity studies,Other,,

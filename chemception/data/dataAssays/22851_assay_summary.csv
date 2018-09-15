@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,9478,3,5,,103189530,83907,Unspecified,,,,,Activity to reduce the surviving fraction to 10% (CT10) was used as an inverse measure of cytotoxic potency in aerobic conditions,Other,7707327.0,
-1,9646,6,2,,103189530,83907,Unspecified,,,250.0,IC50,Growth inhibition activity was measured in repair proficient AA8 cells under aerobic conditions (4 hours drug exposure),Confirmatory,7707327.0,
-2,215307,6,2,,103189530,83907,Unspecified,,,90.0,IC50,Growth inhibition activity was measured in repair deficient UV4 cells under aerobic conditions (4 hours drug exposure),Confirmatory,7707327.0,
-3,230686,3,4,,103189530,83907,Unspecified,,,,,Ratio of activities reducing surviving fraction to 10% (T10) under aerobic vs hypoxic conditions,Other,7707327.0,
-4,1259407,1,1,,363899268,83907,Inactive,,,,,CCRIS mutagenicity studies,Other,,

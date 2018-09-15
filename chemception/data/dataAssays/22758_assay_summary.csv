@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,89369,3,6,,103353702,121053,Unspecified,,,,,"Transthyretin (TTR) amyloidogenesis inhibition activity by employing an acid-mediated (pH 4.4) WTTTR amyloid fibril formation assay, at 7.2 uM conc.",Other,14711308.0,
-1,722622,1,6,,103353702,121053,Unspecified,47117844.0,232333.0,,,Binding affinity to mouse GAT1 expressed in HEK293 cells membranes assessed as remaining [2H10]NO711 binding level at 10 uM using LC-ESI-MS/MS analysis by [2H10]NO711 binding inhibition assay,Other,23336362.0,
-2,1259407,1,1,,363901114,121053,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,25092,4,3,,103254975,15477,Unspecified,,,,,Ionization constant (pKa),Other,2066976.0,
-1,25595,3,5,,103254975,15477,Unspecified,,,,,Dissociation constant was evaluated,Other,8667357.0,
-2,26397,3,3,,103254975,15477,Unspecified,,,,,"Dissociation constant (pKa, calculated using GNN method)",Other,9435905.0,
-3,1259407,1,1,,363899261,15477,Active,,,,,CCRIS mutagenicity studies,Other,,

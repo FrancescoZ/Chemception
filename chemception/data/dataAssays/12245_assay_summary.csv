@@ -1,6 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,1189,1,5,,48413146,34210,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary SingleCellCall Results,Other,,
-1,1194,1,3,,48413146,34210,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Salmonella Mutagenicity,Other,,
-2,1208,1,3,,48413146,34210,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary Rat Bioassay Results,Other,,
-3,1259407,1,1,,363898685,34210,Inactive,,,,,CCRIS mutagenicity studies,Other,,
-4,1259408,1,1,,363897151,34210,Active,,,,,GENE-TOX mutagenicity studies,Other,,

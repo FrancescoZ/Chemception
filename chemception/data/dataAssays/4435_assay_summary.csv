@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,23442,3,3,,103386806,5356340,Unspecified,,,,,Partition coefficient (logP),Other,1995902.0,
-1,90472,6,2,,103386806,5356340,Unspecified,,,51.0,IC50,Inhibitory activity against phytohemagglutininin A-induced proliferation of human lymphocytes,Confirmatory,9822551.0,
-2,100427,6,2,,103386806,5356340,Active,,,26.0,IC50,Tested in vitro for anti-leishmanial activity against Leishmania donovani,Confirmatory,9822551.0,
-3,200690,3,4,,103386806,5356340,Unspecified,,,,,Mutagenic activity in an Ames test on Salmonella Typhimurium TA98; Activity is log of revertants/nmol,Other,1995902.0,
-4,1259310,1,1,,332953656,5356340,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-5,1259407,1,1,,363899623,5356340,Inactive,,,,,CCRIS mutagenicity studies,Other,,

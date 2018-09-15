@@ -1,3 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,38849,7,2,,103328709,122113,Active,,,0.01995,IC50,Inhibition of angiotensin I converting enzyme in silico,Confirmatory,9379435,
-1,38850,11,1,,103328709,122113,Active,,,0.065,IC50,Inhibition of Angiotensin I converting enzyme,Confirmatory,2983076,

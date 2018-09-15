@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,357617,3,4,,103601233,154143,Unspecified,,,,,Antiplatelet activity against washed rabbit platelet assessed as inhibition of arachidonic acid-induced platelet aggregation at 100 ug/mL pre-incubated 3 mins before arachidonic acid challenge by turbidimetric method,Other,11575945.0,
-1,357622,3,4,,103601233,154143,Unspecified,,,,,Antiplatelet activity against washed rabbit platelet assessed as inhibition of collagen-induced platelet aggregation at 100 ug/mL pre-incubated 3 mins before collagen challenge by turbidimetric method,Other,11575945.0,
-2,357625,3,4,,103601233,154143,Unspecified,,,,,Antiplatelet activity against washed rabbit platelet assessed as inhibition of platelet activating factor-induced platelet aggregation at 100 ug/mL pre-incubated 3 mins before PAF challenge by turbidimetric method,Other,11575945.0,
-3,1259407,1,1,,363906378,154143,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,328635,6,2,,103562448,164950,Active,,,18.19,IC50,Antiinflammatory activity in human neutrophils assessed as inhibition of formyl-L-methionyl-L-leucyl-L-phenylalanine/cytochalasin B-induced superoxide anion generation,Confirmatory,18211005.0,
-1,328636,6,2,,103562448,164950,Unspecified,,,50.0,IC50,Antiinflammatory activity in human neutrophils assessed as inhibition of formyl-L-methionyl-L-leucyl-L-phenylalanine/cytochalasin B-induced elastase release,Confirmatory,18211005.0,
-2,1259407,1,1,,363906377,164950,Active,,,,,CCRIS mutagenicity studies,Other,,

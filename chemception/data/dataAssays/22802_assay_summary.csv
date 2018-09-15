@@ -1,5 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,273211,3,4,,103500702,477413,Unspecified,,,,,Viability of human HeLa S3 cells,Other,17034123.0,
-1,273212,3,4,,103500702,477413,Inactive,,,,,Antiviral activity against poliovirus in HeLa S3 cells assessed as reduction in viral titer,Other,17034123.0,
-2,273213,3,4,,103500702,477413,Inactive,,,,,Antiviral activity against coxsackievirus B3 in HeLa S3 cells assessed as reduction in viral titer,Other,17034123.0,
-3,1259407,1,1,,363906188,477413,Inactive,,,,,CCRIS mutagenicity studies,Other,,

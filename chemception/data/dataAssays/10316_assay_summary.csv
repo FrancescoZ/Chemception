@@ -1,4 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,38071,6,2,,103265415,2733414,Unspecified,,,100.0,IC50,In vitro cytotoxicity against murine B16 melanoma cells,Confirmatory,3681888,
-1,115142,4,3,,103265415,2733414,Unspecified,,,,,"Maximally tolerated dose was measured after ip administration of compound, 24 hr after tumor implantation.",Other,3681888,
-2,153809,4,5,,103265415,2733414,Unspecified,,,,,Maximum increase in life span was determined against P388 leukemia at 4-5 doses of compound,Other,3681888,

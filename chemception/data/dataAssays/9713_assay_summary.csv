@@ -1,9 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,372,1,3,,8091145,2298790,Inactive,28949057.0,,,,HIV-1 RNase H Inhibition,Screening,,
-1,425,3,2,,17458404,2298790,Inactive,16758752.0,116663.0,,IC50,MKP-3 in vitro HTS assay,Confirmatory,,
-2,521,2,5,,17458404,2298790,Inactive,18375660.0,5778.0,,IC50,"HTS Discovery of Chemical Inhibitors of HePTP, a Leukemia Target",Confirmatory,,
-3,583,2,6,,17458404,2298790,Inactive,123271505.0,,,IC50,High Throughput Screening Assay for Hsp70 Inhibitors,Confirmatory,,
-4,1010,1,6,,17458404,2298790,Inactive,,,,,High Throughput Screen for Inhibitors of ER Stress-induced Cell Death,Screening,,
-5,1240,1,4,,17458404,2298790,Inactive,27894344.0,3164.0,,,Fluorescence Polarization Screen Assay for Bcl-B Phenotype Converters,Screening,,
-6,1992,1,2,,17458404,2298790,Inactive,4758208.0,1845.0,,,HTS Colorimetric assay for the identification of compounds that inhibit VHR1,Screening,,
-7,1259310,1,1,,333099178,2298790,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

@@ -1,7 +1,0 @@
-,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
-0,144578,5,1,,103283138,51134,Unspecified,,,,,Ability to inhibit 100%growth against Mycobacterium tuberculosis H37Rv in Youman's medium,Other,2509708.0,
-1,144579,5,1,,103283138,51134,Unspecified,,,,,Ability to inhibit 100%growth against Mycobacterium tuberculosis H37Rv in Youman's medium with 10% bovine serum,Other,2509708.0,
-2,144583,5,1,,103283138,51134,Unspecified,,,,,Ability to inhibit partial growth (50+/-10%) against Mycobacterium tuberculosis H37Rv in Youman's medium,Other,2509708.0,
-3,144584,5,1,,103283138,51134,Unspecified,,,,,Ability to inhibit partial growth (50+/-10%) against Mycobacterium tuberculosis H37Rv in Youman's medium with 10% bovine serum,Other,2509708.0,
-4,1259310,1,1,,333271468,51134,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
-5,1259407,1,1,,363900610,51134,Inactive,,,,,CCRIS mutagenicity studies,Other,,
