@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,248,1,1,,101283,83273,Active,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+1,252,1,1,,101283,83273,Active,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intracerebral) in B6D2F1 (BDF1) mice,Other,,
+2,1259408,1,1,,363896800,83273,Active,,,,,GENE-TOX mutagenicity studies,Other,,
+3,1259411,1,1,,363903224,83273,Active,,,,,CCRIS carcinogenicity studies,Other,,

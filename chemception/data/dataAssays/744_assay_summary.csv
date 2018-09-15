@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1082383,1,1,,194155072,81749,Unspecified,,,,,Inhibition of Brassica rapa subsp. oleifera root growth at 10 mg/L,Other,21838297.0,
+1,1082384,1,1,,194155072,81749,Unspecified,,,,,Inhibition of Brassica rapa subsp. oleifera at 100 mg/L,Other,21838297.0,
+2,1082385,1,4,,194155072,81749,Unspecified,124372.0,824015.0,,,Inhibition of Arabidopsis thaliana AHAS at 100 mg/L colorimetric assay,Other,21838297.0,
+3,1259423,1,2,,354781971,81749,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

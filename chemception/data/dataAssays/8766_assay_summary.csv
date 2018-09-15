@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,977599,1,1,,194161764,119446,Unspecified,,,,,Inhibition of sodium fluorescein uptake in OATP1B1-transfected CHO cells at an equimolar substrate-inhibitor concentration of 10 uM,Other,23571415.0,
+1,977602,1,2,,194161764,119446,Unspecified,,,,,Inhibition of sodium fluorescein uptake in OATP1B3-transfected CHO cells at an equimolar substrate-inhibitor concentration of 10 uM,Other,23571415.0,
+2,1259407,1,1,,363900546,119446,Inactive,,,,,CCRIS mutagenicity studies,Other,,

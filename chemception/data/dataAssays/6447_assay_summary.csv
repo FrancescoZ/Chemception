@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,71649,3,4,,124976121,65131,Unspecified,,,,,Inhibitory activity against cellular differentiation in Friend erythroleukemia cells as percentage of benzidine - positive cells.,Other,3861870.0,
+1,71650,8,1,,124976121,65131,Unspecified,,,8000.0,ID50,Inhibitory activity against cellular replication in Friend erythroleukemia cells as growth inhibition.,Confirmatory,3861870.0,
+2,71651,3,4,,124976121,65131,Unspecified,,,,,Inhibitory activity against cellular differentiation in Friend erythroleukemia cells as optimal concentration required for maximum activity.,Other,3861870.0,
+3,82319,8,1,,124976121,65131,Unspecified,,,8000.0,ID50,Inhibitory activity against cellular replication in hypoxanthine-guanine phosphoribosyltransferase (HGPRT-) HL-60 cells.,Confirmatory,3861870.0,
+4,584546,4,4,,124976121,65131,Inactive,,,,IC50,Inhibition of inosine/L-alanine-induced Bacillus anthracis Sterne 34F2 spore germination pretreated for 15 mins before inosine/L-alanine challenge,Confirmatory,20921305.0,
+5,584547,4,4,,124976121,65131,Inactive,,,,IC50,Antibacterial activity against Bacillus anthracis Sterne 34F2 infected in mouse J774A.1 cells assessed as protection against bacteria-induced cytotoxicity using propidium iodide staining after 3 hrs measured every hours for up to 7 hrs,Confirmatory,20921305.0,
+6,584550,1,4,,124976121,65131,Unspecified,,,,,Cytotoxicity against mouse J774A1 cells,Other,20921305.0,
+7,584552,2,3,,124976121,65131,Unspecified,,,,,Increase of Bacillus anthracis Sterne 34F2-induced cytotoxicity in mouse J774A.1 cells using propidium iodide staining measured after 5 hrs infection,Other,20921305.0,
+8,1259407,1,1,,363906192,65131,Inactive,,,,,CCRIS mutagenicity studies,Other,,

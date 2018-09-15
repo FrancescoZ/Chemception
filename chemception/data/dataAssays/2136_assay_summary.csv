@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1201,1,2,,48414733,6327,Active,,,,,DSSTox (DBPCAN) EPA Water Disinfection By-Products with Carcinogenicity Estimates,Other,,
+1,23443,3,3,,103341195,6327,Unspecified,,,,,Partition coefficient (logP),Other,3882967.0,
+2,1259407,1,1,,363899074,6327,Active,,,,,CCRIS mutagenicity studies,Other,,
+3,1259408,1,1,,363894999,6327,Active,,,,,GENE-TOX mutagenicity studies,Other,,

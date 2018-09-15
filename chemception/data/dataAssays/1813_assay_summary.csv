@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,266246,7,6,,103489896,69481,Inconclusive,1172435.0,6564.0,,EC50,Activation of human PEPT1 expressed in MDCK cells,Confirmatory,16759105,
+1,266247,4,10,,103489896,69481,Unspecified,1172435.0,6564.0,,,Activation of human PEPT1 expressed in MDCK cells relative to Gly-Sar,Other,16759105,
+2,266249,7,6,,103489896,69481,Inactive,1172435.0,6564.0,,IC50,Binding affinity to human PEPT1 assessed as inhibition of [14C]Gly-Sar uptake in MDCK cells,Confirmatory,16759105,
+3,388081,7,2,,103489896,69481,Unspecified,,,,,Antifungal activity at Candida albicans,Other,18805690,
+4,388086,7,2,,103489896,69481,Unspecified,,,,,Antibacterial activity at Escherichia coli,Other,18805690,
+5,388088,6,2,,103489896,69481,Unspecified,,,,,Antifungal activity at Candida albicans assessed as concentration required to lower the MIC of fluconazole from 32 to 1 ug/mL after 48 hrs,Other,18805690,
+6,388089,6,2,,103489896,69481,Unspecified,,,,,Antibacterial activity at Escherichia coli assessed as concentration required to lower the MIC of erythromycin from 64 to 1 ug/mL after 24 hrs,Other,18805690,
+7,680762,1,8,,103489896,69481,Unspecified,12643959.0,10599.0,,,"TP_TRANSPORTER: inhibition of E1S uptake (E1S: 0.004 uM, Gly4: 5000 uM) in Xenopus laevis oocytes",Other,12906759,
+8,682118,1,8,,103489896,69481,Unspecified,12643959.0,10599.0,,,"TP_TRANSPORTER: inhibition of E1S uptake (E1S: 0.004 uM, Gly5: 5000 uM) in Xenopus laevis oocytes",Other,12906759,
+9,781326,1,2,,103489896,69481,Unspecified,,,,,pKa (acid-base dissociation constant) as determined by Avdeef ref: DOI: 10.1002/047145026X,Other,24249037,

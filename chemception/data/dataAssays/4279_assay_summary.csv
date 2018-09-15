@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,252792,6,1,,103443559,4604,Unspecified,,,,,Insulin release in rat pancreatic beta-cells after 15 minutes of administration at 1 mM was measured,Other,15686937.0,
+1,545994,5,3,,103443559,4604,Active,,,21.7,Ki,Inhibition of Trypanosoma cruzi dihydroorotate dehydrogenase by isothermal titration calorimetry,Confirmatory,20965617.0,
+2,1259416,1,2,,340085893,4604,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
+3,1259421,1,1,,340085893,4604,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,

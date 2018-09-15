@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,25047,3,4,,103410711,135665,Unspecified,,,,,Lipophilicity expressed as the negative logarithm of the equilibrium constant,Other,11831901.0,
+1,98543,4,4,,103410711,135665,Active,,,17.0,IC50,Inhibition of L1210 cell growth by 50%,Confirmatory,11831901.0,
+2,134968,3,3,,103410711,135665,Inconclusive,,,,,Percent increase in life span of compound-treated mice bearing Lewis lung carcinoma; NA denotes not available,Other,11831901.0,
+3,134969,3,3,,103410711,135665,Inconclusive,,,,,Percent increase in life span of compound-treated mice bearing P388 leukemia; NA denotes not available,Other,11831901.0,
+4,162408,3,3,,103410711,135665,Unspecified,,,,,Binding constant to Poly (dA-dT) determined by ethidium bromide displacement,Other,11831901.0,
+5,162548,3,3,,103410711,135665,Unspecified,,,,,Binding constant to Poly (dG-dC) determined by ethidium bromide displacement,Other,11831901.0,
+6,1259407,1,1,,363902406,135665,Active,,,,,CCRIS mutagenicity studies,Other,,

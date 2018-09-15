@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1159387,1,2,,242456058,2952,Unspecified,,,,,"ASTRAZENECA: Octan-1-ol/water (pH7.4) distribution coefficent measured  by a shake flask method described in J. Biomol. Screen. 2011, 16, 348-355. Experimental range -1.5 to 4.5",Other,,
+1,1159607,2,1,,312310334,2952,Inactive,,,,,Screen for inhibitors of RMI FANCM (MM2) intereaction,Other,26962873.0,
+2,1259423,1,2,,355021286,2952,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

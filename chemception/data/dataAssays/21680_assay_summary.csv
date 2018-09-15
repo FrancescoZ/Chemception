@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,68897,8317,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,68897,8317,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,68897,8317,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,68897,8317,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,68897,8317,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,68897,8317,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,256,1,1,,68897,8317,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+7,41229,8,7,,103373702,8317,Inactive,231632.0,596.0,,,In vitro inhibition of Bak-Bh3 peptide binding to the Bcl-2 using human myeloid leukemia cell line HL-60; Inactive,Other,11728179.0,

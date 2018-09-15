@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,34050,3,6,,103196768,6407,Unspecified,,,,,Evaluated in vitro for inhibition of mitochondrial aldehyde dehydrogenase (AIDH) activity in intact rat liver mitochondria (0.2 mM),Other,6541256.0,
+1,34052,3,6,,103196768,6407,Unspecified,,,,,Evaluated in vitro for inhibition of mitochondrial aldehyde dehydrogenase activity in intact rat liver mitochondria (1.0 mM),Other,6541256.0,
+2,1259407,1,1,,363898802,6407,Inactive,,,,,CCRIS mutagenicity studies,Other,,

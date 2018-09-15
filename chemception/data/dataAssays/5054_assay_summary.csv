@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,86863,6,2,,103332731,3010943,Unspecified,,,50,EC50,Tested for inhibition of HCV RNA replication in a cell-basedassay; No significant inhibition,Confirmatory,15149686,
+1,146536,9,5,,103332731,3010943,Unspecified,81952007.0,,51,IC50,Inhibitory potency against NS5B HCV polymerase,Confirmatory,15149686,

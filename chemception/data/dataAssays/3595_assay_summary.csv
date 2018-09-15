@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,75229,14371,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,75229,14371,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,75229,14371,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,75229,14371,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,75229,14371,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,75229,14371,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,624609,1,9,,136941602,14371,Unspecified,29840832.0,54578.0,,,Specific activity of expressed human recombinant UGT1A6,Other,10836148.0,
+7,624611,1,9,,136941602,14371,Unspecified,29839637.0,54576.0,,,Specific activity of expressed human recombinant UGT1A8,Other,10836148.0,
+8,624613,1,9,,136941602,14371,Unspecified,29839636.0,54575.0,,,Specific activity of expressed human recombinant UGT1A10,Other,10836148.0,
+9,624619,3,2,,136941602,14371,Unspecified,136727.0,7364.0,,,Specific activity of expressed human recombinant UGT2B7,Other,10836148.0,
+10,1259407,1,1,,363899013,14371,Active,,,,,CCRIS mutagenicity studies,Other,,
+11,1259408,1,1,,363895995,14371,Active,,,,,GENE-TOX mutagenicity studies,Other,,

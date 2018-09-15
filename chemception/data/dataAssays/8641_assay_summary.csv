@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,383158,3,7,,103621699,5281662,Unspecified,,,,,Inhibition of acetylcholinesterase at 10 uM by Ellman's method,Other,18336006,
+1,383159,3,7,,103621699,5281662,Unspecified,,,,,Inhibition of monoamine oxidase A at 10 uM,Other,18336006,
+2,383160,3,7,,103621699,5281662,Unspecified,,,,,Inhibition of monoamine oxidase B at 10 uM,Other,18336006,
+3,761770,1,1,,103621699,5281662,Unspecified,,,126.0,IC50,Inhibition of Saccharomyces cerevisiae alpha-glucosidase using p-nitrophenyl-alpha-D-glucopyranoside as substrate preincubated for 15 mins,Confirmatory,23805995,

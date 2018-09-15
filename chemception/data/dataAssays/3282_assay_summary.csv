@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,23674,3,4,,103376239,15719,Unspecified,,,,,Partition coefficient (logP),Other,7381843,
+1,184568,3,4,,103376239,15719,Unspecified,,,,,Tested for inhibition of edema growth in rat,Other,7381843,
+2,1136186,1,1,,103376239,15719,Unspecified,,,,,Antiinflammatory activity in Wistar rat assessed as inhibition of carrageenan-induced paw edema administered 30 mins prior challenge measured after 3 hrs,Other,300806,
+3,1136187,1,1,,103376239,15719,Unspecified,,,,,Acute toxicity in ip dosed ddY mouse measured after 168 hrs,Other,300806,

@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,342464,3,3,,103734424,11723,Unspecified,,,,,"Dissociation constant, pKa of the compound",Other,18570365,
+1,781327,1,2,,103734424,11723,Unspecified,,,,,pKa (acid-base dissociation constant) as determined by Morgenthaler ref: ChemMedChem 2007,Other,24249037,

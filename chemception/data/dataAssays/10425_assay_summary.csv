@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,608,1,6,,11537579,85,Inactive,17149836.0,2280.0,,,NMR Based Screening Assay for FKBP12,Other,,
+1,1033,2,2,,11537579,85,Inactive,216546.0,,,,NMR Based Screening Assay for the substrate binding domain of the chaperone DnaK,Screening,,
+2,1549,1,2,,11537579,85,Inactive,89033149.0,,,,NMR Based Screening Assay for Novel Chemotypes against influenza A virus,Other,,
+3,1552,1,3,,11537579,85,Inactive,4507793.0,7334.0,,,NMR assay targeting the ubiquitin-proteasome system to modulate protein folding and degradation,Other,,
+4,1637,1,2,,11537579,85,Inactive,,,,,NMR Based Screening Assay for Influenza A RNA Promoter,Other,,
+5,1648,1,2,,11537579,85,Inactive,159164579.0,,,,NMR Based Screening Assay For Novel Chemical Probes Targeting The FRB Domain of mTOR,Other,,
+6,1159580,2,1,,268735739,85,Inactive,,,,,"The chemical genetic matrix (CGM) dataset as reported in Wildenhain et al. (2015) Prediction of Synergism from Chemical-Genetic Interactions by Machine Learning. Cell Systems Volume 1, Issue 6, p383-395",Summary,,
+7,1224863,1,1,,316919725,85,Inactive,90421313.0,1080.0,,IC50,Phenotypic Assay to Identify Small Molecules that Upregulate Production of hCFTR in HeLa Cells,Confirmatory,,
+8,1259416,1,2,,340085170,85,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
+9,1259421,1,1,,340085170,85,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,
+10,1259423,1,2,,354927442,85,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,
+11,1259423,1,2,,354935678,85,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

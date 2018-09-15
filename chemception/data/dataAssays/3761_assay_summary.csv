@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1259310,1,1,,332947087,80251,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+1,1259407,1,1,,363905972,80251,Active,,,,,CCRIS mutagenicity studies,Other,,
+2,1259423,1,2,,355017641,80251,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

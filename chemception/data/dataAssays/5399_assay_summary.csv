@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1098869,1,2,,194177608,87176,Unspecified,,,,,Insecticidal activity against Chilo suppressalis (rice stem borer) assessed as mortality compound administered as topical application,Other,,
+1,1100305,1,1,,194177608,87176,Unspecified,,,,,Ratio of EC50 for Daphnia magna to EC50 for first instar larvae of Cheumatopsyche brevilineata,Other,26.0,
+2,1100306,1,1,,194177608,87176,Unspecified,,,,,Insecticidal activity against first-instar larvae of Cheumatopsyche brevilineata after 48 hr,Other,26.0,
+3,1100307,1,1,,194177608,87176,Unspecified,,,,,"Octanol-water partition coefficient, log KOW of the compound",Other,26.0,
+4,1100309,1,1,,194177608,87176,Unspecified,,,,,Insecticidal activity against Daphnia magna after 48 hr,Other,26.0,
+5,1259370,2,2,,124600198,87176,Inactive,312803.0,1017.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
+6,1259370,2,2,,124600198,87176,Inactive,510604.0,890.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
+7,1259370,2,2,,124600198,87176,Inactive,14602917.0,994.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,

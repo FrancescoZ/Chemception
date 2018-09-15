@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,383158,3,7,,103621700,5281659,Unspecified,,,,,Inhibition of acetylcholinesterase at 10 uM by Ellman's method,Other,18336006.0,
+1,383159,3,7,,103621700,5281659,Unspecified,,,,,Inhibition of monoamine oxidase A at 10 uM,Other,18336006.0,
+2,383160,3,7,,103621700,5281659,Unspecified,,,,,Inhibition of monoamine oxidase B at 10 uM,Other,18336006.0,
+3,1259407,1,1,,363903423,5281659,Inactive,,,,,CCRIS mutagenicity studies,Other,,

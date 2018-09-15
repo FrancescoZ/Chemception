@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,280501,10,1,,103509219,11037,Unspecified,161789011.0,3276.0,1220.0,IC50,Inhibition of human recombinant GST-PRMT1 expressed in BL21 cells,Confirmatory,17323938,
+1,280502,9,5,,103509219,11037,Unspecified,74688267.0,,490.0,IC50,Inhibition of Aspergillus nidulans recombinant GST-RmtA expressed in BL21 cells,Confirmatory,17323938,
+2,475504,3,3,,103744881,11037,Inactive,,,,,Binding affinity to amyloid beta (1 to 42) fibrils by change in fluorescence at 100 uM after 10 mins,Other,19640715,
+3,475505,3,3,,103744881,11037,Inactive,,,,,Binding affinity to amyloid beta (1 to 42) oligomers by change in fluorescence at 100 uM after 10 mins,Other,19640715,

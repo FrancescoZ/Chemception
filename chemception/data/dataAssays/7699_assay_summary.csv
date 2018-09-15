@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,25559,3,3,,103327090,3035992,Unspecified,,,,,Ionization constant (pKa),Other,7069706.0,
+1,98819,4,5,,103327090,3035992,Unspecified,,,,,Drug concentration in mole/kg/day providing 50% extension of life in intraperitoneally implanted leukemia L1210 mice.,Other,7069706.0,
+2,210614,4,3,,103327090,3035992,Unspecified,,,,,Compound concentration in mole/kg/day lethal to 10% of mice,Other,7069706.0,
+3,1259407,1,1,,363904331,3035992,Active,,,,,CCRIS mutagenicity studies,Other,,

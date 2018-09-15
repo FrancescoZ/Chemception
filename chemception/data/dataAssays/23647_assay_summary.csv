@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,636075,3,4,,136941265,92995,Unspecified,,,100.0,IC50,Antiplasmodial activity against chloroquine-sensitive Plasmodium falciparum D10 after 48 hrs by lactate dehydrogenase assay,Confirmatory,22196513.0,
+1,636076,3,2,,136941265,92995,Inconclusive,,,,IC50,Antiplasmodial activity against chloroquine-resistant Plasmodium falciparum K1 after 48 hrs by lactate dehydrogenase assay,Confirmatory,22196513.0,
+2,636078,3,2,,136941265,92995,Inconclusive,,,,IC50,Cytotoxicity against CHO cells after 48 hrs by MTT assay,Confirmatory,22196513.0,
+3,1159607,2,1,,312557010,92995,Inactive,,,,,Screen for inhibitors of RMI FANCM (MM2) intereaction,Other,26962873.0,
+4,1259310,1,1,,332886988,92995,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+5,1259407,1,1,,363900020,92995,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1224863,1,1,,316919253,6993341,Inactive,90421313,1080,,IC50,Phenotypic Assay to Identify Small Molecules that Upregulate Production of hCFTR in HeLa Cells,Confirmatory,,
+1,1259416,1,2,,340082722,6993341,Inactive,56786138,3458,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
+2,1259421,1,1,,340082722,6993341,Inactive,56786138,3458,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,

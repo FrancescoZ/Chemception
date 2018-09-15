@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,69702,9,5,,103166709,25890,Active,1706709.0,443228.0,1.1,Kd,Displacement of [3H]-estradiol (E2) from sheep uterine estrogen receptor,Confirmatory,14761204.0,
+1,69702,9,5,,103166709,25890,Active,13124234.0,443066.0,1.1,Kd,Displacement of [3H]-estradiol (E2) from sheep uterine estrogen receptor,Confirmatory,14761204.0,
+2,624609,1,9,,103166709,25890,Unspecified,29840832.0,54578.0,,,Specific activity of expressed human recombinant UGT1A6,Other,10836148.0,
+3,624611,1,9,,103166709,25890,Unspecified,29839637.0,54576.0,,,Specific activity of expressed human recombinant UGT1A8,Other,10836148.0,
+4,624613,1,9,,103166709,25890,Unspecified,29839636.0,54575.0,,,Specific activity of expressed human recombinant UGT1A10,Other,10836148.0,
+5,624619,3,2,,103166709,25890,Unspecified,136727.0,7364.0,,,Specific activity of expressed human recombinant UGT2B7,Other,10836148.0,
+6,1259407,1,1,,363899021,25890,Active,,,,,CCRIS mutagenicity studies,Other,,
+7,1259408,1,1,,363896806,25890,Active,,,,,GENE-TOX mutagenicity studies,Other,,

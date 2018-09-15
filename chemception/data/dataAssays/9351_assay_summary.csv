@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,160321,3,3,,103418389,28598,Unspecified,,,,,Competition for [3H]benzo[a]pyrene-binding site of polycyclic aromatic hydrocarbon binding protein (PBP) from mouse liver,Other,2299644.0,
+1,624609,1,9,,103418389,28598,Unspecified,29840832.0,54578.0,,,Specific activity of expressed human recombinant UGT1A6,Other,10836148.0,
+2,624611,1,9,,103418389,28598,Unspecified,29839637.0,54576.0,,,Specific activity of expressed human recombinant UGT1A8,Other,10836148.0,
+3,624613,1,9,,103418389,28598,Unspecified,29839636.0,54575.0,,,Specific activity of expressed human recombinant UGT1A10,Other,10836148.0,
+4,624619,3,2,,103418389,28598,Unspecified,136727.0,7364.0,,,Specific activity of expressed human recombinant UGT2B7,Other,10836148.0,
+5,1259407,1,1,,363899023,28598,Active,,,,,CCRIS mutagenicity studies,Other,,
+6,1259408,1,1,,363896959,28598,Active,,,,,GENE-TOX mutagenicity studies,Other,,

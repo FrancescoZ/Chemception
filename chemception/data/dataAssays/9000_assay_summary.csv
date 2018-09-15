@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,248,1,1,,539645,65043,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+1,276,1,1,,539645,65043,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  Lewis Lung Carcinoma (intravenous) in B6C3F1 mice,Other,,
+2,328,1,1,,539645,65043,Inconclusive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+3,449703,5,2,,103709786,65043,Active,,,0.0857,EC50,NOVARTIS: Inhibition of Plasmodium falciparum 3D7 (drug-susceptible) proliferation in erythrocyte-based infection assay,Confirmatory,18579783.0,
+4,449704,5,2,,103709786,65043,Active,,,0.1429,EC50,NOVARTIS: Inhibition of Plasmodium falciparum W2 (drug-resistant) proliferation in erythrocyte-based infection assay,Confirmatory,18579783.0,
+5,449705,5,2,,103709786,65043,Active,,,11.58,CC50,NOVARTIS: Cytotoxicity against human hepatocellular carcinoma cell line (Huh7),Confirmatory,18579783.0,
+6,449706,5,2,,103709786,65043,Unspecified,,,,,"NOVARTIS: Inhibition Frequency Index (IFI) - the number of HTS assays where a compound showed > 50% inhibition/induction, expressed as a percentage of the number of assays in which the compound was tested.",Other,18579783.0,
+7,748711,1,5,,103709786,65043,Active,334302961.0,4137.0,0.069,IC50,Inhibition of tau protein aggregation (unknown origin) at 5:1 compound to protein concentration by Western blot analysis,Confirmatory,23484434.0,
+8,1259407,1,1,,363903566,65043,Active,,,,,CCRIS mutagenicity studies,Other,,
+9,1259408,1,1,,363895772,65043,Unspecified,,,,,GENE-TOX mutagenicity studies,Other,,

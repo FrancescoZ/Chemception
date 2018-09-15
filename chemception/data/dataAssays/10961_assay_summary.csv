@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,13834,3,3,,103193364,9986282,Unspecified,,,,,Bioavailability in guinea pig,Other,8176706,
+1,13837,3,3,,103193364,9986282,Unspecified,,,,,Compound was evaluated for the oral bioavailability in rat,Other,8176706,
+2,16103,7,2,,103193364,9986282,Unspecified,,,,,Clearance in guinea pig,Other,8176706,
+3,16106,7,2,,103193364,9986282,Unspecified,,,,,Compound was evaluated for the clearance in rat,Other,8176706,
+4,21645,3,3,,103193364,9986282,Unspecified,,,,,Calculated partition coefficient (clogP),Other,8176706,
+5,21646,3,3,,103193364,9986282,Unspecified,,,,,Delta clogP-logP values,Other,8176706,
+6,26770,3,3,,103193364,9986282,Unspecified,,,,,Partition coefficient (logP),Other,8176706,
+7,76633,7,3,,103193364,9986282,Unspecified,,,,,Inhibition of percent protection from LTD4-induced dyspnea in a conscious guinea pig administered intravenously,Other,8176706,
+8,76634,7,7,,103193364,9986282,Unspecified,123779610.0,100135514.0,,,Effective dose for the inhibition of percent protection from LTD4-induced dyspnea in a conscious guinea pig administered through oral route,Other,8176706,
+9,80009,3,3,,103193364,9986282,Unspecified,,,,,ED50 (p.o.) / ED50 (i.v.) ratio of the compound,Other,8176706,
+10,101459,3,10,,103193364,9986282,Unspecified,123779610.0,100135514.0,,,Binding constant in guinea pig tracheal spirals with LTE4,Other,8176706,
+11,155744,8,5,,103193364,9986282,Active,123779610.0,100135514.0,0.00057,Ki,Inhibition constant for displacement of [3H]LTD4 on guinea pig lung parenchymal membranes,Confirmatory,8176706,

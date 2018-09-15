@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,117701,3,3,,103302827,204109,Unspecified,,,,,Compound was tested for antidiabetic activity by measuring percentage reduction in plasma glucose at a dose of 30 mg/kg,Other,9873611,
+1,117703,3,3,,103302827,204109,Unspecified,,,,,Compound was tested for antidiabetic activity by measuring percentage reduction in triglycerides at a dose of 30 mg/kg,Other,9873611,
+2,188212,3,3,,103302827,204109,Unspecified,,,,,Compound was tested for antiinflammatory activity by measuring percentage reduction in inflammation at a dose of 100 mg/kg in rats,Other,9873611,
+3,1159794,1,1,,103302827,204109,Active,13432234.0,5468.0,,,Peroxisome proliferator-activated receptor gamma modulator,Other,9830009,
+4,1225051,1,1,,103302827,204109,Active,13432234.0,5468.0,,,Peroxisome proliferator-activated receptor gamma modulator,Other,9830009,

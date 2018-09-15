@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,26757,3,4,,103302129,7081,Inconclusive,,,,,DNA binding dissociation constant as KD; No data,Other,6708048,
+1,212907,9,2,,103302129,7081,Active,,,21.7,IC50,Inhibitory activity against telomerase (Compound released from DNA/DNA heteroduplex derivatized resin [sequence (TTAGGG)3),Confirmatory,11591511,
+2,212908,9,2,,103302129,7081,Active,,,21.7,IC50,Inhibitory activity against telomerase (Compound released from RNA/DNA heteroduplex derivatized resin [sequence (TTAGGG)3),Confirmatory,11591511,
+3,212909,9,2,,103302129,7081,Active,,,21.7,IC50,Inhibitory activity against telomerase (Compound released from underivatized resin,Confirmatory,11591511,

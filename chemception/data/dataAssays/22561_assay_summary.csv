@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1182278,1,1,,312349348,164879,Active,,,6.4,IC50,Inhibition of NO production in LPS/IFN-gamma activated mouse RAW264.7 cells after 24 hrs by Griess assay,Confirmatory,24997688.0,
+1,1182279,1,1,,312349348,164879,Unspecified,,,,,Inhibition of FMLP/CB-induced superoxide anion generation in human neutrophils at 10 ug/ml by ferricytochrome c reduction method,Other,24997688.0,
+2,1182280,1,1,,312349348,164879,Unspecified,,,,,Inhibition of FMLP/CB-induced superoxide anion generation in human neutrophils by ferricytochrome c reduction method,Other,24997688.0,
+3,1182281,1,1,,312349348,164879,Unspecified,,,,,Inhibition of FMLP/CB-induced elastase release in human neutrophils at 10 ug/ml after 5 mins by spectrophotometry,Other,24997688.0,
+4,1182282,1,1,,312349348,164879,Unspecified,,,,,Inhibition of FMLP/CB-induced elastase release in human neutrophils after 5 mins by spectrophotometry,Other,24997688.0,
+5,1252948,1,1,,312349348,164879,Unspecified,,,,,Antifungal activity against Candida albicans SC5314 assessed as inhibition of biofilm formation by XTT assay,Other,26394911.0,
+6,1252949,1,1,,312349348,164879,Unspecified,,,,,Antifungal activity against Candida albicans SC5314 assessed as inhibition of yeast cell to hyphae transition after 4 hrs by microscopic analysis,Other,26394911.0,
+7,1259407,1,1,,363899830,164879,Inactive,,,,,CCRIS mutagenicity studies,Other,,

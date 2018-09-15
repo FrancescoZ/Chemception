@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,698530,1,4,,163334464,71460547,Unspecified,,,,,Stability in human liver microsomes at 1 uM incubated for 60 mins by HPLC-MS/MS method,Other,22724451,
+1,698532,1,4,,163334464,71460547,Inconclusive,,,,,Agonist activity at GPR120 assessed as stimulation of calcium mobilization relative to TUG20,Other,22724451,
+2,698533,1,2,,163334464,71460547,Unspecified,,,,,"Lipophilicity, log D of the compound at pH 7.4 by shake flask method",Other,22724451,
+3,698535,2,3,,163334464,71460547,Inconclusive,,,,EC50,Agonist activity at GPR120 assessed as stimulation of calcium mobilization,Confirmatory,22724451,
+4,698536,1,7,,163334464,71460547,Unspecified,3122157.0,2864.0,,,Agonist activity at human GPR40 expressed in Flp-InTM T-RexTM HEK293 cells assessed as stimulation of calcium mobilization in presence of 0.05% BSA relative to TUG20,Other,22724451,
+5,698537,3,6,,163334464,71460547,Active,3122157.0,2864.0,0.0257,EC50,Agonist activity at human GPR40 expressed in Flp-InTM T-RexTM HEK293 cells assessed as stimulation of calcium mobilization in presence of 0.05% BSA,Confirmatory,22724451,
+6,698539,5,2,,163334464,71460547,Active,3122157.0,2864.0,0.02188,EC50,Agonist activity at human GPR40 expressed in Flp-InTM T-RexTM HEK293 cells assessed as stimulation of calcium mobilization,Confirmatory,22724451,

@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,422225,6,2,,103692903,11623705,Active,,,3,IC50,Cytotoxicity against human MCF7 cells by MTT assay,Confirmatory,19191562,
+1,422226,6,2,,103692903,11623705,Active,,,3,IC50,Cytotoxicity against human HeLa cells by MTT assay,Confirmatory,19191562,
+2,422227,6,2,,103692903,11623705,Active,,,3,IC50,Cytotoxicity against human A431 cells by MTT assay,Confirmatory,19191562,

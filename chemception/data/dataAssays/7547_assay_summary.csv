@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,330,1,1,,460743,100137,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+1,940,1,2,,26634256,100137,Inactive,31881630.0,5732.0,,,Modulators of the EP2 prostaglandin E2 receptor - Primary Screening,Screening,,
+2,1422,1,1,,26634256,100137,Inactive,31881630.0,5732.0,,,Inhibitors of the EP2 Prostaglandin E2 Receptor - Primary Screen,Screening,,
+3,157586,6,7,,103188992,100137,Unspecified,548374.0,24411.0,,,Compound was tested for induction of phencyclidine (PCP) like ataxia behavior,Other,2542555.0,
+4,157587,6,7,,103188992,100137,Unspecified,548374.0,24411.0,,,Compound was tested for induction of phencyclidine (PCP) like stereotyped behavior,Other,2542555.0,
+5,157589,9,2,,103188992,100137,Active,,,1.9,IC50,Inhibition of [3H]1-[1-(2-thienyl) piperidine ([3H]TCP) binding to phencyclidine receptor,Confirmatory,2542555.0,
+6,204608,9,2,,103188992,100137,Active,,,2.0,IC50,Inhibition of [3H]- N-allylnormetazocine ([3H]NANM) binding to sigma receptor,Confirmatory,2542555.0,
+7,710414,1,2,,103188992,100137,Unspecified,,,,,Inhibition of radioligand binding to N-methyl D-aspartate receptor phencyclidine binding site at 10 uM,Other,23098038.0,
+8,710417,1,2,,103188992,100137,Inactive,,,,,Neuroprotective activity in mouse hippocampal neurons assessed as Abeta-induced neuronal apoptosis at 30 uM pre-incubated for 4 hrs before Abeta challenge for 72 hrs by TUNEL assay (Rvb = 100%),Other,23098038.0,
+9,710418,1,2,,103188992,100137,Active,,,,,Inhibition of imidazole receptor 2 in mouse hippocampal neurons assessed as reduction in tPA-induced Erk1/2 activation at 30 uM pre-incubated for 4 hrs before tPA stimulation by ELISA,Other,23098038.0,

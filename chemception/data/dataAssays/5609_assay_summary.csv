@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1090119,1,1,,194169835,3034378,Unspecified,,,,,Inhibition of Saccharomyces cerevisiae INVSc1 ELO at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,
+1,1090120,1,1,,194169835,3034378,Unspecified,,,,,Growth inhibition of Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr,Other,15277688,
+2,1090123,1,1,,194169835,3034378,Active,,,,,Herbicidal activity against Arabidopsis thaliana assessed as apperance of fiddle head phenotype,Other,15277688,
+3,1090124,1,4,,194169835,3034378,Inactive,75262422.0,834398.0,,,Inhibition of Arbidopsis thaliana C-terminal His-tagged At5g43760 expressed in Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,
+4,1090125,1,4,,194169835,3034378,Inactive,114149942.0,839578.0,,,Inhibition of Arbidopsis thaliana C-terminal His-tagged At1g04220 expressed in Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,
+5,1090126,1,4,,194169835,3034378,Inactive,75308822.0,839131.0,,,Inhibition of Arbidopsis thaliana C-terminal His-tagged CER60 expressed in Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,
+6,1090127,1,4,,194169835,3034378,Inactive,75099555.0,829602.0,,,Inhibition of Arbidopsis thaliana C-terminal His-tagged KCS2 expressed in Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,
+7,1090128,1,4,,194169835,3034378,Inactive,75192344.0,839395.0,,,Inhibition of Arbidopsis thaliana C-terminal His-tagged KCS1 expressed in Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,
+8,1090129,1,4,,194169835,3034378,Inactive,75101872.0,829603.0,,,Inhibition of Arbidopsis thaliana C-terminal His-tagged FAE1 expressed in Saccharomyces cerevisiae INVSc1 at 100 uM after 18 to 20 hr by GC/MS analysis,Other,15277688,

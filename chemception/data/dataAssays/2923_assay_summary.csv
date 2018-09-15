@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1149263,1,1,,242641070,75121,Unspecified,,,,,Antimicrobial activity against Streptococcus faecalis,Other,818381,
+1,1149264,1,1,,242641070,75121,Unspecified,,,,,Antimicrobial activity against Staphylococcus aureus,Other,818381,
+2,1149265,1,1,,242641070,75121,Unspecified,,,,,Antimicrobial activity against Bacillus subtilis,Other,818381,
+3,1149266,1,1,,242641070,75121,Unspecified,,,,,Antimicrobial activity against Bacillus cereus,Other,818381,
+4,1149267,1,1,,242641070,75121,Unspecified,,,,,Antimicrobial activity against Sarcina lutea,Other,818381,
+5,1149268,1,1,,242641070,75121,Unspecified,,,,,Antimicrobial activity against Hansenula anomala,Other,818381,

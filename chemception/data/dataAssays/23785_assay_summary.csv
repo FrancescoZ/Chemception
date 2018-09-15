@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1128174,1,1,,104249169,97535,Unspecified,,,,,"Drug level in aqueous phosphate buffer at pH 7.4 treated with 2-(2,4-dinitrophenoxy)-1-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)diazene oxide measured after 2 half-lives by LC/MS analysis in presence of GSH",Other,24521039.0,
+1,1128196,1,1,,104249169,97535,Unspecified,,,,,"Retention time of the compound in human A549 cells treated with 2-(2,4-dinitrophenoxy)-1-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)diazene oxide at 10 uM by LC/MS/MS analysis",Other,24521039.0,
+2,1259407,1,1,,363899756,97535,Inactive,,,,,CCRIS mutagenicity studies,Other,,

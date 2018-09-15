@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1170688,1,1,,312366655,14471,Unspecified,,,,,GSH reactivity assessed as reaction half life through transition state modeling at pH 7.4,Other,25375838,
+1,1170692,1,1,,312366655,14471,Unspecified,,,,,Reactivity of covalent reactive group using GSH reaction assessed as pseudo-first-order reaction at 37 degC by nuclear magnetic resonance spectroscopy,Other,25375838,

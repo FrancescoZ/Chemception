@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,103808,3,8,,103307100,103340,Unspecified,,,,,Percent inhibition of compound against Lipoprotein lipase(LPL) at 10 uM was evaluated,Other,11133096,
+1,103809,3,8,,103307100,103340,Unspecified,,,,,Percent inhibition of compound against Lipoprotein lipase(LPL) at 3h was evaluated,Other,11133096,

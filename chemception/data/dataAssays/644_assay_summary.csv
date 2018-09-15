@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,602332,1,1,,124893784,2459,Inactive,168984549,,,Potency,qHTS for Inducers of the Endoplasmic Reticulum Stress Response (ERSR) in Human Glioma: qHTS,Confirmatory,,
+1,624030,1,2,,124893784,2459,Inactive,160794,,,Potency,Biochemical firefly luciferase enzyme assay for NPC,Confirmatory,,
+2,624170,1,1,,124893784,2459,Inactive,71051501,2744.0,,Potency,qHTS for Inhibitors of Glutaminase (GLS),Confirmatory,,
+3,624172,1,1,,124893784,2459,Inactive,1724069,2740.0,,Potency,qHTS of GLP-1 Receptor Agonists,Confirmatory,,
+4,624173,1,3,,124893784,2459,Inactive,62359610,,,Potency,qHTS of Trypanosoma Brucei Inhibitors,Confirmatory,,

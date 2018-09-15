@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,300102,6,2,,103541875,101513,Active,,,27.77,IC50,Antimalarial activity against drug-sensitive Plasmodium falciparum 3D7 after 24 hrs,Confirmatory,17548196.0,
+1,300103,6,2,,103541875,101513,Active,,,9.03,IC50,"Antimalarial activity against chloroquine,pyrimethamine-resistant Plasmodium falciparum K1 after 24 hrs",Confirmatory,17548196.0,
+2,300104,6,2,,103541875,101513,Active,,,16.79,IC50,"Antimalarial activity against chloroquine, pyrimethamine and cycloguanil-resistant Plasmodium falciparum VS1 after 24 hrs",Confirmatory,17548196.0,
+3,300105,6,2,,103541875,101513,Active,,,45.01,CC50,Cytotoxicity against human KB cells,Confirmatory,17548196.0,
+4,300106,3,3,,103541875,101513,Unspecified,,,,,"Selectivity index, ratio of CC50 for human KB cells to IC50 for Plasmodium falciparum 3D7",Other,17548196.0,
+5,300107,3,3,,103541875,101513,Unspecified,,,,,"Selectivity index, ratio of CC50 for human KB cells to IC50 for Plasmodium falciparum K1",Other,17548196.0,
+6,300108,3,3,,103541875,101513,Unspecified,,,,,"Selectivity index, ratio of CC50 for human KB cells to IC50 for Plasmodium falciparum VS1",Other,17548196.0,
+7,1204895,1,1,,103541875,101513,Active,,,0.1,Kd,Binding affinity to guanine riboswitch in Bacillus subtilis,Confirmatory,25603286.0,
+8,1259407,1,1,,363898707,101513,Active,,,,,CCRIS mutagenicity studies,Other,,
+9,1259408,1,1,,363896521,101513,Active,,,,,GENE-TOX mutagenicity studies,Other,,

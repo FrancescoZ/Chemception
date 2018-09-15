@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,463420,3,3,,103740025,25133637,Unspecified,,,,,Inhibition of calcium oxalate crystal formation assessed as change of shift in titration end point by conductometric titration,Other,20005021.0,
+1,463421,3,3,,103740025,25133637,Unspecified,,,,,Induction of calcium oxalate dissolution assessed as increase in calcium concentration after 5 days by flame photometry relative to untreated control,Other,20005021.0,
+2,463422,3,3,,103740025,25133637,Unspecified,,,,,Induction of surgically removed human kidney stone dissolution assessed as increase in calcium concentration after 5 days by flame photometry relative to untreated control,Other,20005021.0,
+3,463423,3,4,,103740025,25133637,Unspecified,,,,,Cytotoxicity against human A549 cells at 500 ug/ml,Other,20005021.0,
+4,463424,3,4,,103740025,25133637,Unspecified,,,,,Cytotoxicity against mouse L929 cells at 500 ug/ml,Other,20005021.0,
+5,1259408,1,1,,363897326,25133637,Active,,,,,GENE-TOX mutagenicity studies,Other,,

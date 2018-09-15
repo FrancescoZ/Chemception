@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,422,1,5,,24318417,763741,Inactive,21464101.0,7532.0,,,HTS for 14-3-3 protein interaction modulators,Screening,,
+1,645260,5,2,,136942679,763741,Active,,,25.0,IC50,Inhibition of PARP1 using TACS-Sapphire substrate for 30 mins by colorimetry,Confirmatory,22365563.0,
+2,645265,1,6,,136942679,763741,Unspecified,,,,,Inhibition of PARP1 at 25 uM using TACS-Sapphire substrate for 30 mins by colorimetry,Other,22365563.0,
+3,1259310,1,1,,333263833,763741,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+4,1259423,1,2,,354764642,763741,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,104474,3,4,,136930116,442436,Unspecified,,,,,Antiviral activity was determined by measurement of HIV-p24 antigen production in the supernatants of the infected MT-4 cell cultures with acommercially available HIV-antigen kit.,Other,12270151.0,
+1,312045,6,3,,136930116,442436,Active,,,1.7,IC50,Cytotoxicity against human PC3M cells by MTT assay,Confirmatory,18052324.0,
+2,423379,6,2,,136930116,442436,Active,,,3.7,IC50,Cytotoxicity against human A549 cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
+3,423380,6,2,,136930116,442436,Active,,,1.8,IC50,Cytotoxicity against human HCT8 cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
+4,423381,6,3,,136930116,442436,Active,,,6.1,IC50,Cytotoxicity against human Bel7402 cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
+5,423382,6,3,,136930116,442436,Active,,,1.6,IC50,Cytotoxicity against human PC3M cells after 24 hrs by MTT assay,Confirmatory,19245261.0,
+6,475316,5,2,,136930116,442436,Active,,,2.5,IC50,Inhibition of hemagglutininin-tagged HIV1 Rev protein nuclear export in human HeLa cells assessed as protein localization after 12 hrs by indirect fluorescent antibody technique,Confirmatory,20207540.0,
+7,499280,4,2,,136930116,442436,Active,,,2.5,IC50,Inhibition of hemagglutininin-tagged HIV1 Rev protein nuclear export in human HeLa cells assessed as localization by indirect fluorescent antibody technique,Confirmatory,20643553.0,
+8,1259407,1,1,,363903745,442436,Inactive,,,,,CCRIS mutagenicity studies,Other,,

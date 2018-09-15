@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,78569,6,2,,103369345,154009,Active,,,3.59,IC50,In vitro cytotoxicity against multi-drug resistant human small cell lung carcinoma H69/LX4.,Confirmatory,11814810.0,
+1,78582,6,2,,103369345,154009,Active,,,3.93,IC50,In vitro cytotoxicity against human small cell lung carcinoma H69/P.,Confirmatory,11814810.0,
+2,229529,3,3,,103369345,154009,Unspecified,,,,,Ratio of IC50 values against H69/P and H69/HLX cell lines.,Other,11814810.0,
+3,1259407,1,1,,363902425,154009,Active,,,,,CCRIS mutagenicity studies,Other,,

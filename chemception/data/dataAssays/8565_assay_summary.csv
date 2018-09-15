@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,246303,8,2,,103457795,78451,Inactive,,,,,Inhibition of LPA-induced calcium transients in PC-3 cells; No effect,Other,16033271,
+1,246418,8,7,,103457795,78451,Inactive,26454626.0,1902.0,,,Inhibition of LPA-induced calcium transients in RH7777 rat hepatoma cells expressing LPA1 receptor; No effect,Other,16033271,
+2,246419,8,7,,103457795,78451,Inactive,26393399.0,9170.0,,,Inhibition of LPA-induced calcium transients in RH7777 rat hepatoma cells expressing LPA2 receptor; No effect,Other,16033271,
+3,246420,8,7,,103457795,78451,Inactive,26393418.0,23566.0,,,Inhibition of LPA-induced calcium transients in RH7777 rat hepatoma cells expressing LPA3 receptor; No effect,Other,16033271,
+4,247979,8,2,,103457795,78451,Inactive,,,,,Inhibition of LPA expressed in PC-3 cells; No effect,Other,16033271,
+5,248649,8,7,,103457795,78451,Inactive,26454626.0,1902.0,,,Inhibition of LPA-induced calcium transients in RH7777 rat hepatoma cells expressing LPA1 receptor; No effect,Other,16033271,
+6,248650,8,7,,103457795,78451,Inactive,26393399.0,9170.0,,,Inhibition of LPA-induced calcium transients in RH7777 rat hepatoma cells expressing LPA2 receptor; No effect,Other,16033271,
+7,248776,8,7,,103457795,78451,Inactive,26393418.0,23566.0,,,Inhibition of LPA-induced calcium transients in RH7777 rat hepatoma cells expressing LPA3 receptor; No effect,Other,16033271,

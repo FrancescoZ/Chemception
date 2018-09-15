@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,15267,3,3,,103385425,9971484,Unspecified,,,,,Log of (Cbrain/Cblood) in rats,Other,2894467,
+1,15430,4,3,,103385425,9971484,Unspecified,,,,,Log (Cbrain/Cblood) in rats,Other,2894467,
+2,16332,3,4,,103385425,9971484,Unspecified,,,,,Change in logarithm of partition coefficient of the compound,Other,2894467,
+3,19259,3,3,,103385425,9971484,Unspecified,,,,,"Partition coefficient (Log Pn, neutral form, cyclohexane/water)",Other,2894467,
+4,19260,3,3,,103385425,9971484,Unspecified,,,,,Logarithm of partition coefficient of the neutral form of compound given for octanol/water solvent system,Other,2894467,
+5,24179,3,4,,103385425,9971484,Unspecified,,,,,"logBB, log(C brain/C blood)",Other,8941388,
+6,87697,6,2,,103385425,9971484,Unspecified,1346291.0,100729734.0,,,In vitro Histamine H2 receptor antagonist activity in the histamine-stimulated guinea pig right atrium,Other,2894467,

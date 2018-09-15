@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,248,1,1,,419585,15809,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+1,328,1,1,,419585,15809,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+2,213092,6,7,,103346291,15809,Active,1730006.0,7172.0,6.5,Km,Apparent binding constant for purified human kidney TPMT,Confirmatory,3950915.0,
+3,624619,3,2,,103346291,15809,Unspecified,136727.0,7364.0,,,Specific activity of expressed human recombinant UGT2B7,Other,10836148.0,
+4,724313,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against methicillin-resistant Staphylococcus aureus isolate 309-8,Other,23265879.0,
+5,724314,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against methicillin-resistant Staphylococcus aureus isolate 309-7,Other,23265879.0,
+6,724315,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against methicillin-resistant Staphylococcus aureus isolate 6-42,Other,23265879.0,
+7,724316,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against methicillin-resistant Staphylococcus aureus isolate 309-4,Other,23265879.0,
+8,724317,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against methicillin-resistant Staphylococcus aureus isolate Chaoyang,Other,23265879.0,
+9,724508,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against methicillin-sensitive Staphylococcus aureus isolate 309-1,Other,23265879.0,
+10,724510,3,1,,103346291,15809,Unspecified,,,,,Antimicrobial activity against Staphylococcus aureus ATCC 6538,Other,23265879.0,
+11,1259407,1,1,,363900290,15809,Active,,,,,CCRIS mutagenicity studies,Other,,

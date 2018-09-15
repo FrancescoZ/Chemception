@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1949,1,3,,49770130,735824,Inactive,,,,,"High Throughput Screen of 100,000 compound library to Identify Inhibitors of Mycobacterium tuberculosis H37Rv",Confirmatory,,
+1,492967,1,2,,92267605,735824,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
+2,504770,1,2,,92267605,735824,Inactive,9657380.0,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
+3,602314,1,2,,92267605,735824,Inactive,151220867.0,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
+4,720641,1,2,,92267605,735824,Inactive,15923709.0,,,,A screen for compounds that inhibit the activity of LtaS in Staphylococcus aureus,Other,,
+5,1224905,2,1,,92267605,735824,Inactive,120997.0,25643.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
+6,1224905,2,1,,92267605,735824,Inactive,74356043.0,55704.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,

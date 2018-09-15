@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,282834,3,4,,103513885,70829,Unspecified,,,,,Activity against caspase-mediated apoptosis in mouse L1210 cells,Other,16279782,
+1,282835,6,2,,103513885,70829,Unspecified,,,,IC50,Cytotoxicity against mouse L1210 cells,Confirmatory,16279782,

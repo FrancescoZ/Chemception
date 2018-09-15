@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1127992,1,1,,242623713,11376,Unspecified,,,,,Inhibition of NorA in fluoroquinolone-resistant Staphylococcus aureus 1199B assessed as potentiation of 4 ug/ml of ciprofloxacin MIC at 100 ug/ml after 24 hrs by microdilution method,Other,24499135.0,
+1,1127995,1,1,,242623713,11376,Unspecified,,,,,Toxicity in Staphylococcus aureus ATCC 25923 after 24 hrs by microdilution method,Other,24499135.0,
+2,1127996,1,1,,242623713,11376,Unspecified,,,,,Toxicity in fluoroquinolone-resistant Staphylococcus aureus 1199B expressing NorA after 24 hrs by microdilution method,Other,24499135.0,
+3,1259407,1,1,,363902278,11376,Inactive,,,,,CCRIS mutagenicity studies,Other,,

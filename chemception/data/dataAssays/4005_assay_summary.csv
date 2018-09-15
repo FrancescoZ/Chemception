@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,61174,10,1,,103304120,21298223,Inconclusive,,,,,Compound was tested in vitro for binding affinity towards dopamine receptor D1 in rat striatal membrane by using [3H]-SCH- 23390 as radioligand; NT=Not tested (IC50 nM),Other,1680195,
+1,64632,4,6,,103304120,21298223,Unspecified,,,,,Compound at 10E-5 M was tested in vitro for binding affinity towards dopamine receptor D2 in rat striatal membrane by using [3H]spiperone as radioligand,Other,1680195,
+2,131895,7,2,,103304120,21298223,Unspecified,,,,,Effective dose required to inhibit the Locomotor activity in mouse after ip administration.,Other,1680195,
+3,178573,6,2,,103304120,21298223,Inconclusive,,,,,Effective dose required to inhibit the Locomotor activity in Rat after po administration; NT=Not tested (ED50 mg/Kg),Other,1680195,

@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,602332,1,1,,50126324,7084,Inactive,168984549.0,,,Potency,qHTS for Inducers of the Endoplasmic Reticulum Stress Response (ERSR) in Human Glioma: qHTS,Confirmatory,,
+1,624030,1,2,,50126324,7084,Inconclusive,160794.0,,12.8178,Potency,Biochemical firefly luciferase enzyme assay for NPC,Confirmatory,,
+2,624170,1,1,,50126324,7084,Inactive,71051501.0,2744.0,,Potency,qHTS for Inhibitors of Glutaminase (GLS),Confirmatory,,
+3,624172,1,1,,50126324,7084,Inactive,1724069.0,2740.0,,Potency,qHTS of GLP-1 Receptor Agonists,Confirmatory,,
+4,624173,1,3,,50126324,7084,Inactive,62359610.0,,,Potency,qHTS of Trypanosoma Brucei Inhibitors,Confirmatory,,
+5,1224863,1,1,,316919724,7084,Inactive,90421313.0,1080.0,,IC50,Phenotypic Assay to Identify Small Molecules that Upregulate Production of hCFTR in HeLa Cells,Confirmatory,,
+6,1259423,1,2,,354930606,7084,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,515620,7,5,,103724265,68245,Active,134039205.0,2739.0,1.9,IC50,Inhibition of human recombinant glyoxalase 1 assessed as S-D-lactoylglutathione after 15 mins by spectrophotometric analysis,Confirmatory,20801663.0,
+1,515621,4,2,,103724265,68245,Unspecified,,,80.0,IC50,Antiproliferative activity against human HL60 cells after 24 hrs by MTS assay,Confirmatory,20801663.0,
+2,515622,4,2,,103724265,68245,Active,,,40.0,IC50,Antiproliferative activity against human HL60 cells after 48 hrs by MTS assay,Confirmatory,20801663.0,
+3,515623,1,4,,103724265,68245,Unspecified,,,,,Antiproliferative activity against human HL60 cells at up to 100 uM by MTS assay,Other,20801663.0,
+4,515625,1,4,,103724265,68245,Unspecified,,,,,Induction of apoptosis in human HL60 cells assessed as nucleosomal DNA fragmentation at up to 100 uM using ethidium bromide staining by agarose gel electrophoresis,Other,20801663.0,
+5,515626,1,4,,103724265,68245,Unspecified,,,,,Induction of apoptosis in human HL60 cells assessed as nucleosomal DNA fragmentation after 48 hrs using ethidium bromide staining by agarose gel electrophoresis,Other,20801663.0,
+6,1259407,1,1,,363900468,68245,Inactive,,,,,CCRIS mutagenicity studies,Other,,

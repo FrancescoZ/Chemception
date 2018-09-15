@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,548108,1,3,,124971881,6538368,Unspecified,,,,,Selectivity for Trypanosoma cruzi triosephosphate isomerase over human triosephosphate isomerase,Other,20889239,
+1,548110,2,3,,124971881,6538368,Active,,,,,Antiparasitic activity against Trypanosoma cruzi T2 epimastigotes assessed as growth inhibition at 25 uM after 5 days,Other,20889239,
+2,548112,3,8,,124971881,6538368,Inconclusive,1730005.0,,,,Inhibition of Trypanosoma cruzi triosephosphate isomerase at 100 uM after 2 hrs,Other,20889239,
+3,548113,2,9,,124971881,6538368,Unspecified,1730005.0,,,,Inhibition of Trypanosoma cruzi triosephosphate isomerase at 400 uM after 2 hrs,Other,20889239,

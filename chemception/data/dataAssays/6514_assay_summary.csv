@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,343398,3,4,,103603561,10327,Unspecified,,,,,"Octanol-water distribution coefficient, log D at pH 7.4 by shake-flask technique",Other,18558667.0,
+1,343680,3,4,,103603561,10327,Unspecified,,,,,"Hexadecane-water distribution coefficient, log D at pH 7.4 by shake-flask technique",Other,18558667.0,
+2,1259407,1,1,,363899507,10327,Active,,,,,CCRIS mutagenicity studies,Other,,

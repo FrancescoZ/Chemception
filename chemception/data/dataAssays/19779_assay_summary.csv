@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1195,1,2,,48416029,3389,Active,,,,,DSSTox (FDAMDD) FDA Maximum (Recommended) Daily Dose Database,Other,,
+1,588214,2,3,,103770934,3389,Unspecified,,,,,"FDA HLAED, liver enzyme composite activity",Other,16472241.0,
+2,588215,2,3,,103770934,3389,Unspecified,,,,,"FDA HLAED, alkaline phosphatase increase",Other,16472241.0,
+3,588216,2,3,,103770934,3389,Unspecified,,,,,"FDA HLAED, serum glutamic oxaloacetic transaminase (SGOT) increase",Other,16472241.0,
+4,588217,2,3,,103770934,3389,Unspecified,,,,,"FDA HLAED, serum glutamic pyruvic transaminase (SGPT) increase",Other,16472241.0,
+5,588218,2,3,,103770934,3389,Unspecified,,,,,"FDA HLAED, lactate dehydrogenase (LDH) increase",Other,16472241.0,
+6,588219,2,3,,103770934,3389,Unspecified,,,,,"FDA HLAED, gamma-glutamyl transferase (GGT) increase",Other,16472241.0,
+7,588220,2,3,,103770934,3389,Unspecified,,,,,Literature-mined public compounds from Kruhlak et al phospholipidosis modelling dataset,Other,20020916.0,
+8,1135106,1,1,,103770934,3389,Unspecified,,,,,Antipsychotic activity in albino rat assessed as duration of inhibition of conditioned avoidance behavior at 25 mg/kg administered intramuscularly,Other,13218.0,
+9,1159620,1,1,,103770934,3389,Active,,,,,Summary of drug indications.,Other,,
+10,1259407,1,1,,363901983,3389,Inactive,,,,,CCRIS mutagenicity studies,Other,,

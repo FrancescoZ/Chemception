@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1099352,1,2,,194177918,104885,Unspecified,,,,,Growth inhibition of Athelia rolfsii at 1000 ppm by agar dilution method,Other,,
+1,1099353,1,2,,194177918,104885,Unspecified,,,,,Growth inhibition of Athelia rolfsii at 100 ppm by agar dilution method,Other,,
+2,1099355,1,2,,194177918,104885,Unspecified,,,,,Growth inhibition of Pythium sp. at 1000 ppm by agar dilution method,Other,,
+3,1099357,1,2,,194177918,104885,Unspecified,,,,,Growth inhibition of Pythium sp. at 100 ppm by agar dilution method,Other,,
+4,1259407,1,1,,363904372,104885,Active,,,,,CCRIS mutagenicity studies,Other,,

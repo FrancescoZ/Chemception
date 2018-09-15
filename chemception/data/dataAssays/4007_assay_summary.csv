@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,624679,1,6,,136931820,11544,Unspecified,,,,,Mechanism based inhibition of rabbit cytochrome P450 CYP2E1 measured by P-nitrophenol (PNP) hydroxylase activity,Other,16248836,
+1,624698,1,9,,136931820,11544,Unspecified,1352193.0,25086.0,,,Mechanism based inhibition of rat cytochrome P450 CYP2E1,Other,16248836,

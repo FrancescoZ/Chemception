@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,743344,1,1,,174006197,3874387,Inactive,,,,Potency,qHTS profiling of the MIPE4 collection as inhibitors of Plasmodium falciparum (3D7) proliferation,Confirmatory,,
+1,743345,1,1,,174006197,3874387,Inactive,,,0.0595,Potency,qHTS profiling of the MIPE4 collection as inhibitors of Plasmodium falciparum (DD2) proliferation,Confirmatory,,
+2,743346,1,1,,174006197,3874387,Inactive,,,3.7553,Potency,qHTS profiling of the MIPE4 collection as inhibitors of Plasmodium falciparum (DD2) proliferation (Rep 2),Confirmatory,,
+3,743347,1,1,,174006197,3874387,Inactive,,,14.9502,Potency,qHTS profiling of the MIPE4 collection as inhibitors of Plasmodium falciparum (HB3) proliferation,Confirmatory,,
+4,1224824,1,1,,174006197,3874387,Inactive,,,,Potency,High-throughput drug toxicity screening in the BPDCN cell line Gen2.2,Confirmatory,,
+5,1224825,1,1,,174006197,3874387,Inactive,,,,Potency,High-throughput drug toxicity screening in the BPDCN cell line Cal-1,Confirmatory,,
+6,1224857,2,1,,174006197,3874387,Inactive,,,,Potency,qHTS assay for measurement of the activity of small molecule inhibitors on Zika virus induced Caspase-3 activity in human iPSC derived neural progenitor cells (hNPCs),Confirmatory,,
+7,1224859,2,1,,174006197,3874387,Inactive,,,,Potency,qHTS assay for measurement of the activity of small molecule inhibitors on Zika virus induced Caspase-3 activity in human astrocytoma cells,Confirmatory,,
+8,1259252,1,1,,174006197,3874387,Inactive,169655958.0,,,Potency,qHTS Screen of the MIPE 4.0 Collection Against Ewings Sarcoma (RDES),Confirmatory,,
+9,1259253,1,1,,174006197,3874387,Inactive,169655958.0,,,Potency,qHTS Screen of the MIPE 4.0 Collection Against Ewings Sarcoma (TC71),Confirmatory,,
+10,1259255,1,1,,174006197,3874387,Inactive,169655958.0,,,Potency,qHTS Screen of the MIPE 4.0 Collection Against Ewings Sarcoma (EW8),Confirmatory,,
+11,1259256,1,1,,174006197,3874387,Inactive,169655958.0,,,Potency,qHTS Screen of the MIPE 4.0 Collection Against Ewings Sarcoma (TC32),Confirmatory,,

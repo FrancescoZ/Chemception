@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,29176,3,3,,103247374,68476,Unspecified,,,,,Dissociation constent of compound at 20 degree C,Other,2502633.0,
+1,32092,8,2,,103247374,68476,Unspecified,,,50.7,IC50,"Inhibition of acetylcholinesterase activity in rat cerebral cortex homogenate, in the presence of a specific butyrylcholinesterase (BChE) inhibitor; ethopropazine",Confirmatory,10514292.0,
+2,32128,3,6,,103247374,68476,Unspecified,,,,,Inhibitory activity against rat brain Acetylcholinesterase using rat cortex homogenate relative to Tacrine.,Other,10514292.0,
+3,158544,4,3,,103247374,68476,Unspecified,,,10.0,IC50,In vitro antiplasmodial activity against Plasmodium falciparum D10,Confirmatory,10649984.0,
+4,219087,3,4,,103247374,68476,Unspecified,,,,,Association constant with ferriprotoporphyrin IX.,Other,10649984.0,
+5,226297,5,1,,103247374,68476,Unspecified,,,,,Inhibition of Beta-hematin (hemozoin) formation; No inhibition.,Other,10649984.0,
+6,393144,6,2,,103247374,68476,Unspecified,,,,,Antitubercular activity against Mycobacterium tuberculosis H37Rv after 5 days by microplate alamar blue assay,Other,19188070.0,
+7,554321,3,9,,103247374,68476,Inactive,21264503.0,,,,Inhibition of Leishmania major PTR1 at 500 uM,Other,21126022.0,
+8,753876,1,2,,103247374,68476,Unspecified,,,,,Inhibition of beta-hematin formation after 60 mins by colorimetric assay relative to Fe(3)PP9,Other,23669191.0,
+9,753877,1,2,,103247374,68476,Unspecified,,,,,Binding affinity to ferriprotoporphyrin 9 at pH 7.5 by UV-vis spectrophotometric analysis in presence of 40% DMSO,Other,23669191.0,
+10,1259407,1,1,,363899629,68476,Inactive,,,,,CCRIS mutagenicity studies,Other,,

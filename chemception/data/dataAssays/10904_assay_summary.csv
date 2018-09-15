@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,678997,3,6,,104252335,16028,Unspecified,81872095,24904,17.0,Ki,TP_TRANSPORTER: inhibition of MPP+ uptake in Xenopus laevis oocytes,Confirmatory,10688634,
+1,679154,3,6,,104252335,16028,Unspecified,313104181,6580,52.0,IC50,TP_TRANSPORTER: inhibition of TEA uptake (TEA: 10 uM) in OCT1-expressing HeLa cells,Confirmatory,10027858,
+2,679156,3,6,,104252335,16028,Unspecified,313104181,6580,29.6,Ki,TP_TRANSPORTER: inhibition of MPP+ uptake in Xenopus laevis oocytes,Confirmatory,10688634,
+3,679160,3,6,,104252335,16028,Unspecified,313104182,6582,120.0,IC50,TP_TRANSPORTER: inhibition of MPP+ uptake (MPP+: 1 uM) in Xenopus laevis oocytes,Confirmatory,12240953,
+4,679212,3,6,,104252335,16028,Unspecified,81872095,24904,3.0,IC50,TP_TRANSPORTER: inhibition of TEA uptake (TEA: 10 uM) in Xenopus laevis oocytes,Confirmatory,10570053,
+5,680371,2,7,,104252335,16028,Unspecified,189046191,20517,43.0,Km,TP_TRANSPORTER: uptake in Oct1-expressing BALB/3T3 cells,Confirmatory,11060354,
+6,681117,3,6,,104252335,16028,Unspecified,313104181,6580,,IC50,TP_TRANSPORTER: inhibition of TEA uptake in OCT1-expressing HeLa cells,Confirmatory,12606755,
+7,681345,3,6,,104252335,16028,Unspecified,81872789,29503,5.7,IC50,TP_TRANSPORTER: inhibition of TEA uptake (TEA: 50 uM) in OCT2-expressing MDCK cells,Confirmatory,11758759,
+8,681348,3,6,,104252335,16028,Unspecified,81872095,24904,7.9,IC50,TP_TRANSPORTER: inhibition of TEA uptake (TEA: 50 uM) in OCT1-expressing MDCK cells,Confirmatory,11758759,
+9,681633,3,6,,104252335,16028,Unspecified,81872789,29503,12.0,Ki,TP_TRANSPORTER: inhibition of TEA uptake (electrogenicity) in Xenopus laevis oocytes,Confirmatory,11502595,
+10,682044,3,6,,104252335,16028,Unspecified,189046191,20517,7.3,Ki,TP_TRANSPORTER: inhibition of MPP+ uptake in Xenopus laevis oocytes,Confirmatory,10688634,

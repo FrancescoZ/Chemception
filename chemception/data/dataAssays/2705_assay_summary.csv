@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,320801,3,3,,103574292,128853,Unspecified,,,,,Inhibition of beta amyloid 25-35 fibril formation at 10 uM,Other,18042380.0,
+1,456317,3,3,,103574292,128853,Unspecified,,,,,Antioxidant activity assessed as trolox equivalent by TEAC assay,Other,19944611.0,
+2,456319,6,1,,103574292,128853,Unspecified,,,,,ABTS radical scavenging activity assessed as vitamin C equivalent antioxidant capacity,Other,19944611.0,
+3,474216,4,3,,103574292,128853,Active,,,,,Inhibition of FCepsilonRI expression in human HMC1 cells at 50 to 100 uM after 72 hrs by flow cytometry,Other,20202836.0,
+4,537627,4,2,,103574292,128853,Active,,,6.0,IC50,Inhibition of Schistosoma mansoni recombinant NAD+ glycohydrolase expressed in Pichia pastoris by continuous fluorometric method,Confirmatory,20951593.0,
+5,603318,6,5,,103574292,128853,Active,55977782.0,952.0,14.6,IC50,"Inhibition of human CD38 using 20 uM 1, N6-etheno NAD+ as substrate by continuous fluorimetric method",Confirmatory,21641214.0,
+6,1094655,1,2,,103574292,128853,Unspecified,,,,,Antioxidant activity in liposomal model assessed as inhibition of Fe2 ions-induced lipid peroxidation,Other,,

@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,75263,222870,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,75263,222870,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,75263,222870,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,75263,222870,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,75263,222870,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,75263,222870,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,50176,3,7,,103393339,222870,Unspecified,,,,,Binding affinity against human carbonic anhydrase (hCA).,Other,10602702.0,
+7,243139,3,9,,103393339,222870,Unspecified,115456.0,760.0,,,Binding constant against human Carbonic anhydrase II,Other,15686888.0,
+8,243144,3,3,,103393339,222870,Unspecified,,,,,Partition coefficient (logP),Other,15686888.0,
+9,481329,6,6,,103393339,222870,Unspecified,115456.0,760.0,9099.13,Ki,Inhibition of human carbonic anhydrase 2,Confirmatory,20443227.0,
+10,550081,4,5,,103393339,222870,Active,115456.0,760.0,0.02951,Ki,Binding affinity to human carbonic anhydrase 2,Confirmatory,21130650.0,

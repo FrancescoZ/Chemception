@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,642884,4,5,,104250147,66184,Active,132070.0,396449.0,0.061,Kd,Binding affinity to chicken riboflavin binding protein assessed as dissociation constant at pH 7.4 in phosphate buffer by isothermal titration calorimetric assay,Confirmatory,21686082.0,
+1,1259407,1,1,,363904266,66184,Active,,,,,CCRIS mutagenicity studies,Other,,

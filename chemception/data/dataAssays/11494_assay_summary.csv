@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,617225,8,2,,134446040,21111478,Active,251757497,4233,9.92,IC50,Inhibition of human recombinant c-MET kinase expressed in A549 cells assessed as inhibition of HGF-induced autophosphorylation by ELISA method,Confirmatory,21812414,
+1,617229,6,5,,134446040,21111478,Active,251757497,4233,6.56,Ki,Binding affinity to human recombinant c-MET assessed as inhibition of autophosphorylation by continuous fluorometric assay,Confirmatory,21812414,

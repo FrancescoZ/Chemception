@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,630,1,1,,26653419,6713893,Active,5174513.0,4088.0,,,HTS of Smad transcription factor inhibitors,Screening,,
+1,940,1,2,,26653419,6713893,Inactive,31881630.0,5732.0,,,Modulators of the EP2 prostaglandin E2 receptor - Primary Screening,Screening,,
+2,1422,1,1,,26653419,6713893,Active,31881630.0,5732.0,,,Inhibitors of the EP2 Prostaglandin E2 Receptor - Primary Screen,Screening,,
+3,1259408,1,1,,363897458,6713893,Active,,,,,GENE-TOX mutagenicity studies,Other,,

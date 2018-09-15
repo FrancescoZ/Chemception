@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,256,1,1,,481508,17405,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+1,1189,1,5,,48414121,17405,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary SingleCellCall Results,Other,,
+2,1194,1,3,,48414121,17405,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Salmonella Mutagenicity,Other,,
+3,1199,1,3,,48414121,17405,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary Mouse Bioassay Results,Other,,
+4,1205,1,4,,48414121,17405,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary MultiCellCall Results,Other,,
+5,1208,1,3,,48414121,17405,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary Rat Bioassay Results,Other,,
+6,318681,7,1,,103568211,17405,Unspecified,,,,,Anticarcinogenic activity in rat assessed as induction of tumors per day,Other,18295489.0,
+7,1259407,1,1,,363899144,17405,Active,,,,,CCRIS mutagenicity studies,Other,,
+8,1259408,1,1,,363896224,17405,Active,,,,,GENE-TOX mutagenicity studies,Other,,

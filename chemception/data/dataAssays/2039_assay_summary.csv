@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,80624,3,4,,103386511,11342,Unspecified,,,,,Percent relaxation using isolated guinea pig trachea.,Other,9871602.0,
+1,80631,3,3,,103386511,11342,Unspecified,,,,,Percent relaxation of isolated guinea pig trachea.,Other,9871602.0,
+2,641626,1,9,,103386511,11342,Inactive,614115034.0,888704.0,,,Inhibition of Mycobacterium tuberculosis RmlD assessed as inhibition of dTDP-beta-6-deoxy-L-lyxo-4-hexulose to dTDP-beta-L-rhamnose conversion at 10 ug/ml,Other,22014548.0,
+3,1259407,1,1,,363903546,11342,Inactive,,,,,CCRIS mutagenicity studies,Other,,

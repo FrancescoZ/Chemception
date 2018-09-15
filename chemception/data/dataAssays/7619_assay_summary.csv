@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,139388,26948,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,139388,26948,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,139388,26948,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,139388,26948,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,139388,26948,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,139388,26948,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,328,1,1,,139388,26948,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+7,629056,1,4,,136924294,26948,Active,,,,,Agonist activity at full length mouse FXR/RXRalpha expressed in human HEK293 cells assessed as induction of transcriptional activity at 10 ug/mL after 18 hrs by dual luciferase reporter gene assay relative to control,Other,22014750.0,
+8,1259325,1,2,,337015448,26948,Inactive,4504843.0,3763.0,,,Discovering small molecule activators of G protein-gated inwardly-rectifying potassium subunit 2 (GIRK2) containing channels utilizing methyl-2 4-pentanediol (MPD) for partial channel activation during screening,Screening,,
+9,1259354,1,1,,348422219,26948,Inconclusive,534286618.0,,,,Small-molecule inhibitors of ST2 (IL1RL1),Screening,,
+10,1259407,1,1,,363902295,26948,Inactive,,,,,CCRIS mutagenicity studies,Other,,

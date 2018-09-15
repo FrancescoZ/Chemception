@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,332622,3,4,,103580715,33306,Unspecified,,,,,Antifungal activity against Cladosporium cucumerinum assessed as inhibition of spore growth by TLC bioassay,Other,7760070.0,
+1,332623,5,4,,103580715,33306,Unspecified,,,,,Larvicidal activity against Aedes aegypti larvae after 24 hrs by TLC bioassay,Other,7760070.0,
+2,401513,3,3,,103580715,33306,Unspecified,,,,,"Effect on compound 48/80-induced histamine level in ddY mouse peritoneal cavity fluid assessed as histamine release at 10 mg/kg, ip administered 15 mins before compound 48/80 challenge measured after 10 mins by fluorometric assay relative to control",Other,9157191.0,
+3,401514,3,3,,103580715,33306,Unspecified,,,,,"Effect on compound 48/80-induced histamine level in ddY mouse peritoneal cavity fluid assessed as histamine release at 25 mg/kg, ip administered 15 mins before compound 48/80 challenge measured after 10 mins by fluorometric assay relative to control",Other,9157191.0,
+4,611884,1,4,,103580715,33306,Inactive,,,,,Antiproliferative activity against serum-stimulated primary rat aortic VSMC at 30 uM after 30 mins by resazurin conversion assay,Other,21627108.0,
+5,637774,5,5,,103580715,33306,Unspecified,296434407.0,23621.0,359.2,IC50,Inhibition of recombinant human BACE1 using Rh-EVNLDAEFK as substrate after 60 mins by fluorescence quenching assay,Confirmatory,22222157.0,
+6,1259407,1,1,,363903675,33306,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,69519,3,6,,103263177,107664,Unspecified,,,,,Percent of relative binding affinity ( to that of estradiol) for estrogen receptor determined by competitive radiometric binding assay using [3H]estradiol as tracer in rat uterine cytosol,Other,2769689.0,
+1,1259407,1,1,,363905644,107664,Inactive,,,,,CCRIS mutagenicity studies,Other,,

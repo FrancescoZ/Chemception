@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1189,1,5,,48413294,93038,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary SingleCellCall Results,Other,,
+1,1199,1,3,,48413294,93038,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary Mouse Bioassay Results,Other,,
+2,1205,1,4,,48413294,93038,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary MultiCellCall Results,Other,,
+3,1259411,1,1,,363904794,93038,Inactive,,,,,CCRIS carcinogenicity studies,Other,,

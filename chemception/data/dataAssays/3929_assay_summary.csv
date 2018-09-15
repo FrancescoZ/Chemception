@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,200883,4,3,,103234986,9884147,Unspecified,,,,,Compound was tested for the mutagenicity activity in the Salmonella Typhimurium reverse mutation assay; --- indicates no evidence of mutagenicity,Other,,
+1,228766,9,2,,103234986,9884147,Active,,,,,Minimum inhibitory concentration (MIC) of compound expressed as geometric mean of various bacterias.*,Other,,

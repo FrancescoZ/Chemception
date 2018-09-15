@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,226732,3,3,,103420099,41469,Unspecified,,,,,The compound was modelled in silico for carcinogenic potency; + = Carcinogen,Other,7108894.0,
+1,1259408,1,1,,363897489,41469,Active,,,,,GENE-TOX mutagenicity studies,Other,,
+2,1259411,1,1,,363903539,41469,Active,,,,,CCRIS carcinogenicity studies,Other,,

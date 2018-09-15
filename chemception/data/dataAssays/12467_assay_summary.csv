@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,398943,3,3,,103580457,119465,Inactive,,,,,"Antifertility effect in Sprague-Dawley rat assessed as number of pregnant animals at 40 mg/kg, po administered postcoitally for 1 to 6 days",Other,6539809.0,
+1,398947,3,3,,103580457,119465,Inactive,,,,,Antifertility effect in Sprague-Dawley rat assessed as number of pregnant animals at 2 mg/kg administered postcoitally for 1 to 10 days,Other,6539809.0,
+2,400869,2,4,,103580457,119465,Unspecified,,,,,Regulation of fertility in rabbit assessed as fetal loss 90 mg/kg,Other,,
+3,400870,2,4,,103580457,119465,Unspecified,,,,,Regulation of fertility in rabbit assessed as fetal loss 60 mg/kg,Other,,
+4,1259407,1,1,,363899496,119465,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,748039,5,2,,104248744,736344,Unspecified,115725.0,1511.0,1000,IC50,Inhibition of human cathepsin G using bis(succinoyl-L-alanyl-L-prolyl-L-phenylalanylamide) as substrate after 1 hr by fluorescence assay,Confirmatory,23659209,
+1,748040,5,2,,104248744,736344,Unspecified,126825.0,1215.0,470,IC50,Inhibition of recombinant human chymase using bis(succinoyl-L-alanyl-L-prolyl-L-phenylalanylamide) as substrate after 1 hr by fluorescence assay,Confirmatory,23659209,
+2,977608,3,1,,208013186,736344,Active,,,470,IC50,Experimentally measured binding affinity data (IC50) for protein-ligand complexes derived from PDB,Other,23659209,

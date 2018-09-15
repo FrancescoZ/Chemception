@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1259310,1,1,,333473083,5571,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+1,1259310,1,1,,333473273,5571,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+2,1259416,1,2,,340083671,5571,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
+3,1259421,1,1,,340083671,5571,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,
+4,1259423,1,2,,354921490,5571,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,
+5,1259423,1,2,,354971720,5571,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

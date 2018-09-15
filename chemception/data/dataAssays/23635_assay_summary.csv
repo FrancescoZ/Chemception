@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,284361,6,4,,103515328,97622,Active,,,16.2,CC50,Cytotoxicity against BALB/c mouse spleen cells,Confirmatory,17081761.0,
+1,284362,6,2,,103515328,97622,Active,,,4.16,IC50,Inhibition of ConA-induced BALB/c mouse T cell proliferation,Confirmatory,17081761.0,
+2,284363,6,2,,103515328,97622,Active,,,7.29,IC50,Inhibition of LPS-induced BALB/c mouse B cell proliferation,Confirmatory,17081761.0,
+3,284364,3,4,,103515328,97622,Unspecified,,,,,"Selectivity index, ratio of CC50 for BALB/c mouse spleen cells to IC50 for BALB/c mouse T cells",Other,17081761.0,
+4,284365,3,3,,103515328,97622,Unspecified,,,,,"Selectivity index, ratio of CC50 for BALB/c mouse T cells to IC50 for BALB/c mouse B cells",Other,17081761.0,
+5,335211,6,2,,103515328,97622,Unspecified,,,,,Inhibition of Candida albicans secreted aspartic protease,Other,12088427.0,
+6,357639,6,2,,103515328,97622,Unspecified,,,,,Cytotoxicity against human HepG2 cells,Other,11575948.0,
+7,357640,6,3,,103515328,97622,Unspecified,,,,,Cytotoxicity against human HepG2(2.2.15) cells,Other,11575948.0,
+8,357641,3,8,,103515328,97622,Inactive,,,,,Inhibition of thrombin-mediated conversion of fibrinogen to fibrin,Other,11575948.0,
+9,1259407,1,1,,363901764,97622,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,482810,69983,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,482810,69983,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,482810,69983,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,482810,69983,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,482810,69983,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,482810,69983,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,248,1,1,,440618,69983,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+7,39219,6,4,,103399256,69983,Active,,,26.0,Km,Apparent Michaelis constant (Km) against Arylsulfotransferase (AST IV),Confirmatory,12459019.0,
+8,39220,7,1,,103399256,69983,Unspecified,,,,,Maximal velocity (Vmax) against Arylsulfotransferase (AST IV),Other,12459019.0,
+9,229377,4,7,,103399256,69983,Unspecified,,,,,Ratio of kcat/Km determined for catalytic efficiency in sulfonation against AST IV,Other,12459019.0,
+10,1259407,1,1,,363903014,69983,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,248,1,1,,417846,13069,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+1,167929,4,3,,103288268,13069,Unspecified,,,,,Carcinogenic activity on all sites after subcutaneous administration,Other,7265110.0,
+2,167942,3,3,,103288268,13069,Unspecified,,,,,Carcinogenic activity on breast after subcutaneous administration,Other,7265110.0,
+3,167957,4,3,,103288268,13069,Unspecified,,,,,Carcinogenic activity on ear duct after subcutaneous administration,Other,7265110.0,
+4,168091,3,3,,103288268,13069,Unspecified,,,,,Carcinogenic activity on liver after subcutaneous administration,Other,7265110.0,
+5,168102,3,3,,103288268,13069,Unspecified,,,,,Compound was tested for carcinogenic activity on mixed data after subcutaneous administration of the compound; + denotes carcinogenic activity.,Other,7265110.0,
+6,168116,3,3,,103288268,13069,Unspecified,,,,,Carcinogenic activity on other sites after subcutaneous administration,Other,7265110.0,
+7,1259407,1,1,,363904951,13069,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,743404,1,3,,172131675,74187,Inactive,,,500.0,AbsAC90_uM,TB: CFU replicating Measured in Microorganism System Using Imaging - 7108-05_Inhibitor_Dose_DryPowder_Activity_Set2,Confirmatory,,
+1,743450,1,3,,172131675,74187,Inactive,,,,AbsAC90_uM,TB:CFU starved Measured in Microorganism System Using Imaging - 7108-06_Inhibitor_Dose_DryPowder_Activity_Set2,Confirmatory,,
+2,753428,1,5,,104248746,74187,Unspecified,84028175.0,29473.0,80.0,IC50,Inhibition of rat VAP-1 expressed in CHO cells using [14C]-benzylamine as substrate preincubated for 30 mins prior to substrate addition measured after 1 hr by scintillation spectrometric analysis,Confirmatory,23664164.0,
+3,753430,1,5,,104248746,74187,Unspecified,2501336.0,8639.0,100.0,IC50,Inhibition of human VAP-1 expressed in CHO cells using [14C]-benzylamine as substrate preincubated for 30 mins prior to substrate addition measured after 1 hr by scintillation spectrometric analysis,Confirmatory,23664164.0,
+4,977611,3,1,,170483071,74187,Active,307776434.0,,4.6,Kd,Experimentally measured binding affinity data (Kd) for protein-ligand complexes derived from PDB,Other,20642456.0,
+5,1259407,1,1,,363902305,74187,Active,,,,,CCRIS mutagenicity studies,Other,,

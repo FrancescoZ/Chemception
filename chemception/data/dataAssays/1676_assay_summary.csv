@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1949,1,3,,49768809,152180,Inactive,,,,,"High Throughput Screen of 100,000 compound library to Identify Inhibitors of Mycobacterium tuberculosis H37Rv",Confirmatory,,
+1,1259370,2,2,,124620415,152180,Inactive,312803.0,1017.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
+2,1259370,2,2,,124620415,152180,Inactive,510604.0,890.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
+3,1259370,2,2,,124620415,152180,Inactive,14602917.0,994.0,,,Inhibitors of CDC25B-CDK2/CyclinA interaction,Other,,
+4,1259407,1,1,,363904894,152180,Inactive,,,,,CCRIS mutagenicity studies,Other,,

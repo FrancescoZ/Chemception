@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,540276,1,2,,50101698,37062,Inactive,420597.0,,,Potency,qHTS for inhibitors of binding or entry into cells for Marburg Virus,Confirmatory,,
+1,1259407,1,1,,363903651,37062,Inactive,,,,,CCRIS mutagenicity studies,Other,,

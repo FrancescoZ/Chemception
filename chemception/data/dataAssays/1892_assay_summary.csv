@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1201518,1,1,,312389756,8972,Unspecified,,,,,Mutagenicity in Salmonella typhimurium TA97A at 2.5 mM after 1 hr by Ames test in absence of S9 fraction,Other,25791675,
+1,1201519,1,1,,312389756,8972,Unspecified,,,,,Mutagenicity in Salmonella typhimurium TA100 at 2.5 mM after 1 hr by Ames test in absence of S9 fraction,Other,25791675,

@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,477928,3,4,,103750329,1550890,Unspecified,,,,,Cytotoxicity against human PANC1 cells in nutrient-deprived condition assessed as preferential cell death after 24 hrs by trypan blue dye exclusion method,Other,20307087.0,
+1,1179759,1,1,,103750329,1550890,Inactive,,,,,Antioxidant activity assessed as ABTS radical scavenging activity up to 1 mM after 12 hrs by spectrophotometry,Other,24928402.0,
+2,1179761,1,2,,103750329,1550890,Inactive,,,,,Antioxidant activity assessed as DPPH radical scavenging activity up to 1 mM after 30 mins by spectrophotometry,Other,24928402.0,
+3,1179762,1,1,,103750329,1550890,Unspecified,,,,,Ratio of compound IC50 to trolox IC50 for ABTS radical scavenging activity after 12 hrs by spectrophotometry,Other,24928402.0,
+4,1179763,1,1,,103750329,1550890,Unspecified,,,,,Ratio of compound IC50 to trolox IC50 for DPPH radical scavenging activity after 30 mins by spectrophotometry,Other,24928402.0,
+5,1259310,1,1,,333269327,1550890,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+6,1259407,1,1,,363898854,1550890,Active,,,,,CCRIS mutagenicity studies,Other,,

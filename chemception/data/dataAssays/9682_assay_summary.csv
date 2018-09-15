@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1235904,1,1,,318378369,76922,Active,313104269.0,8989.0,,,Activation of human TRPA1 expressed in TREx-HEK cells at 1 uM by Fluo-4 AM dye-based Ca2+ imaging assay,Other,26263397,
+1,1235906,1,1,,318378369,76922,Inactive,313104269.0,8989.0,,,Activation of human TRPA1 expressed in TREx-HEK cells at 1 uM in presence of TRPA1 antagonist HC030031 by Fluo-4 AM dye-based Ca2+ imaging assay,Other,26263397,
+2,1235908,1,1,,318378369,76922,Unspecified,,,,,Effect on Ca2+ response in TREx-HEK cells at 1 uM by Fluo-4 AM dye-based Ca2+ imaging assay,Other,26263397,
+3,1235910,1,1,,318378369,76922,Active,313104269.0,8989.0,0.36,EC50,Activation of human TRPA1 expressed in TREx-HEK cells by Fluo-4 AM dye-based Ca2+ imaging assay,Confirmatory,26263397,
+4,1235911,1,1,,318378369,76922,Unspecified,313104269.0,8989.0,,,Activation of human TRPA1 expressed in TREx-HEK cells by Fluo-4 AM dye-based Ca2+ imaging assay relative to 100 uM ITC,Other,26263397,
+5,1235912,1,1,,318378369,76922,Inactive,296452849.0,7442.0,,EC50,Activation of human TRPV1 expressed in TREx-HEK cells by Fluo-4 AM dye-based Ca2+ imaging assay,Confirmatory,26263397,
+6,1235913,1,1,,318378369,76922,Inactive,296452849.0,7442.0,,,Activation of human TRPV1 expressed in TREx-HEK cells by Fluo-4 AM dye-based Ca2+ imaging assay relative to 10 uM capsaicin,Other,26263397,
+7,1235914,1,1,,318378369,76922,Inactive,296452849.0,7442.0,,,Activation of human TRPV1 expressed in TREx-HEK cells at 300 uM by Fluo-4 AM dye-based Ca2+ imaging assay,Other,26263397,
+8,1235917,1,1,,318378369,76922,Inactive,449081289.0,171382.0,,,Agonist activity at mouse TRPM8 expressed in TREx-HEK cells at 300 uM by Fluo-4 AM dye-based Ca2+ imaging assay,Other,26263397,

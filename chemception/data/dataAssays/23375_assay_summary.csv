@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,25919,5,2,,103334680,163851,Unspecified,,,,,Half-life measured in 0.1 M KPO4 buffer atPH 7,Other,3339605.0,
+1,25920,5,2,,103334680,163851,Unspecified,,,,,Half-life measured in BHI spent medium,Other,3339605.0,
+2,25921,5,2,,103334680,163851,Unspecified,,,,,Half-life measured on Bacteroides fragilis in BHIS medium,Other,3339605.0,
+3,25924,5,2,,103334680,163851,Unspecified,,,,,Half-life measured on Escherichia coli SR58 in BHI medium; value ranges from 4-6,Other,3339605.0,
+4,1259407,1,1,,363899434,163851,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,167926,3,3,,103289195,77240,Unspecified,,,,,Compound was tested for carcinogenic activity on all sites after intraperitoneal administration of the compound; - denotes non carcinogenic activity.,Other,7265110.0,
+1,167937,3,3,,103289195,77240,Unspecified,,,,,Compound was tested for carcinogenic activity on breast after intraperitoneal administration of the compound; - denotes non carcinogenic activity.,Other,7265110.0,
+2,167947,3,3,,103289195,77240,Unspecified,,,,,Carcinogenic activity on ear duct after intraperitoneal administration,Other,7265110.0,
+3,168083,3,3,,103289195,77240,Unspecified,,,,,Carcinogenic activity on liver after intraperitoneal administration,Other,7265110.0,
+4,168096,3,3,,103289195,77240,Unspecified,,,,,Compound was tested for carcinogenic activity on mixed data after intraperitoneal administration of the compound; - denotes non carcinogenic activity,Other,7265110.0,
+5,168109,3,3,,103289195,77240,Unspecified,,,,,Carcinogenic activity on other sites after intraperitoneal administration,Other,7265110.0,
+6,1259310,1,1,,333337070,77240,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+7,1259354,1,1,,348455962,77240,Inactive,534286618.0,,,,Small-molecule inhibitors of ST2 (IL1RL1),Screening,,
+8,1259407,1,1,,363900715,77240,Active,,,,,CCRIS mutagenicity studies,Other,,

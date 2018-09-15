@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,453203,3,4,,103716749,11360,Unspecified,,,,,"Lipophilicity, log D of the compound",Other,19963379.0,
+1,453204,3,6,,103716749,11360,Unspecified,,,,,Permeability in human skin after 48 hrs by Franz cell permeability assay,Other,19963379.0,
+2,1059430,1,4,,103716749,11360,Unspecified,123948.0,3620.0,,,Inhibition of recombinant human IDO1 expressed in Escherichia coli EC538 using L-tryptophan as substrate at 1 mM after 1 hr relative to control,Other,24262887.0,
+3,1259407,1,1,,363902280,11360,Inactive,,,,,CCRIS mutagenicity studies,Other,,
+4,1259408,1,1,,363895766,11360,Active,,,,,GENE-TOX mutagenicity studies,Other,,

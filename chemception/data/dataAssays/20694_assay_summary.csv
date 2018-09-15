@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,214996,3,3,,103426850,3036572,Unspecified,,,,,"Trypanocidal activity against Trypanosoma brucei, exposure of parasites to compound prior to injection into mice at 10 e-4 M concentration in dark conditions",Other,6737429.0,
+1,214997,3,3,,103426850,3036572,Unspecified,,,,,"Trypanocidal activity against Trypanosoma brucei, exposure of parasites to compound prior to injection into mice at 10 e-4 M concentration in presence of light",Other,6737429.0,
+2,215154,3,3,,103426850,3036572,Unspecified,,,,,"Trypanocidal activity against Trypanosoma brucei, exposure of parasites to compound prior to injection into mice at 10 e-5 M concentration in dark conditions",Other,6737429.0,
+3,215156,3,3,,103426850,3036572,Unspecified,,,,,"Trypanocidal activity against Trypanosoma brucei, exposure of parasites to compound prior to injection into mice at 10 e-5 M concentration in presence of light",Other,6737429.0,
+4,215159,3,3,,103426850,3036572,Unspecified,,,,,"Trypanocidal activity against Trypanosoma brucei, exposure of parasites to compound prior to injection into mice at 10 e-6 M concentration in dark conditions",Other,6737429.0,
+5,215160,3,3,,103426850,3036572,Unspecified,,,,,"Trypanocidal activity against Trypanosoma brucei, exposur of parasites to compound prior to injection into mice at 10 e-6 M concentration in presence of light",Other,6737429.0,
+6,1259407,1,1,,363904334,3036572,Active,,,,,CCRIS mutagenicity studies,Other,,

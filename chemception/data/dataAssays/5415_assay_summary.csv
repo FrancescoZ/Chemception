@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,594414,6,5,,131275634,152937,Unspecified,754286265.0,443551.0,100.0,IC50,Inhibition of ovine COX1 after 5 mins by enzyme immunoassay,Confirmatory,21388719.0,
+1,594415,6,5,,131275634,152937,Active,3914304.0,443460.0,40.0,IC50,Inhibition of ovine COX2 after 5 mins by enzyme immunoassay,Confirmatory,21388719.0,
+2,594416,1,5,,131275634,152937,Unspecified,,,,,"Selectivity index, ratio of IC50 for ovine COX1 to IC50 for ovine COX2",Other,21388719.0,
+3,594417,1,5,,131275634,152937,Unspecified,,,,,"Antiinflammatory activity in Sprague-Dawley rat assessed as inhibition of carrageenan-induced paw edema at 100 mg/kg, ip after 1 hr by plethysmometer",Other,21388719.0,
+4,594444,1,5,,131275634,152937,Unspecified,,,,,"Antiinflammatory activity in Sprague-Dawley rat assessed as inhibition of carrageenan-induced paw edema at 100 mg/kg, ip after 2 hrs by plethysmometer",Other,21388719.0,
+5,1259407,1,1,,363900358,152937,Inactive,,,,,CCRIS mutagenicity studies,Other,,

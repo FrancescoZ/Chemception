@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1156429,1,1,,242646771,23686,Unspecified,,,50.0,IC50,"Antiplasmodial activity against chloroquine-, pyrimethamine- and proguanil-resistant Plasmodium falciparum K1 infected in human erythrocytes after 72 hrs by SYBR Green I fluorescence-based method",Confirmatory,24946216.0,
+1,1156430,1,1,,242646771,23686,Unspecified,,,500.0,CC50,Cytotoxicity against human HepG2 cells after 72 hrs by MTT assay,Confirmatory,24946216.0,
+2,1259407,1,1,,363900898,23686,Inactive,,,,,CCRIS mutagenicity studies,Other,,

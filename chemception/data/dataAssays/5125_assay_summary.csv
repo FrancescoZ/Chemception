@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,144987,9,2,,103430308,2723801,Active,,,3.95,IC50,Tested for the binding of [3H]dizocilpine to DEPC (diethylpyrocarbonate) membranes of rat,Confirmatory,,
+1,144988,9,3,,103430308,2723801,Active,,,2.21,IC50,Tested for the binding of [3H]dizocilpine to NMDA receptor in rat brain membranes in the presence of 500 uM spermidine,Confirmatory,,
+2,145118,6,1,,103430308,2723801,Unspecified,,,,,Tested for the dissociation of [3H]dizocilpine binding at a concentration 3 uM,Other,,
+3,145119,6,1,,103430308,2723801,Unspecified,,,,,Tested for the dissociation of [3H]dizocilpine binding at a concentration 30 uM,Other,,
+4,227267,3,4,,103430308,2723801,Unspecified,,,,,Tested for the increase in [Ca2+] produced by 30 uM of the compound,Other,,

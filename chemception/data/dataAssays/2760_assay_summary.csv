@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1148756,1,1,,242638864,250399,Unspecified,,,,,Antimicrobial activity against Escherichia coli ATCC 9723 after 16 hrs by spectrophotometry,Other,768475,
+1,1148757,1,1,,242638864,250399,Unspecified,,,,,Antimicrobial activity against Leuconostoc dextranicum ATCC 8086 after 18 hrs by spectrophotometry,Other,768475,
+2,1148758,1,1,,242638864,250399,Unspecified,,,,,Antimicrobial activity against Lactobacillus plantarum ATCC 8014 after 18 hrs by spectrophotometry,Other,768475,

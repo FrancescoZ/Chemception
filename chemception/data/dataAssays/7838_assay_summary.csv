@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,53470,5,1,,103421794,5478803,Unspecified,300669716.0,,,,Inhibitory dose against oncornaviral DNA polymerase activity of moloney murine leukemia virus,Other,6157024.0,
+1,580533,5,3,,103421794,5478803,Unspecified,,,,,Antimicrobial activity against Bacillus anthracis Sterne spores by broth microdilution method,Other,19635954.0,
+2,580534,5,3,,103421794,5478803,Unspecified,,,,,Antimicrobial activity against Bacillus anthracis Sterne vegetative cells by broth microdilution method,Other,19635954.0,
+3,1259407,1,1,,363901779,5478803,Inactive,,,,,CCRIS mutagenicity studies,Other,,

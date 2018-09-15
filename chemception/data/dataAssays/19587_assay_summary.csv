@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,437346,3,4,,103694500,94497,Unspecified,,,,,Induction of apoptosis in rat PC12 cells assessed as DNA fragmentation at 1 mM after 3 hrs by comet assay,Other,19481842,
+1,437347,3,4,,103694500,94497,Unspecified,,,,,Induction of apoptosis in rat PC12 cells assessed as length of migrated cell nucleus at 1 mM after 3 hrs by comet assay,Other,19481842,

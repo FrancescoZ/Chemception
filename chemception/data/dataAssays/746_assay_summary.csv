@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,55127,4,3,,103413973,154063,Unspecified,,,,,Binding constant for DNA by ethidium displacement,Other,3351846.0,
+1,98488,4,4,,103413973,154063,Active,,,5.3,IC50,Concentration required to inhibit growth of murine leukemia (L1210) cells in culture,Confirmatory,3351846.0,
+2,98543,4,4,,103413973,154063,Active,,,5.3,IC50,Inhibition of L1210 cell growth by 50%,Confirmatory,11831901.0,
+3,115370,4,4,,103413973,154063,Inactive,,,,,Percentage increase in lifespan of P388 tumor cell bearing animal compared to nontreated tumor bearing controls at given optimal dose; Not active,Other,3351846.0,
+4,119957,4,6,,103413973,154063,Unspecified,,,,,Optimal dose administered intraperitoneally after intraperitoneal inoculation of 10 e 6 P388 leukemia cells,Other,3351846.0,
+5,162408,3,3,,103413973,154063,Unspecified,,,,,Binding constant to Poly (dA-dT) determined by ethidium bromide displacement,Other,11831901.0,
+6,162548,3,3,,103413973,154063,Unspecified,,,,,Binding constant to Poly (dG-dC) determined by ethidium bromide displacement,Other,11831901.0,
+7,1259407,1,1,,363902409,154063,Active,,,,,CCRIS mutagenicity studies,Other,,

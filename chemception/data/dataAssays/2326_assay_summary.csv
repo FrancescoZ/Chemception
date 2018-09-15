@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,192,1,1,,93570,67282,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  B16 Melanoma (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+1,248,1,1,,93570,67282,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+2,73950,9,2,,103321687,67282,Active,,,2.5,IC50,Inhibitory activity against glycogen synthase kinase-3 (GSK-3beta).,Confirmatory,14561081.0,
+3,165175,3,9,,103321687,67282,Unspecified,,,,,"First-order rate constant (K inact) for conversion of the ExI complex (Protein-tyrosine phosphatase 1B -inhibitor complex) into the covalent adduct, EI was determined using PNP as substrate",Other,12372498.0,
+4,165176,9,2,,103321687,67282,Active,,,14.0,Ki,Dissociation constant towards Protein-tyrosine phosphatase 1B receptor-inhibitor complex was determined using PNP as substrate,Confirmatory,12372498.0,
+5,223675,6,4,,103321687,67282,Unspecified,,,100.0,IC50,Inhibitory activity against protein kinase A (PKA ),Confirmatory,14561081.0,
+6,227010,3,9,,103321687,67282,Unspecified,,,,,Ratio between dissociation constant and First-order rate constant (Ki / K inact) was determined,Other,12372498.0,
+7,605820,6,2,,103321687,67282,Active,,,2.5,IC50,Inhibition of GSK3-beta using GS1 as substrate and [gamma-32P]ATP after 20 mins by radiometric assay,Confirmatory,21500862.0,
+8,1259407,1,1,,363905947,67282,Inactive,,,,,CCRIS mutagenicity studies,Other,,

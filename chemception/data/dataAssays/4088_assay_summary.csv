@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,23443,3,3,,103341222,284,Unspecified,,,,,Partition coefficient (logP),Other,3882967.0,
+1,498775,5,2,,103341222,284,Unspecified,,,,,Toxicity in po dosed mouse,Other,19465932.0,
+2,781325,1,2,,103341222,284,Unspecified,,,,,pKa (acid-base dissociation constant) as determined by Liao ref: J Chem Info Model 2009,Other,24249037.0,
+3,1103916,1,1,,103341222,284,Active,,,,,Disruption of mitochondria in insecticide-susceptible Drosophila melanogaster Hikone-R assessed as increase in cytochrome c release from mitochondria to cytosol at 1 mM by western blot analysis,Other,19278021.0,
+4,1103917,1,1,,103341222,284,Active,,,,,Disruption of mitochondria in insecticide-susceptible Drosophila melanogaster Canton-S assessed as increase in cytochrome c release from mitochondria to cytosol at 1 mM by western blot analysis,Other,19278021.0,
+5,1103920,1,1,,103341222,284,Unspecified,,,,,Inhibition of cytochrome c oxidase in insecticide-resistance Drosophila melanogaster Hikone-R mitochondria at 10 mM using reduced cytochrome c as substrate by microplate spectrophotometer analysis,Other,19278021.0,
+6,1103921,1,1,,103341222,284,Unspecified,,,,,Inhibition of cytochrome c oxidase in insecticide-susceptible Drosophila melanogaster Canton-S mitochondria at 10 mM using reduced cytochrome c as substrate by microplate spectrophotometer analysis,Other,19278021.0,
+7,1259407,1,1,,363903989,284,Inactive,,,,,CCRIS mutagenicity studies,Other,,

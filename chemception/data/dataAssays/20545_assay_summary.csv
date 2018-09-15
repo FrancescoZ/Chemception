@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,23442,3,3,,103420682,76503,Unspecified,,,,,Partition coefficient (logP),Other,1995902.0,
+1,200690,3,4,,103420682,76503,Unspecified,,,,,Mutagenic activity in an Ames test on Salmonella Typhimurium TA98; Activity is log of revertants/nmol,Other,1995902.0,
+2,1159537,2,2,,252210178,76503,Inactive,,,,,qHTS screening for TAG (triacylglycerol) accumulators in algae,Screening,28652262.0,
+3,1259310,1,1,,333072480,76503,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+4,1259354,1,1,,348410362,76503,Inconclusive,534286618.0,,,,Small-molecule inhibitors of ST2 (IL1RL1),Screening,,
+5,1259407,1,1,,363904451,76503,Active,,,,,CCRIS mutagenicity studies,Other,,

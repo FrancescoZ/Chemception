@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1100667,1,1,,194177395,53235546,Unspecified,,,,,Ratio of I50 for very long-chain fatty acid elongase in Echinochloa crus-galli (barnyard grass) to EC50 for shoot elongation inhibition in Echinochloa crus-galli (barnyard grass),Other,5,
+1,1100668,1,2,,194177395,53235546,Active,,,0.3,IC50,Inhibition of Very long-chain fatty acid elongase in Echinochloa crus-galli (barnyard grass),Confirmatory,5,
+2,1100669,1,2,,194177395,53235546,Active,,,0.03,EC50,Inhibition of shoot elongation in Echinochloa crus-galli (barnyard grass),Confirmatory,5,

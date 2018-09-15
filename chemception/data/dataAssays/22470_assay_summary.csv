@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,216890,3,4,,103342206,549976,Unspecified,,,,,Mean surviving fraction of V79 cells following a 1-h exposure to H2O2.,Other,9719601,
+1,216900,4,4,,103342206,549976,Unspecified,,,,,Mean surviving fraction of V79 cells following a 12-Gy dose of radiation.,Other,9719601,

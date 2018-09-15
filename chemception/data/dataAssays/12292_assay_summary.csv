@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1053175,2,1,,178125643,3780,Inactive,,,,,A screen for compounds that inhibit growth of Escherichia coli,Other,,
+1,1159583,2,1,,178125643,3780,Inactive,,,,,High throughput screen for small molecule inhibitors of a hypoxia-regulated fluorescent biosensor in Mycobacterium tuberculosis,Other,,
+2,1259309,1,1,,178125643,3780,Inactive,,,,,A screen for compounds that are lethal to S. aureus RN4220 with the processive glycosyltransferase UgtP deleted,Other,,
+3,1259311,1,1,,178125643,3780,Inactive,,,,,A screen for compounds that are lethal to S. aureus RN4220,Other,,

@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,330,1,1,,456500,2239,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+1,1195,1,2,,48415579,2239,Active,,,,,DSSTox (FDAMDD) FDA Maximum (Recommended) Daily Dose Database,Other,,
+2,2062,1,2,,85220229,2239,Active,,,,,Ligands of bioamine (Class A) GPCRs,Other,,
+3,41895,3,7,,103303645,2239,Unspecified,,,,,Beta-blocking activity was measured by applying the stepwise linear discriminate analysis; Active,Other,,
+4,211857,6,3,,103303645,2239,Unspecified,,,,,Compound was tested for its toxicity after intravenous administration to mice in experiment 1,Other,,
+5,211859,6,3,,103303645,2239,Unspecified,,,,,Compound was tested for its toxicity after intravenous administration to mice in experiment 2,Other,,
+6,211864,5,3,,103303645,2239,Inconclusive,,,,,Compound was tested for its toxicity after oral administration to mice in experiment 1; No data,Other,,
+7,211866,5,3,,103303645,2239,Inconclusive,,,,,Compound was tested for its toxicity after oral administration to mice in experiment 2; No data,Other,,
+8,227700,3,3,,103303645,2239,Unspecified,,,,,Anticonvulsant activity,Other,12873507.0,
+9,1159620,1,1,,103303645,2239,Active,,,,,Summary of drug indications.,Other,,
+10,1259416,1,2,,340079538,2239,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
+11,1259421,1,1,,340079538,2239,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,

@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,492967,1,2,,92283049,1490288,Inactive,47566732,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
+1,493162,1,2,,92283049,1490288,Inactive,335756,,,,A screen for compounds that inhibit processive DNA synthesis of vaccinia virus,Other,,
+2,504770,1,2,,92283049,1490288,Inactive,9657380,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
+3,602314,1,2,,92283049,1490288,Inactive,151220867,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
+4,720717,1,3,,92283049,1490288,Inactive,1718329,,,,Chemical Probes of Kaposi's Sarcoma Herpes Virus Latent Infection,Other,,
+5,1224905,2,1,,92283049,1490288,Inactive,120997,25643.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
+6,1224905,2,1,,92283049,1490288,Inactive,74356043,55704.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,

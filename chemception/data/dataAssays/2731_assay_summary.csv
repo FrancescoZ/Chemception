@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,624608,3,2,,136938384,94221,Unspecified,136731,54657,,,Specific activity of expressed human recombinant UGT1A4,Other,10836148,
+1,624612,1,9,,136938384,94221,Unspecified,29839451,54600,,,Specific activity of expressed human recombinant UGT1A9,Other,10836148,

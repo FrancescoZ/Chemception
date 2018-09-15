@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,167125,3,4,,103203151,93575,Unspecified,,,,,Eye irritation potential accessed using Draize in vivo rabbit eye irritation test,Other,12672239.0,
+1,1259310,1,1,,332909785,93575,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

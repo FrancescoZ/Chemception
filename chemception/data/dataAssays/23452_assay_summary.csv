@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,17111,3,5,,103414042,150569,Unspecified,,,,,Lipophilicity expressed as the negative logarithm of the equilibrium constant; ND denotes no data.,Other,11831901.0,
+1,55127,4,3,,103414042,150569,Unspecified,,,,,Binding constant for DNA by ethidium displacement,Other,3351846.0,
+2,98488,4,4,,103414042,150569,Active,,,6.5,IC50,Concentration required to inhibit growth of murine leukemia (L1210) cells in culture,Confirmatory,3351846.0,
+3,98543,4,4,,103414042,150569,Active,,,6.5,IC50,Inhibition of L1210 cell growth by 50%,Confirmatory,11831901.0,
+4,115370,4,4,,103414042,150569,Inactive,,,,,Percentage increase in lifespan of P388 tumor cell bearing animal compared to nontreated tumor bearing controls at given optimal dose; Not active,Other,3351846.0,
+5,119957,4,6,,103414042,150569,Unspecified,,,,,Optimal dose administered intraperitoneally after intraperitoneal inoculation of 10 e 6 P388 leukemia cells,Other,3351846.0,
+6,134969,3,3,,103414042,150569,Inconclusive,,,,,Percent increase in life span of compound-treated mice bearing P388 leukemia; NA denotes not available,Other,11831901.0,
+7,135103,3,4,,103414042,150569,Unspecified,,,,,Percent increase in life span of compound-treated mice bearing or Lewis lung carcinoma; ND denotes no data.,Other,11831901.0,
+8,162408,3,3,,103414042,150569,Unspecified,,,,,Binding constant to Poly (dA-dT) determined by ethidium bromide displacement,Other,11831901.0,
+9,162548,3,3,,103414042,150569,Unspecified,,,,,Binding constant to Poly (dG-dC) determined by ethidium bromide displacement,Other,11831901.0,
+10,1259407,1,1,,363902412,150569,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,658930,1,3,,160678016,113622,Unspecified,,,,,Influx ratio of permeability from basolateral to apical side over apical to basolateral side in human Caco2 cells at 100 uM up to 90 mins,Other,22464423.0,
+1,658931,2,2,,160678016,113622,Active,,,0.242,IC50,Antiparasitic activity against Giardia duodenalis IMSS:0989 after 48 hrs,Confirmatory,22464423.0,
+2,658932,1,3,,160678016,113622,Unspecified,,,,,Apparent permeability from apical to basolateral side of human Caco2 cells at 100 uM up to 90 mins,Other,22464423.0,
+3,658934,1,3,,160678016,113622,Unspecified,,,,,"Lipophilicity, logkw of the compound by RP-HPLC analysis",Other,22464423.0,
+4,658935,2,2,,160678016,113622,Unspecified,,,,,Aqueous solubility of the compound,Other,22464423.0,
+5,658936,1,3,,160678016,113622,Unspecified,,,,,"Distribution coefficient, log D of the compound",Other,22464423.0,
+6,658937,1,3,,160678016,113622,Unspecified,,,,,Apparent permeability from basolateral to apical side of human Caco2 cells at 100 uM up to 90 mins,Other,22464423.0,
+7,658938,1,3,,160678016,113622,Unspecified,,,,,Efflux ratio of permeability from apical to basolateral side over basolateral to apical side in human Caco2 cells at 100 uM up to 90 mins,Other,22464423.0,
+8,1259407,1,1,,363902312,113622,Active,,,,,CCRIS mutagenicity studies,Other,,

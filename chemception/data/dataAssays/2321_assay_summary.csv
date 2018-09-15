@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,485350,1,2,,92164371,4341895,Inactive,126642418,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme BasE,Screening,,
+1,485395,1,2,,92164371,4341895,Inactive,150392496,,,,A screen for compounds that inhibit the activity of Staphylococcus aureus DNA helicase,Other,,
+2,493033,1,2,,92164371,4341895,Inactive,614089026,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme MbtI,Other,,
+3,504770,1,2,,92164371,4341895,Inactive,9657380,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
+4,540299,1,2,,92164371,4341895,Inactive,15607688,887529.0,,,A screen for compounds that inhibit the MenB enzyme of Mycobacterium tuberculosis,Other,20850304.0,
+5,588519,1,2,,92164371,4341895,Inactive,52695378,,,,A screen for compounds that inhibit viral RNA polymerase binding and polymerization activities,Other,21722674.0,
+6,602314,1,2,,92164371,4341895,Inactive,151220867,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
+7,720641,1,2,,92164371,4341895,Inactive,15923709,,,,A screen for compounds that inhibit the activity of LtaS in Staphylococcus aureus,Other,,
+8,720717,1,3,,92164371,4341895,Inactive,1718329,,,,Chemical Probes of Kaposi's Sarcoma Herpes Virus Latent Infection,Other,,
+9,1224905,2,1,,92164371,4341895,Inactive,120997,25643.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,
+10,1224905,2,1,,92164371,4341895,Inactive,74356043,55704.0,,,High-throughput screen for inhibitors of the GIV GBA-motif interaction with Galpha-i G protein subunits,Screening,,

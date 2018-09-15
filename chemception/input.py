@@ -30,7 +30,7 @@ def LoadData(fileName,duplicateProb):
 		moleculeReader = csv.reader(datasetCsv, delimiter=';', quotechar=';')
 		for i,compound in enumerate(moleculeReader):
 			smile = compound[1]
-			if smile in smiles and random.random()>duplicateProb:
+			if smile in smiles and random.random()<duplicateProb:
 				continue
 			compounds.append(Compound(compound[0],smile,compound[2]=='1'))
 			smiles[smile] = 1
@@ -83,7 +83,10 @@ def LoadImageData(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 def LoadSMILESData(duplicateProb = 0,seed=7):
 	data = LoadData('data',duplicateProb)
 	inputs = list(map(lambda x: x.input(t='SMILE'), data))
-	dic = buildVocabulary(list(map(lambda x: x._SMILE, data)))
+	with open('./data/elements.txt') as f:
+		element_list = f.read().splitlines() 
+	dic = buildVocabulary(element_list)
+	#dic = buildVocabulary(list(map(lambda x: x._SMILE, data)))
 
 	return np.array(list(map(lambda x: SMILE2Int(x[0],dic),inputs))), np.array(list(map(lambda x: x[1],inputs)))
 

@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,67617,5,1,,103436025,11923,Unspecified,,,,,Drug concentration required to achieve 50% kill of EMT6 cells under hypoxic conditions.,Other,7190617.0,
+1,67618,5,1,,103436025,11923,Unspecified,,,,,Drug concentration required to achieve 50% kill of EMT6 cells under oxygenated conditions.,Other,7190617.0,
+2,232392,3,3,,103436025,11923,Unspecified,,,,,Ratio of ED50 (aerobic) to ED50 (hypoxic),Other,7190617.0,
+3,1202221,1,2,,103436025,11923,Active,,,2.0,IC50,Inhibition of recombinant His6-tagged Pseudomonas aeruginosa PqsD expressed in Escherichia coli BL21 (deltaDE3) using anthraniloyl-CoA/beta-ketodecanoic acid as substrate assessed as HHQ formation preincubated for 10 mins followed by substrate addition by HPLC/MS-MS analysis,Confirmatory,25874327.0,
+4,1259407,1,1,,363905917,11923,Inactive,,,,,CCRIS mutagenicity studies,Other,,

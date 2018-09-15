@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,179,1,1,,115828,7549,Inactive,,,,,NCI AIDS Antiviral Assay,Confirmatory,,
+1,1189,1,5,,48413677,7549,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary SingleCellCall Results,Other,,
+2,1208,1,3,,48413677,7549,Inactive,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary Rat Bioassay Results,Other,,
+3,1259407,1,1,,363906872,7549,Active,,,,,CCRIS mutagenicity studies,Other,,
+4,1259408,1,1,,363895243,7549,Unspecified,,,,,GENE-TOX mutagenicity studies,Other,,

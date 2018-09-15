@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,239296,7,2,,103458478,50266,Active,,,2.8,Ki,Affinity for ERG2 of Saccharomyces cerevisiae using [3H]ifenprodil or (+)-[3H]pentazocine radioligand,Confirmatory,16033255,
+1,239347,7,2,,103458478,50266,Active,,,0.23,Ki,Affinity for sigma receptor type 1 of guinea pig using [3H]ifenprodil or (+)-[3H]pentazocine radioligand,Confirmatory,16033255,
+2,239597,8,5,,103458478,50266,Active,17374795.0,10682.0,0.051,Ki,Affinity for human EMP expressed in ERG2 deficient strain of Saccharomyces cerevisiae using [3H]ifenprodil or (+)-[3H]pentazocine as radioligand,Confirmatory,16033255,

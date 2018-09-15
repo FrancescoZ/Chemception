@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,143757,7,1,,103234113,6054491,Unspecified,,,,,Inhibition of AHAT-catalyzed transacylation of 4-aminoazobenzene,Other,6644748.0,
+1,167927,3,3,,103234113,6054491,Unspecified,,,,,Carcinogenic activity on all sites after oral administration,Other,7265110.0,
+2,167939,3,3,,103234113,6054491,Unspecified,,,,,Carcinogenic activity on breast after oral administration of the compound,Other,7265110.0,
+3,167955,3,3,,103234113,6054491,Unspecified,,,,,Carcinogenic activity on ear duct after oral administration,Other,7265110.0,
+4,168085,3,3,,103234113,6054491,Unspecified,,,,,Carcinogenic activity on liver after oral administration of the compound,Other,7265110.0,
+5,168097,3,3,,103234113,6054491,Unspecified,,,,,Carcinogenic activity on mixed data after oral administration,Other,7265110.0,
+6,168110,3,3,,103234113,6054491,Unspecified,,,,,Carcinogenic activity on other sites after oral administration,Other,7265110.0,
+7,201202,3,4,,103234113,6054491,Unspecified,,,,,Comparative mutagenic activity toward Salmonella Typhimurium strain TA-100 at concentration of 10 nmol/plate,Other,7045369.0,
+8,1259407,1,1,,363900310,6054491,Active,,,,,CCRIS mutagenicity studies,Other,,
+9,1259411,1,1,,363900310,6054491,Active,,,,,CCRIS carcinogenicity studies,Other,,

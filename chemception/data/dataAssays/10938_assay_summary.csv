@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,278576,7,2,,103510640,91701,Unspecified,,,1548.8,IC50,Inhibition of Plasmodium falciparum FCK2 growth as [3H]hypoxanthine uptake after 48 hrs,Confirmatory,17060533.0,
+1,278577,7,2,,103510640,91701,Unspecified,,,1479.1,IC50,Inhibition of Plasmodium falciparum FCK2 growth as [3H]hypoxanthine uptake after 96 hrs,Confirmatory,17060533.0,
+2,1108905,1,2,,103510640,91701,Active,,,,,Post-emergence herbicidal activity against Avena fatua under greenhouse conditions at 1.3 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+3,1108906,1,2,,103510640,91701,Active,,,,,Post-emergence herbicidal activity against Avena fatua under greenhouse conditions at 0.6 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+4,1108907,1,2,,103510640,91701,Active,,,,,Post-emergence herbicidal activity against Avena fatua under greenhouse conditions at 0.3 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+5,1108912,1,2,,103510640,91701,Unspecified,,,,,Phytotoxicity against Triticum aestivum (wheat) under greenhouse conditions at 2.5 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+6,1108913,1,2,,103510640,91701,Unspecified,,,,,Phytotoxicity against Triticum aestivum (wheat) under greenhouse conditions at 1.3 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+7,1108914,1,2,,103510640,91701,Unspecified,,,,,Phytotoxicity against Triticum aestivum (wheat) under greenhouse conditions at 0.6 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+8,1108915,1,2,,103510640,91701,Unspecified,,,,,Phytotoxicity against Triticum aestivum (wheat) under greenhouse conditions at 0.3 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,
+9,1108919,1,2,,103510640,91701,Active,,,,,Post-emergence herbicidal activity against Avena fatua under greenhouse conditions at 2.5 g/a at 1.5-leaf stage measured after 3 weeks by pot test,Other,,

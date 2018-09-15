@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,41895,3,7,,103304511,18949,Unspecified,,,,,Beta-blocking activity was measured by applying the stepwise linear discriminate analysis; Active,Other,,
+1,227701,3,3,,103304511,18949,Unspecified,,,,,Anticonvulsant activity; NC denotes that compound is not classified,Other,12873507.0,
+2,409954,4,9,,103304511,18949,Inactive,341940599.0,17161.0,,,Inhibition of mouse brain MAOA,Other,18834112.0,
+3,409956,4,9,,103304511,18949,Inactive,341940629.0,109731.0,,,Inhibition of mouse brain MAOB,Other,18834112.0,
+4,1259408,1,1,,363896818,18949,Active,,,,,GENE-TOX mutagenicity studies,Other,,

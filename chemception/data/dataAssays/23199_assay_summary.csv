@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,73486,79448,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,73486,79448,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,73486,79448,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,73486,79448,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,73486,79448,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,73486,79448,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,300479,3,3,,103542381,79448,Inactive,,,,,Antifungal activity against Sclerotina sclerotiorum assessed as growth inhibition at 0.50 mM after 48 hrs,Other,17590338.0,
+7,300484,8,1,,103542381,79448,Unspecified,,,,,Inhibition of Sclerotina sclerotiorums brassinin glucosyl transferase assessed as specific activity at 0.30 mM,Other,17590338.0,
+8,300485,8,1,,103542381,79448,Unspecified,,,,,Inhibition of Sclerotina sclerotiorums brassinin glucosyl transferase assessed as specific activity at 0.60 mM,Other,17590338.0,
+9,300486,3,3,,103542381,79448,Unspecified,,,,,Inhibition of Sclerotina sclerotiorums brassinin glucosyl transferase assessed as percent relative activity in relative to brassinin at 0.30 mM,Other,17590338.0,
+10,300487,3,3,,103542381,79448,Unspecified,,,,,Inhibition of Sclerotina sclerotiorums brassinin glucosyl transferase assessed as percent relative activity in relative to brassinin at 0.60 mM,Other,17590338.0,
+11,1259407,1,1,,363899638,79448,Inactive,,,,,CCRIS mutagenicity studies,Other,,

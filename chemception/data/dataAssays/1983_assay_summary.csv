@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,179,1,1,,498381,5367147,Inactive,,,,,NCI AIDS Antiviral Assay,Confirmatory,,
+1,295380,3,4,,103529366,5367147,Unspecified,,,,,Cytotoxicity against human TK10 cells in aerobic condition assessed as survival at 100 uM by sulforhodamine assay,Other,17383189.0,
+2,295381,3,4,,103529366,5367147,Unspecified,,,,,Cytotoxicity against human MCF7 cells ATCC HTB38 in aerobic condition assessed as survival at 100 uM by sulforhodamine assay,Other,17383189.0,
+3,295382,4,4,,103529366,5367147,Unspecified,,,,,Cytotoxicity against human HT29 cells ATCC HTB38 in aerobic condition assessed as survival at 100 uM by sulforhodamine assay,Other,17383189.0,
+4,1259407,1,1,,363900169,5367147,Inactive,,,,,CCRIS mutagenicity studies,Other,,

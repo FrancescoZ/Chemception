@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1259407,1,1,,363904948,22818,Inactive,,,,,CCRIS mutagenicity studies,Other,,
+1,1259408,1,1,,363896465,22818,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,
+2,1259423,1,2,,354862516,22818,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

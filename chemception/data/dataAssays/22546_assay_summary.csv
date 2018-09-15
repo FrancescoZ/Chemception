@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1103423,1,1,,194177509,161441,Unspecified,,,,,Antifungal activity against Phomopsis obscurans assessed as growth inhibition at 50 uM measured at 144 hr by 96-well microtiter assay,Other,16190626.0,
+1,1103424,1,1,,194177509,161441,Unspecified,,,,,Antifungal activity against Phomopsis obscurans assessed as growth inhibition at 50 uM measured at 120 hr by 96-well microtiter assay,Other,16190626.0,
+2,1103426,1,1,,194177509,161441,Active,,,,,Antifungal activity against Colletotrichum acutatum assessed as growth inhibition at 50 to 150 uM measured up to 72 hr by 96-well microtiter assay,Other,16190626.0,
+3,1103427,1,1,,194177509,161441,Active,,,,,Antifungal activity against Colletotrichum gloeosporioides assessed as growth inhibition at 50 to 150 uM measured up to 72 hr by 96-well microtiter assay,Other,16190626.0,
+4,1103428,1,1,,194177509,161441,Active,,,,,Antifungal activity against Diaporthe ampelina assessed as growth inhibition at 50 to 150 uM measured up to 120 hr by 96-well microtiter assay,Other,16190626.0,
+5,1103429,1,1,,194177509,161441,Active,,,,,Antifungal activity against Colletotrichum fragariae assessed as growth inhibition at 50 to 150 uM measured up to 72 hr by 96-well microtiter assay,Other,16190626.0,
+6,1103430,1,1,,194177509,161441,Active,,,,,Antifungal activity against Phomopsis obscurans assessed as growth inhibition at 50 to 150 uM measured up to 120 hr by 96-well microtiter assay,Other,16190626.0,
+7,1103431,1,1,,194177509,161441,Active,,,,,Antifungal activity against Fusarium oxysporum assessed as growth inhibition at 50 to 150 uM measured up to 72 hr by 96-well microtiter assay,Other,16190626.0,
+8,1259407,1,1,,363901534,161441,Inactive,,,,,CCRIS mutagenicity studies,Other,,

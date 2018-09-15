@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,155,1,1,,400218,77569,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the rad50 strain,Other,,
+1,157,1,1,,400218,77569,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mec2-1 strain,Other,,
+2,161,1,1,,400218,77569,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the sgs1 mgt1 strain,Other,,
+3,165,1,1,,400218,77569,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the cln2 rad14 strain,Other,,
+4,167,1,1,,400218,77569,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the bub3 strain,Other,,
+5,175,1,1,,400218,77569,Inactive,,,,,NCI Yeast Anticancer Drug Screen. Data for the mlh1 rad18 strain,Other,,
+6,67617,5,1,,103435524,77569,Unspecified,,,,,Drug concentration required to achieve 50% kill of EMT6 cells under hypoxic conditions.,Other,7190617.0,
+7,67618,5,1,,103435524,77569,Unspecified,,,,,Drug concentration required to achieve 50% kill of EMT6 cells under oxygenated conditions.,Other,7190617.0,
+8,232392,3,3,,103435524,77569,Unspecified,,,,,Ratio of ED50 (aerobic) to ED50 (hypoxic),Other,7190617.0,
+9,1259407,1,1,,363905916,77569,Inactive,,,,,CCRIS mutagenicity studies,Other,,
+10,1259423,1,2,,354961741,77569,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

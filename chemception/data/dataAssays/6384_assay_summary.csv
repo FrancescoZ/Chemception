@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,20518,3,4,,103319338,135692,Unspecified,,,,,Relative lipophilicity of the compound,Other,2909736.0,
+1,25570,3,4,,103319338,135692,Unspecified,,,,,Dissociation constant of the compound,Other,2909736.0,
+2,45253,3,4,,103319338,135692,Unspecified,,,,,Ratio of cytotoxicity determined in air to that of cytotoxicity determined in N2 was measured under aerobic conditions to hypoxic conditions by the clonogenic assay against Chinese hamster ovary (subline AA8) cells,Other,2909736.0,
+3,45746,4,4,,103319338,135692,Unspecified,,,62.0,IC50,Inhibitory activity to reduce cell density by 50% of AA8 cells under aerobic conditions,Confirmatory,2909741.0,
+4,55135,3,3,,103319338,135692,Unspecified,,,,,"Logarithm of association constant for binding to poly[d(A-T)], determined by ethidium displacement",Other,2909736.0,
+5,211493,3,4,,103319338,135692,Unspecified,,,,,Cytotoxicity was measured under aerobic conditions by the clonogenic assay against Chinese hamster ovary (subline AA8) cells,Other,2909736.0,
+6,215281,4,4,,103319338,135692,Active,,,19.4,IC50,Inhibitory ativity to reduce cell density by 50% of repair deffective mutant UV-4 cells in 96-well cultures under aerobic conditions,Confirmatory,2909741.0,
+7,1259407,1,1,,363901343,135692,Active,,,,,CCRIS mutagenicity studies,Other,,

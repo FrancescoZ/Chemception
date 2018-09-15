@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,390723,3,9,,103604990,92430,Unspecified,85690847.0,25330.0,,,Inhibition of HSL in Wistar rat isolated fat cells at 1 uM by spectrophotometric assay,Other,18808096,
+1,1088222,1,1,,103604990,92430,Unspecified,,,,,Residual toxicity against compound treated rice leaves-fed adult Anagrus nilaparvatae assessed as mortality measured on day 7 post insecticide treatment to plant,Other,23731643,
+2,1088227,1,1,,103604990,92430,Unspecified,,,,,Acute oral toxicity against female adult Anagrus nilaparvatae in petridish under laboratory conditions assessed as mortality compound treated as emulsible concentrate with acetone and Triton X-100 measured after 8 hr,Other,23731643,
+3,1088228,1,1,,103604990,92430,Unspecified,,,,,Acute contact toxicity against adult Anagrus nilaparvatae assessed as dead parasitoid wasps compound treated for 1 hr measured after 8 hr wash-out period,Other,23731643,
+4,1100305,1,1,,103604990,92430,Unspecified,,,,,Ratio of EC50 for Daphnia magna to EC50 for first instar larvae of Cheumatopsyche brevilineata,Other,26,
+5,1100306,1,1,,103604990,92430,Unspecified,,,,,Insecticidal activity against first-instar larvae of Cheumatopsyche brevilineata after 48 hr,Other,26,
+6,1100307,1,1,,103604990,92430,Unspecified,,,,,"Octanol-water partition coefficient, log KOW of the compound",Other,26,
+7,1100309,1,1,,103604990,92430,Unspecified,,,,,Insecticidal activity against Daphnia magna after 48 hr,Other,26,

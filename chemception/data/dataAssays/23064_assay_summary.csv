@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1148534,1,1,,242644382,145679,Unspecified,,,,,Genotoxicity in Salmonella typhimurium TA-1538 after 2 days by Ames test relative to control,Other,690997.0,
+1,1148535,1,1,,242644382,145679,Unspecified,,,,,Genotoxicity in Salmonella typhimurium TA-1538 after 2 days by Ames test in presence of C57BL/6J mouse liver S9 fraction relative to control,Other,690997.0,
+2,1148536,1,1,,242644382,145679,Unspecified,,,,,Carcinogenic activity in Swiss albino mouse,Other,690997.0,
+3,1148541,1,2,,242644382,145679,Unspecified,,,,,Drug level in po dosed human urine treated with lidocaine,Other,690997.0,
+4,1148547,1,2,,242644382,145679,Unspecified,,,,,"Drug level in ventricular arrthymia patient urine treated with lidocaine at 1.4 mg/min, iv administered for 36 hrs measured after 30 hrs measured after 30 hrs",Other,690997.0,
+5,1259407,1,1,,363903381,145679,Active,,,,,CCRIS mutagenicity studies,Other,,

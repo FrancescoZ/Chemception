@@ -80,7 +80,7 @@ data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
 epsilon				= 1e-8
-cross_val			= 3
+cross_val			= 2
 main_execution_path = './build/'+executionName+'/'
 final_resume 		= main_execution_path + '_resume.txt'
 # The data, split between train and test sets:
@@ -88,7 +88,6 @@ if type =='C':
 	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
 elif type == 'S':
 	(X, Y) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
-
 cvscores = []
 for i in range(2,cross_val+1):
 
@@ -100,7 +99,7 @@ for i in range(2,cross_val+1):
 	model_directory					 = current_path+'/model'
 	os.makedirs(model_directory)
 	model_path 						 = os.path.join(model_directory, model_name_file)
-	log_dir							 = current_path+'/logs'
+	log_dir							 = './build/logs/{}'.format(model_name)
 	resume_file						 = current_path + '/'+model_name+'_resume.txt'
 
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1*i, random_state=seed)
@@ -108,6 +107,9 @@ for i in range(2,cross_val+1):
 	# create model	
 	cross_val 						 = cross_val +1	
 	x_train 						 = X_train
+	if type=='S':
+		x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
+		X_test = keras.preprocessing.sequence.pad_sequences(X_test, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
 	y_train 						 = Y_train
 	
 	# Convert class vectors to binary class matrices.
@@ -157,9 +159,9 @@ for i in range(2,cross_val+1):
 									tensorBoard)
 	model.print()
 	model.run()
+	print('Training Ended')
 	model.model.save(model_path)
 	print('Saved trained model at %s ' % model_path)
-
 	# Score trained model.
 	scores = model.model.evaluate(X_test, Y_test, verbose=1)
 	print('Test loss:', scores[0])

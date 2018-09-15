@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,167925,3,3,,103288462,69176,Unspecified,,,,,Carcinogenic activity on all sites after intraperitoneal administration,Other,7265110.0,
+1,167937,3,3,,103288462,69176,Unspecified,,,,,Compound was tested for carcinogenic activity on breast after intraperitoneal administration of the compound; - denotes non carcinogenic activity.,Other,7265110.0,
+2,167947,3,3,,103288462,69176,Unspecified,,,,,Carcinogenic activity on ear duct after intraperitoneal administration,Other,7265110.0,
+3,168083,3,3,,103288462,69176,Unspecified,,,,,Carcinogenic activity on liver after intraperitoneal administration,Other,7265110.0,
+4,168108,3,3,,103288462,69176,Unspecified,,,,,Compound was tested for carcinogenic activity on other sites after intraperitoneal administration of the compound; + denotes carcinogenic activity.,Other,7265110.0,
+5,1259407,1,1,,363898376,69176,Active,,,,,CCRIS mutagenicity studies,Other,,
+6,1259408,1,1,,363895824,69176,Active,,,,,GENE-TOX mutagenicity studies,Other,,
+7,1259411,1,1,,363898376,69176,Active,,,,,CCRIS carcinogenicity studies,Other,,

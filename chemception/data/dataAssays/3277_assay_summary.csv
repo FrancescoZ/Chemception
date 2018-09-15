@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,728443,1,3,,164148336,11206558,Unspecified,,,,,Binding affinity to Enterobacteria phage T4 lysozyme harboring L99A/M102H double mutant expressed in Escherichia coli BL21(DE3) assessed as change in melting temperature at 1 mM at pH 6.8 by circular dichroism analysis,Other,23473072,
+1,728444,1,3,,164148336,11206558,Unspecified,,,,,Binding affinity to Enterobacteria phage T4 lysozyme L99A/M102H double mutant expressed in Escherichia coli BL21(DE3) assessed as change in melting temperature at 1 mM at pH 5.4 by circular dichroism analysis,Other,23473072,

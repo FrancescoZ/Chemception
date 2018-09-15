@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,238767,7,2,,103454435,5284476,Active,,,2.3,Ki,Inhibition constant against Plasmodium falciparum dihydrofolate reductase,Confirmatory,15293997.0,
+1,1259407,1,1,,363899365,5284476,Active,,,,,CCRIS mutagenicity studies,Other,,
+2,1259408,1,1,,363897662,5284476,Active,,,,,GENE-TOX mutagenicity studies,Other,,
+3,1259411,1,1,,363899365,5284476,Active,,,,,CCRIS carcinogenicity studies,Other,,

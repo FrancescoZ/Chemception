@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1159580,2,1,,268736424,1322,Inactive,,,,,"The chemical genetic matrix (CGM) dataset as reported in Wildenhain et al. (2015) Prediction of Synergism from Chemical-Genetic Interactions by Machine Learning. Cell Systems Volume 1, Issue 6, p383-395",Summary,,
+1,1159607,2,1,,312996478,1322,Inactive,,,,,Screen for inhibitors of RMI FANCM (MM2) intereaction,Other,26962873.0,
+2,1259407,1,1,,363898209,1322,Active,,,,,CCRIS mutagenicity studies,Other,,
+3,1259408,1,1,,363895710,1322,Inactive,,,,,GENE-TOX mutagenicity studies,Other,,
+4,1259411,1,1,,363898209,1322,Inactive,,,,,CCRIS carcinogenicity studies,Other,,
+5,1259423,1,2,,354807099,1322,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

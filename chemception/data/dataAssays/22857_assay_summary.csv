@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,502,1,3,,14720378,9549309,Active,41152114.0,22977.0,,,"Compound Screen Assay, Human AKR7A3",Screening,,
+1,516,1,2,,14720378,9549309,Active,33589854.0,644.0,,,"Compound Screen Assay, Human BLVRA",Screening,,
+2,1259310,1,1,,332876888,9549309,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+3,1259310,1,1,,332876913,9549309,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+4,1259310,1,1,,332876941,9549309,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

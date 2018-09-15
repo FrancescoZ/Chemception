@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,29860,5,2,,103423961,100739,Unspecified,,,,,Tested in vitro for Half- life period of the compound,Other,7108898.0,
+1,97296,3,6,,103423961,100739,Unspecified,,,,,Tested for Number of 60 days survivors per 5 treated mice against mouse leukemia L1210 cells,Other,7108898.0,
+2,97579,3,4,,103423961,100739,Unspecified,,,,,Tested for Percent increase in life span against mouse leukemia L1210 cells,Other,7108898.0,
+3,98303,3,4,,103423961,100739,Unspecified,,,,,Tested for ratio of maximal effective dose/the dose which gives 30% ILS against mouse leukemia L1210 cells,Other,7108898.0,
+4,98417,3,4,,103423961,100739,Unspecified,,,,,Tested for Maximal effective dose against mouse leukemia L1210 cells,Other,7108898.0,
+5,98778,3,4,,103423961,100739,Unspecified,,,,,Tested for Mean survival days against mouse leukemia L1210 cells,Other,7108898.0,
+6,117237,6,2,,103423961,100739,Unspecified,,,,,Tested for the toxicity after ip administration in SLC-BDF1 male mice,Other,7108898.0,
+7,117238,6,2,,103423961,100739,Unspecified,,,,,Tested for the toxicity after iv administration in SLC-BDF1 male mice,Other,7108898.0,
+8,1259407,1,1,,363900985,100739,Active,,,,,CCRIS mutagenicity studies,Other,,

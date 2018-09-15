@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1126206,1,3,,242622921,145976,Active,38258608.0,22933.0,,,Inhibition of human recombinant SIRT2 using Fluor-de-Lys as substrate at 10 uM incubated for 60 mins prior to substrate addition measured after 60 mins by fluorometric analysis,Other,24675380.0,
+1,1259407,1,1,,363905982,145976,Active,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,330,1,1,,146486,71003,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+1,485350,1,2,,92126199,71003,Inactive,126642418.0,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme BasE,Screening,,
+2,485395,1,2,,92126199,71003,Inactive,150392496.0,,,,A screen for compounds that inhibit the activity of Staphylococcus aureus DNA helicase,Other,,
+3,493033,1,2,,92126199,71003,Inactive,614089026.0,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme MbtI,Other,,
+4,504770,1,2,,92126199,71003,Active,9657380.0,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
+5,540299,1,2,,92126199,71003,Inactive,15607688.0,887529.0,,,A screen for compounds that inhibit the MenB enzyme of Mycobacterium tuberculosis,Other,20850304.0,
+6,588519,1,2,,92126199,71003,Inactive,52695378.0,,,,A screen for compounds that inhibit viral RNA polymerase binding and polymerization activities,Other,21722674.0,
+7,720554,1,3,,92126199,71003,Inactive,52423132.0,3087402.0,,,Inhibition of the Burkholderia mallei acyl-homoserine lactone synthase BmaI1,Other,,

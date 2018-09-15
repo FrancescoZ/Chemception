@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,286677,6,2,,103516124,148312,Active,,,8.7,EC50,Apoptosis induction in human HT29 cells after 24 hrs,Confirmatory,17441704.0,
+1,286678,3,5,,103516124,148312,Active,,,,,Induction of PARP cleavage in human HT29 cells after 8 hrs,Other,17441704.0,
+2,286679,3,5,,103516124,148312,Active,,,,,Inhibition of serum-induced expression of cyclin D in human SW480 cells after 5 hrs,Other,17441704.0,
+3,286680,3,5,,103516124,148312,Active,,,,,Induction of DNA fragmentation in human HT29 cells after 48 hrs by Nicoletti assay,Other,17441704.0,
+4,286681,3,5,,103516124,148312,Active,,,,,Effect on cell death in HT29 cells pretreated with GSH synthesis inhibitor BSO,Other,17441704.0,
+5,1259407,1,1,,363903054,148312,Active,,,,,CCRIS mutagenicity studies,Other,,

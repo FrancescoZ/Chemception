@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,40940,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Bacillus subtilis ATCC 585369,Other,1315393,
+1,53326,5,1,,103201317,15751519,Unspecified,,,,,Inhibitory activity against Escherichia coli DNA gyrase (represented as MNEC),Other,1315393,
+2,64898,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Escherichia coli 1346 (Ec(A)),Other,1315393,
+3,64899,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Escherichia coli 1527E (Ec(C)),Other,1315393,
+4,65038,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Escherichia coli B (Ec(B)),Other,1315393,
+5,66227,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Enterobacter cloacae P99,Other,1315393,
+6,95878,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Klebsiella oxytoca 1082E,Other,1315393,
+7,123084,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Micrococcus luteus ATCC 8340,Other,1315393,
+8,163937,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Pseudomonas aeruginosa 799/61,Other,1315393,
+9,206506,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Staphylococcus haemolyticus 75 (quinolone-resistant),Other,1315393,
+10,207405,6,2,,103201317,15751519,Unspecified,,,,,In vitro for antibacterial activity against Staphylococcus aureus 887,Other,1315393,

@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,39064,6,2,,103374889,18636,Active,,,10.0,EC50,Affinity on cytosolic Aromatic hydrocarbon receptor (Ah),Confirmatory,9435905.0,
+1,1259407,1,1,,363902637,18636,Inactive,,,,,CCRIS mutagenicity studies,Other,,
+2,1259409,1,1,,363902637,18636,Unspecified,,,,,CCRIS tumor inhibitor studies,Other,,

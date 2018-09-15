@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1135905,1,1,,242631816,128890,Unspecified,,,,,Antiviral activity against Vesicular stomatitis virus infected in rabbit primary kidney cells assessed as inhibition of viral cytopathogenicity after 2 days,Other,222906.0,
+1,1135906,1,1,,242631816,128890,Unspecified,,,,,Antiviral activity against Vaccinia virus infected in rabbit primary kidney cells assessed as inhibition of viral cytopathogenicity after 3 days,Other,222906.0,
+2,1259407,1,1,,363901851,128890,Active,,,,,CCRIS mutagenicity studies,Other,,

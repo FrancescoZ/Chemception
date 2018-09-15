@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1205605,1,1,,312394500,5378005,Unspecified,,,100.0,IC50,Cytotoxicity against human MDA-MB-435 cells assessed as cell growth inhibition after 72 hrs by MTT assay,Confirmatory,25800514.0,
+1,1259407,1,1,,363903717,5378005,Inactive,,,,,CCRIS mutagenicity studies,Other,,

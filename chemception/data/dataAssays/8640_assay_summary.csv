@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,372,1,3,,8122418,2891388,Inactive,28949057.0,,,,HIV-1 RNase H Inhibition,Screening,,
+1,1159537,2,2,,252186620,2891388,Inactive,,,,,qHTS screening for TAG (triacylglycerol) accumulators in algae,Screening,28652262.0,
+2,1259310,1,1,,333333167,2891388,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,

@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,91435,3,9,,103259838,19990,Unspecified,82312013.0,,,,Inhibition against HIV-1 integrase at 1 mM,Other,10841789.0,
+1,91436,3,9,,103259838,19990,Unspecified,82312013.0,,,,Inhibition against HIV-1 integrase at 200 uM,Other,10841789.0,
+2,1259407,1,1,,363904214,19990,Inactive,,,,,CCRIS mutagenicity studies,Other,,

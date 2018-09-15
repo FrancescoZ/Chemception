@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,112798,5,2,,103218215,53626,Unspecified,,,,,Compound was tested for effective dose in mice by horizontal screen assay (administered orally); No effect at highest dose of 100 mg/kg,Other,3746810.0,
+1,112804,6,2,,103218215,53626,Unspecified,,,,,"Effective dose in mice by maximal electroshock assay, administered orally",Other,3746810.0,
+2,112809,5,2,,103218215,53626,Unspecified,,,,,Compound was tested for effective dose in mice by pentylenetetrazole assay (administered subcutaneously); Bell shaped dose response curve,Other,3746810.0,
+3,119413,3,3,,103218215,53626,Unspecified,,,,,Potentiation of hexobarbital-induced sleeping time in mice,Other,3746810.0,
+4,122338,3,3,,103218215,53626,Unspecified,,,,,Compound was tested for time to peak anticonvulsant effect (TPE),Other,3746810.0,
+5,1259407,1,1,,363905475,53626,Inactive,,,,,CCRIS mutagenicity studies,Other,,

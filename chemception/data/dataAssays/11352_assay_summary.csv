@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,492967,1,2,,92254580,726153,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
+1,602314,1,2,,92254580,726153,Inactive,151220867.0,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
+2,1159607,2,1,,312588006,726153,Inactive,,,,,Screen for inhibitors of RMI FANCM (MM2) intereaction,Other,26962873.0,

@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,53470,5,1,,103420832,145768,Unspecified,300669716.0,,,,Inhibitory dose against oncornaviral DNA polymerase activity of moloney murine leukemia virus,Other,6157024.0,
+1,580533,5,3,,103420832,145768,Unspecified,,,,,Antimicrobial activity against Bacillus anthracis Sterne spores by broth microdilution method,Other,19635954.0,
+2,580534,5,3,,103420832,145768,Unspecified,,,,,Antimicrobial activity against Bacillus anthracis Sterne vegetative cells by broth microdilution method,Other,19635954.0,
+3,1132851,1,3,,103420832,145768,Active,135806.0,280685.0,7.68,Ki,Competitive reversible inhibition of bovine thrombin using alpha-N-benzoyl-DL-arginine-p-nitroanilide hydrochloride as substrate after 15 to 40 mins by Michaelis-Menten plot analysis,Confirmatory,671460.0,
+4,1132852,1,1,,103420832,145768,Active,,,3.94,Ki,Competitive reversible inhibition of bovine trypsin using alpha-N-benzoyl-DL-arginine-p-nitroanilide hydrochloride as substrate after 15 to 30 mins by Michaelis-Menten plot analysis,Confirmatory,671460.0,
+5,1132853,1,3,,103420832,145768,Active,20141454.0,,0.73,Ki,Competitive reversible inhibition of porcine pancreatic kallikrein using alpha-N-benzoyl-DL-arginine-p-nitroanilide hydrochloride as substrate after 15 to 180 mins by Michaelis-Menten plot analysis,Confirmatory,671460.0,
+6,1132854,1,3,,103420832,145768,Active,20141454.0,,0.73,Ki,Competitive reversible inhibition of porcine pancreatic kallikrein using N-benzoyl-L-prolyl-L-phenylalanyl-L-arginine p-nitroanilide hydrochloride as substrate after 15 to 180 mins by Michaelis-Menten plot analysis,Confirmatory,671460.0,
+7,1132856,1,2,,103420832,145768,Unspecified,,,,,Anticoagulant activity in human plasma assessed as prolongation of partial thromboplastin time at 10'-4 M incubated for 30 secs (Rvb = 59 +/- 5.4 secs),Other,671460.0,
+8,1132857,1,2,,103420832,145768,Unspecified,,,,,Anticoagulant activity in human plasma assessed as prolongation of partial thromboplastin time at 10'-5 M incubated for 30 secs (Rvb = 59 +/- 5.4 secs),Other,671460.0,
+9,1132858,1,2,,103420832,145768,Unspecified,,,,,Anticoagulant activity in human plasma assessed as prolongation of partial thromboplastin time at 5 x 10'-6 M incubated for 30 secs (Rvb = 59 +/- 5.4 secs),Other,671460.0,
+10,1259407,1,1,,363901777,145768,Inactive,,,,,CCRIS mutagenicity studies,Other,,

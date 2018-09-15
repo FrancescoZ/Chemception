@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,406767,6,2,,103685629,1198,Unspecified,,,2200.0,Ki,Inhibition of Bacillus licheniformis beta-lactamase BS3 in 25 mM acetate buffer at pH 5,Confirmatory,18515103,
+1,406768,6,2,,103685629,1198,Unspecified,,,1500.0,Ki,Inhibition of beta-lactamase TEM1 in 25 mM acetate buffer at pH 5,Confirmatory,18515103,
+2,420346,7,6,,103685629,1198,Unspecified,115032.0,,2200.0,Ki,Inhibition of Bacillus licheniformis BS3 beta-lactamase at pH 5,Confirmatory,19467869,
+3,721521,1,6,,103685629,1198,Unspecified,32129514.0,54583.0,10000.0,IC50,Inhibition of PHD2 (unknown origin),Confirmatory,23234607,
+4,721528,1,2,,103685629,1198,Inactive,,,,,Displacement of 2OG from FIH (unknown origin) expressed in Escherichia coli at 400 uM,Other,23234607,
+5,721529,1,6,,103685629,1198,Inactive,32129514.0,54583.0,,,Displacement of 2OG from catalytic domain of PHD2 (181 to 426) (unknown origin) expressed in Escherichia coli at 400 uM,Other,23234607,

@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1189,1,5,,48413798,6328269,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary SingleCellCall Results,Other,,
+1,1208,1,3,,48413798,6328269,Active,,,,,DSSTox (CPDBAS) Carcinogenic Potency Database Summary Rat Bioassay Results,Other,,
+2,1092967,1,1,,194169750,6328269,Unspecified,,,,,Antifungal activity against Fusarium oxysporum f. sp. cubense race 4 infected in Cavendish banana plant assessed as reduction in disease severity at 25 ug a.i./ml applied as soil drench treatment 1 week after planting measured after 7 weeks in greenhouse conditions,Other,23731643.0,
+3,1092968,1,1,,194169750,6328269,Unspecified,,,,,Antifungal activity against Fusarium oxysporum f. sp. cubense race 4 infected in Cavendish banana plant assessed as reduction in disease severity at 25 ug a.i./ml applied as soil drench treatment immediately after planting measured after 7 weeks in greenhouse conditions,Other,23731643.0,
+4,1092970,1,1,,194169750,6328269,Unspecified,,,,,Phytotoxicity against Chinese Musa acuminata AAA Group (Cavendish banana) at 5 to 25 ug a.i./ml relative to control,Other,23731643.0,
+5,1092972,1,1,,194169750,6328269,Unspecified,,,,,Phytotoxicity against Chinese Musa acuminata AAA Group (Cavendish banana) at 50 ug a.i./ml relative to control,Other,23731643.0,
+6,1092976,1,1,,194169750,6328269,Inactive,,,,,Growth inhibition of Fusarium oxysporum f. sp. cubense race 4 isolate CAV 086 at 100 ug/ml after 7 days,Other,23731643.0,
+7,1259407,1,1,,363906460,6328269,Active,,,,,CCRIS mutagenicity studies,Other,,
+8,1259411,1,1,,363906460,6328269,Inactive,,,,,CCRIS carcinogenicity studies,Other,,

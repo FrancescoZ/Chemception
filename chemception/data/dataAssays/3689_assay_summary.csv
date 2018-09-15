@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,578748,5,2,,124962241,96709,Unspecified,,,,,Antiinflammatory activity in human neutrophils assessed as inhibition of fMLP/CB-induced superoxide anion generation after 5 mins,Other,21353775.0,
+1,578749,5,2,,124962241,96709,Unspecified,,,,,Antiinflammatory activity in human neutrophils assessed as inhibition of fMLP/CB-induced elastase release after 5 mins,Other,21353775.0,
+2,1259407,1,1,,363900943,96709,Inactive,,,,,CCRIS mutagenicity studies,Other,,

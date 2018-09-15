@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,515398,4,3,,123087122,94192,Inconclusive,,,,CC50,Cytotoxicity against human HET-1A cells assessed as cell viability after 24 hrs by MTT assay,Confirmatory,20713311.0,
+1,515399,2,5,,123087122,94192,Unspecified,,,,,Cytotoxicity against human HuH7 cells assessed as cell viability at 500 uM after 24 hrs by MTT assay relative to control,Other,20713311.0,
+2,515400,2,5,,123087122,94192,Unspecified,,,,,Cytotoxicity against human HET-1A cells assessed as cell viability at 500 uM after 24 hrs by MTT assay relative to control,Other,20713311.0,
+3,1193333,1,2,,123087122,94192,Active,74762624.0,151306.0,10.93,EC50,Agonist activity at human GPBAR1 expressed in HEK293 cells assessed as increase in intracellular cAMP level after 30 mins by cAMP-Glo assay,Confirmatory,25735208.0,
+4,1259407,1,1,,363901938,94192,Inactive,,,,,CCRIS mutagenicity studies,Other,,

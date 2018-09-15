@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,71596,6,3,,103163854,81732,Unspecified,,,6300.0,Km,Kinetic constant acting as acceptor substrate for gamma-GGT (Glutamyltranspeptidase)-mediated transpeptidation was determined in rat kidney,Confirmatory,12643897.0,
+1,71701,6,3,,103163854,81732,Unspecified,,,470.0,Km,Kinetic constant acting as donor substrate for GGT (gamma-Glutamyltranspeptidase)-mediated transpeptidation was determined in rat kidney,Confirmatory,12643897.0,
+2,71705,3,8,,103163854,81732,Unspecified,,,,,Kinetic constant acting as acceptor substrate for gamma-GGT (Glutamyltranspeptidase)-mediated transpeptidation was determined in rat kidney (units are 10e3/min),Other,12643897.0,
+3,71708,3,8,,103163854,81732,Unspecified,,,,,Kinetic constant acting as donor substrate for gamma-GGT (Glutamyltranspeptidase)-mediated transpeptidation was determined in rat kidney (units are 10e3/min),Other,12643897.0,
+4,229380,3,3,,103163854,81732,Unspecified,,,,,Ratio of kinetic constant (Kcat/KM) acting as acceptor substrate for gamma-GGT (Glutamyltranspeptidase)-mediated transpeptidation was determined in rat kidney,Other,12643897.0,
+5,229382,3,3,,103163854,81732,Unspecified,,,,,Ratio of kinetic constant (Kcat/KM) acting as donor substrate for gamma-GGT (Glutamyltranspeptidase)-mediated transpeptidation was determined in rat kidney,Other,12643897.0,
+6,1225256,1,1,,103163854,81732,Unspecified,21542389.0,6510.0,954.0,IC50,Inhibition of ASCT2-mediated [3H]glutamine uptake in HEK293 cells after 15 mins by Live-cell glutamine uptake assay,Confirmatory,25435145.0,
+7,1259407,1,1,,363906370,81732,Inactive,,,,,CCRIS mutagenicity studies,Other,,

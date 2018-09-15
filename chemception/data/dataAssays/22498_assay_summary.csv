@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,9642,6,2,,103374340,154802,Active,,,1.68,IC50,Concentration of the drug to inhibit chinese hamster ovary derived cell (AA8) growth in culture,Confirmatory,7527862.0,
+1,9656,3,4,,103374340,154802,Unspecified,,,,,Hypersensitivity factor(HF) was determined as ratio of IC50(AA8) to IC50(UV4),Other,7527862.0,
+2,54272,3,3,,103374340,154802,Unspecified,,,,,Intrinsic association constant for reversible binding of compounds to calf thymus DNA at 20 degree C,Other,7527862.0,
+3,130325,3,3,,103374340,154802,Unspecified,,,,,Tested for percentage increase in lifespan of drug-treated tumor-bearing animals when treated at optimal dose,Other,7527862.0,
+4,133624,3,4,,103374340,154802,Unspecified,,,,,Tested for the intraperitoneal optimal dose of 0.1 mL in tumor cells,Other,7527862.0,
+5,150501,6,2,,103374340,154802,Active,,,0.8,IC50,Concentration of the drug to inhibit wild type P388 murine leukemia cell growth in culture,Confirmatory,7527862.0,
+6,1259407,1,1,,363906341,154802,Inactive,,,,,CCRIS mutagenicity studies,Other,,

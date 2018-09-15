@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,332370,3,4,,103617959,160180,Unspecified,,,,,Inhibition of thrombin-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before thrombin challenge by turbidimetric method,Other,8176404.0,
+1,332371,3,4,,103617959,160180,Unspecified,,,,,Inhibition of arachidonic acid-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before arachidonic acid challenge by turbidimetric method,Other,8176404.0,
+2,332372,3,4,,103617959,160180,Unspecified,,,,,Inhibition of collagen-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before collagen challenge by turbidimetric method,Other,8176404.0,
+3,332373,3,4,,103617959,160180,Unspecified,,,,,Inhibition of platelet activating factor-induced platelet aggregation in rabbit platelet assessed as aggregation at 300 uM treated 3 mins before platelet activating factor challenge by turbidimetric method,Other,8176404.0,
+4,1259407,1,1,,363902482,160180,Inactive,,,,,CCRIS mutagenicity studies,Other,,

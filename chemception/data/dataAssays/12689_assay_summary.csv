@@ -1,0 +1,12 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,510602,4,2,,123097368,3032920,Unspecified,,,,,Inhibition of FtsZ polymerization,Other,20615583,
+1,510603,4,2,,123097368,3032920,Unspecified,,,,,Inhibition of FtsZ GTPase,Other,20615583,
+2,1120500,1,1,,123097368,3032920,Active,,,,,Induction of membrane associated proteins mislocalization in Bacillus subtilis subsp. subtilis str. 168 assessed as reduction in GFP-MinD protein localization by fluorescence assay,Other,23539337,
+3,1120502,1,1,,123097368,3032920,Inactive,,,,,Protonophore activity in Bacillus subtilis subsp. subtilis str. 168 assessed as induction of rapid equlibration of delta-pH at 1 times MIC,Other,23539337,
+4,1120510,1,1,,123097368,3032920,Inactive,,,,,Induction of transmembrane potential loss in Bacillus subtilis subsp. subtilis str. 168 at 1 times MIC pre-treated for 5 mins and measured 15 mins post dye addition by DiOC2 dye based flow cytometry,Other,23539337,
+5,1120513,3,1,,123097368,3032920,Active,,,,,Antimicrobial activity against Bacillus subtilis subsp. subtilis str. 168 after 18 hrs by macro-dilution method,Other,23539337,
+6,1201462,1,1,,123097368,3032920,Unspecified,,,,IC50,Inhibition of Escherichia coli FtsZ GTPase activity,Confirmatory,25791674,
+7,1201463,1,1,,123097368,3032920,Unspecified,,,,IC50,Inhibition of Escherichia coli FtsZ polymerization,Confirmatory,25791674,
+8,1201469,1,1,,123097368,3032920,Unspecified,,,,,Antimicrobial activity against Staphylococcus aureus,Other,25791674,
+9,1201470,1,1,,123097368,3032920,Unspecified,,,,,Antimicrobial activity against Enterococcus faecalis,Other,25791674,
+10,1201471,1,1,,123097368,3032920,Unspecified,,,,,Antimicrobial activity against Enterococcus faecium,Other,25791674,

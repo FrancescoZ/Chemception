@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1189852,1,1,,312377675,44485,Unspecified,,,,,Antiviral activity against HCV genotype 1b infected in human Huh7 cells at 10 uM after 3 days by luciferase reporter gene assay,Other,25490700.0,
+1,1189853,1,1,,312377675,44485,Unspecified,,,,,Cytotoxicity against human HuH7 cells assessed as inhibition of cell viability at 10 uM after 3 days by CellTiter 96 assay,Other,25490700.0,
+2,1259408,1,1,,363897691,44485,Active,,,,,GENE-TOX mutagenicity studies,Other,,

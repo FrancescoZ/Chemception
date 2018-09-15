@@ -1,0 +1,7 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,361149,6,2,,103582759,443028,Unspecified,,,,,Inhibition of 12-O-tetradecanoylphorbol 13-acetate-induced transformation of mouse JB6 cells after 14 days by soft agar assay,Other,12141878.0,
+1,367127,6,3,,103582759,443028,Active,,,28.6,IC50,Inhibition of NO production in LPS-stimulated mouse BV2 cells assessed as nitrite accumulation after 20 hrs by Griess reagent method,Confirmatory,19110419.0,
+2,1055970,1,1,,103582759,443028,Unspecified,,,,,Increase in 2-NBDG uptake in mouse 3T3L1 cells after 30 mins by fluorescence spectrophotometry,Other,24224843.0,
+3,1055971,1,1,,103582759,443028,Unspecified,,,,,Increase in 2-NBDG uptake in mouse 3T3L1 cells at 400 ug/ml after 30 mins by fluorescence spectrophotometry relative to DMSO-treated control,Other,24224843.0,
+4,1055972,2,3,,103582759,443028,Active,131467.0,5770.0,16.82,IC50,Inhibition of PTP1B (unknown origin) assessed as p-nitrophenol release from pNPP substrate after 30 mins by spectrophotometry,Confirmatory,24224843.0,
+5,1259407,1,1,,363906892,443028,Inactive,,,,,CCRIS mutagenicity studies,Other,,

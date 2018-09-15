@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,292731,9,5,,103532085,8665,Active,126731.0,,2.67,Ki,Inhibition of mandelate racemase in Pseudomonas putida,Confirmatory,17055725,
+1,433903,3,3,,103532085,8665,Unspecified,,,,,Hepatotoxicity in mouse assessed as carcinogenic potency,Other,19272677,

@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,671039,1,8,,160695649,16034,Unspecified,92090582.0,,,,Inhibition of Anopheles gambiae AChE expressed in Escherichia coli after 6 mins by Ellman assay,Other,22738634.0,
+1,671040,1,8,,160695649,16034,Unspecified,113037.0,43.0,,,Inhibition of human recombinant AChE after 6 mins by Ellman assay,Other,22738634.0,
+2,671041,1,3,,160695649,16034,Unspecified,,,,,Selectivity ratio of Ki for Anopheles gambiae AChE to Ki for human recombinant AChE,Other,22738634.0,
+3,1081843,1,1,,160695649,16034,Unspecified,,,,,In vivo insecticidal activity against apterous adult stage of Lipaphis erysimi (mustard aphids) in chinese cabbage leaves assessed as mortality at 300 mg/l at 25 degC treated for 10 secs measured after 24 hr,Other,21114293.0,
+4,1081846,2,3,,160695649,16034,Unspecified,75012521.0,,766.0,IC50,Dual-site binding inhibition of AChE in Musca domestica (house fly) brain,Confirmatory,21114293.0,
+5,1081847,1,4,,160695649,16034,Unspecified,75012521.0,,,,Dual-site binding inhibition of AChE in Musca domestica (house fly) brain at 100 mg/l,Other,21114293.0,
+6,1134599,2,1,,160695649,16034,Unspecified,,,,,"CHCl3-water partition coefficient, log P of the compound",Other,894678.0,
+7,1134600,2,1,,160695649,16034,Unspecified,,,,,"Octanol-water partition coefficient, log P of the compound",Other,894678.0,
+8,1259407,1,1,,363899785,16034,Inactive,,,,,CCRIS mutagenicity studies,Other,,

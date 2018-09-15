@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1087281,1,2,,194148730,5708424,Unspecified,,,,,"Anti-inflammatory activity in Rattus norvegicus Wistar (rat) assessed as inhibition of carrageenan-induced paw edema at 160 mg/kg, po administered 30 min prior to carrageenan challenge measured at 4 hr relative to control",Other,,
+1,1087282,1,2,,194148730,5708424,Unspecified,,,,,"Analgesic activity in Mus musculus Swiss albino (mouse) assessed as inhibition of acetic acid-induced writhing at 160 mg/kg, po administered 30 min prior challenge measured after 5 min of challenge for next 30 min relative to control",Other,,
+2,1087284,1,2,,194148730,5708424,Unspecified,,,,,"Toxicity in Mus musculus Swiss albino (mouse) assessed as mortality at 500 to 2000 mg/kg, po measured after 14 days",Other,,
+3,1087285,1,2,,194148730,5708424,Unspecified,,,,,"Toxicity in Mus musculus Swiss albino (mouse) assessed as changes in behavioral pattern at 500 to 2000 mg/kg, po measured after 14 days",Other,,
+4,1087286,1,2,,194148730,5708424,Unspecified,,,,,"Toxicity in Mus musculus Swiss albino (mouse) assessed as abnormal changes in eyes at 500 to 2000 mg/kg, po measured after 14 days",Other,,
+5,1087287,1,2,,194148730,5708424,Unspecified,,,,,"Toxicity in Mus musculus Swiss albino (mouse) assessed as abnormal changes in fur at 500 to 2000 mg/kg, po measured after 14 days",Other,,
+6,1087288,1,2,,194148730,5708424,Unspecified,,,,,"Toxicity in Mus musculus Swiss albino (mouse) assessed as abnormal changes in skin at 500 to 2000 mg/kg, po measured after 14 days",Other,,
+7,1259407,1,1,,363900189,5708424,Inactive,,,,,CCRIS mutagenicity studies,Other,,

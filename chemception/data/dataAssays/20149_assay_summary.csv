@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,69702,9,5,,103166700,44285,Active,1706709.0,443228.0,4.0,Kd,Displacement of [3H]-estradiol (E2) from sheep uterine estrogen receptor,Confirmatory,14761204.0,
+1,69702,9,5,,103166700,44285,Active,13124234.0,443066.0,4.0,Kd,Displacement of [3H]-estradiol (E2) from sheep uterine estrogen receptor,Confirmatory,14761204.0,
+2,1259407,1,1,,363899978,44285,Inactive,,,,,CCRIS mutagenicity studies,Other,,

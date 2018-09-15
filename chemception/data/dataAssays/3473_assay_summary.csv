@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,515040,1,5,,123097797,4742573,Unspecified,,,,,"Therapeutic index, ratio of IC50 for mice (Mus musculus) spleen lymphocytes to IC50 for chloroquine-resistant Plasmodium falciparum Dd2",Other,20684562,
+1,515041,2,5,,123097797,4742573,Unspecified,,,,,Cytotoxicity against mouse spleen lymphocytes,Other,20684562,
+2,515043,2,6,,123097797,4742573,Unspecified,,,,,Ratio of compound IC50 to chloroquine IC50 for chloroquine-resistant Plasmodium falciparum 7G8,Other,20684562,
+3,515044,2,5,,123097797,4742573,Unspecified,,,,,Ratio of compound IC50 to chloroquine IC50 for chloroquine-resistant Plasmodium falciparum Dd2,Other,20684562,
+4,515045,2,5,,123097797,4742573,Unspecified,,,,,Ratio of compound IC50 to chloroquine IC50 for chloroquine-sensitive Plasmodium falciparum D6,Other,20684562,

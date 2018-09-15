@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1109097,1,2,,194143738,10140464,Unspecified,,,,,Insecticidal activity against third-instar larvae of Spodoptera litura infested compound-treated cabbage leaf assessed as mortality after 48 hr in presence of piperonyl butoxide,Other,,
+1,1109098,1,2,,194143738,10140464,Unspecified,,,,,Ratio of etofenprox LC50 to compound LC50 for Tetranychus urticae (two-spotted spider mite) infested kidney bean leaf disk,Other,,
+2,1109099,1,2,,194143738,10140464,Active,,,,,Induction of depolarization in Procambarus clarkii (crayfish) giant axons assessed as transient inward sodium currents at -100 to -20 mV holding potential at 2 x 10 '-5 M,Other,,
+3,1109100,1,2,,194143738,10140464,Unspecified,,,,,Induction of repetitive firing in excised nerve cord of Periplaneta americana (American cockroach) measured up to 32 min,Other,,
+4,1109101,1,2,,194143738,10140464,Unspecified,,,,,Acaricidal activity against Tetranychus urticae (two-spotted spider mite) infested kidney bean leaf disk assessed as mortality measured after 48 hr,Other,,
+5,1109102,1,2,,194143738,10140464,Unspecified,,,,,Insecticidal activity against Periplaneta americana (American cockroach) assessed as paralysis/mortality compound injected into abdomen after 24 hr,Other,,
+6,1109103,1,2,,194143738,10140464,Unspecified,,,,,Insecticidal activity against third-instar larvae of Spodoptera litura infested compound-treated cabbage leaf assessed as mortality after 48 hr,Other,,

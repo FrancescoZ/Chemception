@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,273097,3,9,,103500499,2735655,Unspecified,2501336,8639,,,Activity of human SSAO measured as hydrogen peroxide production at 1 mM relative to benzylamine oxidation,Other,17034126,
+1,273098,3,9,,103500499,2735655,Unspecified,5902787,11754,,,Activity of mouse SSAO measured as hydrogen peroxide production at 100 uM relative to benzylamine oxidation,Other,17034126,

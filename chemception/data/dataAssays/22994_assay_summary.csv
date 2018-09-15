@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,2808,1,2,,57287920,1076653,Inactive,83699673.0,27035.0,17.0,IC50,Late-stage luminescence-based cell-based dose response assay to identify inhibitors of NADPH oxidase 1 (NOX1): Purchased analogs,Confirmatory,,
+1,1259407,1,1,,363906623,1076653,Inactive,,,,,CCRIS mutagenicity studies,Other,,

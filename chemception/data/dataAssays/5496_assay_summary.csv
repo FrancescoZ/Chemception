@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,2062,1,2,,85209570,5378,Active,,,,,Ligands of bioamine (Class A) GPCRs,Other,,
+1,4322,7,1,,103201052,5378,Active,,,0.009000000000000001,Ki,In vitro inhibition of [3H]spiperone binding to 5-hydroxytryptamine 1A receptor from rat hippocampal tissue.,Confirmatory,2898533.0,
+2,169427,3,3,,103201052,5378,Unspecified,,,,,Concentration required to produce 50% block in avoidance responding in conditioned avoidance response test in rat,Other,2898533.0,

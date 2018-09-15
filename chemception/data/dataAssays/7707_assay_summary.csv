@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,160322,8,3,,103180023,69732,Unspecified,,,500,IC50,Inhibitory concentration against cap-dependent endonuclease activity of influenza virus RNP,Confirmatory,12646026,
+1,166725,9,5,,103180023,69732,Unspecified,81952007.0,,50,IC50,Inhibitory activity against Hepatitis C virus RNA dependent RNA polymerase nonstructural protein 5B,Confirmatory,14695815,
+2,392510,6,2,,103180023,69732,Unspecified,,,50,IC50,Antiviral activity against Hepatitis C virus,Confirmatory,19112024,
+3,392531,6,2,,103180023,69732,Unspecified,,,500,IC50,Antiviral activity against influenza virus,Confirmatory,19112024,
+4,666158,4,5,,103180023,69732,Unspecified,158931133.0,,500,IC50,Inhibition of cap 1 ALMV primed Influenza transcriptase,Confirmatory,7695269,

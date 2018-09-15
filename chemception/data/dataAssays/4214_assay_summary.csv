@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,167787,3,3,,103404140,164644,Unspecified,,,,,Myocardial infarction (MI) size was calculated as a percentage of the infarct area to the total area of the left ventricle of male chinchilla rabbits,Other,9871565.0,
+1,211997,6,2,,103404140,164644,Unspecified,,,,,Lethal dose to produce acute toxicity was evaluated in white crossbred mice weighing 20-25 g,Other,9871565.0,
+2,403811,6,3,,103404140,164644,Active,,,10.0,EC50,Antioxidant activity assessed as DPPH radical scavenging activity,Confirmatory,16180820.0,
+3,1259407,1,1,,363906441,164644,Active,,,,,CCRIS mutagenicity studies,Other,,

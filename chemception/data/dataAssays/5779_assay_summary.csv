@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1195,1,2,,48416031,3398,Active,,,,,DSSTox (FDAMDD) FDA Maximum (Recommended) Daily Dose Database,Other,,
+1,588220,2,3,,124959407,3398,Unspecified,,,,,Literature-mined public compounds from Kruhlak et al phospholipidosis modelling dataset,Other,20020916.0,

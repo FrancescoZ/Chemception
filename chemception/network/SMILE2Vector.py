@@ -14,7 +14,7 @@ import statistics
 import shutil
 
 from keras.models import Sequential
-from keras.layers import Dense
+from keras.layers import Dense,Flatten
 from keras.layers import LSTM
 from keras.layers.embeddings import Embedding
 from keras.preprocessing import sequence
@@ -54,10 +54,10 @@ class SMILE2Vector:
 					tensorBoard):
 		
 		embedding_vecor_length = 60
-		top_words 			   = 24076
+		top_words 			   = 157
 		max_review_length 	   = 500
 		self.model = Sequential()
-		self.model.add(Embedding(top_words, embedding_vecor_length, input_length=max_review_length))
+		self.model.add(Embedding(top_words, embedding_vecor_length, input_length=max_review_length,mask_zero=True))
 		self.model.add(LSTM(384, return_sequences=True))
 		self.model.add(LSTM(384))
 		self.model.add(Dense(2, activation='softmax'))
@@ -93,9 +93,9 @@ class SMILE2Vector:
 	
 	def run(self):
 		self.model.compile(loss=self.loss_function, optimizer='adam', metrics=['accuracy'])
-		self.model.fit(self.X_train, 
+		return self.model.fit(self.X_train, 
 					self.Y_train, 
 					validation_data=(self.X_test, self.Y_test), 
 					epochs=self.epochs, 
 					batch_size=self.batch_size,
-					callbacks = [self.tensorBoard])
+					callbacks = [self.tensorBoard,self.metrics])

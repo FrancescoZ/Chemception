@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,23443,3,3,,103221660,6329,Unspecified,,,,,Partition coefficient (logP),Other,3882967.0,
+1,158694,8,2,,103221660,6329,Inactive,,,,,In vitro inhibitory concentration against chloroquine-resistant Plasmodium falciparum; Not active,Other,15026037.0,
+2,158696,8,2,,103221660,6329,Inactive,,,,,In vitro inhibitory concentration against chloroquine-sensitive Plasmodium falciparum; Not active,Other,15026037.0,
+3,233502,3,3,,103221660,6329,Inconclusive,,,,,The pKa value was measured at N15 chemical shift changes due to protonation; nd= not determined,Other,8246232.0,
+4,494749,7,5,,103221660,6329,Unspecified,56404887.0,63993.0,35075.2,Ki,Inhibition of [3H]choline uptake at choline transporter 1 in mouse brain synaptosome,Confirmatory,20637607.0,
+5,1132810,1,1,,103221660,6329,Unspecified,,,,,"Dissociation constant, pKa of the compound",Other,671451.0,
+6,1259407,1,1,,363900458,6329,Inactive,,,,,CCRIS mutagenicity studies,Other,,

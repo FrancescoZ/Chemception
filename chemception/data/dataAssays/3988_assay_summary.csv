@@ -1,0 +1,13 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,256,1,1,,399596,13235,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+1,52151,6,2,,103431446,13235,Unspecified,,,430.0,Ki,Tested for its inhibitory activity against the enzyme chorismate mutase (CM) in Escherichia coli T-protein,Confirmatory,11958996.0,
+2,161445,6,2,,103431446,13235,Unspecified,,,310.0,Ki,Tested for its inhibitory activity against the enzyme prephenate dehydrogenase (PDH) in Escherichia coli T-protein,Confirmatory,11958996.0,
+3,485395,1,2,,92245170,13235,Inactive,150392496.0,,,,A screen for compounds that inhibit the activity of Staphylococcus aureus DNA helicase,Other,,
+4,492967,1,2,,92245170,13235,Inactive,47566732.0,,,,A screen for compounds that inhibit the CapD enzyme of Bacillus anthracis,Other,,
+5,493033,1,2,,92245170,13235,Inactive,614089026.0,,,,A screen for compounds that inhibit the bacterial siderophore biosynthetic enzyme MbtI,Other,,
+6,493162,1,2,,92245170,13235,Inactive,335756.0,,,,A screen for compounds that inhibit processive DNA synthesis of vaccinia virus,Other,,
+7,504770,1,2,,92245170,13235,Inactive,9657380.0,2612528.0,,,A screen for compounds that inhibit replication of Vibrio cholerae chromosome II,Other,,
+8,588519,1,2,,92245170,13235,Inactive,52695378.0,,,,A screen for compounds that inhibit viral RNA polymerase binding and polymerization activities,Other,21722674.0,
+9,602314,1,2,,92245170,13235,Inactive,151220867.0,,,,A screen for compounds that modulate the activity of the Staphylococcus aureus MgrA protein,Other,,
+10,720641,1,2,,92245170,13235,Inactive,15923709.0,,,,A screen for compounds that inhibit the activity of LtaS in Staphylococcus aureus,Other,,
+11,1259423,1,2,,354957060,13235,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

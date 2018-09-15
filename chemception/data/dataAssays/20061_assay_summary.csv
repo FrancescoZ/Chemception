@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1811,3,2,,46393782,73318,Active,109157112.0,,,,Experimentally measured binding affinity data derived from PDB,Other,16413579.0,
+1,71649,3,4,,104246820,73318,Unspecified,,,,,Inhibitory activity against cellular differentiation in Friend erythroleukemia cells as percentage of benzidine - positive cells.,Other,3861870.0,
+2,71650,8,1,,104246820,73318,Unspecified,,,390.0,ID50,Inhibitory activity against cellular replication in Friend erythroleukemia cells as growth inhibition.,Confirmatory,3861870.0,
+3,71651,3,4,,104246820,73318,Unspecified,,,,,Inhibitory activity against cellular differentiation in Friend erythroleukemia cells as optimal concentration required for maximum activity.,Other,3861870.0,
+4,82319,8,1,,104246820,73318,Unspecified,,,390.0,ID50,Inhibitory activity against cellular replication in hypoxanthine-guanine phosphoribosyltransferase (HGPRT-) HL-60 cells.,Confirmatory,3861870.0,
+5,977611,3,1,,46393782,73318,Active,109157112.0,,117.0,Kd,Experimentally measured binding affinity data (Kd) for protein-ligand complexes derived from PDB,Other,16413579.0,
+6,1225471,1,1,,104246820,73318,Unspecified,,,,,Cytotoxicity against mouse RAW264.7 cells assessed as cell viability after 48 hrs by MTT assay,Other,25668560.0,
+7,1225472,1,1,,104246820,73318,Active,,,,,Antiinflammatory activity in mouse RAW264.7 cells assessed as inhibition of LPS-stimulated nitric oxide production up to 30 ug/ml after 24 hrs by Colorimetry based Griess assay,Other,25668560.0,
+8,1259407,1,1,,363906189,73318,Inactive,,,,,CCRIS mutagenicity studies,Other,,

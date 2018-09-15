@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,362091,6,3,,103643095,148251,Unspecified,,,,,Antagonist activity at HA-tagged mouse AT1a angiotensin 2 receptor expressed in HEK293T cells assessed as decrease in angiotensin 2-induced intracellular calcium uptake,Other,18672373.0,
+1,362092,3,4,,103643095,148251,Unspecified,,,,,Cytotoxicity against HEK293T cells expressing HA-tagged mouse AT1a angiotensin 2 receptor up to 100 ug/ml after 24 hrs by trypan blue dye exclusion assay,Other,18672373.0,
+2,1259310,1,1,,333141547,148251,Inactive,,,,,AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).,Screening,,
+3,1259407,1,1,,363905923,148251,Inactive,,,,,CCRIS mutagenicity studies,Other,,

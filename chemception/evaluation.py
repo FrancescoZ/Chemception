@@ -2,6 +2,7 @@ import numpy as np
 from keras.callbacks import Callback
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 import math
+import helpers
 
 class Metrics(Callback):
 	def on_train_begin(self, logs={}):
@@ -13,11 +14,14 @@ class Metrics(Callback):
 		self.mccs = []
 		self.f1s= []
 
-	def on_train_end(self, logs={}):
+	def on_epoch_end(self,epoch, logs={}):
+		if not epoch%10 == 0:
+			return 
 		try:
+			print("Other metrics evaluation")
 			val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
 			val_targ = self.validation_data[1]
-
+			helpers.printProgressBar(0, len(val_predict), prefix = 'Progress:', suffix = 'Complete', length = 50)
 			tp =0
 			fp = 0
 			tn = 0
@@ -33,7 +37,8 @@ class Metrics(Callback):
 					if val_targ[index][0] == val_predict[index][0]:
 						tn = tn +1
 					else:
-						fp = fp + 1    
+						fp = fp + 1 
+				helpers.printProgressBar(index, len(val_predict), prefix = 'Progress:', suffix = 'Complete', length = 50)   
 
 			acc = float(tp + tn)/len(val_predict)
 			precision = float(tp)/(tp+ fp + 1e-06)

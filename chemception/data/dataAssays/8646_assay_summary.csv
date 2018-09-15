@@ -1,0 +1,3 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,341210,6,6,,103623750,144047,Active,38258636,134864,9.1,EC50,Agonist activity at human trace amine associated receptor 1 expressed in RD-HGA16 CHO-K1 cells coexpressed with Galpha16 protein assessed as internal calcium mobilization by calcium 3 assay,Confirmatory,18602830,
+1,341211,4,10,,103623750,144047,Unspecified,38258636,134864,,,Agonist activity at human trace amine associated receptor 1 expressed in RD-HGA16 CHO-K1 cells coexpressed with Galpha16 protein assessed as internal calcium mobilization by calcium 3 assay relative to 2-phenylethanamine,Other,18602830,

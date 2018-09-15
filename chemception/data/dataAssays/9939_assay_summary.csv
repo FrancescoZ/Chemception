@@ -1,0 +1,10 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,89763,3,4,,103435461,36573,Unspecified,,,,,Sensory evaluation was done for sweetness at a concentration of 1000 p.p.m. against sample intensity relative to 10% sucrose.,Other,3965718.0,
+1,90087,3,4,,103435461,36573,Unspecified,,,,,Sensory evaluation was done for sweetness at a concentration of 1000 p.p.m. against compound potency calculated on a molar basis.,Other,3965718.0,
+2,90225,3,4,,103435461,36573,Unspecified,,,,,Sensory evaluation was done for sweetness at a concentration of 1000 p.p.m. against compound potency calculated on weight basis.,Other,3965718.0,
+3,90261,3,4,,103435461,36573,Unspecified,,,,,Sensory evaluation was done at a concentration of 1000 p.p.m. against other properties.,Other,3965718.0,
+4,90262,3,4,,103435461,36573,Unspecified,,,,,Sensory evaluation was done at a concentration of 1000 p.p.m. against property of bitterness.,Other,3965718.0,
+5,90263,3,4,,103435461,36573,Unspecified,,,,,Sensory evaluation was done at a concentration of 1000 p.p.m. against property of sweetness.,Other,3965718.0,
+6,1259416,1,2,,340085240,36573,Inactive,56786138.0,3458.0,,,Toxoplasma gondii inhibition HTS in the presence of IFN-y,Screening,,
+7,1259421,1,1,,340085240,36573,Inactive,56786138.0,3458.0,,,Toxoplasma gondii HTS in the absence of IFN-y,Screening,,
+8,1259423,1,2,,354952670,36573,Inactive,,,,,Primary cell-based high-throughput screening assay for identification of small molecule agonists of Aedes aegypti NPYLR7 [Small Molecule Inhibitors of Mosquito Biting Behavior],Screening,,

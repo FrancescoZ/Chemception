@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1576,1,1,,57244165,8079,Inactive,,,,,DSSTox (KIERBL) EPA Estrogen Receptor Ki Binding Study (Laws et al.) Database,Other,,
+1,19262,5,1,,103179331,8079,Unspecified,,,,,Aqueous solubility,Other,10866370.0,
+2,603957,1,3,,103179331,8079,Unspecified,,,,,"Octanol-water partition coefficient, log P of the compound",Other,17629592.0,
+3,1149945,1,1,,103179331,8079,Unspecified,,,,,Inhibition of chymotrypsin (unknown origin),Other,915902.0,
+4,1259407,1,1,,363906688,8079,Active,,,,,CCRIS mutagenicity studies,Other,,

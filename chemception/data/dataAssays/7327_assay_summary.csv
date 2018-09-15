@@ -1,0 +1,8 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1811,3,2,,46391930,162636,Active,11514552.0,,,,Experimentally measured binding affinity data derived from PDB,Other,11052791.0,
+1,213433,3,8,,103357744,162636,Unspecified,,,,,Acid dissociation constant against Urokinase-type plasminogen activator,Other,11052791.0,
+2,215985,9,2,,103357744,162636,Active,,,10.0,IC50,Inhibitory activity against Urokinase-type plasminogen activator,Confirmatory,11052791.0,
+3,405507,12,1,,103357744,162636,Unspecified,,,200.0,IC50,Inhibition of uPA,Confirmatory,18457385.0,
+4,977608,3,1,,46391930,162636,Active,11514552.0,,10.0,IC50,Experimentally measured binding affinity data (IC50) for protein-ligand complexes derived from PDB,Other,11052791.0,
+5,977611,3,1,,170483074,162636,Active,307776442.0,,20.0,Kd,Experimentally measured binding affinity data (Kd) for protein-ligand complexes derived from PDB,Other,20642456.0,
+6,1259407,1,1,,363902310,162636,Inactive,,,,,CCRIS mutagenicity studies,Other,,

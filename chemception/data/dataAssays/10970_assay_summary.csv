@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1141890,1,1,,242636327,2246017,Unspecified,,,,,Inhibition of full length Mycobacterium tuberculosis recombinant ZMP1 expressed in Escherichia coli BL21(DE3) using MCA-Pro-Leu-Gly-Leu-Dpa-Ala-Arg-NH2 as substrate at 100 uM by fluorometric analysis relative to control,Other,24767848,
+1,1141891,1,1,,242636327,2246017,Active,,,32.9,Ki,Competitive inhibition of full length Mycobacterium tuberculosis recombinant ZMP1 expressed in Escherichia coli BL21(DE3) using MCA-Pro-Leu-Gly-Leu-Dpa-Ala-Arg-NH2 as substrate by sigma plot analysis,Confirmatory,24767848,
+2,1141892,2,2,,242636327,2246017,Inconclusive,128062.0,4311.0,,Ki,Inhibition of human neprilysin by fluorometric analysis,Confirmatory,24767848,
+3,1141893,1,1,,242636327,2246017,Inconclusive,,,,,"Selectivity index, ratio of Ki for human neprilysin to Ki for full length Mycobacterium tuberculosis recombinant ZMP1",Other,24767848,

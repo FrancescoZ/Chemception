@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,237340,3,3,,103453945,70119,Unspecified,,,,,Hydrophobicity,Other,15267244.0,
+1,241036,8,2,,103453945,70119,Unspecified,,,100.0,IC50,Inhibitory effect on soybean 15-lipoxygenase,Confirmatory,15267244.0,
+2,241245,9,5,,103453945,70119,Unspecified,125987838.0,239.0,100.0,IC50,Inhibitory effect on human platelet 12-lipoxygenase,Confirmatory,15267244.0,
+3,241374,9,5,,103453945,70119,Unspecified,126396.0,246.0,100.0,IC50,Inhibitory effect on human reticulocyte 15-lipoxygenase,Confirmatory,15267244.0,
+4,1259407,1,1,,363903069,70119,Inactive,,,,,CCRIS mutagenicity studies,Other,,

@@ -1,0 +1,5 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,81757,6,1,,242583886,152162,Unspecified,,,,,Minimum toxic effect against HEp-2 cells.,Other,4067994.0,
+1,83893,7,2,,242583886,152162,Unspecified,,,,,Minimum inhibitory concentration against HSV-1.,Other,4067994.0,
+2,84961,7,2,,242583886,152162,Unspecified,,,,,Minimum inhibitory concentration against HSV-2.,Other,4067994.0,
+3,1259407,1,1,,363900780,152162,Inactive,,,,,CCRIS mutagenicity studies,Other,,

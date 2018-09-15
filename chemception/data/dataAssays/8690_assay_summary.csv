@@ -1,0 +1,6 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,588211,2,3,,104252483,8376,Unspecified,,,,,"Literature-mined compound from Fourches et al multi-species drug-induced liver injury (DILI) dataset, effect in humans",Other,20014752.0,
+1,588212,2,3,,104252483,8376,Unspecified,,,,,"Literature-mined compound from Fourches et al multi-species drug-induced liver injury (DILI) dataset, effect in rodents",Other,20014752.0,
+2,588213,2,3,,104252483,8376,Unspecified,,,,,"Literature-mined compound from Fourches et al multi-species drug-induced liver injury (DILI) dataset, effect in non-rodents",Other,20014752.0,
+3,1259407,1,1,,363899249,8376,Active,,,,,CCRIS mutagenicity studies,Other,,
+4,1259408,1,1,,363895354,8376,Active,,,,,GENE-TOX mutagenicity studies,Other,,

@@ -1,0 +1,9 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1113642,1,2,,194137534,160712,Active,,,,,Antioxidant activity measured after 3 min by ferric thiocyanate method,Other,,
+1,1113643,1,2,,194137534,160712,Active,,,,,Antioxidant activity measured after 10 min by thiobarbituric acid method,Other,,
+2,1113644,1,2,,194137534,160712,Active,,,40.0,IC50,Cytotoxicity against Homo sapiens (human) H460 cells assessed as inhibition of cell survival after 96 hr by MTT assay,Confirmatory,,
+3,1113645,1,2,,194137534,160712,Active,,,42.0,IC50,Cytotoxicity against Homo sapiens (human) DU145 cells assessed as inhibition of cell survival after 96 hr by MTT assay,Confirmatory,,
+4,1113646,1,2,,194137534,160712,Active,,,18.0,IC50,Cytotoxicity against Homo sapiens (human) MES-SA cells assessed as inhibition of cell survival after 96 hr by MTT assay,Confirmatory,,
+5,1113647,1,2,,194137534,160712,Inactive,,,,IC50,Cytotoxicity against Homo sapiens (human) MES-SA/Dx5 cells assessed as inhibition of cell survival after 96 hr by MTT assay,Confirmatory,,
+6,1113648,1,2,,194137534,160712,Active,,,36.0,IC50,Cytotoxicity against Homo sapiens (human) MCF7 cells assessed as inhibition of cell survival after 96 hr by MTT assay,Confirmatory,,
+7,1259407,1,1,,363904392,160712,Inactive,,,,,CCRIS mutagenicity studies,Other,,

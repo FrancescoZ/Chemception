@@ -1,0 +1,11 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,248,1,1,,88341,11915,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in B6D2F1 (BDF1) mice,Other,,
+1,256,1,1,,88341,11915,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  L1210 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+2,330,1,1,,88341,11915,Inactive,,,,,NCI In Vivo Anticancer Drug Screen. Data for tumor model  P388 Leukemia (intraperitoneal) in CD2F1 (CDF1) mice,Other,,
+3,164985,9,2,,103247222,11915,Unspecified,,,2700.0,IC50,Inhibitory activity against Yersinia Protein-tyrosine phosphatase 1B,Confirmatory,11459664.0,
+4,188645,4,10,,103247222,11915,Unspecified,,,,,Pyruvate dehydrogenase active/ Pyruvate dehydrogenase total was measured by sc administering the DCA in rat at a dose of 1.2 mmol/kg,Other,7265127.0,
+5,188648,4,9,,103247222,11915,Unspecified,,,,,Pyruvate dehydrogenase activity in vivo was measured following subcutaneous administration of 1.2 mmol/kg,Other,7265127.0,
+6,191928,3,9,,103247222,11915,Unspecified,,,,,"Tested for pyruvate oxidation in rat diaphragm, measured as % conversion of [14C]pyruvate to 14CO2 at 0.5 mM concentration of DCA (dichloroacetic acid)",Other,7265127.0,
+7,191929,3,9,,103247222,11915,Unspecified,,,,,"Tested for pyruvate oxidation in rat diaphragm, measured as % conversion of [14C]pyruvate to 14CO2 at 2 mM concentration",Other,7265127.0,
+8,191943,3,9,,103247222,11915,Unspecified,,,,,Percent Stimulation of pyruvate oxidation in rat diaphragm was measured at 2 mM concentration of DCA (dichloroacetic acid),Other,7265127.0,
+9,1130306,1,1,,103247222,11915,Unspecified,,,2290.87,IC50,Inhibition of glycolic acid oxidase (unknown origin) assessed as enzyme-mediated reduction of NaDCIP by sodium glycolate after 1 to 3 mins by spectrophotometer analysis,Confirmatory,458816.0,

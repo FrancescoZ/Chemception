@@ -1,0 +1,4 @@
+,AID,AID Version,AID Revision,Panel Member ID,SID,CID,Bioactivity Outcome,Target GI,Target GeneID,Activity Value [uM],Activity Name,Assay Name,Bioassay Type,PubMed ID,RNAi
+0,1123390,1,1,,242617626,120462,Unspecified,,,,,Analgesic activity in sc dosed ddY mouse assessed as inhibition of acetic acid-induced abdominal stretching pretreated for 30 mins followed by acetic acid challenge measured for 5 to 20 mins,Other,311385,
+1,1123391,1,1,,242617626,120462,Unspecified,,,,,"Antiinflammatory activity in Wistar rat assessed as inhibition of carrageenan-induced paw edema at 100 mg/kg, po pretreated for 30 mins followed by carrageenan challenge measured after 3 hrs relative to control",Other,311385,
+2,1123392,1,1,,242617626,120462,Unspecified,,,,,"Antiinflammatory activity in Wistar rat assessed as inhibition of carrageenan-induced paw edema at 50 mg/kg, po pretreated for 30 mins followed by carrageenan challenge measured after 3 hrs relative to control",Other,311385,
