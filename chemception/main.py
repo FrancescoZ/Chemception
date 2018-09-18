@@ -76,7 +76,7 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 		inputSize=sys.argv[5]
 
 #Setting of the network
-batch_size 			= 50
+batch_size 			= 180
 num_classes 		= 2
 epochs 				= 10
 data_augmentation 	= False
@@ -90,9 +90,9 @@ final_resume 		= main_execution_path + '_resume.txt'
 if type =='C':
 	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
 elif type == 'S':
-	(X, Y) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	(X, Y,char_index) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
 elif type == 'H':
-	(X, Y) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	(X, Y,char_index) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
 cvscores = []
 for i in range(2,cross_val+1):
 
@@ -164,7 +164,7 @@ for i in range(2,cross_val+1):
 									metrics,
 									tensorBoard)
 	elif type == 'H':
-		model 				= HATT( data.char_index,
+		model 				= HATT( char_index,
 									x_train,
 									y_train,
 									X_test,

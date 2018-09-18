@@ -22,7 +22,7 @@ from keras.utils.np_utils import to_categorical
 
 from keras.layers import Embedding
 from keras.layers import Dense, Input, Flatten
-from keras.layers import Conv1D, MaxPooling1D, Embedding, Merge, Dropout, LSTM, GRU, Bidirectional, TimeDistributed
+from keras.layers import Conv1D, MaxPooling1D, Embedding, merge, Dropout, LSTM, GRU, Bidirectional, TimeDistributed
 from keras.models import Model
 
 from keras import backend as K
@@ -48,9 +48,9 @@ class HATT:
 		MAX_WORD_LENGTH = 180
 		MAX_NB_CHARS = 180
 		EMBEDDING_DIM = 180
+		print(len(char_index))
 		embedding_layer = Embedding(len(char_index) + 1,
                             EMBEDDING_DIM,
-                            input_length=MAX_WORD_LENGTH,
                             trainable=True,
                             mask_zero=True)
 
@@ -58,14 +58,8 @@ class HATT:
 		embedded_sequences = embedding_layer(sentence_input)
 		l_lstm = Bidirectional(GRU(100, return_sequences=True))(embedded_sequences)
 		l_att = AttLayer(100)(l_lstm)
-		sentEncoder = Model(sentence_input, l_att)
-
-		review_input = Input(shape=(MAX_NB_CHARS, MAX_WORD_LENGTH), dtype='int32')
-		review_encoder = TimeDistributed(sentEncoder)(review_input)
-		l_lstm_sent = Bidirectional(GRU(100, return_sequences=True))(review_encoder)
-		l_att_sent = AttLayer(100)(l_lstm_sent)
-		preds = Dense(2, activation='softmax')(l_att_sent)
-		self.model = Model(review_input, preds)
+		preds = Dense(2, activation='softmax')(l_att)
+		self.model = Model(sentence_input, preds)
 
 		plot_model(self.model, to_file='modelHATT.png')
 		

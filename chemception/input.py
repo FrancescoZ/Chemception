@@ -109,19 +109,19 @@ def LoadSMILESData(duplicateProb = 0,seed=7):
 	tokenizer = Tokenizer(num_words=None, char_level=True)
 	tokenizer.fit_on_texts(smiles)
 	print(smiles[0])
-	data = np.zeros((len(smiles), MAX_WORD_LENGTH, MAX_WORD_LENGTH), dtype='int32')
+	data = np.zeros((len(smiles), MAX_WORD_LENGTH), dtype='int32')
 	for i, comp in enumerate(smiles):
 		for j, char in enumerate(comp):
 			try:
 				if tokenizer.word_index[char] < MAX_NB_CHARS:
-					data[i, j, k] = tokenizer.word_index[char]
+					data[i, j] = tokenizer.word_index[char]
 			except:
 				None
 						#print (char)
 	char_index = tokenizer.word_index
 	indices = np.arange(data.shape[0])
 	
-	return data[indices], labels[indices]
+	return data[indices], labels[indices],char_index
 
 
 
