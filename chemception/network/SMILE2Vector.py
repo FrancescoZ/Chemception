@@ -63,7 +63,8 @@ class SMILE2Vector:
 		self.model.add(Dense(2, activation='softmax'))
 	
 		# truncate and pad input sequences
-		
+		plot_model(self.model, to_file='modelSMILE2Vect.png')
+
 		X_train = sequence.pad_sequences(X_train, maxlen=max_review_length)
 		X_test = sequence.pad_sequences(X_test, maxlen=max_review_length)
 
@@ -86,7 +87,6 @@ class SMILE2Vector:
 		self.tensorBoard = tensorBoard
 
 		print(self.model.summary())
-
 	
 	def print(self):
 		plot_model(self.model, to_file='modelSMILE2Vect.png')

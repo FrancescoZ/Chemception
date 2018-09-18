@@ -178,7 +178,7 @@ for i in range(2,cross_val+1):
 									batch_size,
 									metrics,
 									tensorBoard)
-	model.print()
+	#model.print()
 	model.run()
 	print('Training Ended')
 	model.model.save(model_path)
