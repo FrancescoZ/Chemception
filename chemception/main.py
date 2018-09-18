@@ -1,5 +1,6 @@
 from network import Chemception
 from network import SMILE2Vector 
+from network import HATT
 import input as data
 import helpers
 import Optimizer
@@ -38,6 +39,8 @@ if len(sys.argv)>1 and sys.argv[1]!=None:
 		type='C'
 	elif sys.argv[1]=='-s' or sys.argv[1] == '-S':
 		type='S'
+	elif sys.argv[1]=='-h' or sys.argv[1] == '-H':
+		type='H'
 	else:
 		raise AttributeError("Invalid Network Type")
 else:
@@ -73,9 +76,9 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 		inputSize=sys.argv[5]
 
 #Setting of the network
-batch_size 			= 32
+batch_size 			= 50
 num_classes 		= 2
-epochs 				= 100
+epochs 				= 10
 data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
@@ -87,6 +90,8 @@ final_resume 		= main_execution_path + '_resume.txt'
 if type =='C':
 	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
 elif type == 'S':
+	(X, Y) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+elif type == 'H':
 	(X, Y) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
 cvscores = []
 for i in range(2,cross_val+1):
@@ -107,14 +112,15 @@ for i in range(2,cross_val+1):
 	# create model	
 	cross_val 						 = cross_val +1	
 	x_train 						 = X_train
-	if type=='S':
-		x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
-		X_test = keras.preprocessing.sequence.pad_sequences(X_test, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
+	#if type=='S':
+	#	x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
+	#	X_test = keras.preprocessing.sequence.pad_sequences(X_test, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
 	y_train 						 = Y_train
 	
 	# Convert class vectors to binary class matrices.
-	y_train 			= keras.utils.to_categorical(y_train, num_classes)
-	Y_test 				= keras.utils.to_categorical(Y_test, num_classes)
+	if type == 'C':
+		y_train 			= keras.utils.to_categorical(y_train, num_classes)
+		Y_test 				= keras.utils.to_categorical(Y_test, num_classes)
 	tensorBoard = TensorBoard(log_dir=log_dir, 
 				histogram_freq=1, 
 				batch_size=batch_size, 
@@ -144,6 +150,21 @@ for i in range(2,cross_val+1):
 									tensorBoard)
 	elif type =='S':
 		model 				= SMILE2Vector(N,
+									x_train,
+									y_train,
+									X_test,
+									Y_test,
+									learning_rate,
+									rho,
+									epsilon,
+									epochs,
+									loss_function,
+									log_dir,
+									batch_size,
+									metrics,
+									tensorBoard)
+	elif type == 'H':
+		model 				= HATT( data.char_index,
 									x_train,
 									y_train,
 									X_test,

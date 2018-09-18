@@ -15,6 +15,7 @@ __pycache__/
 build/
 img/
 Dataset/
+dataAssays
 develop-eggs/
 dist/
 downloads/

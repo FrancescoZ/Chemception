@@ -18,7 +18,25 @@ import time
 
 import random 
 
+import pandas as pd
+import numpy as np
+
+import keras
+from keras.preprocessing.text import Tokenizer
+from keras.engine.topology import Layer
+from keras import initializers as initializers, regularizers, constraints
+from keras.callbacks import Callback
+from keras.layers import Embedding, Input, Dense, LSTM, GRU, Bidirectional, TimeDistributed
+from keras import backend as K
+from keras.models import Model
+
+from sklearn.metrics import roc_auc_score
+
+import input as dataset
+import tensorflow as tf
+
 extension = 'png'
+char_index = ''
 
 def LoadData(fileName,duplicateProb):
 	#Molecules array
@@ -81,14 +99,29 @@ def LoadImageData(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 
 
 def LoadSMILESData(duplicateProb = 0,seed=7):
+	MAX_WORD_LENGTH = 180
+	MAX_NB_CHARS = 180
+	EMBEDDING_DIM = 180
 	data = LoadData('data',duplicateProb)
-	inputs = list(map(lambda x: x.input(t='SMILE'), data))
-	with open('./data/elements.txt') as f:
-		element_list = f.read().splitlines() 
-	dic = buildVocabulary(element_list)
-	#dic = buildVocabulary(list(map(lambda x: x._SMILE, data)))
+	labels = keras.utils.to_categorical(list(map(lambda x: 1 if x.mutagen==True else 0,data)),2)
+	smiles = list(map(lambda x: x._SMILE, data))
 
-	return np.array(list(map(lambda x: SMILE2Int(x[0],dic),inputs))), np.array(list(map(lambda x: x[1],inputs)))
+	tokenizer = Tokenizer(num_words=None, char_level=True)
+	tokenizer.fit_on_texts(smiles)
+	print(smiles[0])
+	data = np.zeros((len(smiles), MAX_WORD_LENGTH, MAX_WORD_LENGTH), dtype='int32')
+	for i, comp in enumerate(smiles):
+		for j, char in enumerate(comp):
+			try:
+				if tokenizer.word_index[char] < MAX_NB_CHARS:
+					data[i, j, k] = tokenizer.word_index[char]
+			except:
+				None
+						#print (char)
+	char_index = tokenizer.word_index
+	indices = np.arange(data.shape[0])
+	
+	return data[indices], labels[indices]
 
 
 
