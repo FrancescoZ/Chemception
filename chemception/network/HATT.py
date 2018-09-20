@@ -14,24 +14,46 @@ from sklearn.metrics import roc_auc_score
 
 import input as dataset
 import tensorflow as tf
+from network import Chemception
+from network import SMILE2Vector 
+from network import HATT
+import input as data
+import helpers
+import Optimizer
+from evaluation import Metrics
 from keras.utils import plot_model
+import keras
+from keras.preprocessing.image import ImageDataGenerator
+from keras.optimizers import SGD
+from keras.callbacks import TensorBoard
+import keras.backend as K
 
-from keras.preprocessing.text import Tokenizer, text_to_word_sequence
+import os
+import sys
+import time
+import statistics
+import shutil
+
+import numpy as nu
+
+from sklearn.model_selection import train_test_split
+
+from string import punctuation
+from os import listdir
+from numpy import array
+from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from keras.utils.np_utils import to_categorical
-
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Flatten
 from keras.layers import Embedding
-from keras.layers import Dense, Input, Flatten
-from keras.layers import Conv1D, MaxPooling1D, Embedding, merge, Dropout, LSTM, GRU, Bidirectional, TimeDistributed
-from keras.models import Model
-
-from keras import backend as K
-from keras.engine.topology import Layer, InputSpec
-from keras import initializers
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
 
 class HATT:
 	def __init__(self,
-				char_index,
+				vocab_size,
+				max_length,
 				X_train,
 				Y_train,
 				X_test,
@@ -45,21 +67,13 @@ class HATT:
 				batch_size,
 				metrics,
 				tensorBoard):
-		MAX_WORD_LENGTH = 180
-		MAX_NB_CHARS = 180
-		EMBEDDING_DIM = 180
-		print(len(char_index))
-		embedding_layer = Embedding(len(char_index) + 1,
-                            EMBEDDING_DIM,
-                            trainable=True,
-                            mask_zero=True)
-
-		sentence_input = Input(shape=(MAX_WORD_LENGTH,), dtype='int32')
-		embedded_sequences = embedding_layer(sentence_input)
-		l_lstm = Bidirectional(GRU(100, return_sequences=True))(embedded_sequences)
-		l_att = AttLayer(100)(l_lstm)
-		preds = Dense(2, activation='softmax')(l_att)
-		self.model = Model(sentence_input, preds)
+		self.model = Sequential()
+		self.model.add(Embedding(vocab_size+1, 100, input_length=max_length,
+							trainable = True,
+							mask_zero=False))
+		self.model.add(Bidirectional(GRU(100, return_sequences=True)))
+		self.model.add(AttLayer(100))
+		self.model.add(Dense(2, activation='softmax'))
 
 		plot_model(self.model, to_file='modelHATT.png')
 		
@@ -136,3 +150,4 @@ class AttLayer(Layer):
 
     def compute_output_shape(self, input_shape):
         return (input_shape[0], input_shape[-1])
+

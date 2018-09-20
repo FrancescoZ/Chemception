@@ -20,7 +20,7 @@ import random
 
 import pandas as pd
 import numpy as np
-
+from keras.preprocessing.sequence import pad_sequences
 import keras
 from keras.preprocessing.text import Tokenizer
 from keras.engine.topology import Layer
@@ -99,29 +99,32 @@ def LoadImageData(extensionImg='png',size=80, duplicateProb = 0, seed = 7):
 
 
 def LoadSMILESData(duplicateProb = 0,seed=7):
-	MAX_WORD_LENGTH = 180
-	MAX_NB_CHARS = 180
-	EMBEDDING_DIM = 180
-	data = LoadData('data',duplicateProb)
-	labels = keras.utils.to_categorical(list(map(lambda x: 1 if x.mutagen==True else 0,data)),2)
-	smiles = list(map(lambda x: x._SMILE, data))
-
+	dataComp = LoadData('data',0)
+	smiles = list(map(lambda x: x._SMILE, dataComp))
 	tokenizer = Tokenizer(num_words=None, char_level=True)
 	tokenizer.fit_on_texts(smiles)
 	print(smiles[0])
-	data = np.zeros((len(smiles), MAX_WORD_LENGTH), dtype='int32')
-	for i, comp in enumerate(smiles):
-		for j, char in enumerate(comp):
-			try:
-				if tokenizer.word_index[char] < MAX_NB_CHARS:
-					data[i, j] = tokenizer.word_index[char]
-			except:
-				None
-						#print (char)
-	char_index = tokenizer.word_index
-	indices = np.arange(data.shape[0])
-	
-	return data[indices], labels[indices],char_index
+	dictionary = {}
+	i=0
+	k=0
+	for smile in smiles:
+		i+=1
+		for c in list(smile):
+			k+=1
+			if c in dictionary:
+				dictionary[c]+=1
+			else:
+				dictionary[c]=1
+	print(len(dictionary))
+	# sequence encode
+	encoded_docs = tokenizer.texts_to_sequences(smiles)
+	# pad sequences
+	max_length = max([len(s) for s in smiles])
+	Xtrain = pad_sequences(encoded_docs, maxlen=max_length, padding='post')
+	# define vocabulary size (largest integer value)
+	vocab_size = len(tokenizer.word_index) + 1
+	labels = list(map(lambda x: 1 if x.mutagen==True else 0,dataComp))
+	return Xtrain, labels,vocab_size,max_length
 
 
 

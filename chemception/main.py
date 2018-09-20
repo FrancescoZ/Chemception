@@ -78,7 +78,7 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 #Setting of the network
 batch_size 			= 180
 num_classes 		= 2
-epochs 				= 10
+epochs 				= 100
 data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
@@ -90,9 +90,9 @@ final_resume 		= main_execution_path + '_resume.txt'
 if type =='C':
 	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
 elif type == 'S':
-	(X, Y,char_index) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	(X, Y,vocab_size,max_size) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
 elif type == 'H':
-	(X, Y,char_index) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	(X, Y,vocab_size,max_size) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
 cvscores = []
 for i in range(2,cross_val+1):
 
@@ -118,9 +118,8 @@ for i in range(2,cross_val+1):
 	y_train 						 = Y_train
 	
 	# Convert class vectors to binary class matrices.
-	if type == 'C':
-		y_train 			= keras.utils.to_categorical(y_train, num_classes)
-		Y_test 				= keras.utils.to_categorical(Y_test, num_classes)
+	y_train 			= keras.utils.to_categorical(y_train, num_classes)
+	Y_test 				= keras.utils.to_categorical(Y_test, num_classes)
 	tensorBoard = TensorBoard(log_dir=log_dir, 
 				histogram_freq=1, 
 				batch_size=batch_size, 
@@ -164,7 +163,8 @@ for i in range(2,cross_val+1):
 									metrics,
 									tensorBoard)
 	elif type == 'H':
-		model 				= HATT( char_index,
+		model 				= HATT( vocab_size,
+									max_size,
 									x_train,
 									y_train,
 									X_test,
