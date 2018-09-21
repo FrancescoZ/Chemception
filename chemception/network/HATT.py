@@ -66,7 +66,8 @@ class HATT:
 				log_dir,
 				batch_size,
 				metrics,
-				tensorBoard):
+				tensorBoard,
+					early):
 		self.model = Sequential()
 		self.model.add(Embedding(vocab_size+1, 100, input_length=max_length,
 							trainable = True,
@@ -94,7 +95,7 @@ class HATT:
 
 		self.metrics = metrics
 		self.tensorBoard = tensorBoard
-
+		self.early = early
 
 		print(self.model.summary())
 
@@ -108,7 +109,7 @@ class HATT:
 					validation_data=(self.X_test, self.Y_test), 
 					epochs=self.epochs, 
 					batch_size=self.batch_size,
-					callbacks = [self.tensorBoard,self.metrics])
+					callbacks = [self.tensorBoard,self.metrics,self.early])
 
 class AttLayer(Layer):
     def __init__(self, attention_dim):

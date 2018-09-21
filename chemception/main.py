@@ -123,12 +123,16 @@ for i in range(2,cross_val+1):
 	tensorBoard = TensorBoard(log_dir=log_dir, 
 				histogram_freq=1, 
 				batch_size=batch_size, 
-				write_graph=False, 
+				write_graph=True, 
 				write_grads=True, 
 				write_images=True, 
 				embeddings_freq=0, 
 				embeddings_layer_names=None, 
 				embeddings_metadata=None)
+	early = keras.callbacks.EarlyStopping(monitor='val_loss', 
+								min_delta=0.01, 
+								patience=0, 
+								verbose=0, mode='min')
 	metrics = Metrics()
 	if type =='C':
 		model 				= Chemception(N,
@@ -146,7 +150,8 @@ for i in range(2,cross_val+1):
 									batch_size,
 									data_augmentation,
 									metrics,
-									tensorBoard)
+									tensorBoard,
+									early)
 	elif type =='S':
 		model 				= SMILE2Vector(N,
 									x_train,
@@ -161,7 +166,8 @@ for i in range(2,cross_val+1):
 									log_dir,
 									batch_size,
 									metrics,
-									tensorBoard)
+									tensorBoard,
+									early)
 	elif type == 'H':
 		model 				= HATT( vocab_size,
 									max_size,
@@ -177,7 +183,8 @@ for i in range(2,cross_val+1):
 									log_dir,
 									batch_size,
 									metrics,
-									tensorBoard)
+									tensorBoard,
+									early)
 	#model.print()
 	model.run()
 	print('Training Ended')

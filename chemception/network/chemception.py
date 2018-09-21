@@ -126,7 +126,8 @@ class Chemception:
 					batch_size,
 					data_augmentation,
 					metrics,
-					tensorBoard):
+					tensorBoard,
+					early):
 		input_img = Input(shape = (inputSize, inputSize, 3))
 		stem	= Chemception.Stem(input_img,n)
 		incResA = Chemception.IncResNetA(stem,n)
@@ -158,7 +159,7 @@ class Chemception:
 
 		self.metrics = metrics
 		self.tensorBoard = tensorBoard
-		
+		self.early = early
 		print(self.model.summary())
 
 	
@@ -223,7 +224,7 @@ class Chemception:
 				epochs=self.epochs/2,
 				workers=4,
 				validation_data=(X_test,Y_test),
-				callbacks = [self.tensorBoard, optCallback,self.metrics])
+				callbacks = [self.tensorBoard, optCallback,self.metrics,self.early])
 		else:
 			print('Using real-time data augmentation.')
 			# This will do preprocessing and realtime data augmentation:

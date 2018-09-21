@@ -3,6 +3,8 @@ from keras.callbacks import Callback
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 import math
 import helpers
+import time
+import csv
 
 class Metrics(Callback):
 	def on_train_begin(self, logs={}):
@@ -13,6 +15,7 @@ class Metrics(Callback):
 		self.specificitys = []
 		self.mccs = []
 		self.f1s= []
+		self.time = time.time()
 
 	def on_epoch_end(self,epoch, logs={}):
 		if not epoch%10 == 0:
@@ -47,7 +50,10 @@ class Metrics(Callback):
 			specificity = float(tn)/(tn + fp + 1e-06)
 			mcc = float(tp*tn-fp*fn)/(math.sqrt((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn)) + 1e-06)
 			f1=float(tp*2)/(tp*2+fp+fn+1e-06)
-
+			with open('build-evaluation'+str(self.time)+'.csv',"a+",newline='') as evalCsv:
+				evalMetr = csv.writer(evalCsv)
+				row= str(epoch)+";"+str(acc)+";"+str(precision)+";"+str(npv)+";"+str(sensitivity)+";"+str(specificity)+";"+str(mcc)+";"+str(f1)
+				evalMetr.writerow(row)
 			self.accs.append(acc)
 			self.precisions.append(precision)
 			self.npvs.append(npv)

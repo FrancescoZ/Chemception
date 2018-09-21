@@ -51,7 +51,8 @@ class SMILE2Vector:
 					log_dir,
 					batch_size,
 					metrics,
-					tensorBoard):
+					tensorBoard,
+					early):
 		
 		embedding_vecor_length = 60
 		top_words 			   = 157
@@ -85,7 +86,7 @@ class SMILE2Vector:
 
 		self.metrics = metrics
 		self.tensorBoard = tensorBoard
-
+		self.early = early
 		print(self.model.summary())
 	
 	def print(self):
@@ -98,4 +99,4 @@ class SMILE2Vector:
 					validation_data=(self.X_test, self.Y_test), 
 					epochs=self.epochs, 
 					batch_size=self.batch_size,
-					callbacks = [self.tensorBoard,self.metrics])
+					callbacks = [self.tensorBoard,self.metrics,self.early])
