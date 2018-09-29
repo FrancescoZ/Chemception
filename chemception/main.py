@@ -91,7 +91,7 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 #Setting of the network
 batch_size 			= 180
 num_classes 		= 2
-epochs 				= 1
+epochs 				= 100
 data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
