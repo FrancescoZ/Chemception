@@ -91,7 +91,7 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 #Setting of the network
 batch_size             = 180
 num_classes         = 2
-epochs                 = 100
+epochs                 = 200
 data_augmentation     = False
 learning_rate        = 1e-3
 rho                    = 0.9
@@ -146,7 +146,7 @@ for i in range(2,cross_val+1):
                 embeddings_metadata=None)
     early = keras.callbacks.EarlyStopping(monitor='val_loss', 
                                 min_delta=0.1, 
-                                patience=50, 
+                                patience=epochs/2, 
                                 verbose=0, 
                                 mode='min')
     metrics = Metrics()
