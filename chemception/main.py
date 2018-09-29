@@ -1,10 +1,14 @@
 from network import Chemception
 from network import SMILE2Vector 
-from network import HATT
+from network import ATT
+from network import VisualATT
 import input as data
-import helpers
-import Optimizer
-from evaluation import Metrics
+
+from utils import helpers
+from utils import Visualizer
+from utils import visualize
+from network.optimizer import Optimizer
+from network.evaluation import Metrics
 
 import keras
 from keras.preprocessing.image import ImageDataGenerator
@@ -22,9 +26,18 @@ import numpy as nu
 
 from sklearn.model_selection import train_test_split
 
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from keras.preprocessing.sequence import pad_sequences
+import input as data
+
+
 #Setting seed to re run the same simulation with the same result
 seed = 7
 nu.random.seed(seed)
+model = ""
 
 #Defining the size of the network, this can be passed as parameter
 N=16
@@ -49,7 +62,7 @@ else:
 if len(sys.argv)>2 and sys.argv[2]!=None:
 	if os.path.isdir("./build/"+sys.argv[2]):
 		over = input('Execution folder already exist, to you want to overwrite it? [Y/N]')
-		if str(over) == 'Y' or str(over)=='y':
+		if str(over) != 'N' or str(over)!='n':
 			executionName = sys.argv[2]
 			shutil.rmtree('./build/'+executionName, ignore_errors=True)
 		else:
@@ -78,7 +91,7 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 #Setting of the network
 batch_size 			= 180
 num_classes 		= 2
-epochs 				= 100
+epochs 				= 1
 data_augmentation 	= False
 learning_rate		= 1e-3
 rho					= 0.9
@@ -90,13 +103,15 @@ final_resume 		= main_execution_path + '_resume.txt'
 if type =='C':
 	(X, Y) 	= data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
 elif type == 'S':
-	(X, Y,vocab_size,max_size) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	(X, Y,vocab,max_size) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	vocab_size = len(vocab)
 elif type == 'H':
-	(X, Y,vocab_size,max_size) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	(X, Y,vocab,max_size) 	= data.LoadSMILESData(duplicateProb=0,seed=seed)
+	vocab_size = len(vocab)
 cvscores = []
 for i in range(2,cross_val+1):
 
-	K.clear_session()
+	#K.clear_session()
 	model_name 						 = type+'_trained_cross_'+str(i)
 	current_path 					 = main_execution_path+model_name
 	os.makedirs(current_path)
@@ -130,9 +145,10 @@ for i in range(2,cross_val+1):
 				embeddings_layer_names=None, 
 				embeddings_metadata=None)
 	early = keras.callbacks.EarlyStopping(monitor='val_loss', 
-								min_delta=0.01, 
-								patience=0, 
-								verbose=0, mode='min')
+								min_delta=0.1, 
+								patience=50, 
+								verbose=0, 
+								mode='min')
 	metrics = Metrics()
 	if type =='C':
 		model 				= Chemception(N,
@@ -169,7 +185,7 @@ for i in range(2,cross_val+1):
 									tensorBoard,
 									early)
 	elif type == 'H':
-		model 				= HATT( vocab_size,
+		model 				= VisualATT( vocab_size,
 									max_size,
 									x_train,
 									y_train,
@@ -184,7 +200,8 @@ for i in range(2,cross_val+1):
 									batch_size,
 									metrics,
 									tensorBoard,
-									early)
+									early,
+									False)
 	#model.print()
 	model.run()
 	print('Training Ended')
@@ -223,6 +240,25 @@ for i in range(2,cross_val+1):
 
 	print('Saved trained resume')
 	cvscores.append([scores[0], scores[1], prec , sens, spec, mcc, npv, f1])
+
+if type == 'H':
+	pred_model = model.model
+
+	viz = Visualizer(vocab,max_size)
+	print('Loading models')
+	pred_model = model.model
+	
+	#pred_model.load_weights(model_path, by_name=True)
+	pred_model.compile(optimizer='rmsprop', loss='mean_squared_error')
+	
+	proba_model = model.Visual()
+	proba_model.load_weights(model_path, by_name=True)
+	proba_model.compile(optimizer='rmsprop', loss='mean_squared_error')
+	
+	viz.set_models(pred_model, proba_model)
+	print('Models loaded')
+	viz.attention_map("Ccccc","data/prova.pdf")
+	print('Completed visualizations')
 
 cvscores = nu.array(cvscores)
 f= open(final_resume,"w+")

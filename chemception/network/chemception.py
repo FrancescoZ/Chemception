@@ -7,7 +7,7 @@ from keras.models import Model
 import keras
 from keras.utils import plot_model
 
-import Optimizer
+from network.optimizer import Optimizer
 
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import SGD

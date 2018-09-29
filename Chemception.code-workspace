@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "Chemception"
+		},
+		{
+			"path": "/Users/francescozanoli/Downloads/keras-attention-master"
 		}
 	],
 	"settings": {}

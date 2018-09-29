@@ -8,6 +8,7 @@ __pycache__/
 *.so
 *.code-workspace
 .DS_Store
+*.ipynb
 
 # Distribution / packaging
 .Python
