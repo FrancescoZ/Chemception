@@ -38,66 +38,65 @@ import keras.backend as K
 
 class SMILE2Vector:
 
-	def __init__(self,
-					n,
-					X_train,
-					Y_train,
-					X_test,
-					Y_test,
-					learning_rate,
-					rho,
-					epsilon,
-					epochs,
-					loss_function,
-					log_dir,
-					batch_size,
-					metrics,
-					tensorBoard,
-					early):
-		
-		embedding_vecor_length = 60
-		top_words 			   = 157
-		max_review_length 	   = 500
-		self.model = Sequential()
-		self.model.add(Embedding(top_words, embedding_vecor_length, input_length=max_review_length,mask_zero=True))
-		self.model.add(LSTM(384, return_sequences=True))
-		self.model.add(LSTM(384))
-		self.model.add(Dense(2, activation='softmax'))
-	
-		# truncate and pad input sequences
-		plot_model(self.model, to_file='modelSMILE2Vect.png')
+    def __init__(self,
+                    n,
+                    X_train,
+                    Y_train,
+                    X_test,
+                    Y_test,
+                    learning_rate,
+                    rho,
+                    epsilon,
+                    epochs,
+                    loss_function,
+                    log_dir,
+                    batch_size,
+                    metrics,
+                    tensorBoard,
+                    early):
+        
+        embedding_vecor_length = 60
+        top_words                = 157
+        max_review_length        = 500
+        self.model = Sequential()
+        self.model.add(Embedding(top_words, embedding_vecor_length, input_length=max_review_length,mask_zero=True))
+        self.model.add(LSTM(384, return_sequences=True))
+        self.model.add(LSTM(384))
+        self.model.add(Dense(2, activation='softmax'))
+    
+        # truncate and pad input sequences
+        plot_model(self.model, to_file='modelSMILE2Vect.png')
 
-		X_train = sequence.pad_sequences(X_train, maxlen=max_review_length)
-		X_test = sequence.pad_sequences(X_test, maxlen=max_review_length)
+        X_train = sequence.pad_sequences(X_train, maxlen=max_review_length)
+        X_test = sequence.pad_sequences(X_test, maxlen=max_review_length)
 
-		self.X_train = X_train
-		self.Y_train = Y_train
-		self.X_test = X_test
-		self.Y_test = Y_test
+        self.X_train = X_train
+        self.Y_train = Y_train
+        self.X_test = X_test
+        self.Y_test = Y_test
 
-		self.learning_rate = learning_rate
-		self.rho = rho
-		self.epsilon = epsilon
-		self.epochs = epochs
+        self.learning_rate = learning_rate
+        self.rho = rho
+        self.epsilon = epsilon
+        self.epochs = epochs
 
-		self.loss_function = loss_function
+        self.loss_function = loss_function
 
-		self.log_dir = log_dir
-		self.batch_size = batch_size
+        self.log_dir = log_dir
+        self.batch_size = batch_size
 
-		self.metrics = metrics
-		self.tensorBoard = tensorBoard
-		self.early = early
-		print(self.model.summary())
-	
-	def print(self):
-		plot_model(self.model, to_file='modelSMILE2Vect.png')
-	
-	def run(self):
-		self.model.compile(loss=self.loss_function, optimizer='adam', metrics=['accuracy'])
-		return self.model.fit(self.X_train, 
-					self.Y_train, 
-					validation_data=(self.X_test, self.Y_test), 
-					epochs=self.epochs, 
-					batch_size=self.batch_size,
-					callbacks = [self.tensorBoard,self.metrics,self.early])
+        self.metrics = metrics
+        self.tensorBoard = tensorBoard
+        self.early = early
+        print(self.model.summary())
+    
+    def run(self):
+        self.model.compile(loss=self.loss_function, optimizer='adam', metrics=['accuracy'])
+        return self.model.fit(self.X_train, 
+                    self.Y_train, 
+                    validation_data=(self.X_test, self.Y_test), 
+                    epochs=self.epochs, 
+                    batch_size=self.batch_size,
+                    callbacks = [self.tensorBoard,self.metrics,self.early])
+    def printModel(self):
+        plot_model(self.model, to_file='modelSMILE2Vect.png')

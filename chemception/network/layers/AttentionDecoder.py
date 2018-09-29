@@ -446,7 +446,7 @@ class AttentionDecoder(Layer):
         super(AttentionDecoder, self).__init__(**kwargs)
 
     def build(self, input_shape):
-        assert len(input_shape) == 3
+        #assert len(input_shape) == 3
 
         self.W = self.add_weight((input_shape[-1],),
                                  initializer=self.init,

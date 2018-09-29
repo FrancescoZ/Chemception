@@ -2,6 +2,7 @@ import csv
 import time
 from time import sleep
 import collections
+
 from utils import constant
 from utils import helpers
 from models import Compound
@@ -20,6 +21,7 @@ import random
 
 import pandas as pd
 import numpy as np
+
 from keras.preprocessing.sequence import pad_sequences
 import keras
 from keras.preprocessing.text import Tokenizer

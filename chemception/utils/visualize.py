@@ -39,39 +39,39 @@ class Visualizer(object):
         d = pad_sequences(np.array([d]), maxlen=self.max_s, padding='post')
 
 
-		# get the output sequence
+        # get the output sequence
         predicted_text = "0" if self.pred_model.predict(d).round()[0][0]==1 else "1"
         print(self.pred_model.predict(d).round())
-		# get the lengths of the string
+        # get the lengths of the string
         input_length = len(text)
         output_length = 2
         pred = self.proba_model.predict(d)
         predicted = np.zeros((input_length,output_length))
-		# get the activation map
+        # get the activation map
         activation_map = np.squeeze(pred[1][0])
         for i in range(0,input_length):
             if predicted_text=='1':
                 predicted[i,0]=activation_map[i]
             else:
                 predicted[i,1]=activation_map[i]
-		#print(predicted)
+        #print(predicted)
         predicted = np.rot90(predicted)
-		#print(activation_map[0:input_length])
+        #print(activation_map[0:input_length])
 
-		# import seaborn as sns
+        # import seaborn as sns
         plt.clf()
         f = plt.figure(figsize=(8, 8.5))
         ax = f.add_subplot(1, 1, 1)
 
-		# add image
+        # add image
         i = ax.imshow(predicted, interpolation='nearest', cmap='gray')
 
-		# add colorbar
+        # add colorbar
         cbaxes = f.add_axes([0.2, 0, 0.6, 0.03])
         cbar = f.colorbar(i, cax=cbaxes, orientation='horizontal')
         cbar.ax.set_xlabel('Probability', labelpad=2)
 
-		# add labels
+        # add labels
         ax.set_yticks(range(output_length))
         ax.set_yticklabels(['Non-Toxic','Toxic'])
 
@@ -82,8 +82,8 @@ class Visualizer(object):
 
         ax.set_ylabel('Output Sequence')
 
-		# add grid and legend
+        # add grid and legend
         ax.grid()
-		# ax.legend(loc='best')
+        # ax.legend(loc='best')
 
-		#f.savefig(path, bbox_inches='tight')
+        #f.savefig(path, bbox_inches='tight')
