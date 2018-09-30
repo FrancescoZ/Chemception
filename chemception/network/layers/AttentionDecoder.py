@@ -288,7 +288,7 @@
 #         self.init = initializers.get('normal')
 #         self.supports_masking = True
 #         self.attention_dim = units
-		
+        
 #         self.activation = activation
 #         self.kernel_initializer = kernel_initializer
 #         self.recurrent_initializer= recurrent_initializer
@@ -303,7 +303,7 @@
 #         self.return_sequences = True  # must return sequences
 #         self.return_probabilities = return_probabilities
 #         self.output_dim = output_dim
-		
+        
 
 
 
@@ -368,7 +368,7 @@
 #         config = {
 #             'output_dim': self.output_dim,
 #             'units': self.attention_dim,
-# 			'attention_dim': self.attention_dim,
+#             'attention_dim': self.attention_dim,
 #             'return_probabilities': self.return_probabilities
 #         }
 #         base_config = super(AttentionDecoder, self).get_config()
@@ -400,14 +400,14 @@ def dot_product(x, kernel):
 
 class AttentionDecoder(Layer):
     def __init__(self,
-				 units = 1,
-				 output_dim = 1,
+                 units = 1,
+                 output_dim = 1,
                  W_regularizer=None, b_regularizer=None,
                  W_constraint=None, b_constraint=None,
                  bias=True,
-				 return_sequence = True,
+                 return_sequence = True,
                  return_attention=False,
-				 return_probabilities = False,
+                 return_probabilities = False,
                  **kwargs):
         """
         Keras Layer that implements an Attention mechanism for temporal data.
@@ -502,7 +502,7 @@ class AttentionDecoder(Layer):
                     (input_shape[0], input_shape[1])]
         else:
             return input_shape[0], input_shape[-1]
-	
+    
     def get_config(self):
         """
             For rebuilding models on load time.
@@ -510,7 +510,7 @@ class AttentionDecoder(Layer):
         config = {
             'output_dim': self.output_dim,
             'units': self.attention_dim,
-			'attention_dim': self.attention_dim,
+            'attention_dim': self.attention_dim,
             'return_probabilities': self.return_attention
         }
         base_config = super(AttentionDecoder, self).get_config()
