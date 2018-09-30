@@ -40,7 +40,7 @@ class Visualizer(object):
 
 
         # get the output sequence
-        predicted_text = "0" if self.pred_model.predict(d).round()[0][0]==1 else "1"
+        predicted_text = "1" if self.pred_model.predict(d).round()[0][0]==1 else "0"
         print(self.pred_model.predict(d).round())
         # get the lengths of the string
         input_length = len(text)
