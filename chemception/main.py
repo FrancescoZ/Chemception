@@ -1,6 +1,6 @@
 from network import Chemception
-from network import SMILE2Vector 
 from network import VisualATT
+from network import ToxNet
 import input as data
 
 from utils import helpers
@@ -8,6 +8,7 @@ from utils import Visualizer
 from utils import visualize
 from network.optimizer import Optimizer
 from network.evaluation import Metrics
+from network.evaluation import ToxNetMetrics
 
 import keras
 from keras.preprocessing.image import ImageDataGenerator
@@ -49,8 +50,8 @@ type = 'C'
 if len(sys.argv)>1 and sys.argv[1]!=None:
     if sys.argv[1]=='-c' or sys.argv[1] == '-C':
         type='C'
-    elif sys.argv[1]=='-s' or sys.argv[1] == '-S':
-        type='S'
+    elif sys.argv[1]=='-t' or sys.argv[1] == '-T':
+        type='T'
     elif sys.argv[1]=='-h' or sys.argv[1] == '-H':
         type='H'
     else:
@@ -88,21 +89,22 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
         inputSize=sys.argv[5]
 
 #Setting of the network
-batch_size             = 180
-num_classes         = 100
-epochs                 = 1
-data_augmentation     = False
-learning_rate        = 1e-3
-rho                    = 0.9
-epsilon                = 1e-8
-cross_val            = 2
-main_execution_path = './build/'+executionName+'/'
-final_resume         = main_execution_path + '_resume.txt'
+batch_size              = 180
+num_classes             = 2
+epochs                  = 1
+data_augmentation       = False
+learning_rate           = 1e-3
+rho                     = 0.9
+epsilon                 = 1e-8
+cross_val               = 2
+main_execution_path     = './build/'+executionName+'/'
+final_resume            = main_execution_path + '_resume.txt'
 # The data, split between train and test sets:
 if type =='C':
     (X, Y)     = data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
-elif type == 'S':
-    (X, Y,vocab,max_size)     = data.LoadSMILESData(duplicateProb=0,seed=seed)
+elif type == 'T':
+    (XC, YC)                    = data.LoadImageData(extensionImg='png',size=inputSize,duplicateProb=0,seed=seed)
+    (XV, YV,vocab,max_size)     = data.LoadSMILESData(duplicateProb=0,seed=seed)
     vocab_size = len(vocab)
 elif type == 'H':
     (X, Y,vocab,max_size)     = data.LoadSMILESData(duplicateProb=0,seed=seed)
@@ -121,19 +123,29 @@ for i in range(2,cross_val+1):
     log_dir                             = './build/logs/{}'.format(model_name)
     resume_file                         = current_path + '/'+model_name+'_resume.txt'
 
-    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1*i, random_state=seed)
-    print(X.shape)
+    if type =='T':
+        X_trainC, X_testC, Y_trainC, Y_testC = train_test_split(XC, YC, test_size=0.1*i, random_state=seed)
+        X_trainV, X_testV, Y_trainV, Y_testV = train_test_split(XV, YV, test_size=0.1*i, random_state=seed)
+    else:    
+        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1*i, random_state=seed)
+    #print(X.shape)
     # create model    
     cross_val                          = cross_val +1    
-    x_train                          = X_train
-    #if type=='S':
-    #    x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
-    #    X_test = keras.preprocessing.sequence.pad_sequences(X_test, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
-    y_train                          = Y_train
-    
-    # Convert class vectors to binary class matrices.
-    y_train             = keras.utils.to_categorical(y_train, num_classes)
-    Y_test                 = keras.utils.to_categorical(Y_test, num_classes)
+    if type =='T':
+        Y_trainC             = keras.utils.to_categorical(Y_trainC, num_classes)
+        Y_testC                 = keras.utils.to_categorical(Y_testC, num_classes)
+        Y_trainV             = keras.utils.to_categorical(Y_trainV, num_classes)
+        Y_testV                 = keras.utils.to_categorical(Y_testV, num_classes)
+    else:    
+        x_train                          = X_train
+        #if type=='S':
+        #    x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
+        #    X_test = keras.preprocessing.sequence.pad_sequences(X_test, maxlen=500, dtype='int32', padding='pre', truncating='pre', value=0)
+        y_train                          = Y_train
+        
+        # Convert class vectors to binary class matrices.
+        y_train             = keras.utils.to_categorical(y_train, num_classes)
+        Y_test                 = keras.utils.to_categorical(Y_test, num_classes)
     tensorBoard = TensorBoard(log_dir=log_dir, 
                 histogram_freq=1, 
                 batch_size=batch_size, 
@@ -148,7 +160,10 @@ for i in range(2,cross_val+1):
                                 patience=epochs/2, 
                                 verbose=0, 
                                 mode='min')
-    metrics = Metrics()
+    if type =='T':
+        metrics = ToxNetMetrics()
+    else:
+        metrics = Metrics()
     if type =='C':
         model                 = Chemception(N,
                                     inputSize,
@@ -159,7 +174,7 @@ for i in range(2,cross_val+1):
                                     learning_rate,
                                     rho,
                                     epsilon,
-                                    epochs,
+                                    epochs*2,
                                     loss_function,
                                     log_dir,
                                     batch_size,
@@ -167,23 +182,8 @@ for i in range(2,cross_val+1):
                                     metrics,
                                     tensorBoard,
                                     early,
-                                    False)
-    elif type =='S':
-        model                 = SMILE2Vector(N,
-                                    x_train,
-                                    y_train,
-                                    X_test,
-                                    Y_test,
-                                    learning_rate,
-                                    rho,
-                                    epsilon,
-                                    epochs,
-                                    loss_function,
-                                    log_dir,
-                                    batch_size,
-                                    metrics,
-                                    tensorBoard,
-                                    early)
+                                    False,
+                                    classes=num_classes)
     elif type == 'H':
         model                 = VisualATT( vocab_size,
                                     max_size,
@@ -201,14 +201,43 @@ for i in range(2,cross_val+1):
                                     metrics,
                                     tensorBoard,
                                     early,
-                                    False)
+                                    False,
+                                    classes=num_classes)
+    elif type == 'T':
+        model                 = ToxNet(N,
+                                    inputSize,
+                                    X_trainC,
+                                    Y_trainC,
+                                    X_testC,
+                                    Y_testC,
+                                    X_trainV,
+                                    Y_trainV,
+                                    X_testV,
+                                    Y_testV,
+                                    learning_rate,
+                                    rho,
+                                    epsilon,
+                                    epochs,
+                                    loss_function,
+                                    log_dir,
+                                    batch_size,
+                                    data_augmentation,
+                                    metrics,
+                                    tensorBoard,
+                                    early,
+                                    vocab_size,
+                                    max_size,
+                                    classes=num_classes)
     #model.print()
     model.run()
     print('Training Ended')
     model.model.save(model_path)
     print('Saved trained model at %s ' % model_path)
     # Score trained model.
-    scores = model.model.evaluate(X_test, Y_test, verbose=1)
+    if type =='T':
+        scores = model.model.evaluate({'image_input': X_testC, 'text_input': X_testV}, {'dense_smile': Y_testV, 'output': Y_testC}, verbose=1)
+    else:
+        scores = model.model.evaluate(X_test, Y_test, verbose=1)
     print('Test loss:', scores[0])
     print('Test accuracy:', scores[1])
     print('Test precision:', statistics.mean(metrics.precisions))
@@ -241,29 +270,6 @@ for i in range(2,cross_val+1):
     print('Saved trained resume')
     cvscores.append([scores[0], scores[1], prec , sens, spec, mcc, npv, f1])
 
-if type == 'H':
-    pred_model = model.model
-
-    viz = Visualizer(vocab,max_size)
-    print('Loading models')
-    pred_model = model.model
-    
-    #pred_model.load_weights(model_path, by_name=True)
-    pred_model.compile(optimizer='rmsprop', loss='mean_squared_error')
-    
-    proba_model = model.Visual()
-    proba_model.load_weights(model_path, by_name=True)
-    proba_model.compile(optimizer='rmsprop', loss='mean_squared_error')
-    
-    viz.set_models(pred_model, proba_model)
-    print('Models loaded')
-    viz.attention_map("Ccccc","data/prova.pdf")
-    print('Completed visualizations')
-if type == 'C':
-    pred_model = model.model
-    print('Models loaded')
-    model.Visualize("./24003.png","./24003-ev.png")
-    print('Completed visualizations')
 
 cvscores = nu.array(cvscores)
 f= open(final_resume,"w+")

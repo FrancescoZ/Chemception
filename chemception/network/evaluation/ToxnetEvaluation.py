@@ -6,7 +6,7 @@ from utils import helpers
 import time
 import csv
 
-class Metrics(Callback):
+class ToxNetMetrics(Callback):
     def on_train_begin(self, logs={}):
         self.accs = []
         self.precisions = []
@@ -16,14 +16,16 @@ class Metrics(Callback):
         self.mccs = []
         self.f1s= []
         self.time = time.time()
+        print(self.validation_data)
 
     def on_epoch_end(self,epoch, logs={}):
         if not epoch%10 == 0:
             return 
         try:
             print("Other metrics evaluation")
-            val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
-            val_targ = self.validation_data[1]
+            
+            val_predict = (np.asarray(self.model.predict({'image_input': self.validation_data[0], 'text_input': self.validation_data[1]}))).round()
+            val_targ = self.validation_data[2]
             helpers.printProgressBar(0, len(val_predict), prefix = 'Progress:', suffix = 'Complete', length = 50)
             tp =0
             fp = 0

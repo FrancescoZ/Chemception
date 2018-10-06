@@ -66,7 +66,8 @@ class VisualATT:
                 metrics,
                 tensorBoard,
                 early,
-                return_probabilities):
+                return_probabilities,
+                classes = 2):
         self.vocab_size = vocab_size
         self.max_length = max_length
         #self.model = Sequential()
@@ -102,7 +103,7 @@ class VisualATT:
                                 return_sequence=True,
                                 return_probabilities=return_probabilities,
                                 trainable=True)(rnn_encoded)
-        dense = Dense(2, activation='softmax',name ='dense_smile')(y_hat)
+        dense = Dense(classes, activation='softmax',name ='dense_smile')(y_hat)
         self.model = Model(inputs = input_, outputs = dense)
 
         plot_model(self.model, to_file='modelHATT.png')
@@ -125,7 +126,7 @@ class VisualATT:
         self.metrics = metrics
         self.tensorBoard = tensorBoard
         self.early = early
-
+        self.classes = classes
         print(self.model.summary())
     
     def Concat(self):
@@ -145,7 +146,7 @@ class VisualATT:
                                 name='attention_decoder_smile',
                                 output_dim=2,
                                 return_probabilities=True,
-                                return_attention=True,
+                                return_attention=False,
                                 trainable=True)(rnn_encoded)
         return input_, y_hat
         
@@ -164,7 +165,7 @@ class VisualATT:
 
         y_hat = AttentionDecoder(units=100,
                                 name='attention_decoder_smile',
-                                output_dim=2,
+                                output_dim=self.classes,
                                 return_probabilities=True,
                                 return_attention=True,
                                 trainable=True)(rnn_encoded)

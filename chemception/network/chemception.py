@@ -130,7 +130,8 @@ class Chemception:
                     metrics,
                     tensorBoard,
                     early,
-                    features):
+                    features,
+                    classes = 2):
         input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
         stem    = Chemception.Stem(input_img,n)
         incResA = Chemception.IncResNetA(stem,n)
