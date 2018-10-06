@@ -84,25 +84,25 @@ class VisualATT:
         # self.model.add(Dense(2, activation='softmax'))
 
 
-        input_ = Input(shape=(max_length,), dtype='float32')
+        input_ = Input(shape=(max_length,), dtype='float32',name='text_input')
         input_embed = Embedding(vocab_size+1, 100,
                                 input_length=max_length,
                                 trainable=True,
                                 mask_zero=True,
-                                name='OneHot')(input_)
+                                name='OneHot_smile')(input_)
 
         rnn_encoded = Bidirectional(LSTM(100, return_sequences=True),
-                                    name='bidirectional_1',
+                                    name='bidirectional_smile',
                                     merge_mode='concat',
                                     trainable=True)(input_embed)
 
         y_hat = AttentionDecoder(units =100,
-                                name='attention_decoder_1',
+                                name='attention_decoder_smile',
                                 output_dim=2,
                                 return_sequence=True,
                                 return_probabilities=return_probabilities,
                                 trainable=True)(rnn_encoded)
-        dense = Dense(2, activation='softmax')(y_hat)
+        dense = Dense(2, activation='softmax',name ='dense_smile')(y_hat)
         self.model = Model(inputs = input_, outputs = dense)
 
         plot_model(self.model, to_file='modelHATT.png')
@@ -128,21 +128,42 @@ class VisualATT:
 
         print(self.model.summary())
     
-    def Visual(self):
-        input_ = Input(shape=(self.max_length,), dtype='float32')
+    def Concat(self):
+        input_ = Input(shape=(self.max_length,), dtype='float32',name='text_input')
         input_embed = Embedding(self.vocab_size+1, 100,
                                 input_length=self.max_length,
                                 trainable=True,
                                 mask_zero=True,
-                                name='OneHot')(input_)
+                                name='OneHot_smile')(input_)
 
         rnn_encoded = Bidirectional(LSTM(100, return_sequences=True),
-                                    name='bidirectional_1',
+                                    name='bidirectional_smile',
                                     merge_mode='concat',
                                     trainable=True)(input_embed)
 
         y_hat = AttentionDecoder(units=100,
-                                name='attention_decoder_1',
+                                name='attention_decoder_smile',
+                                output_dim=2,
+                                return_probabilities=True,
+                                return_attention=True,
+                                trainable=True)(rnn_encoded)
+        return input_, y_hat
+        
+    def Visual(self):
+        input_ = Input(shape=(self.max_length,), dtype='float32',name='text_input')
+        input_embed = Embedding(self.vocab_size+1, 100,
+                                input_length=self.max_length,
+                                trainable=True,
+                                mask_zero=True,
+                                name='OneHot_smile')(input_)
+
+        rnn_encoded = Bidirectional(LSTM(100, return_sequences=True),
+                                    name='bidirectional_smile',
+                                    merge_mode='concat',
+                                    trainable=True)(input_embed)
+
+        y_hat = AttentionDecoder(units=100,
+                                name='attention_decoder_smile',
                                 output_dim=2,
                                 return_probabilities=True,
                                 return_attention=True,

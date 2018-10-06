@@ -1,6 +1,5 @@
 from network import Chemception
 from network import SMILE2Vector 
-from network import ATT
 from network import VisualATT
 import input as data
 
@@ -167,7 +166,8 @@ for i in range(2,cross_val+1):
                                     data_augmentation,
                                     metrics,
                                     tensorBoard,
-                                    early)
+                                    early,
+                                    False)
     elif type =='S':
         model                 = SMILE2Vector(N,
                                     x_train,

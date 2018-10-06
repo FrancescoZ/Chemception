@@ -18,97 +18,97 @@ import keras.backend as K
 
 class Chemception:
     def Stem(input,n):
-        stem = Conv2D(n,(4,4),strides=2, padding='same',activation='relu')(input)
+        stem = Conv2D(n,(4,4),strides=2,name='Stem_Conv_2D',padding='same',activation='relu')(input)
         return stem
 
     def IncResNetA(input,n):
-        input = keras.layers.Activation('relu')(input)
+        input = keras.layers.Activation('relu',name='IncResNetA_activation_1')(input)
         #First internal layer
-        con = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-        conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
+        con = Conv2D(n,(1,1),strides=1, padding='same',name='IncResNetA_Conv2D_1',activation='relu')(input)
+        conv = Conv2D(n,(1,1),strides=1, padding='same',name='IncResNetA_Conv2D_2',activation='relu')(input)
+        Conv = Conv2D(n,(1,1),strides=1, padding='same',name='IncResNetA_Conv2D_3',activation='relu')(input)
 
         #second internal layer    
-        conv3 = Conv2D(n, (3,3),strides=1, padding='same')(conv)
-        Conv3  = Conv2D(int(1.5*n), (3,3),strides=1, padding='same')(Conv)
+        conv3 = Conv2D(n, (3,3),strides=1,name='IncResNetA_Conv2D_4', padding='same')(conv)
+        Conv3  = Conv2D(int(1.5*n), (3,3),strides=1,name='IncResNetA_Conv2D_5', padding='same')(Conv)
 
         #third internal layer
-        Conv33  = Conv2D(int(2*n), (3,3),strides=1, padding='same')(Conv3)
+        Conv33  = Conv2D(int(2*n), (3,3),strides=1,name='IncResNetA_Conv2D_6', padding='same')(Conv3)
 
-        concat = keras.layers.Concatenate(axis=-1)([con,conv3,Conv33])
-        convInc = Conv2D(n, (1,1),strides=1, padding='same',activation='linear')(concat)
+        concat = keras.layers.Concatenate(axis=-1,name='IncResNetA_Concat')([con,conv3,Conv33])
+        convInc = Conv2D(n, (1,1),strides=1, padding='same',name='IncResNetA_Conv2D_7',activation='linear')(concat)
 
-        IncResNetA = keras.layers.Add()([input, convInc])
-        activation = keras.layers.Activation('relu')(IncResNetA)
+        IncResNetA = keras.layers.Add(name='IncResNetA_Add')([input, convInc])
+        activation = keras.layers.Activation('relu',name='IncResNetA_activation_2')(IncResNetA)
 
         return activation
 
     def IncResNetB(input,n):
-        input = keras.layers.Activation('relu')(input)
+        input = keras.layers.Activation('relu',name='IncResNetB_activation_1')(input)
         #First internal layer
-        con = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
+        con = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='IncResNetB_Conv2D_1')(input)
+        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='IncResNetB_Conv2D_2')(input)
 
         #second internal layer    
-        Conv3  = Conv2D(int(1.25*n), (1,7),strides=1, padding='same')(Conv)
+        Conv3  = Conv2D(int(1.25*n), (1,7),strides=1, padding='same',name='IncResNetB_Conv2D_3')(Conv)
         #third internal layer
-        Conv33  = Conv2D(int(1.5*n), (7,1),strides=1, padding='same')(Conv3)
+        Conv33  = Conv2D(int(1.5*n), (7,1),strides=1, padding='same',name='IncResNetB_Conv2D_4')(Conv3)
 
-        concat = keras.layers.Concatenate(axis=-1)([con,Conv33])
-        convInc = Conv2D(n*4, (1,1),strides=1, padding='same',activation='linear')(concat)
+        concat = keras.layers.Concatenate(axis=-1,name='IncResNetB_Concat')([con,Conv33])
+        convInc = Conv2D(n*4, (1,1),strides=1, padding='same',activation='linear',name='IncResNetB_Conv2D_6')(concat)
 
-        IncResNetB = keras.layers.Add()([input, convInc])
-        activation = keras.layers.Activation('relu')(IncResNetB)
+        IncResNetB = keras.layers.Add(name='IncResNetB_Add')([input, convInc])
+        activation = keras.layers.Activation('relu',name='IncResNetB_activation_2')(IncResNetB)
 
         return activation
 
     def IncResNetC(input,n):
         #First internal layer
-        input = keras.layers.Activation('relu')(input)
-        con = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
+        input = keras.layers.Activation('relu',name='IncResNetC_activation_1')(input)
+        con = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='IncResNetC_Conv2D_1')(input)
+        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='IncResNetC_Conv2D_2')(input)
 
         #second internal layer    
-        Conv3  = Conv2D(int(1.16*n), (1,3),strides=1, padding='same')(Conv)
+        Conv3  = Conv2D(int(1.16*n), (1,3),strides=1, padding='same',name='IncResNetC_Conv2D_3')(Conv)
         #third internal layer
-        Conv33  = Conv2D(int(1.33*n), (3,1),strides=1, padding='same')(Conv3)
+        Conv33  = Conv2D(int(1.33*n), (3,1),strides=1, padding='same',name='IncResNetC_Conv2D_4')(Conv3)
 
-        concat = keras.layers.Concatenate(axis=-1)([con,Conv33])
-        convInc = Conv2D(n*7, (1,1),strides=1, padding='same',activation='linear')(concat)
+        concat = keras.layers.Concatenate(axis=-1,name='IncResNetC_Concat')([con,Conv33])
+        convInc = Conv2D(n*7, (1,1),strides=1, padding='same',activation='linear',name='IncResNetC_Conv2D_6')(concat)
 
-        IncResNetC = keras.layers.Add()([input, convInc])
-        activation = keras.layers.Activation('relu')(IncResNetC)
-
-        return activation
-
-    def ReductionA(input,n):
-        pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid')(input)
-        Conv = Conv2D(int(1.5*n),(3,3),strides=2, padding='valid',activation='relu')(input)
-        conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-
-        conv3 = Conv2D(n,(3,3),strides=1, padding='same',activation='relu')(conv)
-        conv33 = Conv2D(int(1.5*n),(3,3),strides=2, padding='valid',activation='relu')(conv3)
-
-        concat = keras.layers.Concatenate(axis=-1)([conv33,pool,Conv])
-        activation = keras.layers.Activation('relu')(concat)
+        IncResNetC = keras.layers.Add(name='IncResNetC_Add')([input, convInc])
+        activation = keras.layers.Activation('relu',name='IncResNetC_activation_2')(IncResNetC)
 
         return activation
 
-    def ReductionB(input,n):
-        pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid')(input)
+    def ReductionA(input,n,name=''):
+        pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='ReductionA_pool_1'+name)(input)
+        Conv = Conv2D(int(1.5*n),(3,3),strides=2, padding='valid',activation='relu',name='ReductionA_Conv2D_1'+name)(input)
+        conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='ReductionA_Conv2D_2'+name)(input)
 
-        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-        conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
-        CONV = Conv2D(n,(1,1),strides=1, padding='same',activation='relu')(input)
+        conv3 = Conv2D(n,(3,3),strides=1, padding='same',activation='relu',name='ReductionA_Conv2D_3'+name)(conv)
+        conv33 = Conv2D(int(1.5*n),(3,3),strides=2, padding='valid',activation='relu',name='ReductionA_Conv2D_4'+name)(conv3)
 
-        conv3 = Conv2D(int(1.5*n),(3,3),strides=2, padding='valid',activation='relu')(conv)
-        Conv3 = Conv2D(int(1.25*n),(3,3),strides=2, padding='valid',activation='relu')(Conv)
-        CONV3 = Conv2D(int(1.25*n),(3,1),strides=1, padding='same',activation='relu')(CONV)
+        concat = keras.layers.Concatenate(axis=-1,name='ReductionA_concat'+name)([conv33,pool,Conv])
+        activation = keras.layers.Activation('relu',name='ReductionA_activation_1'+name)(concat)
 
-        CONV33 = Conv2D(int(1.25*n),(3,1),strides=2, padding='valid',activation='relu')(CONV3)
+        return activation
 
-        concat = keras.layers.Concatenate(axis=-1)([CONV33,pool,Conv3,conv3])
-        activation = keras.layers.Activation('relu')(concat)
+    def ReductionB(input,n,name=''):
+        pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='ReductionB_pool_1'+name)(input)
+
+        Conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='ReductionB_Conv2D_1'+name)(input)
+        conv = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='ReductionB_Conv2D_2'+name)(input)
+        CONV = Conv2D(n,(1,1),strides=1, padding='same',activation='relu',name='ReductionB_Conv2D_3'+name)(input)
+
+        conv3 = Conv2D(int(1.5*n),(3,3),strides=2, padding='valid',activation='relu',name='ReductionB_Conv2D_4'+name)(conv)
+        Conv3 = Conv2D(int(1.25*n),(3,3),strides=2, padding='valid',activation='relu',name='ReductionB_Conv2D_5'+name)(Conv)
+        CONV3 = Conv2D(int(1.25*n),(3,1),strides=1, padding='same',activation='relu',name='ReductionB_Conv2D_6'+name)(CONV)
+
+        CONV33 = Conv2D(int(1.25*n),(3,1),strides=2, padding='valid',activation='relu',name='ReductionB_Conv2D_7'+name)(CONV3)
+
+        concat = keras.layers.Concatenate(axis=-1,name='ReductionB_concat'+name)([CONV33,pool,Conv3,conv3])
+        activation = keras.layers.Activation('relu',name='ReductionB_activation_1'+name)(concat)
 
         return activation
 
@@ -129,27 +129,25 @@ class Chemception:
                     data_augmentation,
                     metrics,
                     tensorBoard,
-                    early):
-        input_img = Input(shape = (inputSize, inputSize, 3))
+                    early,
+                    features):
+        input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
         stem    = Chemception.Stem(input_img,n)
         incResA = Chemception.IncResNetA(stem,n)
         redA     = Chemception.ReductionA(incResA,n)
         incResB = Chemception.IncResNetB(redA,n)
-        redB     = Chemception.ReductionA(incResB,n)
+        redB     = Chemception.ReductionA(incResB,n,'_2')
         incResC = Chemception.IncResNetC(redB,n)
         
         pool     = keras.layers.GlobalAveragePooling2D()(incResC)
-
-        # hat = AttentionDecoder(units =n,
-        #                         name='attention_decoder_1',
-        #                         output_dim=2,
-        #                         return_sequence=True,
-        #                         return_probabilities=False,
-        #                         trainable=True)(pool)
-
-        out        = Dense(2, activation='linear')(pool)
-
-        self.model = Model(inputs = input_img, outputs = out)
+        
+        if not features:
+            out        = Dense(2, activation='linear')(pool)
+            self.model = Model(inputs = input_img, outputs = out)
+        else:
+            self.model = Model(inputs = input_img, outputs = pool)
+        self.n = n
+        self.inputSize = inputSize
         self.X_train = X_train
         self.Y_train = Y_train
         self.X_test = X_test
@@ -170,6 +168,9 @@ class Chemception:
         self.metrics = metrics
         self.tensorBoard = tensorBoard
         self.early = early
+
+        self.input_img = input_img
+        self.pool = pool
         print(self.model.summary())
     
     def get_output_layer(self, model, layer_name):
@@ -177,6 +178,9 @@ class Chemception:
         layer_dict = dict([(layer.name, layer) for layer in model.layers])
         layer = layer_dict[layer_name]
         return layer
+        
+    def Concat(self):        
+        return self.input_img, self.pool
 
     def Visualize(self,img_path, output_path):
         original_img = cv2.imread(img_path, 1)
