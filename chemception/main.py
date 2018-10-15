@@ -191,6 +191,9 @@ for i in range(2,cross_val+1):
                                     y_train,
                                     X_test,
                                     Y_test,
+                                    metrics,
+                                    tensorBoard,
+                                    early,
                                     learning_rate,
                                     rho,
                                     epsilon,
@@ -198,9 +201,6 @@ for i in range(2,cross_val+1):
                                     loss_function,
                                     log_dir,
                                     batch_size,
-                                    metrics,
-                                    tensorBoard,
-                                    early,
                                     False,
                                     classes=num_classes)
     elif type == 'T':

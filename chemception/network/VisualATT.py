@@ -6,7 +6,7 @@ from keras.preprocessing.text import Tokenizer
 from keras.engine.topology import Layer
 from keras import initializers as initializers, regularizers, constraints
 from keras.callbacks import Callback
-from keras.layers import Embedding, Input, Dense, LSTM, GRU, Bidirectional, TimeDistributed
+from keras.layers import Embedding, Input, Dense, LSTM, GRU, Bidirectional, TimeDistributed, Dropout
 from keras import backend as K
 from keras.models import Model
 
@@ -48,7 +48,14 @@ from keras.layers import Embedding
 from keras.layers.convolutional import Conv1D
 from keras.layers.convolutional import MaxPooling1D
 
+from keras.models import Sequential, Model
+from keras.layers import Dropout, Dense, Input
+from keras.optimizers import Adam, Nadam
+from keras.activations import relu, elu, sigmoid
+from keras.losses import binary_crossentropy
+
 class VisualATT:
+
     def __init__(self,
                 vocab_size,
                 max_length,
@@ -56,33 +63,20 @@ class VisualATT:
                 Y_train,
                 X_test,
                 Y_test,
-                learning_rate,
-                rho,
-                epsilon,
-                epochs,
-                loss_function,
-                log_dir,
-                batch_size,
                 metrics,
                 tensorBoard,
                 early,
-                return_probabilities,
+                learning_rate='',
+                rho='',
+                epsilon='',
+                epochs='',
+                loss_function='',
+                log_dir='',
+                batch_size='',                
+                return_probabilities='',
                 classes = 2):
         self.vocab_size = vocab_size
         self.max_length = max_length
-        #self.model = Sequential()
-        # self.model.add(Embedding(vocab_size+1, 100, input_length=max_length,
-        #                     trainable = True,
-        #                     mask_zero=True))
-        # self.model.add(Bidirectional(LSTM(100, return_sequences=True),
-        #                             merge_mode='concat',
-        #                             trainable=True))
-        # self.model.add(AttentionDecoder(100,
-        #                         name='attention_decoder_1',
-        #                         output_dim=2,
-        #                         return_probabilities=return_probabilities,
-        #                         trainable=True))
-        # self.model.add(Dense(2, activation='softmax'))
 
 
         input_ = Input(shape=(max_length,), dtype='float32',name='text_input')
@@ -127,8 +121,9 @@ class VisualATT:
         self.tensorBoard = tensorBoard
         self.early = early
         self.classes = classes
+        self.opt = 'rmsprop'
         print(self.model.summary())
-    
+         
     def Concat(self):
         input_ = Input(shape=(self.max_length,), dtype='float32',name='text_input')
         input_embed = Embedding(self.vocab_size+1, 100,
@@ -174,7 +169,7 @@ class VisualATT:
     def run(self):
         
         self.model.compile(loss=self.loss_function,
-                      optimizer='rmsprop',
+                      optimizer=self.opt,
                       metrics=['acc'])
         return self.model.fit(self.X_train, 
                     self.Y_train, 
@@ -182,4 +177,4 @@ class VisualATT:
                     epochs=self.epochs, 
                     batch_size=self.batch_size,
                     callbacks = [self.tensorBoard,self.metrics,self.early])
-
+    
