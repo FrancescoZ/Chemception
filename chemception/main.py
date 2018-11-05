@@ -1,20 +1,4 @@
-from network import Chemception
-from network import VisualATT
-from network import ToxNet
-import input as data
 
-from utils import helpers
-from utils import Visualizer
-from utils import visualize
-from network.optimizer import Optimizer
-from network.evaluation import Metrics
-from network.evaluation import ToxNetMetrics
-
-import keras
-from keras.preprocessing.image import ImageDataGenerator
-from keras.optimizers import SGD
-from keras.callbacks import TensorBoard
-import keras.backend as K
 
 import os
 import sys
@@ -25,6 +9,7 @@ import shutil
 import numpy as nu
 
 from sklearn.model_selection import train_test_split
+
 
 
 import numpy as np
@@ -63,7 +48,7 @@ if len(sys.argv)>2 and sys.argv[2]!=None:
     if os.path.isdir("./build/"+sys.argv[2]):
         over = input('Execution folder already exist, to you want to overwrite it? [Y/N]')
         if str(over) != 'N' or str(over)!='n':
-            executionName = sys.argv[2]
+            executionName = sys.argv[2] + str(time.time().time)
             shutil.rmtree('./build/'+executionName, ignore_errors=True)
         else:
             raise AttributeError("Execution folder already exists")
@@ -74,22 +59,36 @@ else:
 #get the size of the simulation if given
 loss_function     = "mean_squared_error"
 if len(sys.argv)>3 and sys.argv[3]!=None:
-    if sys.argv[3] == 'mse':
-        loss_function     = "mean_squared_error"
-    elif sys.argv[3] == 'msle':
-        loss_function     = "mean_squared_logarithmic_error"
-    elif sys.argv[3] == 'lc':
-        loss_function     = "logcosh"
-    elif sys.argv[3] == 'cc':
-        loss_function     = "categorical_crossentropy"
+	nGPU = sys.argv[3]
+else: 
+    raise AttributeError("GPU number is missing")
 
 if len(sys.argv)>4 and sys.argv[4]!=None:
     N=sys.argv[4]
     if len(sys.argv)>5 and sys.argv[5]!=None:
         inputSize=sys.argv[5]
 
+from network import Chemception
+from network import VisualATT
+from network import ToxNet
+import input as data
+
+from utils import helpers
+from utils import Visualizer
+from utils import visualize
+from network.optimizer import Optimizer
+from network.evaluation import Metrics
+from network.evaluation import ToxNetMetrics
+
+import keras
+from keras.preprocessing.image import ImageDataGenerator
+from keras.optimizers import SGD
+from keras.callbacks import TensorBoard
+import keras.backend as K
+os.environ["CUDA_VISIBLE_DEVICES"]= nGPU
+
 #Setting of the network
-batch_size              = 180
+batch_size              = 32
 num_classes             = 2
 epochs                  = 1
 data_augmentation       = False

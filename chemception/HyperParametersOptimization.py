@@ -296,3 +296,20 @@ r = ta.Reporting(h)
 
 # use filename as input
 r = ta.Reporting('att.csv')
+# a regression plot for two dimensions 
+r.plot_regs()
+
+# line plot
+r.plot_line()
+
+# up to two dimensional kernel density estimator
+r.plot_kde('val_acc')
+
+# a simple histogram
+r.plot_hist(bins=50)
+
+# heatmap correlation
+r.plot_corr()
+
+# a four dimensional bar grid
+r.plot_bars('batch_size', 'val_acc', 'first_neuron', 'lr')

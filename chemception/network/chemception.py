@@ -19,6 +19,12 @@ import keras.backend as K
 class Chemception:
     def Stem(input,n):
         stem = Conv2D(n,(4,4),strides=2,name='Stem_Conv_2D',padding='same',activation='relu')(input)
+		# conv3 = Conv2D(n, (3,3),strides=1,name='Stem_Conv3D', padding='valid')(stem)
+		# conv33 = Conv2D(n, (3,3),strides=1,name='Stem_Conv33D', padding='same')(conv3)
+
+		# pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='Stem_pool_1')(conv33)
+		# conv333 = Conv2D(n, (3,3),strides=2,name='Stem_Conv333D', padding='valid')(conv33)
+		# concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat')([pool,Conv333])
         return stem
 
     def IncResNetA(input,n):
@@ -173,7 +179,8 @@ class Chemception:
         self.input_img = input_img
         self.pool = pool
         print(self.model.summary())
-    
+
+
     def get_output_layer(self, model, layer_name):
         # get the symbolic outputs of each "key" layer (we gave them unique names).
         layer_dict = dict([(layer.name, layer) for layer in model.layers])
