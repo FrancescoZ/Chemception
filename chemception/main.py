@@ -171,7 +171,7 @@ for i in range(2,cross_val+1):
                                     y_train,
                                     X_test,
                                     Y_test,
-                                    learning_rate,
+                                    1e-3,
                                     rho,
                                     epsilon,
                                     epochs*2,
