@@ -137,7 +137,8 @@ class Chemception:
                     tensorBoard,
                     early,
                     features,
-                    classes = 2):
+                    classes = 2,
+					callback = []):
         input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
         stem    = Chemception.Stem(input_img,n)
         incResA = Chemception.IncResNetA(stem,n)
@@ -175,7 +176,7 @@ class Chemception:
         self.metrics = metrics
         self.tensorBoard = tensorBoard
         self.early = early
-
+        self.callback = callback
         self.input_img = input_img
         self.pool = pool
         print(self.model.summary())
@@ -240,8 +241,7 @@ class Chemception:
 
         x_train             /= 255
         X_test                 /= 255
-        
-
+		
         # initiate RMSprop optimizer
         opt                 = keras.optimizers.RMSprop(lr=self.learning_rate, rho=self.rho, epsilon=self.epsilon, decay=0.0)
 
@@ -254,7 +254,10 @@ class Chemception:
         gamma                = 0.92
         sgd = SGD(lr=learning_rate_init, decay=0, momentum=momentum, nesterov=True)
         optCallback = Optimizer.OptimizerTracker()
-        
+        self.callback.append(optCallback)
+        self.callback.append(self.tensorBoard)
+        self.callback.append(self.metrics)
+        self.callback.append(self.early)
 
         if not self.data_augmentation:
             print('Not using data augmentation.')
@@ -284,7 +287,7 @@ class Chemception:
                 epochs=self.epochs/2,
                 workers=4,
                 validation_data=(X_test,Y_test),
-                callbacks = [self.tensorBoard, optCallback,self.metrics,self.early])
+                callbacks = self.callback)
         else:
             print('Using real-time data augmentation.')
             # This will do preprocessing and realtime data augmentation:

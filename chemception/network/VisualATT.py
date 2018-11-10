@@ -74,7 +74,8 @@ class VisualATT:
                 log_dir='',
                 batch_size='',                
                 return_probabilities='',
-                classes = 2):
+                classes = 2,
+				callback = []):
         self.vocab_size = vocab_size
         self.max_length = max_length
 
@@ -120,8 +121,9 @@ class VisualATT:
         self.metrics = metrics
         self.tensorBoard = tensorBoard
         self.early = early
+        self.callback = callback
         self.classes = classes
-        self.opt = 'rmsprop'
+        self.opt = 'Adam'
         print(self.model.summary())
          
     def Concat(self):
@@ -167,7 +169,9 @@ class VisualATT:
         return Model(inputs = input_, outputs = y_hat)
 
     def run(self):
-        
+        self.callback.append(self.tensorBoard)
+        self.callback.append(self.metrics)
+        self.callback.append(self.early)
         self.model.compile(loss=self.loss_function,
                       optimizer=self.opt,
                       metrics=['acc'])
@@ -176,5 +180,5 @@ class VisualATT:
                     validation_data=(self.X_test, self.Y_test), 
                     epochs=self.epochs, 
                     batch_size=self.batch_size,
-                    callbacks = [self.tensorBoard,self.metrics,self.early])
+                    callbacks = self.callback)
     

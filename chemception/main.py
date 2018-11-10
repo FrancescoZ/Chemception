@@ -48,11 +48,11 @@ if len(sys.argv)>2 and sys.argv[2]!=None:
     if os.path.isdir("./build/"+sys.argv[2]):
         over = input('Execution folder already exist, to you want to overwrite it? [Y/N]')
         if str(over) != 'N' or str(over)!='n':
-            executionName = sys.argv[2] + str(time.time().time)
+            executionName = sys.argv[2]
             shutil.rmtree('./build/'+executionName, ignore_errors=True)
         else:
             raise AttributeError("Execution folder already exists")
-    executionName = sys.argv[2]
+    executionName = sys.argv[2] + str(time.time())
     os.makedirs('./build/'+executionName)
 else: 
     raise AttributeError("Execution name is missing")
@@ -71,6 +71,7 @@ if len(sys.argv)>4 and sys.argv[4]!=None:
 from network import Chemception
 from network import VisualATT
 from network import ToxNet
+from network.optimizer import LrTensorBoard
 import input as data
 
 from utils import helpers
@@ -90,9 +91,9 @@ os.environ["CUDA_VISIBLE_DEVICES"]= nGPU
 #Setting of the network
 batch_size              = 32
 num_classes             = 2
-epochs                  = 1
+epochs                  = 100
 data_augmentation       = False
-learning_rate           = 1e-3
+learning_rate           = 1e-1
 rho                     = 0.9
 epsilon                 = 1e-8
 cross_val               = 2
@@ -154,9 +155,10 @@ for i in range(2,cross_val+1):
                 embeddings_freq=0, 
                 embeddings_layer_names=None, 
                 embeddings_metadata=None)
+    lrTensorboard = LrTensorBoard(log_dir)
     early = keras.callbacks.EarlyStopping(monitor='val_loss', 
                                 min_delta=0.1, 
-                                patience=epochs/2, 
+                                patience=5, 
                                 verbose=0, 
                                 mode='min')
     if type =='T':
@@ -182,7 +184,8 @@ for i in range(2,cross_val+1):
                                     tensorBoard,
                                     early,
                                     False,
-                                    classes=num_classes)
+                                    classes=num_classes,
+									callback=[lrTensorboard])
     elif type == 'H':
         model                 = VisualATT( vocab_size,
                                     max_size,
@@ -201,7 +204,8 @@ for i in range(2,cross_val+1):
                                     log_dir,
                                     batch_size,
                                     False,
-                                    classes=num_classes)
+                                    classes=num_classes,
+                                    callback=[lrTensorboard])
     elif type == 'T':
         model                 = ToxNet(N,
                                     inputSize,
