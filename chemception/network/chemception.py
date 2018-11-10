@@ -274,12 +274,14 @@ class Chemception:
             self.model.fit_generator(datagen.flow(x_train, y_train,batch_size=self.batch_size),
                 epochs=self.epochs/2,
                 workers=4,
+				steps_per_epoch=600,
                 validation_data=(X_test,Y_test),
                 callbacks = [self.tensorBoard,self.metrics])
             self.model.fit_generator(datagen.flow(x_train, y_train,
                 batch_size=self.batch_size),
                 epochs=self.epochs/2,
                 workers=4,
+				steps_per_epoch=600,
                 validation_data=(X_test,Y_test),
                 callbacks = [self.tensorBoard, optCallback,self.metrics,self.early])
         else:
