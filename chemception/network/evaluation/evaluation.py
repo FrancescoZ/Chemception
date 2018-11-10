@@ -63,11 +63,11 @@ class Metrics(Callback):
             self.f1s.append(f1)
 			
             logs.update({'mcc': mcc})
-			logs.update({'precision': precision})
-			logs.update({'npv': npv})
-			logs.update({'specificity': specificity})
-			logs.update({'sensitivity': sensitivity})
-			logs.update({'f1': f1})
+            logs.update({'precision': precision})
+            logs.update({'npv': npv})
+            logs.update({'specificity': specificity})
+            logs.update({'sensitivity': sensitivity})
+            logs.update({'f1': f1})
             print('val_acc: %f - val_precision: %f - val_npv: %f - val_sensitivity: %f - val_specificitys: %f - val_mcc: %f - val_f1: %f'%( acc, precision, npv,sensitivity,specificity,mcc,f1))
             return
         except ValueError as e:

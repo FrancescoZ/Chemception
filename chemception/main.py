@@ -148,7 +148,7 @@ for i in range(2,cross_val+1):
         Y_test                 = keras.utils.to_categorical(Y_test, num_classes)
     tensorBoard = TensorBoard(log_dir=log_dir, 
                 histogram_freq=0, 
-                batch_size=batch_size, 
+                batch_size=batch_size,
                 write_graph=False, 
                 write_grads=True, 
                 write_images=True, 
