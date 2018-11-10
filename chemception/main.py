@@ -156,6 +156,7 @@ for i in range(2,cross_val+1):
                 embeddings_layer_names=None, 
                 embeddings_metadata=None)
     lrTensorboard = LrTensorBoard(log_dir)
+    metrics = lrTensorboard
     early = keras.callbacks.EarlyStopping(monitor='val_loss', 
                                 min_delta=0.1, 
                                 patience=5, 
@@ -163,8 +164,6 @@ for i in range(2,cross_val+1):
                                 mode='min')
     if type =='T':
         metrics = ToxNetMetrics()
-    else:
-        metrics = Metrics()
     if type =='C':
         model                 = Chemception(N,
                                     inputSize,
@@ -184,8 +183,7 @@ for i in range(2,cross_val+1):
                                     tensorBoard,
                                     early,
                                     False,
-                                    classes=num_classes,
-									callback=[lrTensorboard])
+                                    classes=num_classes)
     elif type == 'H':
         model                 = VisualATT( vocab_size,
                                     max_size,
@@ -204,8 +202,7 @@ for i in range(2,cross_val+1):
                                     log_dir,
                                     batch_size,
                                     False,
-                                    classes=num_classes,
-                                    callback=[lrTensorboard])
+                                    classes=num_classes)
     elif type == 'T':
         model                 = ToxNet(N,
                                     inputSize,
