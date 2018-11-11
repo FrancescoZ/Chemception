@@ -163,7 +163,7 @@ class Chemception:
         
         input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
         stem    = Chemception.Stem(input_img,n)
-        incResA = Chemception.IncResNetA(stem,int(n)
+        incResA = Chemception.IncResNetA(stem,int(n))
         redA     = Chemception.ReductionA(incResA,n)
         incResB = Chemception.IncResNetB(redA,n)
         redB     = Chemception.ReductionA(incResB,n,'_2')
