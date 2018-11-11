@@ -177,7 +177,7 @@ for i in range(2,cross_val+1):
                                     'Adam',
                                     epsilon,
                                     epochs*2,
-                                    'categorical_crossentropy',
+                                    'binary_categorical_crossentropy',
                                     log_dir,
                                     batch_size,
                                     data_augmentation,
