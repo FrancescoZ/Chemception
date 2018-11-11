@@ -52,14 +52,15 @@ if len(sys.argv)>2 and sys.argv[2]!=None:
             shutil.rmtree('./build/'+executionName, ignore_errors=True)
         else:
             raise AttributeError("Execution folder already exists")
-    executionName = sys.argv[2] + str(time.time())
+    timestepstring = str(time.time())        
+    executionName = sys.argv[2] + timestepstring
     os.makedirs('./build/'+executionName)
 else: 
     raise AttributeError("Execution name is missing")
 #get the size of the simulation if given
 loss_function     = "mean_squared_error"
 if len(sys.argv)>3 and sys.argv[3]!=None:
-	nGPU = sys.argv[3]
+    nGPU = sys.argv[3]
 else: 
     raise AttributeError("GPU number is missing")
 
@@ -113,14 +114,14 @@ cvscores = []
 for i in range(2,cross_val+1):
 
     #K.clear_session()
-    model_name                          = type+'_trained_cross_'+str(i)
+    model_name                          = executionName+'_trained_cross_'+str(i)
     current_path                      = main_execution_path+model_name
     os.makedirs(current_path)
     model_name_file                  = model_name + '_model.h5'
     model_directory                     = current_path+'/model'
     os.makedirs(model_directory)
     model_path                          = os.path.join(model_directory, model_name_file)
-    log_dir                             = './build/logs/{}'.format(model_name)
+    log_dir                             = './build/logs/{}'.format(executionName)
     resume_file                         = current_path + '/'+model_name+'_resume.txt'
 
     if type =='T':
