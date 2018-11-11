@@ -184,7 +184,7 @@ class Chemception:
         self.Y_test = Y_test
 
         self.learning_rate = learning_rate
-        self.rho = rho
+        #self.rho = rho
         self.epsilon = epsilon
         self.epochs = epochs
 
