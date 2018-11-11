@@ -158,7 +158,7 @@ for i in range(2,cross_val+1):
     lrTensorboard = LrTensorBoard(log_dir)
     metrics = lrTensorboard
     early = keras.callbacks.EarlyStopping(monitor='val_loss', 
-                                min_delta=0.1, 
+                                min_delta=1e-2, 
                                 patience=5, 
                                 verbose=0, 
                                 mode='min')

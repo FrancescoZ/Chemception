@@ -22,7 +22,7 @@ class LrTensorBoard(TensorBoard):
 
     def on_epoch_end(self, epoch, logs=None):
         logs.update({'lr': K.eval(self.model.optimizer.lr)})
-        if epoch%5 == 0:
+        if epoch%2 == 0:
             print("Other metrics evaluation")
             val_predict = (np.asarray(self.model.predict(self.validation_data[0]))).round()
             val_targ = self.validation_data[1]
