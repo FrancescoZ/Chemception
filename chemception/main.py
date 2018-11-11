@@ -162,7 +162,7 @@ for i in range(2,cross_val+1):
                                 min_delta=1e-2, 
                                 patience=5, 
                                 verbose=0,
-								restore_best_weights = True,
+                                restore_best_weights = True,
                                 mode='min')
     if type =='T':
         metrics = ToxNetMetrics()
@@ -174,7 +174,7 @@ for i in range(2,cross_val+1):
                                     X_test,
                                     Y_test,
                                     1e-4,
-                                    rho,
+                                    'Adam',
                                     epsilon,
                                     epochs*2,
                                     'categorical_crossentropy',
