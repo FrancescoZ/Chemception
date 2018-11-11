@@ -161,7 +161,8 @@ for i in range(2,cross_val+1):
     early = keras.callbacks.EarlyStopping(monitor='val_loss', 
                                 min_delta=1e-2, 
                                 patience=5, 
-                                verbose=0, 
+                                verbose=0,
+								restore_best_weights = True,
                                 mode='min')
     if type =='T':
         metrics = ToxNetMetrics()
@@ -172,7 +173,7 @@ for i in range(2,cross_val+1):
                                     y_train,
                                     X_test,
                                     Y_test,
-                                    1e-3,
+                                    1e-4,
                                     rho,
                                     epsilon,
                                     epochs*2,

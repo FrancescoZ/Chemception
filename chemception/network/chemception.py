@@ -244,7 +244,7 @@ class Chemception:
         heatmap[np.where(cam < 0.2)] = 0
         img = heatmap*0.5 + original_img        
         cv2.imwrite(output_path, img)
-
+    
     def printModel(self):
         plot_model(self.model, to_file='modelChemception.png')
     
@@ -299,7 +299,7 @@ class Chemception:
                 workers=4,
                 steps_per_epoch=600,
                 validation_data=(X_test,Y_test),
-                callbacks = [self.tensorBoard,self.metrics])
+                callbacks = [self.tensorBoard,self.metrics,self.early])
             self.model.fit_generator(datagen.flow(x_train, y_train,
                 batch_size=self.batch_size),
                 epochs=self.epochs/2,
