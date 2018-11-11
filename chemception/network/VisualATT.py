@@ -80,18 +80,18 @@ class VisualATT:
 
 
         input_ = Input(shape=(max_length,), dtype='float32',name='text_input')
-        input_embed = Embedding(vocab_size+1, 100,
+        input_embed = Embedding(vocab_size+1, 400,
                                 input_length=max_length,
                                 trainable=True,
                                 mask_zero=True,
                                 name='OneHot_smile')(input_)
 
-        rnn_encoded = Bidirectional(LSTM(100, return_sequences=True),
+        rnn_encoded = Bidirectional(LSTM(400, return_sequences=True),
                                     name='bidirectional_smile',
-                                    merge_mode='concat',
+                                    merge_mode='sum',
                                     trainable=True)(input_embed)
 
-        y_hat = AttentionDecoder(units =100,
+        y_hat = AttentionDecoder(units =400,
                                 name='attention_decoder_smile',
                                 output_dim=2,
                                 return_sequence=True,

@@ -160,7 +160,7 @@ for i in range(2,cross_val+1):
     metrics = lrTensorboard
     early = keras.callbacks.EarlyStopping(monitor='val_loss', 
                                 min_delta=1e-2, 
-                                patience=5, 
+                                patience=epochs*0.8, 
                                 verbose=0,
                                 restore_best_weights = True,
                                 mode='min')
