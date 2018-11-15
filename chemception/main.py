@@ -58,7 +58,7 @@ if len(sys.argv)>2 and sys.argv[2]!=None:
 else: 
     raise AttributeError("Execution name is missing")
 #get the size of the simulation if given
-loss_function     = "mean_squared_error"
+loss_function     = "binary_crossentropy"
 if len(sys.argv)>3 and sys.argv[3]!=None:
     nGPU = sys.argv[3]
 else: 
@@ -162,7 +162,6 @@ for i in range(2,cross_val+1):
                                 min_delta=1e-2, 
                                 patience=epochs*0.8, 
                                 verbose=0,
-                                restore_best_weights = True,
                                 mode='min')
     if type =='T':
         metrics = ToxNetMetrics()
