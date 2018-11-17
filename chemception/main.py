@@ -228,7 +228,7 @@ for i in range(2,cross_val+1):
                                     vocab_size,
                                     max_size,
                                     'smilesnet.h5',
-                                    'toxception.h5',
+                                    'C_trained_cross_2_model.h5',
                                     classes=num_classes)
     #model.print()
     model.run()
