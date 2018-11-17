@@ -19,7 +19,7 @@ import keras.backend as K
 class Chemception:
     def Stem(input,n):
         stem = Conv2D(n,(4,4),strides=2,name='Stem_Conv_2D',padding='same',activation='relu')(input)
-        # stem = Conv2D(n,(3,4),strides=2,name='Stem_Conv_2D',padding='valid',activation='relu')(input)
+        # stem = Conv2D(n,(3,3),strides=2,name='Stem_Conv_2D',padding='valid',activation='relu')(input)
         # conv3 = Conv2D(n, (3,3),strides=1,name='Stem_Conv3D', padding='valid')(stem)
         # conv33 = Conv2D(n, (3,3),strides=1,name='Stem_Conv33D', padding='same')(conv3)
 

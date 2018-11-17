@@ -18,9 +18,7 @@ class ToxNetMetrics(Callback):
         self.time = time.time()
         print(self.validation_data)
 
-    def on_epoch_end(self,epoch, logs={}):
-        if not epoch%10 == 0:
-            return 
+    def on_epoch_end(self,epoch, logs={}): 
         try:
             print("Other metrics evaluation")
             
@@ -33,6 +31,7 @@ class ToxNetMetrics(Callback):
             fn = 0
             
             for index in range(len(val_predict)):
+                print(val_targ)
                 if val_targ[index][0] ==1:
                     if val_targ[index][0] == val_predict[index][0]:
                         tp = tp +1

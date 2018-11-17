@@ -113,15 +113,15 @@ class ToxNet:
         outputInput_test = partial.predict({'image_input': X_testC, 'text_input': X_testV},verbose=1)
         print('Prediction end')
         
-        input_out = Input(shape = (312,),name='image_input')
+        input_out = Input(shape = (512,),name='image_input')
         firstHidden = keras.layers.Dense(200,name='First_dense')(input_out)
         act = keras.layers.Activation('relu',name='First_act')(firstHidden)
         drop = keras.layers.Dropout(0.15,name='First_drop')(act)
         
         for i in range(1,3):
-            firstHidden = keras.layers.Dense(200,name='First_dense')(drop)
-            act = keras.layers.Activation('relu',name='First_act')(firstHidden)
-            drop = keras.layers.Dropout(0.15,name='First_drop')(act)
+            firstHidden = keras.layers.Dense(200,name='First_dense_'+str(i))(drop)
+            act = keras.layers.Activation('relu',name='First_act_'+str(i))(firstHidden)
+            drop = keras.layers.Dropout(0.15,name='First_drop_'+str(i))(act)
 
         secondHidden = Dense(100,name='Second_dense')(drop)
         act = Activation('relu',name='Second_act')(secondHidden)
@@ -152,6 +152,7 @@ class ToxNet:
         self.metrics = metrics
         self.tensorBoard = tensorBoard
         self.early = early
+        self.epochs = epochs
         print(self.model.summary())
     
     def get_output_layer(self, model, layer_name):

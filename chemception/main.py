@@ -73,6 +73,7 @@ from network import Chemception
 from network import VisualATT
 from network import ToxNet
 from network.optimizer import LrTensorBoard
+from network.optimizer import LrTensorBoardTox
 import input as data
 
 from utils import helpers
@@ -164,7 +165,7 @@ for i in range(2,cross_val+1):
                                 verbose=0,
                                 mode='min')
     if type =='T':
-        metrics = ToxNetMetrics()
+        metrics = LrTensorBoardTox(log_dir)
     if type =='C':
         model                 = Chemception(N,
                                     inputSize,
