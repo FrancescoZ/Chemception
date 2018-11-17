@@ -176,7 +176,7 @@ for i in range(2,cross_val+1):
                                     'Adam',
                                     epsilon,
                                     epochs*2,
-                                    'mean_squared_error',
+                                    'binary_crossentropy',
                                     log_dir,
                                     batch_size,
                                     data_augmentation,
