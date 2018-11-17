@@ -102,7 +102,7 @@ class ToxNet:
                                             None,
                                             None,
                                             False,classes=classes).Concat()
-        mergedOut = keras.layers.concatenate([chemception,toxtext])
+        mergedOut = concatenate([chemception,toxtext])
         partial = keras.models.Model(inputs = [imageInput,textInput], outputs = mergedOut)
         print('Loading models')
         partial.load_weights(toxceptionmodel,by_name=True)
