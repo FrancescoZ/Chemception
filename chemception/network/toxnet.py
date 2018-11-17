@@ -21,6 +21,7 @@ from network.optimizer import Optimizer
 from network.evaluation import Metrics
 
 import keras
+import keras.layers
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import SGD
 from keras.callbacks import TensorBoard
@@ -42,7 +43,7 @@ class ToxNet:
     def __init__(self,
                     n,
                     inputSize, 
-                   X_trainC,
+                    X_trainC,
                     Y_trainC,
                     X_testC,
                     Y_testC,
@@ -51,8 +52,7 @@ class ToxNet:
                     X_testV,
                     Y_testV,
                     learning_rate,
-                    rho,
-                    epsilon,
+                    opt,
                     epochs,
                     loss_function,
                     log_dir,
@@ -63,6 +63,8 @@ class ToxNet:
                     early,
                     vocab_size,
                     max_size,
+                    smilesnetmodel,
+                    toxceptionmodel,
                     classes=2):
         (imageInput, chemception) = Chemception(n,
                                     inputSize,
@@ -70,17 +72,17 @@ class ToxNet:
                                     Y_trainC,
                                     X_testC,
                                     Y_testC,
-                                     metrics,
-                                    tensorBoard,
-                                    early, 
-                                    learning_rate,
-                                    rho,
-                                    epsilon,
-                                    epochs,
-                                    loss_function,
-                                    log_dir,
-                                    batch_size,
-                                    data_augmentation,
+                                    None,
+                                    None, 
+                                    None,
+                                    None,
+                                    None,
+                                    None,
+                                    None,
+                                    None,
+                                    None,
+                                    None,
+                                    None,
                                     True,
                                     classes=classes).Concat()
         (textInput,toxtext) = VisualATT( vocab_size,
@@ -89,49 +91,56 @@ class ToxNet:
                                             Y_trainV,
                                             X_testV,
                                             Y_testV,
-                                            learning_rate,
-                                            rho,
-                                            epsilon,
-                                            epochs,
-                                            loss_function,
-                                            log_dir,
-                                            batch_size,
+                                            None,
+                                            None,
+                                            None,
+                                            None,
+                                            None,
+                                            None,
+                                            None,
                                             metrics,
-                                            tensorBoard,
-                                            early,
+                                            None,
+                                            None,
                                             False,classes=classes).Concat()
-        print(chemception.shape)
-        dense = Dense(classes, activation='softmax',name ='dense_smile')(toxtext)
         mergedOut = keras.layers.concatenate([chemception,toxtext])
-
-        firstHidden = keras.layers.Dense(500,name='First_dense')(mergedOut)
-        act = keras.layers.Activation('relu',name='First_act')(firstHidden)
-        drop = keras.layers.Dropout(0.4,name='First_drop')(act)
-
-        secondHidden = Dense(300,name='Second_dense')(drop)
-        act = Activation('relu',name='Second_act')(secondHidden)
-        drop = Dropout(0.4,name='Second_drop')(act)
+        partial = keras.models.Model(inputs = [imageInput,textInput], outputs = mergedOut)
+        print('Loading models')
+        partial.load_weights(toxceptionmodel,by_name=True)
+        partial.load_weights(smilesnetmodel,by_name=True)
+        print('Loading end')
+        print("Predicting the input")
+        outputInput_train = partial.predict({'image_input': X_trainC, 'text_input': X_trainV},verbose=1)
+        outputInput_test = partial.predict({'image_input': X_testC, 'text_input': X_testV},verbose=1)
+        print('Prediction end')
         
-        thirdHidden = Dense(2,name='Thrid_dense')(drop)
-        act = Activation('softmax',name='output')(thirdHidden)
+        input_out = Input(shape = (312,),name='image_input')
+        firstHidden = keras.layers.Dense(200,name='First_dense')(input_out)
+        act = keras.layers.Activation('relu',name='First_act')(firstHidden)
+        drop = keras.layers.Dropout(0.15,name='First_drop')(act)
+        
+        for i in range(1,3):
+            firstHidden = keras.layers.Dense(200,name='First_dense')(drop)
+            act = keras.layers.Activation('relu',name='First_act')(firstHidden)
+            drop = keras.layers.Dropout(0.15,name='First_drop')(act)
 
-        self.model = keras.models.Model(inputs = [imageInput,textInput], outputs = act)
+        secondHidden = Dense(100,name='Second_dense')(drop)
+        act = Activation('relu',name='Second_act')(secondHidden)
+        drop = Dropout(0.15,name='Second_drop')(act)
+
+        thirdHidden = Dense(2,name='Thrid_dense')(drop)
+        act = Activation('sigmoid',name='output')(thirdHidden)
+
+        self.model = keras.models.Model(inputs = input_out, outputs = act)
         print(self.model.summary())
         keras.utils.plot_model(self.model, to_file='modelToxNet.png')
-        self.X_trainC = X_trainC
-        self.Y_trainC = Y_trainC
-        self.X_testC = X_testC
-        self.Y_testC = Y_testC
+        self.X_train = outputInput_train
+        self.X_test = outputInput_test
 
-        self.X_trainV = X_trainV
-        self.Y_trainV = Y_trainV
-        self.X_testV = X_testV
-        self.Y_testV = Y_testV
+        self.Y_train = Y_trainC
+        self.Y_test = Y_testC
 
         self.learning_rate = learning_rate
-        self.rho = rho
-        self.epsilon = epsilon
-        self.epochs = epochs
+        self.opt = opt
 
         self.loss_function = loss_function
 
@@ -153,12 +162,11 @@ class ToxNet:
 
     def run(self):
         self.model.compile(loss=self.loss_function,
-                      optimizer='rmsprop',
+                      optimizer=self.opt,
                       metrics=['acc'])
-        return self.model.fit(
-                    {'image_input': self.X_trainC, 'text_input': self.X_trainV},
-                    {'dense_smile': self.Y_trainV, 'output': self.Y_trainC},
-                    validation_data=({'image_input': self.X_testC, 'text_input': self.X_testV}, {'dense_smile': self.Y_testV, 'output': self.Y_testC}), 
+        return self.model.fit(self.X_train,
+                    self.Y_train,
+                    validation_data=(self.X_test, self.Y_test), 
                     epochs=self.epochs, 
                     batch_size=self.batch_size,
                     callbacks = [self.tensorBoard,self.metrics,self.early])

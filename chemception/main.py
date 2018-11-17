@@ -216,8 +216,7 @@ for i in range(2,cross_val+1):
                                     X_testV,
                                     Y_testV,
                                     learning_rate,
-                                    rho,
-                                    epsilon,
+                                    'Adam',
                                     epochs,
                                     loss_function,
                                     log_dir,
@@ -228,6 +227,8 @@ for i in range(2,cross_val+1):
                                     early,
                                     vocab_size,
                                     max_size,
+                                    'smilesnet.h5',
+                                    'toxception.h5',
                                     classes=num_classes)
     #model.print()
     model.run()
@@ -254,7 +255,7 @@ for i in range(2,cross_val+1):
     mcc        = statistics.mean(metrics.mccs)
     npv        = statistics.mean(metrics.npvs)
     f1        = statistics.mean(metrics.f1s)
-
+    
     f= open(resume_file,"w+")
     f.write('Name:'+ model_name+'\n\n')
     f.write('Test loss:'+ str(scores[0])+'\n')
