@@ -18,29 +18,29 @@ import keras.backend as K
 
 class Chemception:
     def Stem(input,n):
-        stem = Conv2D(n,(4,4),strides=2,name='Stem_Conv_2D',padding='same',activation='relu')(input)
-        # stem = Conv2D(n,(3,4),strides=2,name='Stem_Conv_2D',padding='valid',activation='relu')(input)
-        # conv3 = Conv2D(n, (3,3),strides=1,name='Stem_Conv3D', padding='valid')(stem)
-        # conv33 = Conv2D(n, (3,3),strides=1,name='Stem_Conv33D', padding='same')(conv3)
+        # stem = Conv2D(n,(4,4),strides=2,name='Stem_Conv_2D',padding='same',activation='relu')(input)
+        stem = Conv2D(n,(3,4),strides=2,name='Stem_Conv_2D',padding='valid',activation='relu')(input)
+        conv3 = Conv2D(n, (3,3),strides=1,name='Stem_Conv3D', padding='valid')(stem)
+        conv33 = Conv2D(n, (3,3),strides=1,name='Stem_Conv33D', padding='same')(conv3)
 
-        # pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='Stem_pool_1')(conv33)
-        # conv333 = Conv2D(int(n*1.5), (3,3),strides=2,name='Stem_Conv333D', padding='valid')(conv33)
-        # concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat')([pool,conv333])
+        pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='Stem_pool_1')(conv33)
+        conv333 = Conv2D(int(n*1.5), (3,3),strides=2,name='Stem_Conv333D', padding='valid')(conv33)
+        concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat')([pool,conv333])
 
-        # conv1 = Conv2D(int(n*2), (3,3),strides=1,name='Stem_Conv1D', padding='valid')(concat)
-        # conv31 = Conv2D(int(n*1.5), (3,3),strides=1,name='Stem_Conv31D', padding='same')(conv1)
+        conv1 = Conv2D(int(n*2), (3,3),strides=1,name='Stem_Conv1D', padding='valid')(concat)
+        conv31 = Conv2D(int(n*1.5), (3,3),strides=1,name='Stem_Conv31D', padding='same')(conv1)
 
-        # conv11 = Conv2D(n, (1,1),strides=1,name='Stem_Conv11D', padding='same')(concat)
-        # conv71 = Conv2D(n, (7,1),strides=1,name='Stem_Conv71D', padding='same')(conv11)
-        # conv17 = Conv2D(n, (1,7),strides=1,name='Stem_Conv17D', padding='same')(conv71)
-        # conv733 = Conv2D(int(n*1.5), (3,3),strides=1,name='Stem_Conv733D', padding='valid')(conv17)
+        conv11 = Conv2D(n, (1,1),strides=1,name='Stem_Conv11D', padding='same')(concat)
+        conv71 = Conv2D(n, (7,1),strides=1,name='Stem_Conv71D', padding='same')(conv11)
+        conv17 = Conv2D(n, (1,7),strides=1,name='Stem_Conv17D', padding='same')(conv71)
+        conv733 = Conv2D(int(n*1.5), (3,3),strides=1,name='Stem_Conv733D', padding='valid')(conv17)
 
-        # concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat_2')([conv31,conv733])
+        concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat_2')([conv31,conv733])
 
-        # pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='Stem_pool_2')(concat)
-        # conv333 = Conv2D(int(n*1.5), (3,3),strides=2,name='Stem_Conv3poolD_2', padding='valid')(concat)
-        # concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat_3')([pool,conv333])
-        return stem
+        pool = keras.layers.MaxPooling2D(pool_size=(3, 3), strides=2, padding='valid',name='Stem_pool_2')(concat)
+        conv333 = Conv2D(int(n*1.5), (3,3),strides=2,name='Stem_Conv3poolD_2', padding='valid')(concat)
+        concat = keras.layers.Concatenate(axis=-1,name='Stem_Concat_3')([pool,conv333])
+        return concat
 
     def IncResNetA(input,n):
         input = keras.layers.Activation('relu',name='IncResNetA_activation_1')(input)
@@ -153,21 +153,21 @@ class Chemception:
                     early,
                     features,
                     classes = 2):
-        # input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
-        # stem    = Chemception.Stem(input_img,n)
-        # incResA = Chemception.IncResNetA(stem,int(n*4.5))
-        # redA     = Chemception.ReductionA(incResA,n)
-        # incResB = Chemception.IncResNetB(redA,int(n*1.875))
-        # redB     = Chemception.ReductionA(incResB,int(n),'_2')
-        # incResC = Chemception.IncResNetC(redB,int(n*1.5))
-        
         input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
         stem    = Chemception.Stem(input_img,n)
-        incResA = Chemception.IncResNetA(stem,int(n))
+        incResA = Chemception.IncResNetA(stem,int(n*4.5))
         redA     = Chemception.ReductionA(incResA,n)
-        incResB = Chemception.IncResNetB(redA,n)
-        redB     = Chemception.ReductionA(incResB,n,'_2')
-        incResC = Chemception.IncResNetC(redB,n)
+        incResB = Chemception.IncResNetB(redA,int(n*1.875))
+        redB     = Chemception.ReductionA(incResB,int(n),'_2')
+        incResC = Chemception.IncResNetC(redB,int(n*1.5))
+        
+        # input_img = Input(shape = (inputSize, inputSize, 3),name='image_input')
+        # stem    = Chemception.Stem(input_img,n)
+        # incResA = Chemception.IncResNetA(stem,int(n))
+        # redA     = Chemception.ReductionA(incResA,n)
+        # incResB = Chemception.IncResNetB(redA,n)
+        # redB     = Chemception.ReductionA(incResB,n,'_2')
+        # incResC = Chemception.IncResNetC(redB,n)
 
         pool     = keras.layers.GlobalAveragePooling2D()(incResC)
         
@@ -264,17 +264,17 @@ class Chemception:
         X_test                 /= 255
         
         # initiate RMSprop optimizer
-        opt                 = keras.optimizers.RMSprop(lr=self.learning_rate, rho=0.9, epsilon=self.epsilon, decay=0.0)
+        # opt                 = keras.optimizers.RMSprop(lr=self.learning_rate, rho=0.9, epsilon=self.epsilon, decay=0.0)
 
         # Let's train the model using RMSprop
         self.model.compile(loss=self.loss_function,
                     optimizer=self.opt,
                     metrics=['accuracy'])
-        learning_rate_init    = 1e-3
-        momentum            = 0.9
-        gamma                = 0.92
-        sgd = SGD(lr=learning_rate_init, decay=0, momentum=momentum, nesterov=True)
-        optCallback = Optimizer.OptimizerTracker()
+        # learning_rate_init    = 1e-3
+        # momentum            = 0.9
+        # gamma                = 0.92
+        # sgd = SGD(lr=learning_rate_init, decay=0, momentum=momentum, nesterov=True)
+        # optCallback = Optimizer.OptimizerTracker()
 
         if not self.data_augmentation:
             print('Not using data augmentation.')
@@ -300,13 +300,13 @@ class Chemception:
                 steps_per_epoch=600,
                 validation_data=(X_test,Y_test),
                 callbacks = [self.tensorBoard,self.metrics])
-            self.model.fit_generator(datagen.flow(x_train, y_train,
-                batch_size=self.batch_size),
-                epochs=self.epochs/2,
-                workers=4,
-                steps_per_epoch=600,
-                validation_data=(X_test,Y_test),
-                callbacks = [self.tensorBoard, optCallback,self.metrics,self.early])
+            # self.model.fit_generator(datagen.flow(x_train, y_train,
+            #     batch_size=self.batch_size),
+            #     epochs=self.epochs/2,
+            #     workers=4,
+            #     steps_per_epoch=600,
+            #     validation_data=(X_test,Y_test),
+            #     callbacks = [self.tensorBoard, optCallback,self.metrics,self.early])
         # else:
         #     print('Using real-time data augmentation.')
         #     # This will do preprocessing and realtime data augmentation:
